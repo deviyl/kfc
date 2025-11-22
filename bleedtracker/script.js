@@ -1,9 +1,20 @@
 let allAttacks = []; // master copy for filtering
+let allRankedWars = []; // ranked war data
 
 async function loadAttacks() {
   try {
+    // Load attacks.json
     const response = await fetch('attacks.json');
     allAttacks = await response.json();
+
+    // Load rankedwars.json
+    try {
+      const rwResponse = await fetch('rankedwars.json');
+      allRankedWars = await rwResponse.json();
+    } catch (err) {
+      console.warn('Failed to load rankedwars.json:', err);
+      allRankedWars = [];
+    }
 
     // Populate faction filter dropdown with unique attacker factions from ranked war attacks
     const factionFilter = document.getElementById('faction-filter');
@@ -25,7 +36,7 @@ async function loadAttacks() {
         factionFilter.appendChild(option);
       });
 
-    // Add event listener for filtering
+    // Event listener for filtering
     factionFilter.addEventListener('change', () => displayAttacks());
 
     // Initial display: show ALL attacks
@@ -40,6 +51,28 @@ function displayAttacks() {
   tbody.innerHTML = '';
 
   const selectedFaction = document.getElementById('faction-filter').value;
+
+  // Display the ranked war header if a specific faction is selected
+  const rwHeader = document.getElementById('rankedwar-header');
+  if (selectedFaction === 'all') {
+    rwHeader.textContent = '';
+  } else {
+    // Find the most recent ranked war for this faction
+    const matchedWar = allRankedWars.find(war =>
+      war.factions.some(f => f.name === selectedFaction)
+    );
+
+    if (matchedWar) {
+      const startDate = new Date(matchedWar.start * 1000).toUTCString().slice(0, -4);
+      const endDate =
+        matchedWar.end === 0
+          ? 'Ongoing'
+          : new Date(matchedWar.end * 1000).toUTCString().slice(0, -4);
+      rwHeader.textContent = `Ranked War (${selectedFaction}): Start ${startDate} — End ${endDate}`;
+    } else {
+      rwHeader.textContent = '';
+    }
+  }
 
   // Filter attacks based on selection
   const filtered = allAttacks.filter(attack => {
@@ -76,4 +109,5 @@ function displayAttacks() {
   });
 }
 
+// Run on page load
 loadAttacks();
