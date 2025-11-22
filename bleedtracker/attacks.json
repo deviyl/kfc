@@ -1,5 +1,917 @@
 [
   {
+    "id": 428859538,
+    "code": "ee9b481c3f6a283254474c34654db235",
+    "started": 1763840355,
+    "ended": 1763840368,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 2291615,
+      "name": "Daany56778",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.34,
+    "respect_loss": 0.34,
+    "chain": 12,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.16,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.02,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428859304,
+    "code": "c91be3581b2fe8d70c5df793bada8f99",
+    "started": 1763840319,
+    "ended": 1763840331,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 2839157,
+      "name": "CursedShadows",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 10,
+    "respect_loss": 2.5,
+    "chain": 10,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 10,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428859081,
+    "code": "58d7e0eee75c07dc7055ee25b14be0d6",
+    "started": 1763840289,
+    "ended": 1763840291,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 2839157,
+      "name": "CursedShadows",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428858699,
+    "code": "c02b31ec2449324ad69f275d3bbeab69",
+    "started": 1763840237,
+    "ended": 1763840248,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3616377,
+      "name": "CrombieCrunch",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.24,
+    "respect_loss": 0.31,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.08,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428858577,
+    "code": "60b16a2ea1184e68052afb5d83c01703",
+    "started": 1763840219,
+    "ended": 1763840221,
+    "attacker": {
+      "id": 3399834,
+      "name": "Kayaus99",
+      "level": 27,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3971344,
+      "name": "MeLdottSire",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.07,
+    "respect_loss": 0.27,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 33
+      }
+    ]
+  },
+  {
+    "id": 428858477,
+    "code": "2bae55d32c6505bdad8be5a8380e1cf4",
+    "started": 1763840207,
+    "ended": 1763840217,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.18,
+    "respect_loss": 0.29,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.07,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428858248,
+    "code": "c81346daa0f5b71ccc7611aea3131260",
+    "started": 1763840176,
+    "ended": 1763840179,
+    "attacker": null,
+    "defender": {
+      "id": 3972720,
+      "name": "Experiment420",
+      "level": 14,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428858170,
+    "code": "f12a3b53ed893b9e8a0d92d739f94540",
+    "started": 1763840164,
+    "ended": 1763840176,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3796175,
+      "name": "PowerMax",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.33,
+    "respect_loss": 0.33,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.18,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428857991,
+    "code": "311d1c4e839636e6efbd18beefc0d477",
+    "started": 1763840141,
+    "ended": 1763840153,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.32,
+    "respect_loss": 0.33,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.13,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428857989,
+    "code": "e69111531ea663335128a2bac958d1ce",
+    "started": 1763840141,
+    "ended": 1763840147,
+    "attacker": {
+      "id": 3253015,
+      "name": "Kaedynn",
+      "level": 54,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3727751,
+      "name": "Bobbelbo",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.74,
+    "respect_loss": 0.44,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.49,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428857806,
+    "code": "e9b52f5e562a8f8bf5ce6c9f50bf687a",
+    "started": 1763840117,
+    "ended": 1763840129,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3708737,
+      "name": "porchman",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.35,
+    "respect_loss": 0.34,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428857660,
+    "code": "11dbc96f297cfcf1ce56dab07fc3ff6c",
+    "started": 1763840096,
+    "ended": 1763840104,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.14,
+    "respect_loss": 0.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428857500,
+    "code": "95fc12d4a5b85e666edf2db182b81fb5",
+    "started": 1763840076,
+    "ended": 1763840083,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 44,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.98,
+    "respect_loss": 0.5,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.62,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428856996,
+    "code": "2f9528a6b108c0b8b34189d4e43e9b84",
+    "started": 1763840008,
+    "ended": 1763840032,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 61,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.21,
+    "respect_loss": 0.8,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.47,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428856771,
+    "code": "c11a674b24e4612d4f146305c18bd3cf",
+    "started": 1763839973,
+    "ended": 1763839981,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.95,
+    "respect_loss": 0.74,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.32,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428856648,
+    "code": "dd70d69469c3320ce6589a638013203b",
+    "started": 1763839954,
+    "ended": 1763839961,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3171413,
+      "name": "xKittehxKatx",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.22,
+    "respect_loss": 0.31,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428856344,
+    "code": "364e1c5a0590509b3503646aedde4a0e",
+    "started": 1763839906,
+    "ended": 1763839942,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3163596,
+      "name": "SaintMichael",
+      "level": 73,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.08,
+    "respect_loss": 1.02,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428856142,
+    "code": "69fc89fe846c198bf89799e81b13a9e8",
+    "started": 1763839880,
+    "ended": 1763839891,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 49,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.79,
+    "respect_loss": 0.45,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.44,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428855751,
+    "code": "58ee8139437ca8e4ba91d4351920f661",
+    "started": 1763839821,
+    "ended": 1763839831,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 2201996,
+      "name": "VicCityBabe",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.19,
+    "respect_loss": 0.3,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
+    "id": 428855385,
+    "code": "f3862cc058b59ab88b887cbe04ad8908",
+    "started": 1763839781,
+    "ended": 1763839791,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 1997029,
+      "name": "Somehomelessmen",
+      "level": 44,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.66,
+    "respect_loss": 0.41,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.36,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
     "id": 428845496,
     "code": "e2a86184dc012afc4f6cf04a3dc7a96b",
     "started": 1763838500,
