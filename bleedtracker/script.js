@@ -1,4 +1,4 @@
-let allAttacks = []; // keep master copy for filtering
+let allAttacks = []; // master copy for filtering
 
 async function loadAttacks() {
   try {
@@ -28,7 +28,7 @@ async function loadAttacks() {
     // Add event listener for filtering
     factionFilter.addEventListener('change', () => displayAttacks());
 
-    // Initial display
+    // Initial display: show ALL attacks
     displayAttacks();
   } catch (err) {
     console.error('Failed to load attacks.json:', err);
@@ -41,11 +41,11 @@ function displayAttacks() {
 
   const selectedFaction = document.getElementById('faction-filter').value;
 
-  // Filter attacks based on selected faction and ranked war
+  // Filter attacks based on selection
   const filtered = allAttacks.filter(attack => {
-    if (!attack.is_ranked_war) return false;
-    if (selectedFaction === 'all') return true;
-    return attack.attacker?.faction?.name === selectedFaction;
+    if (selectedFaction === 'all') return true; // show all attacks
+    // only show attacks from the selected faction that are ranked war
+    return attack.is_ranked_war && attack.attacker?.faction?.name === selectedFaction;
   });
 
   filtered.forEach(attack => {
