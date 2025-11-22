@@ -20,8 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./bleedtracker
+        working-directory: ./
 
       - name: Run fetch_attacks.js
-        run: node fetch_attacks.js
-        working-directory: ./bleedtracker
+        run: node bleedtracker/fetch_attacks.js
+        working-directory: ./
