@@ -30,7 +30,8 @@ async function loadAttacks() {
         <td>${attack.is_raid}</td>
         <td>${attack.is_ranked_war}</td>
       `;
-      tbody.appendChild(row);
+      // Prepend to keep newest attacks at the top
+      tbody.prepend(row);
     });
   } catch (err) {
     console.error('Failed to load attacks.json:', err);
