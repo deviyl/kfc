@@ -1,5 +1,86 @@
 [
   {
+    "id": 428845496,
+    "code": "e2a86184dc012afc4f6cf04a3dc7a96b",
+    "started": 1763838500,
+    "ended": 1763838506,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.32,
+    "respect_loss": 0.33,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.4,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 428844333,
+    "code": "59b7b302487d06fe5b65c3a15c8a55d1",
+    "started": 1763838353,
+    "ended": 1763838356,
+    "attacker": null,
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.47,
+    "respect_loss": 0.37,
+    "chain": 3212,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.63,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 428829513,
     "code": "c01a0a7a39ad1cd7a533261ad2590991",
     "started": 1763836409,
@@ -4022,5 +4103,5 @@
       "warlord": 1
     },
     "finishing_hit_effects": []
-  }  
+  }
 ]
