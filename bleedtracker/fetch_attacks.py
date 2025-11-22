@@ -2,7 +2,7 @@ import json
 import requests
 from pathlib import Path
 
-ATTACKS_FILE = Path("attacks.json")
+ATTACKS_FILE = Path("bleedtracker/attacks.json")
 API_URL = "https://api.torn.com/v2/faction/attacks?filters=incoming&limit=100&sort=DESC&key=Z5VkJsXZ4h25Pffx"
 
 def load_existing():
