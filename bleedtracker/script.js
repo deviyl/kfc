@@ -78,6 +78,7 @@ function displayAttacks() {
   if (selectedFaction === 'all') {
     rwHeader.textContent = '';
     bleedDetails.style.display = 'none';
+    // show all attacks
     allAttacks.forEach(attack => appendAttackRow(tbody, attack));
     return;
   }
@@ -105,6 +106,7 @@ function displayAttacks() {
     rwHeader.textContent = '';
   }
 
+  // Filter attacks based on selection & ranked war timeframe
   const filtered = allAttacks.filter(attack => {
     const attackTime = attack.started;
 
@@ -117,20 +119,23 @@ function displayAttacks() {
     return false;
   });
 
-  // populate attack table
+  // Populate attack table
   filtered.forEach(attack => appendAttackRow(tbody, attack));
 
-  // --- Populate bleed table with unique defenders ---
-  const uniqueDefenders = new Set();
+  // Populate bleed table: unique defenders
+  const defendersSet = new Set();
   filtered.forEach(attack => {
-    uniqueDefenders.add(attack.defender?.name ?? 'someone');
+    const defenderName = attack.defender?.name ?? 'someone';
+    defendersSet.add(defenderName);
   });
 
-  Array.from(uniqueDefenders).sort().forEach(defender => {
-    const row = document.createElement('tr');
-    row.innerHTML = `<td>${defender}</td>`;
-    bleedTbody.appendChild(row);
-  });
+  Array.from(defendersSet)
+    .sort()
+    .forEach(defenderName => {
+      const row = document.createElement('tr');
+      row.innerHTML = `<td>${defenderName}</td>`;
+      bleedTbody.append(row);
+    });
 }
 
 function appendAttackRow(tbody, attack) {
