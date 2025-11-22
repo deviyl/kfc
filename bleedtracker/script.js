@@ -25,7 +25,6 @@ async function loadAttacks() {
       }
     });
 
-    // Clear existing options except "All"
     factionFilter.innerHTML = '<option value="all">All</option>';
     Array.from(uniqueFactions)
       .sort()
@@ -75,16 +74,6 @@ function displayAttacks() {
   const selectedFaction = document.getElementById('faction-filter').value;
   const rwHeader = document.getElementById('rankedwar-header');
 
-  if (selectedFaction === 'all') {
-    rwHeader.textContent = '';
-    bleedDetails.style.display = 'none';
-    // show all attacks
-    allAttacks.forEach(attack => appendAttackRow(tbody, attack));
-    return;
-  }
-
-  bleedDetails.style.display = 'block';
-
   // Find the most recent ranked war for this faction
   const matchedWar = allRankedWars.find(war =>
     war.factions.some(f => f.name === selectedFaction)
@@ -106,36 +95,45 @@ function displayAttacks() {
     rwHeader.textContent = '';
   }
 
-  // Filter attacks based on selection & ranked war timeframe
-  const filtered = allAttacks.filter(attack => {
-    const attackTime = attack.started;
+  // Filter attacks for top table
+  let filteredAttacks;
+  if (selectedFaction === 'all') {
+    filteredAttacks = allAttacks;
+    bleedDetails.style.display = 'none';
+  } else {
+    bleedDetails.style.display = 'block';
+    filteredAttacks = allAttacks.filter(attack => {
+      const attackTime = attack.started;
 
-    // include attacks from selected faction
-    if (attack.attacker?.faction?.name === selectedFaction) return true;
+      // include attacks from selected faction
+      if (attack.attacker?.faction?.name === selectedFaction) return true;
 
-    // include any ranked war attack during this ranked war period
-    if (attack.is_ranked_war && attackTime >= warStart && attackTime <= warEnd) return true;
+      // include any ranked war attack during this ranked war period
+      if (attack.is_ranked_war && attackTime >= warStart && attackTime <= warEnd) return true;
 
-    return false;
-  });
+      return false;
+    });
+  }
 
   // Populate attack table
-  filtered.forEach(attack => appendAttackRow(tbody, attack));
+  filteredAttacks.forEach(attack => appendAttackRow(tbody, attack));
 
-  // Populate bleed table: unique defenders
-  const defendersSet = new Set();
-  filtered.forEach(attack => {
-    const defenderName = attack.defender?.name ?? 'someone';
-    defendersSet.add(defenderName);
-  });
-
-  Array.from(defendersSet)
-    .sort()
-    .forEach(defenderName => {
-      const row = document.createElement('tr');
-      row.innerHTML = `<td>${defenderName}</td>`;
-      bleedTbody.append(row);
+  // Populate bleed table: unique defenders based on the already filtered attacks
+  if (selectedFaction !== 'all') {
+    const defendersSet = new Set();
+    filteredAttacks.forEach(attack => {
+      const defenderName = attack.defender?.name ?? 'someone';
+      defendersSet.add(defenderName);
     });
+
+    Array.from(defendersSet)
+      .sort()
+      .forEach(defenderName => {
+        const row = document.createElement('tr');
+        row.innerHTML = `<td>${defenderName}</td>`;
+        bleedTbody.append(row);
+      });
+  }
 }
 
 function appendAttackRow(tbody, attack) {
