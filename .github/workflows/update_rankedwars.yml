@@ -1,9 +1,9 @@
 name: Update Ranked Wars
 
 on:
-  workflow_dispatch:          # allow manual trigger
+  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"       # run once every hour at :00
+    - cron: "0 * * * *"   # every hour
 
 jobs:
   update-rankedwars:
@@ -31,6 +31,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add rankedwars.json
+          git add bleedtracker/rankedwars.json
           git diff --cached --quiet || git commit -m "Update rankedwars.json"
           git push
