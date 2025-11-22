@@ -76,7 +76,7 @@ function displayAttacks() {
       matchedWar.end === 0
         ? 'Ongoing'
         : new Date(warEnd * 1000).toUTCString().slice(0, -4);
-    rwHeader.textContent = `Ranked War (${selectedFaction}): Start ${startDate} — End ${endDate}`;
+    rwHeader.textContent = `Ranked War Against (${selectedFaction}) ** Start Time - ${startDate} — End Time (${endDate})`;
   } else {
     rwHeader.textContent = '';
   }
