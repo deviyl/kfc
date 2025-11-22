@@ -15,8 +15,8 @@ async function loadAttacks() {
       const row = document.createElement('tr');
       row.innerHTML = `
         <td>${attack.id}</td>
-        <td>${new Date(attack.started * 1000).toUTCString()}</td>
-        <td>${new Date(attack.ended * 1000).toUTCString()}</td>
+        <td>${new Date(attack.started * 1000).toUTCString().slice(0, -4)}</td>
+        <td>${new Date(attack.ended * 1000).toUTCString().slice(0, -4)}</td>
         <td>${attackerName}</td>
         <td>${attackerFaction}</td>
         <td>${defenderName}</td>
