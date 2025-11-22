@@ -109,15 +109,11 @@ function displayAttacks() {
     rwHeader.textContent = '';
   }
 
+  // Filter attacks: either from selected faction OR any ranked war within timeframe
   const filtered = allAttacks.filter(attack => {
     const attackTime = attack.started;
-
-    // include attacks from selected faction
     if (attack.attacker?.faction?.name === selectedFaction) return true;
-
-    // include any ranked war attack during this ranked war period
     if (attack.is_ranked_war && attackTime >= warStart && attackTime <= warEnd) return true;
-
     return false;
   });
 
@@ -127,17 +123,18 @@ function displayAttacks() {
   // Build bleed tracking totals
   const defendersMap = new Map();
   filtered.forEach(attack => {
+    if (attack.attacker?.faction?.name !== selectedFaction) return; // only attacks from selected enemy faction
     const defenderName = attack.defender?.name ?? 'someone';
     if (!defendersMap.has(defenderName)) {
       defendersMap.set(defenderName, { attacks: 0, respectGain: 0, respectLoss: 0 });
     }
-    const defenderStats = defendersMap.get(defenderName);
-    defenderStats.attacks += 1;
-    defenderStats.respectGain += attack.respect_gain ?? 0;
-    defenderStats.respectLoss += attack.respect_loss ?? 0;
+    const stats = defendersMap.get(defenderName);
+    stats.attacks += 1;
+    stats.respectGain += attack.respect_gain ?? 0;
+    stats.respectLoss += attack.respect_loss ?? 0;
   });
 
-  // Sort defenders alphabetically and populate table
+  // Sort defenders alphabetically and populate bleed table
   Array.from(defendersMap.keys())
     .sort()
     .forEach(defenderName => {
