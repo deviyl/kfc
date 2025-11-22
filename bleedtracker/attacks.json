@@ -1,5 +1,230 @@
 [
   {
+    "id": 428862469,
+    "code": "252cd3d32e3d6f37c24bd0f4aa95100d",
+    "started": 1763840833,
+    "ended": 1763840837,
+    "attacker": {
+      "id": 3253015,
+      "name": "Kaedynn",
+      "level": 54,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.09,
+    "respect_loss": 0.52,
+    "chain": 15,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428861602,
+    "code": "a90bb48c17745b8a5ff2e85b935ae0a5",
+    "started": 1763840679,
+    "ended": 1763840684,
+    "attacker": {
+      "id": 2191250,
+      "name": "Hush",
+      "level": 100,
+      "faction": {
+        "id": 44865,
+        "name": "Violent Resolution"
+      }
+    },
+    "defender": {
+      "id": 3247958,
+      "name": "KFC23",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2,
+    "respect_loss": 0.5,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.33,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428861487,
+    "code": "a5b81af2ba24508dd10400d1d07e6e1a",
+    "started": 1763840661,
+    "ended": 1763840664,
+    "attacker": {
+      "id": 3399834,
+      "name": "Kayaus99",
+      "level": 27,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.36,
+    "respect_loss": 0.34,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.17,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 33
+      }
+    ]
+  },
+  {
+    "id": 428860749,
+    "code": "ce42dd8501c63ca28fcbcbb8d08bd61d",
+    "started": 1763840532,
+    "ended": 1763840541,
+    "attacker": {
+      "id": 25517,
+      "name": "Spizaetus",
+      "level": 100,
+      "faction": {
+        "id": 16312,
+        "name": "39th Street Killers X"
+      }
+    },
+    "defender": {
+      "id": 2752691,
+      "name": "flirt",
+      "level": 88,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.66,
+    "respect_loss": 1.16,
+    "chain": 720,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.88,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.46,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 428859723,
+    "code": "43ac93a74622fe162ac48e5cef3c1255",
+    "started": 1763840383,
+    "ended": 1763840391,
+    "attacker": {
+      "id": 3352205,
+      "name": "420Arab",
+      "level": 70,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 32,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.27,
+    "respect_loss": 0.32,
+    "chain": 13,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.03,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 35
+      }
+    ]
+  },
+  {
     "id": 428859538,
     "code": "ee9b481c3f6a283254474c34654db235",
     "started": 1763840355,
