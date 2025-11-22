@@ -3,7 +3,7 @@ import path from "path";
 import axios from "axios";
 
 const ATTACKS_FILE = path.resolve("./attacks.json");  // always in the current folder
-const API_URL = "https://api.torn.com/v2/faction/attacks?filters=incoming&limit=100&sort=DESC&to=1763288173&from=1763236800&key=Z5VkJsXZ4h25Pffx";
+const API_URL = "https://api.torn.com/v2/faction/attacks?filters=incoming&limit=100&sort=DESC&key=Z5VkJsXZ4h25Pffx";
 
 async function loadExisting() {
   try {
