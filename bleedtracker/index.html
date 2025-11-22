@@ -7,39 +7,44 @@
 </head>
 <body>
   <h1>KFC Attack Log</h1>
+
   <label for="faction-filter">Filter by attacker faction:</label>
   <select id="faction-filter">
     <option value="all">All</option>
   </select>
+
   <div id="rankedwar-header" style="color: #ffcc00; font-weight: bold; margin-bottom: 10px;"></div>
+  <br><br>
 
+  <!-- Collapsible wrapper -->
+  <details id="attacks-collapse">
+    <summary style="cursor: pointer;">Show Attack Table</summary>
 
-
-  
-  <table id="attacks-table">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Started</th>
-        <th>Ended</th>
-        <th>Attacker</th>
-        <th>Attacker Faction</th>
-        <th>Defender</th>
-        <th>Defender Faction</th>
-        <th>Result</th>
-        <th>Respect Gain</th>
-        <th>Respect Loss</th>
-        <th>Chain</th>
-        <th>Interrupted</th>
-        <th>Stealthed</th>
-        <th>Raid</th>
-        <th>Ranked War</th>
-      </tr>
-    </thead>
-    <tbody>
-      
-    </tbody>
-  </table>
+    <table id="attacks-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Started</th>
+          <th>Ended</th>
+          <th>Attacker</th>
+          <th>Attacker Faction</th>
+          <th>Defender</th>
+          <th>Defender Faction</th>
+          <th>Result</th>
+          <th>Respect Gain</th>
+          <th>Respect Loss</th>
+          <th>Chain</th>
+          <th>Interrupted</th>
+          <th>Stealthed</th>
+          <th>Raid</th>
+          <th>Ranked War</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </details>
 
   <script src="script.js"></script>
   <!--note* this script was started 11/22 and only has history of the last 100 attacks. For reference, the oldest attack from the log was "someone" mugged Archi (Attack ID - 427916162) on Tue, 18 Nov 2025. The log should continue indefinitely now. -->
