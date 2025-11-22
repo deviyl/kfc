@@ -50,15 +50,43 @@ function displayAttacks() {
   const tbody = document.querySelector('#attacks-table tbody');
   tbody.innerHTML = '';
 
+  // Create / select bleed table wrapper dynamically
+  let bleedDetails = document.getElementById('bleed-collapse');
+  if (!bleedDetails) {
+    bleedDetails = document.createElement('details');
+    bleedDetails.id = 'bleed-collapse';
+    bleedDetails.style.marginTop = '20px';
+    bleedDetails.innerHTML = `
+      <summary style="cursor: pointer;">Show Bleed Tracking</summary>
+      <table id="bleed-table">
+        <thead>
+          <tr>
+            <th>Defender</th>
+            <th>Total Attacks</th>
+            <th>Total Respect Gained by Enemy</th>
+            <th>Total Respect Lost</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    `;
+    document.body.appendChild(bleedDetails);
+  }
+  const bleedTbody = document.querySelector('#bleed-table tbody');
+  bleedTbody.innerHTML = '';
+
   const selectedFaction = document.getElementById('faction-filter').value;
   const rwHeader = document.getElementById('rankedwar-header');
 
   if (selectedFaction === 'all') {
     rwHeader.textContent = '';
+    bleedDetails.style.display = 'none';
     // show all attacks
     allAttacks.forEach(attack => appendAttackRow(tbody, attack));
     return;
   }
+
+  bleedDetails.style.display = 'block';
 
   // Find the most recent ranked war for this faction
   const matchedWar = allRankedWars.find(war =>
@@ -93,7 +121,36 @@ function displayAttacks() {
     return false;
   });
 
+  // Populate attack table
   filtered.forEach(attack => appendAttackRow(tbody, attack));
+
+  // Build bleed tracking totals
+  const defendersMap = new Map();
+  filtered.forEach(attack => {
+    const defenderName = attack.defender?.name ?? 'someone';
+    if (!defendersMap.has(defenderName)) {
+      defendersMap.set(defenderName, { attacks: 0, respectGain: 0, respectLoss: 0 });
+    }
+    const defenderStats = defendersMap.get(defenderName);
+    defenderStats.attacks += 1;
+    defenderStats.respectGain += attack.respect_gain ?? 0;
+    defenderStats.respectLoss += attack.respect_loss ?? 0;
+  });
+
+  // Sort defenders alphabetically and populate table
+  Array.from(defendersMap.keys())
+    .sort()
+    .forEach(defenderName => {
+      const stats = defendersMap.get(defenderName);
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${defenderName}</td>
+        <td>${stats.attacks}</td>
+        <td>${stats.respectGain}</td>
+        <td>${stats.respectLoss}</td>
+      `;
+      bleedTbody.append(row);
+    });
 }
 
 function appendAttackRow(tbody, attack) {
