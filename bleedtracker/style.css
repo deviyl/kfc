@@ -40,7 +40,7 @@ td {
   color: #ddd;
 }
 
-/* Collapsible table wrapper */
+/* Collapsible table wrapper - attacks table */
 details#attacks-collapse {
   margin-top: 20px;
   border: 1px solid #444;
@@ -63,6 +63,33 @@ details#attacks-collapse[open] summary::after {
 }
 
 details#attacks-collapse summary::after {
+  content: " ▼";
+  float: right;
+}
+
+/* Collapsible table wrapper - bleed tracking table */
+details#bleed-table-collapse {
+  margin-top: 20px;
+  border: 1px solid #444;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+details#bleed-table-collapse summary {
+  font-weight: bold;
+  color: #ffcc00;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+
+details#bleed-table-collapse[open] summary::after {
+  content: " ▲";
+  float: right;
+}
+
+details#bleed-table-collapse summary::after {
   content: " ▼";
   float: right;
 }
