@@ -28,14 +28,14 @@ def main():
     response.raise_for_status()
     api_attacks = response.json().get("attacks", [])
 
-    # Filter out duplicates and keep API order (newest first)
-    new_attacks = [a for a in api_attacks if a["id"] not in existing_ids]
+    # Combine existing with new unique attacks
+    combined = existing + [a for a in api_attacks if a["id"] not in existing_ids]
 
-    # Prepend new attacks to existing list
-    updated_attacks = new_attacks + existing
+    # Sort by 'started' descending to ensure newest attacks are first
+    combined.sort(key=lambda x: x["started"], reverse=True)
 
-    save_attacks(updated_attacks)
-    print(f"Fetched {len(api_attacks)} attacks from API, added {len(new_attacks)} new attack(s). Total now: {len(updated_attacks)}")
+    save_attacks(combined)
+    print(f"Fetched {len(api_attacks)} attacks from API, added {len(combined) - len(existing)} new attack(s). Total now: {len(combined)}")
 
 if __name__ == "__main__":
     main()
