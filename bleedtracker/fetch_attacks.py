@@ -1,25 +1,24 @@
 import json
-import requests
 from pathlib import Path
+import requests
 
+# File always in bleedtracker folder
 ATTACKS_FILE = Path("bleedtracker/attacks.json")
 API_URL = "https://api.torn.com/v2/faction/attacks?filters=incoming&limit=100&sort=DESC&key=Z5VkJsXZ4h25Pffx"
 
 def load_existing():
-    if not ATTACKS_FILE.exists():
-        return []
     try:
-        with ATTACKS_FILE.open("r", encoding="utf-8") as f:
+        with open(ATTACKS_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-            if isinstance(data, list):
-                return data
-            return []
-    except Exception:
+            if not isinstance(data, list):
+                return []
+            return data
+    except FileNotFoundError:
         return []
 
-def save_attacks(arr):
-    with ATTACKS_FILE.open("w", encoding="utf-8") as f:
-        json.dump(arr, f, indent=2)
+def save_attacks(attacks):
+    with open(ATTACKS_FILE, "w", encoding="utf-8") as f:
+        json.dump(attacks, f, indent=2)
 
 def main():
     existing = load_existing()
@@ -27,18 +26,16 @@ def main():
 
     response = requests.get(API_URL)
     response.raise_for_status()
-    new_attacks = response.json().get("attacks", [])
-    added = 0
+    api_attacks = response.json().get("attacks", [])
 
-    # prepend new unique attacks
-    for attack in new_attacks:
-        if attack["id"] not in existing_ids:
-            existing.insert(0, attack)
-            existing_ids.add(attack["id"])
-            added += 1
+    # Filter out duplicates and keep API order (newest first)
+    new_attacks = [a for a in api_attacks if a["id"] not in existing_ids]
 
-    save_attacks(existing)
-    print(f"Fetched {len(new_attacks)} attacks from API, added {added} new attack(s). Total now: {len(existing)}")
+    # Prepend new attacks to existing list
+    updated_attacks = new_attacks + existing
+
+    save_attacks(updated_attacks)
+    print(f"Fetched {len(api_attacks)} attacks from API, added {len(new_attacks)} new attack(s). Total now: {len(updated_attacks)}")
 
 if __name__ == "__main__":
     main()
