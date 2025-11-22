@@ -117,13 +117,13 @@ function displayAttacks() {
     return false;
   });
 
-  // Populate attack table
-  filtered.forEach(attack => appendAttackRow(tbody, attack));
-
   // Build bleed tracking totals
   const defendersMap = new Map();
-  filtered.forEach(attack => {
-    if (attack.attacker?.faction?.name !== selectedFaction) return; // only attacks from selected enemy faction
+  allAttacks.forEach(attack => {
+    // Only count attacks from the selected faction
+    if (attack.attacker?.faction?.name !== selectedFaction) return;
+    const attackTime = attack.started;
+    if (matchedWar && (attackTime < warStart || attackTime > warEnd)) return; // respect timeframe
     const defenderName = attack.defender?.name ?? 'someone';
     if (!defendersMap.has(defenderName)) {
       defendersMap.set(defenderName, { attacks: 0, respectGain: 0, respectLoss: 0 });
@@ -133,6 +133,7 @@ function displayAttacks() {
     stats.respectGain += attack.respect_gain ?? 0;
     stats.respectLoss += attack.respect_loss ?? 0;
   });
+
 
   // Sort defenders alphabetically and populate bleed table
   Array.from(defendersMap.keys())
