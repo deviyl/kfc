@@ -1,6 +1,14 @@
+name: Update Bleed Tracker
+
+on:
+  workflow_dispatch:   # allows manual trigger
+  schedule:
+    - cron: "*/5 * * * *"  # run every 5 minutes
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
