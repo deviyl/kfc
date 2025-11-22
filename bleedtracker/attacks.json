@@ -1,5 +1,89 @@
 [
   {
+    "id": 428829209,
+    "code": "d556e229fdd4cadecae840ab65c008bb",
+    "started": 1763836363,
+    "ended": 1763836372,
+    "attacker": {
+      "id": 2091906,
+      "name": "Seminole_Grunt",
+      "level": 25,
+      "faction": {
+        "id": 49418,
+        "name": "The Conservative Standard"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Interrupted",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": true,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 428829513,
+    "code": "c01a0a7a39ad1cd7a533261ad2590991",
+    "started": 1763836409,
+    "ended": 1763836409,
+    "attacker": {
+      "id": 2091906,
+      "name": "Seminole_Grunt",
+      "level": 25,
+      "faction": {
+        "id": 49418,
+        "name": "The Conservative Standard"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.92,
+    "respect_loss": 0.73,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.65,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 427916162,
     "code": "43d257bec1c655e7eda3917ab6826b99",
     "started": 1763493375,
