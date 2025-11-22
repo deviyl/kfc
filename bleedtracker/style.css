@@ -39,3 +39,30 @@ tr:hover {
 td {
   color: #ddd;
 }
+
+/* Collapsible table wrapper */
+details#attacks-collapse {
+  margin-top: 20px;
+  border: 1px solid #444;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+details#attacks-collapse summary {
+  font-weight: bold;
+  color: #ffcc00;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+
+details#attacks-collapse[open] summary::after {
+  content: " ▲";
+  float: right;
+}
+
+details#attacks-collapse summary::after {
+  content: " ▼";
+  float: right;
+}
