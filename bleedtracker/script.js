@@ -51,62 +51,76 @@ function displayAttacks() {
   tbody.innerHTML = '';
 
   const selectedFaction = document.getElementById('faction-filter').value;
-
-  // Display the ranked war header if a specific faction is selected
   const rwHeader = document.getElementById('rankedwar-header');
+
   if (selectedFaction === 'all') {
     rwHeader.textContent = '';
-  } else {
-    // Find the most recent ranked war for this faction
-    const matchedWar = allRankedWars.find(war =>
-      war.factions.some(f => f.name === selectedFaction)
-    );
-
-    if (matchedWar) {
-      const startDate = new Date(matchedWar.start * 1000).toUTCString().slice(0, -4);
-      const endDate =
-        matchedWar.end === 0
-          ? 'Ongoing'
-          : new Date(matchedWar.end * 1000).toUTCString().slice(0, -4);
-      rwHeader.textContent = `Ranked War (${selectedFaction}): Start ${startDate} — End ${endDate}`;
-    } else {
-      rwHeader.textContent = '';
-    }
+    // show all attacks
+    allAttacks.forEach(attack => appendAttackRow(tbody, attack));
+    return;
   }
 
-  // Filter attacks based on selection
+  // Find the most recent ranked war for this faction
+  const matchedWar = allRankedWars.find(war =>
+    war.factions.some(f => f.name === selectedFaction)
+  );
+
+  let warStart = 0;
+  let warEnd = Date.now() / 1000; // default to now
+  if (matchedWar) {
+    warStart = matchedWar.start;
+    warEnd = matchedWar.end === 0 ? Date.now() / 1000 : matchedWar.end;
+
+    const startDate = new Date(warStart * 1000).toUTCString().slice(0, -4);
+    const endDate =
+      matchedWar.end === 0
+        ? 'Ongoing'
+        : new Date(warEnd * 1000).toUTCString().slice(0, -4);
+    rwHeader.textContent = `Ranked War (${selectedFaction}): Start ${startDate} — End ${endDate}`;
+  } else {
+    rwHeader.textContent = '';
+  }
+
   const filtered = allAttacks.filter(attack => {
-    if (selectedFaction === 'all') return true; // show all attacks
-    // only show attacks from the selected faction that are ranked war
-    return attack.is_ranked_war && attack.attacker?.faction?.name === selectedFaction;
+    const attackTime = attack.started;
+
+    // include attacks from selected faction
+    if (attack.attacker?.faction?.name === selectedFaction) return true;
+
+    // include any ranked war attack during this ranked war period
+    if (attack.is_ranked_war && attackTime >= warStart && attackTime <= warEnd) return true;
+
+    return false;
   });
 
-  filtered.forEach(attack => {
-    const attackerName = attack.attacker?.name ?? 'someone';
-    const attackerFaction = attack.attacker?.faction?.name ?? 'none';
-    const defenderName = attack.defender?.name ?? 'someone';
-    const defenderFaction = attack.defender?.faction?.name ?? 'none';
+  filtered.forEach(attack => appendAttackRow(tbody, attack));
+}
 
-    const row = document.createElement('tr');
-    row.innerHTML = `
-      <td>${attack.id}</td>
-      <td>${new Date(attack.started * 1000).toUTCString().slice(0, -4)}</td>
-      <td>${new Date(attack.ended * 1000).toUTCString().slice(0, -4)}</td>
-      <td>${attackerName}</td>
-      <td>${attackerFaction}</td>
-      <td>${defenderName}</td>
-      <td>${defenderFaction}</td>
-      <td>${attack.result}</td>
-      <td>${attack.respect_gain ?? ''}</td>
-      <td>${attack.respect_loss ?? ''}</td>
-      <td>${attack.chain ?? ''}</td>
-      <td>${attack.is_interrupted}</td>
-      <td>${attack.is_stealthed}</td>
-      <td>${attack.is_raid}</td>
-      <td>${attack.is_ranked_war}</td>
-    `;
-    tbody.append(row);
-  });
+function appendAttackRow(tbody, attack) {
+  const attackerName = attack.attacker?.name ?? 'someone';
+  const attackerFaction = attack.attacker?.faction?.name ?? 'none';
+  const defenderName = attack.defender?.name ?? 'someone';
+  const defenderFaction = attack.defender?.faction?.name ?? 'none';
+
+  const row = document.createElement('tr');
+  row.innerHTML = `
+    <td>${attack.id}</td>
+    <td>${new Date(attack.started * 1000).toUTCString().slice(0, -4)}</td>
+    <td>${new Date(attack.ended * 1000).toUTCString().slice(0, -4)}</td>
+    <td>${attackerName}</td>
+    <td>${attackerFaction}</td>
+    <td>${defenderName}</td>
+    <td>${defenderFaction}</td>
+    <td>${attack.result}</td>
+    <td>${attack.respect_gain ?? ''}</td>
+    <td>${attack.respect_loss ?? ''}</td>
+    <td>${attack.chain ?? ''}</td>
+    <td>${attack.is_interrupted}</td>
+    <td>${attack.is_stealthed}</td>
+    <td>${attack.is_raid}</td>
+    <td>${attack.is_ranked_war}</td>
+  `;
+  tbody.append(row);
 }
 
 // Run on page load
