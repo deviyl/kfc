@@ -51,3 +51,17 @@ with open(enemy_file_name, 'w') as f:
     json.dump(bleeders_list, f, indent=2)
 
 print(f"Saved {len(bleeders_list)} defenders to {enemy_file_name}")
+
+# Re-read the saved file and ensure alphabetical order
+with open(enemy_file_name, 'r') as f:
+    data = json.load(f)
+
+# Sort alphabetically by defender name
+data_sorted = sorted(data, key=lambda x: x['name'].lower())
+
+# Save again
+with open(enemy_file_name, 'w') as f:
+    json.dump(data_sorted, f, indent=2)
+
+print(f"Final file re-saved in alphabetical order: {enemy_file_name}")
+
