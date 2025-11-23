@@ -38,6 +38,6 @@ for attack in attacks:
 
 # Write to JSON
 with open(enemy_file_name, 'w') as f:
-    json.dump(list(bleeders), f, indent=2)
+    json.dump(sorted(list(bleeders)), f, indent=2)
 
 print(f"Saved {len(bleeders)} defenders to {enemy_file_name}")
