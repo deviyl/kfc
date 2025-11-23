@@ -1,5 +1,94 @@
 [
   {
+    "id": 429326151,
+    "code": "ab9cb565d0542505b414880c874a3e1e",
+    "started": 1763940410,
+    "ended": 1763940419,
+    "attacker": {
+      "id": 3882906,
+      "name": "Katlinel",
+      "level": 26,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 32,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.15,
+    "respect_loss": 1.54,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.65,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 429325508,
+    "code": "6851712d8b91e63562d40eb94c024bf5",
+    "started": 1763940152,
+    "ended": 1763940155,
+    "attacker": {
+      "id": 3922342,
+      "name": "CaptWiTuLo",
+      "level": 24,
+      "faction": {
+        "id": 41702,
+        "name": "Arcadia Rising"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429322135,
     "code": "9603061e30c9655eb801480122fc7677",
     "started": 1763938930,
