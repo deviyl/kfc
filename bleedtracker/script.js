@@ -46,7 +46,7 @@ async function loadAttacks() {
   }
 }
 
-function displayAttacks() {
+async function displayAttacks() {
   const tbody = document.querySelector('#attacks-table tbody');
   tbody.innerHTML = '';
 
@@ -55,10 +55,13 @@ function displayAttacks() {
 
   if (selectedFaction === 'all') {
     rwHeader.textContent = '';
+    hideBleedTable();
     // show all attacks
     allAttacks.forEach(attack => appendAttackRow(tbody, attack));
     return;
   }
+
+  showBleedTable();
 
   // Find the most recent ranked war for this faction
   const matchedWar = allRankedWars.find(war =>
@@ -93,7 +96,11 @@ function displayAttacks() {
     return false;
   });
 
+  // Populate attack table
   filtered.forEach(attack => appendAttackRow(tbody, attack));
+
+  // Populate bleed table dynamically from faction-specific JSON
+  await populateBleedTable(selectedFaction);
 }
 
 function appendAttackRow(tbody, attack) {
@@ -121,6 +128,63 @@ function appendAttackRow(tbody, attack) {
     <td>${attack.is_ranked_war}</td>
   `;
   tbody.append(row);
+}
+
+// BLEED TABLE FUNCTIONS
+
+function showBleedTable() {
+  let bleedDetails = document.getElementById('bleed-collapse');
+  if (!bleedDetails) {
+    bleedDetails = document.createElement('details');
+    bleedDetails.id = 'bleed-collapse';
+    bleedDetails.innerHTML = `
+      <summary style="cursor: pointer;">Show Bleed Tracking</summary>
+      <table id="bleed-table">
+        <thead>
+          <tr>
+            <th>Member</th>
+            <th>Bleed Count</th>
+            <th>Respect Gain for Enemy</th>
+            <th>Respect Loss for KFC</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    `;
+    document.body.appendChild(bleedDetails);
+  }
+  bleedDetails.style.display = 'block';
+}
+
+function hideBleedTable() {
+  const bleedDetails = document.getElementById('bleed-collapse');
+  if (bleedDetails) {
+    bleedDetails.style.display = 'none';
+  }
+}
+
+async function populateBleedTable(selectedFaction) {
+  const tbody = document.querySelector('#bleed-table tbody');
+  tbody.innerHTML = '';
+
+  try {
+    const factionFile = `${selectedFaction.toLowerCase()}.json`;
+    const response = await fetch(factionFile);
+    const bleedData = await response.json();
+
+    bleedData.forEach(entry => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${entry.member}</td>
+        <td>${entry.bleed_count}</td>
+        <td>${entry.respect_gain ?? 0}</td>
+        <td>${entry.respect_loss ?? 0}</td>
+      `;
+      tbody.append(row);
+    });
+  } catch (err) {
+    console.error(`Failed to load bleed data for ${selectedFaction}:`, err);
+  }
 }
 
 // Run on page load
