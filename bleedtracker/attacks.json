@@ -1,5 +1,91 @@
 [
   {
+    "id": 429207572,
+    "code": "2346d5c3d5f440b6625d2b0d7c8ff496",
+    "started": 1763907136,
+    "ended": 1763907143,
+    "attacker": null,
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.44,
+    "respect_loss": 0.36,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.52,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 21
+      }
+    ]
+  },
+  {
+    "id": 429204388,
+    "code": "c46ade2424830deb3453ddfd1924d2f0",
+    "started": 1763906302,
+    "ended": 1763906306,
+    "attacker": {
+      "id": 3133131,
+      "name": "thE0C",
+      "level": 77,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 2839157,
+      "name": "CursedShadows",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.23,
+    "respect_loss": 1.81,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.39,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.2
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 20
+      }
+    ]
+  },
+  {
     "id": 429203484,
     "code": "aceae9a670b1f81209de8ec73ffa5869",
     "started": 1763906039,
