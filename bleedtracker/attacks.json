@@ -1,5 +1,52 @@
 [
   {
+    "id": 429309192,
+    "code": "354535cf2049532c330d5674adec8459",
+    "started": 1763934755,
+    "ended": 1763934768,
+    "attacker": {
+      "id": 3882906,
+      "name": "Katlinel",
+      "level": 26,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.39,
+    "respect_loss": 1.35,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.43,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 20
+      }
+    ]
+  },
+  {
     "id": 429303290,
     "code": "e109007e6789a7a564a49860d9a2e9a7",
     "started": 1763932985,
