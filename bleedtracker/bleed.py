@@ -18,7 +18,7 @@ our_faction_name = "Kentucky Fried Criminals"  # change if needed
 enemy_faction = next(f['name'] for f in factions if f['name'] != our_faction_name)
 enemy_file_name = f"bleedtracker/{enemy_faction.lower().replace(' ', '')}.json"
 
-# Collect defenders with counts
+# Collect defenders with counts and respect totals
 bleeders = {}
 
 for attack in attacks:
@@ -37,31 +37,40 @@ for attack in attacks:
     
     defender_name = attack['defender']['name']
     
-    # Increment count
+    # Initialize if not present
     if defender_name not in bleeders:
-        bleeders[defender_name] = 1
+        bleeders[defender_name] = {
+            "count": 1,
+            "respect_gain": attack.get("respect_gain", 0),
+            "respect_loss": attack.get("respect_loss", 0)
+        }
     else:
-        bleeders[defender_name] += 1
+        bleeders[defender_name]["count"] += 1
+        bleeders[defender_name]["respect_gain"] += attack.get("respect_gain", 0)
+        bleeders[defender_name]["respect_loss"] += attack.get("respect_loss", 0)
 
-# Convert to list of objects sorted alphabetically by defender name
-bleeders_list = [{"name": name, "count": count} for name, count in sorted(bleeders.items())]
+# Convert to list of objects sorted alphabetically by name
+bleeders_list = [
+    {
+        "name": name,
+        "count": data["count"],
+        "respect_gain": round(data["respect_gain"], 2),
+        "respect_loss": round(data["respect_loss"], 2)
+    }
+    for name, data in sorted(bleeders.items())
+]
 
 # Write to JSON
 with open(enemy_file_name, 'w') as f:
     json.dump(bleeders_list, f, indent=2)
 
-print(f"Saved {len(bleeders_list)} defenders to {enemy_file_name}")
-
-# Re-read the saved file and ensure alphabetical order
+# Optional: re-read and re-sort to ensure final alphabetical order
 with open(enemy_file_name, 'r') as f:
     data = json.load(f)
 
-# Sort alphabetically by defender name
 data_sorted = sorted(data, key=lambda x: x['name'].lower())
 
-# Save again
 with open(enemy_file_name, 'w') as f:
     json.dump(data_sorted, f, indent=2)
 
-print(f"Final file re-saved in alphabetical order: {enemy_file_name}")
-
+print(f"Saved {len(data_sorted)} defenders with cumulative respect to {enemy_file_name}")
