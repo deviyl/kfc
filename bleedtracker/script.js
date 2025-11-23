@@ -41,6 +41,12 @@ async function loadAttacks() {
 
     // Initial display: show ALL attacks
     displayAttacks();
+
+    // Start auto-refresh every 5 minutes
+    setInterval(() => {
+      displayAttacks();
+    }, 5 * 60 * 1000); // 5 minutes in milliseconds
+
   } catch (err) {
     console.error('Failed to load attacks.json:', err);
   }
@@ -56,7 +62,6 @@ async function displayAttacks() {
   if (selectedFaction === 'all') {
     rwHeader.textContent = '';
     hideBleedTable();
-    // show all attacks
     allAttacks.forEach(attack => appendAttackRow(tbody, attack));
     return;
   }
@@ -87,19 +92,15 @@ async function displayAttacks() {
   const filtered = allAttacks.filter(attack => {
     const attackTime = attack.started;
 
-    // include attacks from selected faction
     if (attack.attacker?.faction?.name === selectedFaction) return true;
-
-    // include any ranked war attack during this ranked war period
     if (attack.is_ranked_war && attackTime >= warStart && attackTime <= warEnd) return true;
 
     return false;
   });
 
-  // Populate attack table
   filtered.forEach(attack => appendAttackRow(tbody, attack));
 
-  // Populate bleed table dynamically from faction-specific JSON
+  // Update bleed table dynamically
   await populateBleedTable(selectedFaction);
 }
 
@@ -131,7 +132,6 @@ function appendAttackRow(tbody, attack) {
 }
 
 // BLEED TABLE FUNCTIONS
-
 function showBleedTable() {
   let bleedDetails = document.getElementById('bleed-collapse');
   if (!bleedDetails) {
@@ -172,8 +172,9 @@ async function populateBleedTable(selectedFaction) {
     const response = await fetch(factionFile);
     const bleedData = await response.json();
 
-    bleedData.forEach(entry => {
+    bleedData.forEach((entry, idx) => {
       const row = document.createElement('tr');
+      if (idx === bleedData.length - 1) row.style.backgroundColor = '#555'; // highlight last row
       row.innerHTML = `
         <td>${entry.name}</td>
         <td>${entry.count}</td>
