@@ -93,3 +93,10 @@ details#bleed-collapse summary::after {
   content: " ▼";
   float: right;
 }
+
+#bleed-table tbody tr:last-child {
+  background-color: #333;
+  font-weight: bold;
+  color: #ffcc00; 
+}
+
