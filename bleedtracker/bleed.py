@@ -60,17 +60,32 @@ bleeders_list = [
     for name, data in sorted(bleeders.items())
 ]
 
-# Write to JSON
+# Write initial JSON
 with open(enemy_file_name, 'w') as f:
     json.dump(bleeders_list, f, indent=2)
 
-# Optional: re-read and re-sort to ensure final alphabetical order
+# Re-read the saved file and sort alphabetically
 with open(enemy_file_name, 'r') as f:
     data = json.load(f)
 
+# Sort defenders alphabetically
 data_sorted = sorted(data, key=lambda x: x['name'].lower())
 
+# Compute totals
+total_count = sum(d["count"] for d in data_sorted)
+total_respect_gain = sum(d["respect_gain"] for d in data_sorted)
+total_respect_loss = sum(d["respect_loss"] for d in data_sorted)
+
+# Append totals row
+data_sorted.append({
+    "name": "Total",
+    "count": total_count,
+    "respect_gain": round(total_respect_gain, 2),
+    "respect_loss": round(total_respect_loss, 2)
+})
+
+# Rewrite the JSON with totals at the end
 with open(enemy_file_name, 'w') as f:
     json.dump(data_sorted, f, indent=2)
 
-print(f"Saved {len(data_sorted)} defenders with cumulative respect to {enemy_file_name}")
+print(f"Saved {len(data_sorted)-1} defenders + totals to {enemy_file_name}")
