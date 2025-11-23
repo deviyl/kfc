@@ -1,5 +1,81 @@
 [
   {
+    "id": 429278267,
+    "code": "9fa2c1543bd67f6f5eb2657f2e6a1dee",
+    "started": 1763925650,
+    "ended": 1763925658,
+    "attacker": {
+      "id": 3903417,
+      "name": "Dandelion_Monk",
+      "level": 25,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 3171413,
+      "name": "xKittehxKatx",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.42,
+    "respect_loss": 1.61,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429278149,
+    "code": "5e3d851ef9f2e07e6273d338c85af8c5",
+    "started": 1763925619,
+    "ended": 1763925625,
+    "attacker": null,
+    "defender": {
+      "id": 3972720,
+      "name": "Experiment420",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.97,
+    "respect_loss": 0.74,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.39,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429277135,
     "code": "d25b1b7dcd7e53682eafa601ae7dc1bd",
     "started": 1763925321,
