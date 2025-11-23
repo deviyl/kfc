@@ -175,8 +175,8 @@ async function populateBleedTable(selectedFaction) {
     bleedData.forEach(entry => {
       const row = document.createElement('tr');
       row.innerHTML = `
-        <td>${entry.member}</td>
-        <td>${entry.bleed_count}</td>
+        <td>${entry.name}</td>
+        <td>${entry.count}</td>
         <td>${entry.respect_gain ?? 0}</td>
         <td>${entry.respect_loss ?? 0}</td>
       `;
