@@ -1,5 +1,162 @@
 [
   {
+    "id": 429170690,
+    "code": "637627e5a5ccb1347cea6953e02be575",
+    "started": 1763896899,
+    "ended": 1763896900,
+    "attacker": null,
+    "defender": {
+      "id": 3616377,
+      "name": "CrombieCrunch",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5,
+    "respect_loss": 1.25,
+    "chain": 535,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.43,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 429170664,
+    "code": "310aba05c618ce659b8fa47a3efecddd",
+    "started": 1763896892,
+    "ended": 1763896901,
+    "attacker": {
+      "id": 2158913,
+      "name": "Knuckles1991",
+      "level": 28,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.18,
+    "respect_loss": 1.29,
+    "chain": 536,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.56,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.43,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429170517,
+    "code": "ca1e2ad71dfe9bdefcc46a47485498ae",
+    "started": 1763896850,
+    "ended": 1763896855,
+    "attacker": null,
+    "defender": {
+      "id": 3796175,
+      "name": "PowerMax",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 9.7,
+    "respect_loss": 2.42,
+    "chain": 534,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.43,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429169964,
+    "code": "e8c90e6223be25627689d182148ac1b8",
+    "started": 1763896701,
+    "ended": 1763896704,
+    "attacker": {
+      "id": 2158913,
+      "name": "Knuckles1991",
+      "level": 28,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.34,
+    "respect_loss": 1.84,
+    "chain": 533,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.14,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.43,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429169335,
     "code": "d95e66bb9b9b462e0cdd38643c0e09d2",
     "started": 1763896501,
