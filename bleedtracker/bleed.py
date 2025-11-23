@@ -1,10 +1,10 @@
 import json
 
 # Load attacks and ranked wars
-with open('attacks.json', 'r') as f:
+with open('bleedtracker/attacks.json', 'r') as f:
     attacks = json.load(f)
 
-with open('rankedwars.json', 'r') as f:
+with open('bleedtracker/rankedwars.json', 'r') as f:
     rankedwars = json.load(f)
 
 # Take the first (most recent) war
@@ -15,7 +15,7 @@ factions = current_war['factions']
 
 # Determine enemy faction name
 enemy_faction = next(f['name'] for f in factions if f['name'] != "Kentucky Fried Criminals")  # replace with your own team name if needed
-enemy_file_name = enemy_faction.lower().replace(' ', '') + '.json'
+enemy_file_name = f"bleedtracker/{enemy_faction.lower().replace(' ', '')}.json"
 
 # Collect unique defenders
 bleeders = set()
