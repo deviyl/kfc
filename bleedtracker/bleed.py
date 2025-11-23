@@ -13,12 +13,14 @@ war_start = current_war['start']
 war_end = current_war['end'] or float('inf')  # if end is 0, treat as ongoing
 factions = current_war['factions']
 
-# Determine enemy faction name
-enemy_faction = next(f['name'] for f in factions if f['name'] != "Kentucky Fried Criminals")  # replace with your own team name if needed
+# Determine enemy faction name (your faction is assumed to be the one NOT the enemy)
+our_faction_name = "Kentucky Fried Criminals"  # change if needed
+enemy_faction = next(f['name'] for f in factions if f['name'] != our_faction_name)
 enemy_file_name = f"bleedtracker/{enemy_faction.lower().replace(' ', '')}.json"
 
-# Collect unique defenders
-bleeders = set()
+# Collect defenders with counts
+bleeders = {}
+
 for attack in attacks:
     # Check time
     if not (war_start <= attack['started'] <= war_end and war_start <= attack['ended'] <= war_end):
@@ -33,11 +35,19 @@ for attack in attacks:
     if attacker_faction_name != enemy_faction and not (attack.get('attacker') is None and attack.get('is_ranked_war') is True):
         continue
     
-    # Add defender name
-    bleeders.add(attack['defender']['name'])
+    defender_name = attack['defender']['name']
+    
+    # Increment count
+    if defender_name not in bleeders:
+        bleeders[defender_name] = 1
+    else:
+        bleeders[defender_name] += 1
+
+# Convert to list of objects sorted alphabetically by defender name
+bleeders_list = [{"name": name, "count": count} for name, count in sorted(bleeders.items())]
 
 # Write to JSON
 with open(enemy_file_name, 'w') as f:
-    json.dump(sorted(list(bleeders)), f, indent=2)
+    json.dump(bleeders_list, f, indent=2)
 
-print(f"Saved {len(bleeders)} defenders to {enemy_file_name}")
+print(f"Saved {len(bleeders_list)} defenders to {enemy_file_name}")
