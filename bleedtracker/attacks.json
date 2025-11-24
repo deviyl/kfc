@@ -1,5 +1,99 @@
 [
   {
+    "id": 429506245,
+    "code": "756d96ce463e790b7aacf3a63ba6fbbf",
+    "started": 1764023341,
+    "ended": 1764023359,
+    "attacker": {
+      "id": 3882906,
+      "name": "Katlinel",
+      "level": 26,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.65,
+    "respect_loss": 1.41,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.59,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 429505934,
+    "code": "1014ed166f7174908bdcd16985bb44de",
+    "started": 1764023182,
+    "ended": 1764023193,
+    "attacker": {
+      "id": 3882906,
+      "name": "Katlinel",
+      "level": 26,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 2201996,
+      "name": "VicCityBabe",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.09,
+    "respect_loss": 1.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.72,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 20
+      }
+    ]
+  },
+  {
     "id": 429487505,
     "code": "04f97ad4f8a81eaae1aa1e8f41a50262",
     "started": 1764013217,
