@@ -1,5 +1,47 @@
 [
   {
+    "id": 429421844,
+    "code": "5f7090599ddfc4858d6849da151d4945",
+    "started": 1763979524,
+    "ended": 1763979535,
+    "attacker": {
+      "id": 3882906,
+      "name": "Katlinel",
+      "level": 26,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 2201996,
+      "name": "VicCityBabe",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429415136,
     "code": "a8a7801a1c78ba7c9c0e2310d6ec94ae",
     "started": 1763975650,
