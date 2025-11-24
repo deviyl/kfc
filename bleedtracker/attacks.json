@@ -1,5 +1,39 @@
 [
   {
+    "id": 429447834,
+    "code": "535993c9c40179e8f1ae84711fe1465b",
+    "started": 1763992671,
+    "ended": 1763992677,
+    "attacker": null,
+    "defender": {
+      "id": 2291615,
+      "name": "Daany56778",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.48,
+    "respect_loss": 0.37,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.75,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429444275,
     "code": "cd0e61f2ed13e39df8053bf084ccd400",
     "started": 1763991013,
