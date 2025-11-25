@@ -1,5 +1,39 @@
 [
   {
+    "id": 429529741,
+    "code": "d229868b17fd8ab6e4efeabff6647291",
+    "started": 1764034192,
+    "ended": 1764034197,
+    "attacker": null,
+    "defender": {
+      "id": 2839157,
+      "name": "CursedShadows",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.82,
+    "respect_loss": 0.46,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.93,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429513014,
     "code": "889bdceeb2f8916b63c9dd901e2f01a2",
     "started": 1764026987,
