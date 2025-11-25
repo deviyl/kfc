@@ -1,5 +1,52 @@
 [
   {
+    "id": 429569337,
+    "code": "69a6d92d40e920e2ab31951b43544d10",
+    "started": 1764056308,
+    "ended": 1764056313,
+    "attacker": {
+      "id": 3851672,
+      "name": "duckybeks",
+      "level": 34,
+      "faction": {
+        "id": 8537,
+        "name": "NNGO"
+      }
+    },
+    "defender": {
+      "id": 3708737,
+      "name": "porchman",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.9,
+    "respect_loss": 0.47,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.16,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 21
+      }
+    ]
+  },
+  {
     "id": 429562907,
     "code": "d0113b0aa3a9beec32a5d0342b4233ac",
     "started": 1764052419,
