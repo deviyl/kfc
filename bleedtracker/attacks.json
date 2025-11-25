@@ -1,5 +1,47 @@
 [
   {
+    "id": 429580410,
+    "code": "5e6d6c6ee0cda28b128805ad5f39a07a",
+    "started": 1764063732,
+    "ended": 1764063739,
+    "attacker": {
+      "id": 2932719,
+      "name": "Ridyard",
+      "level": 75,
+      "faction": {
+        "id": 50457,
+        "name": "Tranquility Base"
+      }
+    },
+    "defender": {
+      "id": 3616377,
+      "name": "CrombieCrunch",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.44,
+    "respect_loss": 0.36,
+    "chain": 158,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429576623,
     "code": "08f692ce4f536b487de80ebd19287280",
     "started": 1764061158,
