@@ -1,5 +1,235 @@
 [
   {
+    "id": 429550581,
+    "code": "2a400f03514e36a7405530d82869cf2f",
+    "started": 1764045300,
+    "ended": 1764045304,
+    "attacker": null,
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 61,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.71,
+    "respect_loss": 0.93,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.21,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 429550563,
+    "code": "228dc244fc4626a64bd00f99d81c29a3",
+    "started": 1764045288,
+    "ended": 1764045291,
+    "attacker": {
+      "id": 2890718,
+      "name": "reesedaddy",
+      "level": 20,
+      "faction": {
+        "id": 52167,
+        "name": ".:Thee Unforgiven:."
+      }
+    },
+    "defender": {
+      "id": 3972720,
+      "name": "Experiment420",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.43,
+    "respect_loss": 0.61,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.27,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429550482,
+    "code": "bfc2e64c8044dc725033d4972e4024f0",
+    "started": 1764045237,
+    "ended": 1764045268,
+    "attacker": null,
+    "defender": {
+      "id": 2752691,
+      "name": "flirt",
+      "level": 88,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.64,
+    "respect_loss": 2.16,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429550380,
+    "code": "447f96d4c58a1f7bae1e0c564e59d036",
+    "started": 1764045183,
+    "ended": 1764045194,
+    "attacker": {
+      "id": 2740342,
+      "name": "A_Rabid_Hobo",
+      "level": 86,
+      "faction": {
+        "id": 8677,
+        "name": "Mana"
+      }
+    },
+    "defender": {
+      "id": 2109428,
+      "name": "CC-1004",
+      "level": 75,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.08,
+    "respect_loss": 2.02,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.95,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429550004,
+    "code": "c21090607c984cb6132ec74ad3f93d1b",
+    "started": 1764044972,
+    "ended": 1764044992,
+    "attacker": null,
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 99,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.94,
+    "respect_loss": 2.23,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429549930,
+    "code": "6df30883090cb1dcd77d0e006719b819",
+    "started": 1764044928,
+    "ended": 1764044938,
+    "attacker": null,
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.87,
+    "respect_loss": 2.22,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.61,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
     "id": 429547376,
     "code": "3bc01c83e9ad8277c347de7f942a1eb0",
     "started": 1764043366,
