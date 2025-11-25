@@ -1,5 +1,44 @@
 [
   {
+    "id": 429596565,
+    "code": "db4721c33e0f1ea12d5bf96eb08c068e",
+    "started": 1764075302,
+    "ended": 1764075306,
+    "attacker": null,
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.98,
+    "respect_loss": 0.25,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 26
+      }
+    ]
+  },
+  {
     "id": 429580410,
     "code": "5e6d6c6ee0cda28b128805ad5f39a07a",
     "started": 1764063732,
