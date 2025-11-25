@@ -1,5 +1,47 @@
 [
   {
+    "id": 429534596,
+    "code": "999cb48a44a778d11bcb67e950c79bad",
+    "started": 1764036483,
+    "ended": 1764036492,
+    "attacker": {
+      "id": 3955096,
+      "name": "Levi_Ackermann",
+      "level": 21,
+      "faction": {
+        "id": 48140,
+        "name": "The Revenant Reserve"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 16,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.22,
+    "respect_loss": 0.56,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.19,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429529741,
     "code": "d229868b17fd8ab6e4efeabff6647291",
     "started": 1764034192,
