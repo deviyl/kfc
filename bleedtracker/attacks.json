@@ -1,5 +1,52 @@
 [
   {
+    "id": 429768365,
+    "code": "ecbd00bd05462e28c57c8145e227714c",
+    "started": 1764197443,
+    "ended": 1764197450,
+    "attacker": {
+      "id": 3571690,
+      "name": "Krampus",
+      "level": 60,
+      "faction": {
+        "id": 27370,
+        "name": "Desert Eagle"
+      }
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.68,
+    "respect_loss": 0.67,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.25,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 33
+      }
+    ]
+  },
+  {
     "id": 429765361,
     "code": "39036f8015545b76e836804f168efb2b",
     "started": 1764194709,
