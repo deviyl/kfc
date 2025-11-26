@@ -1,5 +1,47 @@
 [
   {
+    "id": 429737755,
+    "code": "711f6f0e2e01cd104c98557661acae9f",
+    "started": 1764174744,
+    "ended": 1764174748,
+    "attacker": {
+      "id": 1249448,
+      "name": "Mr_Canuck",
+      "level": 100,
+      "faction": {
+        "id": 41803,
+        "name": "THE TEABAGGERS"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.84,
+    "respect_loss": 0.21,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429737432,
     "code": "c218585b74b9783924b5715669281319",
     "started": 1764174480,
