@@ -1,5 +1,89 @@
 [
   {
+    "id": 429857008,
+    "code": "9ff07026ff6684fb7441fb549e79e46c",
+    "started": 1764257949,
+    "ended": 1764257953,
+    "attacker": {
+      "id": 4016392,
+      "name": "TooSchnell",
+      "level": 5,
+      "faction": {
+        "id": 54372,
+        "name": "Warriors of Liberation"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 5,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 429856915,
+    "code": "d20ba843d9c1e8b5115a547025953f53",
+    "started": 1764257904,
+    "ended": 1764257906,
+    "attacker": {
+      "id": 4018508,
+      "name": "Drakenyx",
+      "level": 4,
+      "faction": {
+        "id": 53778,
+        "name": "Silent Drop Mafia"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 5,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429838499,
     "code": "888c89f7480b84362f5988cb50440554",
     "started": 1764249883,
