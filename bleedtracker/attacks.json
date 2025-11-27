@@ -1,5 +1,47 @@
 [
   {
+    "id": 429821616,
+    "code": "3f6edc9774c6b4d7d74ef0c9a65195e5",
+    "started": 1764235475,
+    "ended": 1764235489,
+    "attacker": {
+      "id": 38747,
+      "name": "Concrete_Shoes",
+      "level": 100,
+      "faction": {
+        "id": 44762,
+        "name": "Monarch Retardation"
+      }
+    },
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 99,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.95,
+    "respect_loss": 0.74,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.11,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429820844,
     "code": "fb26985f3c21fa8a9cd7cef561b0cc8e",
     "started": 1764234775,
