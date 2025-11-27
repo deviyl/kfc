@@ -1,5 +1,39 @@
 [
   {
+    "id": 429867539,
+    "code": "e5e4c053ae88e1459754a6b9ff2a5b4b",
+    "started": 1764262251,
+    "ended": 1764262257,
+    "attacker": null,
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 17,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.71,
+    "respect_loss": 0.43,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.69,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429864998,
     "code": "ebecc2a8b5dd89fb2ee83b1bab98d271",
     "started": 1764261099,
