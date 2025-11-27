@@ -1,5 +1,47 @@
 [
   {
+    "id": 429808762,
+    "code": "c3c75397044fcc64467de75a41192e44",
+    "started": 1764225041,
+    "ended": 1764225044,
+    "attacker": {
+      "id": 4008914,
+      "name": "oiiibanggg",
+      "level": 6,
+      "faction": {
+        "id": 13848,
+        "name": "BreakingBad"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 5,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429804383,
     "code": "4322314f0079b4d46c31363aafc88159",
     "started": 1764222063,
