@@ -1,5 +1,47 @@
 [
   {
+    "id": 429895855,
+    "code": "63cb1992a2b1c6b141f7ea829cc14796",
+    "started": 1764271453,
+    "ended": 1764271457,
+    "attacker": {
+      "id": 3434035,
+      "name": "thijnhein",
+      "level": 26,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3171413,
+      "name": "xKittehxKatx",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.41,
+    "respect_loss": 0.6,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429892499,
     "code": "72c3fe0a46af6617f3cec7f50871cc5b",
     "started": 1764270454,
