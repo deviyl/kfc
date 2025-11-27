@@ -1,5 +1,44 @@
 [
   {
+    "id": 429813804,
+    "code": "8660f30e1bdcd2f7e72dc1745ed6a47f",
+    "started": 1764228790,
+    "ended": 1764228808,
+    "attacker": {
+      "id": 4015382,
+      "name": "deyzxc",
+      "level": 6,
+      "faction": null
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 5,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 429811716,
     "code": "abd23f7263145a3d1d91cac20083b012",
     "started": 1764227152,
