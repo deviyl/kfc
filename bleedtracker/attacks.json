@@ -1,5 +1,39 @@
 [
   {
+    "id": 430064628,
+    "code": "9ddb290da63333e0bbf90acb89843b0b",
+    "started": 1764335893,
+    "ended": 1764335896,
+    "attacker": null,
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.25,
+    "respect_loss": 0.31,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430058286,
     "code": "afd9f27919b682fe89ff0885f412af09",
     "started": 1764333460,
