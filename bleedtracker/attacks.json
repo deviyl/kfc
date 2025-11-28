@@ -1,5 +1,81 @@
 [
   {
+    "id": 430180522,
+    "code": "8c4177da9d37f2fe59096ae802faf9e4",
+    "started": 1764363491,
+    "ended": 1764363496,
+    "attacker": null,
+    "defender": {
+      "id": 3973089,
+      "name": "Sumeirou",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.14,
+    "respect_loss": 0.54,
+    "chain": 431,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.82,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.41,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430180391,
+    "code": "1f6193a5829c3592e66bc25accc53ec3",
+    "started": 1764363463,
+    "ended": 1764363469,
+    "attacker": {
+      "id": 3640004,
+      "name": "coryallegory",
+      "level": 41,
+      "faction": {
+        "id": 14441,
+        "name": "Aurora Solaris"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.09,
+    "respect_loss": 0.52,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.38,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430171165,
     "code": "376153d1249f67a63a6f63f95c8da4d8",
     "started": 1764361432,
