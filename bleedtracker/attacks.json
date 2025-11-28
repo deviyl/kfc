@@ -1,5 +1,86 @@
 [
   {
+    "id": 430089493,
+    "code": "8048e5f8dc9bd105b1261f3e8114063c",
+    "started": 1764343102,
+    "ended": 1764343105,
+    "attacker": null,
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.04,
+    "respect_loss": 0.26,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 32
+      }
+    ]
+  },
+  {
+    "id": 430086940,
+    "code": "79b9e1f9f13e90a24c3cc3b0a3e55f77",
+    "started": 1764342551,
+    "ended": 1764342558,
+    "attacker": {
+      "id": 3640004,
+      "name": "coryallegory",
+      "level": 41,
+      "faction": {
+        "id": 14441,
+        "name": "Aurora Solaris"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.61,
+    "respect_loss": 0.65,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.38,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430064628,
     "code": "9ddb290da63333e0bbf90acb89843b0b",
     "started": 1764335893,
