@@ -1,5 +1,47 @@
 [
   {
+    "id": 430025011,
+    "code": "99dbd115a84124baa3e349d57ba61fc1",
+    "started": 1764316906,
+    "ended": 1764316928,
+    "attacker": {
+      "id": 3787667,
+      "name": "ButcherMan",
+      "level": 15,
+      "faction": {
+        "id": 49642,
+        "name": "Madhouse Asylum"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 17,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430021469,
     "code": "43a0d3d524935f5e2486ff58960c632f",
     "started": 1764315144,
