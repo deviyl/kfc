@@ -1,5 +1,47 @@
 [
   {
+    "id": 430280423,
+    "code": "60766fec01473f7bc6bc8880e7fd04f9",
+    "started": 1764391002,
+    "ended": 1764391012,
+    "attacker": {
+      "id": 3883920,
+      "name": "jackreacher318",
+      "level": 29,
+      "faction": {
+        "id": 44594,
+        "name": "The WarSluts"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.7,
+    "respect_loss": 0.93,
+    "chain": 1066,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.97,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430270392,
     "code": "3ff91c3ab200e362dd39cf89bb93b042",
     "started": 1764387504,
