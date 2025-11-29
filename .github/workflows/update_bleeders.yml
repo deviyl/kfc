@@ -2,8 +2,8 @@ name: Update Bleeders
 
 on:
   workflow_dispatch:   # allows manual trigger
-  #schedule:
-   # - cron: "*/5 * * * *"  # run every 5 minutes
+  schedule:
+    - cron: "*/5 * * * *"  # run every 5 minutes
 
 jobs:
   run-script:
