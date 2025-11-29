@@ -1,5 +1,191 @@
 [
   {
+    "id": 430270392,
+    "code": "3ff91c3ab200e362dd39cf89bb93b042",
+    "started": 1764387504,
+    "ended": 1764387507,
+    "attacker": null,
+    "defender": {
+      "id": 3973089,
+      "name": "Sumeirou",
+      "level": 23,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.21,
+    "respect_loss": 0.3,
+    "chain": 127,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.28,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430269202,
+    "code": "d86936365a44d44a2517f90d88979f85",
+    "started": 1764387044,
+    "ended": 1764387051,
+    "attacker": {
+      "id": 3883920,
+      "name": "jackreacher318",
+      "level": 29,
+      "faction": {
+        "id": 44594,
+        "name": "The WarSluts"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.74,
+    "respect_loss": 0.94,
+    "chain": 949,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430269042,
+    "code": "df1edc8c2dc6973823ef5bb7af3ebfab",
+    "started": 1764386983,
+    "ended": 1764386995,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.87,
+    "respect_loss": 0.97,
+    "chain": 942,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.22,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430268521,
+    "code": "e5b2e78a6e21f1ca8a3e1d8b28e904e3",
+    "started": 1764386813,
+    "ended": 1764386820,
+    "attacker": {
+      "id": 3883920,
+      "name": "jackreacher318",
+      "level": 29,
+      "faction": {
+        "id": 44594,
+        "name": "The WarSluts"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.4,
+    "respect_loss": 0.6,
+    "chain": 934,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430267904,
+    "code": "4819edb9e1e95ac1b8a494c1da44f658",
+    "started": 1764386610,
+    "ended": 1764386613,
+    "attacker": null,
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.42,
+    "respect_loss": 0.61,
+    "chain": 933,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.49,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.49,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430256859,
     "code": "4eaa1d2e96f22ca5d9cfc5b2e3ffa911",
     "started": 1764382927,
