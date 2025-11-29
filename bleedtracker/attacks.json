@@ -1,5 +1,86 @@
 [
   {
+    "id": 430287461,
+    "code": "af82158dfa9792a975c4a12115809642",
+    "started": 1764393605,
+    "ended": 1764393612,
+    "attacker": null,
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.45,
+    "respect_loss": 0.61,
+    "chain": 1090,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.49,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430286558,
+    "code": "6029bfb35380d1d71f08713e8b286178",
+    "started": 1764393281,
+    "ended": 1764393285,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.35,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.42,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
     "id": 430280423,
     "code": "60766fec01473f7bc6bc8880e7fd04f9",
     "started": 1764391002,
