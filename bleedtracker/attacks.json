@@ -1,5 +1,81 @@
 [
   {
+    "id": 430340877,
+    "code": "1f5ccec62b5934f4ca32414ae1863e1d",
+    "started": 1764415628,
+    "ended": 1764415634,
+    "attacker": {
+      "id": 2490821,
+      "name": "marka5268",
+      "level": 42,
+      "faction": {
+        "id": 55129,
+        "name": "Hinode Jingu"
+      }
+    },
+    "defender": {
+      "id": 2291615,
+      "name": "Daany56778",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.49,
+    "respect_loss": 0.37,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.76,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430340251,
+    "code": "8dd5cda066449aa250f2d501549a2809",
+    "started": 1764415356,
+    "ended": 1764415362,
+    "attacker": null,
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430336509,
     "code": "da8da02fb94806ac76c8849f8100691b",
     "started": 1764413651,
