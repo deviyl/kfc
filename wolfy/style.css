@@ -20,25 +20,35 @@ body {
 /* ---------------------------------------------------
    API Key Section
 --------------------------------------------------- */
-#apikey-container {
-    margin-bottom: 15px;
-}
-
-#apikey-container label {
-    margin-right: 10px;
-}
-
-#apikey-container input {
+#apikey-container input,
+#war-select-container select {
+    background-color: #4B4B4B;
+    color: #ffffff;           
+    border: 1px solid #555;   
     padding: 5px 8px;
     font-size: 14px;
-    width: 250px;
+    border-radius: 3px;
+    outline: none;
 }
 
-#apikey-container button {
-    padding: 5px 12px;
-    font-size: 14px;
-    cursor: pointer;
+/* change border color on focus */
+#apikey-container input:focus,
+#war-select-container select:focus {
+    border-color: #74C0FC;
 }
+
+/* Keep button style consistent */
+#apikey-container button {
+    background-color: #4B4B4B;
+    color: #ffffff;
+    border: 1px solid #555;
+    border-radius: 3px;
+}
+
+#apikey-container button:hover {
+    background-color: #5c5c5c;
+}
+
 
 /* ---------------------------------------------------
    War Dropdown Section
