@@ -56,11 +56,11 @@ function showRankedWars(wardata) {
         warSelect.innerHTML += `<option value="${warId};${start};${end}">${label}</option>`;
     }
 
-    dropdownContainer.hidden = false;
+    dropdownContainer.style.display = "block";
 }
 
 // ---------------------------------------------------------------------------
-// Column mapping (your custom labels)
+// Column mapping
 // ---------------------------------------------------------------------------
 const columnMap = [
     { key: "name",          label: "Name" },
@@ -68,8 +68,8 @@ const columnMap = [
     { key: "outsidehit",    label: "Outside Hits" },
     { key: "interrupt",     label: "Interrupts" },
     { key: "assist",        label: "Assists" },
-    { key: "defend",        label: "Defends (Bleed)" },
-    { key: "loss",          label: "Losses (Outgoing)" },
+    { key: "defend",        label: "Defends" },
+    { key: "loss",          label: "Losses" },
     { key: "respect_gain",  label: "Respect Gained" },
     { key: "respect_loss",  label: "Respect Lost" },
     { key: "bonus",         label: "Bonuses" },
@@ -133,18 +133,16 @@ function sortData(dataObj, key, direction) {
 function renderTable(data) {
 
     const container = document.getElementById("results-container");
-    const bleedDiv = document.getElementById("bleed");
+    const trackerDiv = document.getElementById("tracker");
 
-    container.hidden = false;
-    bleedDiv.innerHTML = "";
+    container.style.display = "block";
+    trackerDiv.innerHTML = "";
 
     // Sort before rendering
     let sorted = sortData(data, sortColumn, sortDirection);
 
     // Create table
     let table = document.createElement("table");
-    table.border = "1";
-    table.style.borderCollapse = "collapse";
 
     // ---- HEADER ----
     let thead = document.createElement("thead");
@@ -153,8 +151,6 @@ function renderTable(data) {
     columnMap.forEach(col => {
         let th = document.createElement("th");
         th.textContent = col.label;
-        th.style.padding = "4px 8px";
-        th.style.cursor = "pointer";
 
         th.addEventListener("click", () => {
             if (sortColumn === col.key) {
@@ -185,21 +181,14 @@ function renderTable(data) {
             if (col.key === "name") {
                 cell.textContent = value;
             } else if (["respect_gain", "respect_loss", "totalresp"].includes(col.key)) {
-                // Only these three get rounded
                 let num = Number(value);
                 if (!num || Number.isNaN(num)) num = 0;
                 cell.textContent = num.toFixed(2);
             } else {
-                // All other fields display as-is (but safe fallback to 0)
                 let num = Number(value);
-                if (!Number.isNaN(num)) {
-                    cell.textContent = num; 
-                } else {
-                    cell.textContent = 0;
-                }
+                cell.textContent = !Number.isNaN(num) ? num : 0;
             }
 
-            cell.style.padding = "4px 8px";
             row.appendChild(cell);
         });
 
@@ -207,5 +196,5 @@ function renderTable(data) {
     });
 
     table.appendChild(tbody);
-    bleedDiv.appendChild(table);
+    trackerDiv.appendChild(table);
 }
