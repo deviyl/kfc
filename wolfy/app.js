@@ -79,7 +79,7 @@ const columnMap = [
 
 // Sort state
 let sortColumn = "respect_gain";
-let sortDirection = "desc"; // default: highest respect first
+let sortDirection = "asc"; // default: highest respect first
 let lastDataSet = {}; // stored so we can re-render when sorting
 
 // ---------------------------------------------------------------------------
