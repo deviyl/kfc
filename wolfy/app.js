@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
 // Fetch the list of ranked wars
 // ---------------------------------------------------------------------------
 function showWars(ApiKey) {
-    // fetch(`https://api.torn.com/faction/?selections=rankedwars&key=${ApiKey}`) // old api
-    fetch(`https://api.torn.com/v2/faction/rankedwars?limit=20&key=${ApiKey}`) //v2 api
+    fetch(`https://api.torn.com/faction/?selections=rankedwars&key=${ApiKey}`) // old api
+    //fetch(`https://api.torn.com/v2/faction/rankedwars?limit=20&key=${ApiKey}`) //v2 api
         .then(response => response.json())
         .then(data => showRankedWars(data))
         .catch(err => console.error("Error loading wars:", err));
