@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Torn Ranked War Tracker</title>
+</head>
+<body>
+
+<div id="container">
+
+    <!-- API Key Entry -->
+    <div id="apikey-container">
+        <label for="apikey">API Key:</label>
+        <input type="text" id="apikey" name="apikey" />
+        <button id="load-wars">Load Wars</button>
+    </div>
+
+    <!-- War Dropdown -->
+    <div id="war-select-container">
+        <label for="wars">Select War:</label>
+        <select id="wars">
+            <option value="">-- Select a war --</option>
+        </select>
+    </div>
+
+    <!-- Results Table Container -->
+    <div id="results-container">
+        <h3>War Data</h3>
+        <div id="bleed"></div>
+    </div>
+
+</div>
+
+<!-- External JavaScript File -->
+<script src="app.js"></script>
+
+</body>
+</html>
