@@ -54,28 +54,28 @@
 }
 
 /* Table styling */
-#bleed table {
+#tracker table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
-#bleed th, #bleed td {
+#tracker th, #tracker td {
     border: 1px solid #ccc;
     padding: 4px 8px;
     text-align: left;
 }
 
-#bleed th {
+#tracker th {
     background-color: #f4f4f4;
     cursor: pointer;
     user-select: none;
 }
 
-#bleed tr:nth-child(even) {
+#tracker tr:nth-child(even) {
     background-color: #fafafa;
 }
 
-#bleed tr:hover {
+#tracker tr:hover {
     background-color: #f0f8ff;
 }
