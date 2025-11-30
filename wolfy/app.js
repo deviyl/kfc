@@ -1,4 +1,4 @@
-// Listen for Load Wars button click
+// Step 1: Listen for Load Wars button click
 document.getElementById("load-wars").addEventListener("click", function() {
     const apiKey = document.getElementById("apikey").value.trim();
     if (!apiKey) {
@@ -63,9 +63,14 @@ function showData(war) {
     const apikey = document.getElementById("apikey").value;
     war = war.split(";");
 
+    const url = "https://wolfhaven.at/warpayout.php?&start=" + war[1] + "&end=" + war[2] + "&apikey=" + apikey;
+    console.log("Fetching PHP data from:", url);
+
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState === 4 && this.status === 200) {
+            console.log("PHP response:", this.responseText); // <-- LOG RESPONSE
+
             const result = JSON.parse(this.responseText);
             const bleedDiv = document.getElementById("bleed");
             bleedDiv.innerHTML = ""; // clear previous data
@@ -76,6 +81,6 @@ function showData(war) {
         }
     };
 
-    xmlhttp.open("GET", "https://wolfhaven.at/warpayout.php?&start=" + war[1] + "&end=" + war[2] + "&apikey=" + apikey, false);
+    xmlhttp.open("GET", url, false); // keep synchronous for now
     xmlhttp.send();
 }
