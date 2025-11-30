@@ -22,8 +22,8 @@ body {
 --------------------------------------------------- */
 #apikey-container input,
 #war-select-container select {
-    background-color: #4B4B4B;
-    color: #ffffff;           
+    background-color: #4B4B4B !important;
+    color: #ffffff !important;
     border: 1px solid #555;   
     padding: 5px 8px;
     font-size: 14px;
@@ -34,7 +34,16 @@ body {
 /* change border color on focus */
 #apikey-container input:focus,
 #war-select-container select:focus {
+    background-color: #4B4B4B !important;
+    color: #ffffff !important;
     border-color: #74C0FC;
+}
+
+/* Maintain background/text color on hover */
+#apikey-container input:hover,
+#war-select-container select:hover {
+    background-color: #4B4B4B !important;
+    color: #ffffff !important;
 }
 
 /* Keep button style consistent */
