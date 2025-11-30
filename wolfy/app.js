@@ -1,129 +1,100 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const apiKeyInput = document.getElementById("apiKeyInput");
-    const apiKeySubmit = document.getElementById("apiKeySubmit");
+document.addEventListener("DOMContentLoaded", () => {
+    const apiKeyInput = document.getElementById("apikey");
+    const loadWarsBtn = document.getElementById("load-wars");
+    const warSelectContainer = document.getElementById("war-select-container");
+    const warSelect = document.getElementById("wars");
+    const resultsContainer = document.getElementById("results-container");
+    const bleedDiv = document.getElementById("bleed");
 
-    const warSelector = document.getElementById("warSelector");
-    const tableContainer = document.getElementById("tableContainer");
+    // Hide war selector + results initially
+    warSelectContainer.hidden = true;
+    resultsContainer.hidden = true;
 
-    let apiKey = "";
-
-    // Hide everything except the API key input
-    warSelector.style.display = "none";
-    tableContainer.style.display = "none";
-
-    // ------------------------------------------
-    // STEP 1 — AFTER API KEY ENTERED
-    // ------------------------------------------
-    apiKeySubmit.addEventListener("click", function () {
-        apiKey = apiKeyInput.value.trim();
-
+    // ==== Load War List ====
+    loadWarsBtn.addEventListener("click", async () => {
+        const apiKey = apiKeyInput.value.trim();
         if (!apiKey) {
-            alert("Please enter an API key first.");
+            alert("Please enter an API key.");
             return;
         }
 
-        console.log("API Key Accepted:", apiKey);
+        console.log("Fetching ranked wars…");
 
-        // Now reveal the war dropdown
-        warSelector.style.display = "block";
+        try {
+            const response = await fetch(
+                `https://api.torn.com/faction/?selections=rankedwars&key=${apiKey}`
+            );
 
-        // Fetch wars list
-        loadWarList();
+            const data = await response.json();
+            console.log("Ranked wars API returned:", data);
+
+            if (!data.rankedwars) {
+                alert("No ranked wars found or invalid API key.");
+                return;
+            }
+
+            // Clear dropdown
+            warSelect.innerHTML = `<option value="">-- Select a war --</option>`;
+
+            // Populate dropdown
+            for (const [warId, warInfo] of Object.entries(data.rankedwars)) {
+                const start = warInfo.war.start;
+                const end = warInfo.war.end;
+
+                const factions = Object.values(warInfo.factions);
+                const faction1 = factions[0].name;
+                const faction2 = factions[1].name;
+
+                const option = document.createElement("option");
+                option.value = `${start};${end}`;
+                option.textContent = `${faction1} vs. ${faction2}`;
+
+                warSelect.appendChild(option);
+            }
+
+            // Reveal war selector
+            warSelectContainer.hidden = false;
+
+        } catch (err) {
+            console.error("Error fetching ranked wars:", err);
+            alert("Failed to load ranked wars.");
+        }
     });
 
-    // ------------------------------------------
-    // STEP 2 — FETCH WAR LIST
-    // ------------------------------------------
-    function loadWarList() {
-        const url = `https://wolfhaven.at/warpayout.php?apikey=${apiKey}`;
 
-        console.log("Fetching war list from:", url);
+    // ==== Load War Data from PHP ====
+    warSelect.addEventListener("change", async () => {
+        const value = warSelect.value;
+        if (!value) return;
 
-        fetch(url)
-            .then(response => {
-                console.log("War List Response Status:", response.status);
-                return response.json();
-            })
-            .then(data => {
-                console.log("War List JSON:", data);
+        const apiKey = apiKeyInput.value.trim();
+        const [start, end] = value.split(";");
 
-                // Populate dropdown
-                warSelector.innerHTML = `<option value="">Select a War...</option>`;
-                data.forEach(war => {
-                    warSelector.innerHTML += `
-                        <option value="${war.start}">${war.name}</option>
-                    `;
-                });
-            })
-            .catch(err => {
-                console.error("Error loading war list:", err);
-                alert("Failed to load war list. Check console.");
-            });
-    }
+        const phpURL = `https://wolfhaven.at/warpayout.php?&start=${start}&end=${end}&apikey=${apiKey}`;
+        console.log("Fetching PHP data from:", phpURL);
 
-    // ------------------------------------------
-    // STEP 3 — SELECT A WAR → LOAD PAYOUT DATA
-    // ------------------------------------------
-    warSelector.addEventListener("change", function () {
-        const startTime = this.value;
+        try {
+            const response = await fetch(phpURL);
+            const result = await response.json();
 
-        if (!startTime) return;
+            console.log("PHP returned:", result);
 
-        showData(startTime);
+            bleedDiv.innerHTML = "";
+
+            for (const [name, value] of Object.entries(result)) {
+                bleedDiv.innerHTML += `
+                    <tr>
+                        <td>${name}</td>
+                        <td>${parseFloat(value).toFixed(2)}</td>
+                    </tr>
+                `;
+            }
+
+            resultsContainer.hidden = false;
+
+        } catch (err) {
+            console.error("Error fetching PHP data:", err);
+            alert("Failed to load war data.");
+        }
     });
-
-    // ------------------------------------------
-    // STEP 4 — FETCH PAYOUT DATA FOR SELECTED WAR
-    // ------------------------------------------
-    function showData(startTime) {
-        const url = `https://wolfhaven.at/warpayout.php?start=${startTime}&end=0&apikey=${apiKey}`;
-
-        console.log("Fetching payout data from:", url);
-
-        fetch(url)
-            .then(response => {
-                console.log("Payout Response Status:", response.status);
-                return response.json();
-            })
-            .then(data => {
-                console.log("Payout JSON:", data);
-
-                // Make table visible
-                tableContainer.style.display = "block";
-
-                // Build HTML table dynamically
-                let html = `
-                    <table class="results-table">
-                        <thead>
-                            <tr>
-                                <th>Player</th>
-                                <th>Damage</th>
-                                <th>Reward</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                `;
-
-                data.forEach(row => {
-                    html += `
-                        <tr>
-                            <td>${row.player}</td>
-                            <td>${row.damage}</td>
-                            <td>${row.reward}</td>
-                        </tr>
-                    `;
-                });
-
-                html += `
-                        </tbody>
-                    </table>
-                `;
-
-                tableContainer.innerHTML = html;
-            })
-            .catch(err => {
-                console.error("Error loading payout data:", err);
-                alert("Failed to load payout data. Check console.");
-            });
-    }
 });
