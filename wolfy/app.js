@@ -121,7 +121,7 @@ function sortData(dataObj, key, direction) {
         A = Number(A) || 0;
         B = Number(B) || 0;
 
-        return direction === "asc" ? A - B : B - A;
+        return direction === "desc" ? A - B : B - A;
     });
 
     return arr;
