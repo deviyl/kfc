@@ -1,0 +1,81 @@
+/* ---------------------------------------------------
+   General Container
+--------------------------------------------------- */
+#container {
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------------------------------------------
+   API Key Section
+--------------------------------------------------- */
+#apikey-container {
+    margin-bottom: 15px;
+}
+
+#apikey-container label {
+    margin-right: 10px;
+}
+
+#apikey-container input {
+    padding: 5px 8px;
+    font-size: 14px;
+    width: 250px;
+}
+
+#apikey-container button {
+    padding: 5px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------
+   War Dropdown Section
+--------------------------------------------------- */
+#war-select-container {
+    margin-bottom: 20px;
+}
+
+#war-select-container label {
+    margin-right: 10px;
+}
+
+#war-select-container select {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------
+   Results Table Section
+--------------------------------------------------- */
+#results-container h3 {
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+#bleed table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#bleed th, #bleed td {
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    text-align: left;
+}
+
+#bleed th {
+    background-color: #f4f4f4;
+    cursor: pointer;
+    user-select: none;
+}
+
+#bleed tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+#bleed tr:hover {
+    background-color: #f0f8ff;
+}
