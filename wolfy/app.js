@@ -154,7 +154,7 @@ function renderTable(data) {
 
     // Add sort class if this column is currently sorted
     if (sortColumn === col.key) {
-        th.classList.add(sortDirection === "asc" ? "sort-asc" : "sort-desc");
+        th.classList.add(sortDirection === "asc" ? "sort-desc" : "sort-asc");
     }
         
         th.addEventListener("click", () => {
