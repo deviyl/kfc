@@ -1,86 +1,129 @@
-// Step 1: Listen for Load Wars button click
-document.getElementById("load-wars").addEventListener("click", function() {
-    const apiKey = document.getElementById("apikey").value.trim();
-    if (!apiKey) {
-        alert("Please enter your API key.");
-        return;
-    }
-    showWars(apiKey);
-});
+document.addEventListener("DOMContentLoaded", function () {
+    const apiKeyInput = document.getElementById("apiKeyInput");
+    const apiKeySubmit = document.getElementById("apiKeySubmit");
 
-// Fetch Torn API ranked wars
-function showWars(ApiKey) {
-    fetch("https://api.torn.com/faction/?selections=rankedwars&key=" + ApiKey)
-        .then((response) => response.json())
-        .then((data) => {
-            showRankedWars(data);
-        });
-}
+    const warSelector = document.getElementById("warSelector");
+    const tableContainer = document.getElementById("tableContainer");
 
-// Populate dropdown and attach selection listener
-function showRankedWars(wardata) {
-    let warvalue = "";
-    let faction1 = "";
-    let faction2 = "";
+    let apiKey = "";
 
-    const warsDropdown = document.getElementById("wars");
-    warsDropdown.innerHTML = "<option value=''>-- Select a war --</option>"; // reset dropdown
+    // Hide everything except the API key input
+    warSelector.style.display = "none";
+    tableContainer.style.display = "none";
 
-    for (const war of Object.entries(wardata["rankedwars"])) {
-        let count = 0;
-        const start = war[1]["war"]["start"];
-        const end = war[1]["war"]["end"];
-        warvalue = war[0];
+    // ------------------------------------------
+    // STEP 1 — AFTER API KEY ENTERED
+    // ------------------------------------------
+    apiKeySubmit.addEventListener("click", function () {
+        apiKey = apiKeyInput.value.trim();
 
-        for (const warfaction of Object.entries(war[1]["factions"])) {
-            if (count === 0) {
-                faction1 = warfaction[1]["name"];
-                count++;
-            } else {
-                faction2 = warfaction[1]["name"];
-            }
+        if (!apiKey) {
+            alert("Please enter an API key first.");
+            return;
         }
 
-        warsDropdown.innerHTML += "<option value='" + warvalue + ";" + start + ";" + end + "'>" 
-                                  + faction1 + " vs. " + faction2 + "</option>";
-    }
+        console.log("API Key Accepted:", apiKey);
 
-    // Reveal the war dropdown now that it’s populated
-    document.getElementById("war-select-container").hidden = false;
+        // Now reveal the war dropdown
+        warSelector.style.display = "block";
 
-    // Add listener for when user selects a war
-    warsDropdown.addEventListener("change", function() {
-        const selectedWar = this.value;
-        if (selectedWar) {
-            showData(selectedWar);
-            document.getElementById("results-container").hidden = false;
-        }
+        // Fetch wars list
+        loadWarList();
     });
-}
 
-// Fetch PHP backend data and populate table
-function showData(war) {
-    const apikey = document.getElementById("apikey").value;
-    war = war.split(";");
+    // ------------------------------------------
+    // STEP 2 — FETCH WAR LIST
+    // ------------------------------------------
+    function loadWarList() {
+        const url = `https://wolfhaven.at/warpayout.php?apikey=${apiKey}`;
 
-    const url = "https://wolfhaven.at/warpayout.php?&start=" + war[1] + "&end=" + war[2] + "&apikey=" + apikey;
-    console.log("Fetching PHP data from:", url);
+        console.log("Fetching war list from:", url);
 
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status === 200) {
-            console.log("PHP response:", this.responseText); // <-- LOG RESPONSE
+        fetch(url)
+            .then(response => {
+                console.log("War List Response Status:", response.status);
+                return response.json();
+            })
+            .then(data => {
+                console.log("War List JSON:", data);
 
-            const result = JSON.parse(this.responseText);
-            const bleedDiv = document.getElementById("bleed");
-            bleedDiv.innerHTML = ""; // clear previous data
+                // Populate dropdown
+                warSelector.innerHTML = `<option value="">Select a War...</option>`;
+                data.forEach(war => {
+                    warSelector.innerHTML += `
+                        <option value="${war.start}">${war.name}</option>
+                    `;
+                });
+            })
+            .catch(err => {
+                console.error("Error loading war list:", err);
+                alert("Failed to load war list. Check console.");
+            });
+    }
 
-            for (const mem of Object.entries(result)) {
-                bleedDiv.innerHTML += "<tr><td>" + mem[0] + "</td><td>" + parseFloat(mem[1]).toFixed(2) + "</td></tr>";
-            }
-        }
-    };
+    // ------------------------------------------
+    // STEP 3 — SELECT A WAR → LOAD PAYOUT DATA
+    // ------------------------------------------
+    warSelector.addEventListener("change", function () {
+        const startTime = this.value;
 
-    xmlhttp.open("GET", url, false); // keep synchronous for now
-    xmlhttp.send();
-}
+        if (!startTime) return;
+
+        showData(startTime);
+    });
+
+    // ------------------------------------------
+    // STEP 4 — FETCH PAYOUT DATA FOR SELECTED WAR
+    // ------------------------------------------
+    function showData(startTime) {
+        const url = `https://wolfhaven.at/warpayout.php?start=${startTime}&end=0&apikey=${apiKey}`;
+
+        console.log("Fetching payout data from:", url);
+
+        fetch(url)
+            .then(response => {
+                console.log("Payout Response Status:", response.status);
+                return response.json();
+            })
+            .then(data => {
+                console.log("Payout JSON:", data);
+
+                // Make table visible
+                tableContainer.style.display = "block";
+
+                // Build HTML table dynamically
+                let html = `
+                    <table class="results-table">
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Damage</th>
+                                <th>Reward</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                `;
+
+                data.forEach(row => {
+                    html += `
+                        <tr>
+                            <td>${row.player}</td>
+                            <td>${row.damage}</td>
+                            <td>${row.reward}</td>
+                        </tr>
+                    `;
+                });
+
+                html += `
+                        </tbody>
+                    </table>
+                `;
+
+                tableContainer.innerHTML = html;
+            })
+            .catch(err => {
+                console.error("Error loading payout data:", err);
+                alert("Failed to load payout data. Check console.");
+            });
+    }
+});
