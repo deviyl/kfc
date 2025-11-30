@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Torn Ranked War Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
     </div>
 
     <!-- War Dropdown -->
-    <div id="war-select-container" hidden>
+    <div id="war-select-container" style="display: none;">
         <label for="wars">Select War:</label>
         <select id="wars">
             <option value="">-- Select a war --</option>
@@ -24,9 +25,9 @@
     </div>
 
     <!-- Results Table Container -->
-    <div id="results-container" hidden>
+    <div id="results-container" style="display: none;">
         <h3>War Data</h3>
-        <div id="bleed"></div>
+        <div id="tracker"></div>
     </div>
 
 </div>
