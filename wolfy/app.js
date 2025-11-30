@@ -152,6 +152,11 @@ function renderTable(data) {
         let th = document.createElement("th");
         th.textContent = col.label;
 
+    // Add sort class if this column is currently sorted
+    if (sortColumn === col.key) {
+        th.classList.add(sortDirection === "asc" ? "sort-asc" : "sort-desc");
+    }
+        
         th.addEventListener("click", () => {
             if (sortColumn === col.key) {
                 sortDirection = sortDirection === "asc" ? "desc" : "asc";
