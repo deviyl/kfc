@@ -1,5 +1,759 @@
 [
   {
+    "id": 430603626,
+    "code": "0d2b45c71940a6b340d080b2bb786d81",
+    "started": 1764476284,
+    "ended": 1764476289,
+    "attacker": {
+      "id": 16352,
+      "name": "PeyDAmaN",
+      "level": 99,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3247958,
+      "name": "KFC23",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.17,
+    "respect_loss": 0.79,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430603278,
+    "code": "f10fa15fa5639af0b94e6e6414c35366",
+    "started": 1764476190,
+    "ended": 1764476193,
+    "attacker": null,
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.58,
+    "respect_loss": 0.64,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430603260,
+    "code": "1247aa1a234753401fb1790f2b3e93ba",
+    "started": 1764476185,
+    "ended": 1764476189,
+    "attacker": null,
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430602412,
+    "code": "6a7f0983ffa53141ef1a7389682685cc",
+    "started": 1764475932,
+    "ended": 1764475933,
+    "attacker": {
+      "id": 16352,
+      "name": "PeyDAmaN",
+      "level": 99,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430602406,
+    "code": "b75f9110d099fae40e42cc3194b3a606",
+    "started": 1764475930,
+    "ended": 1764475934,
+    "attacker": {
+      "id": 3893511,
+      "name": "Uns3en",
+      "level": 22,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.4,
+    "respect_loss": 1.6,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.35,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430602323,
+    "code": "a9bfb962117a28eec0f8dac25d59c20c",
+    "started": 1764475902,
+    "ended": 1764475904,
+    "attacker": {
+      "id": 16352,
+      "name": "PeyDAmaN",
+      "level": 99,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.23,
+    "respect_loss": 0.81,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430602313,
+    "code": "6768237ef0dfbe731a704d5329fd5e6b",
+    "started": 1764475898,
+    "ended": 1764475905,
+    "attacker": {
+      "id": 3893511,
+      "name": "Uns3en",
+      "level": 22,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430602264,
+    "code": "d564e83dec55b67469861864c45d2f27",
+    "started": 1764475885,
+    "ended": 1764475887,
+    "attacker": null,
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.58,
+    "respect_loss": 0.64,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430602226,
+    "code": "7f2c6a229d1da84dcde309f464955a36",
+    "started": 1764475871,
+    "ended": 1764475874,
+    "attacker": {
+      "id": 3893511,
+      "name": "Uns3en",
+      "level": 22,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.12,
+    "respect_loss": 1.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.35,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430601501,
+    "code": "e90d7dedb0cbd5bc3552d4193b298b45",
+    "started": 1764475650,
+    "ended": 1764475653,
+    "attacker": null,
+    "defender": {
+      "id": 2839157,
+      "name": "CursedShadows",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.89,
+    "respect_loss": 1.22,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.94,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430601327,
+    "code": "2bd50d4026ccb736f1a0d6e0adc8bf81",
+    "started": 1764475597,
+    "ended": 1764475603,
+    "attacker": {
+      "id": 16352,
+      "name": "PeyDAmaN",
+      "level": 99,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 61,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 6.67,
+    "respect_loss": 1.67,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 2,
+      "retaliation": 1.5,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430601320,
+    "code": "41f31f6752401a1bd4818ca9dc31ef74",
+    "started": 1764475595,
+    "ended": 1764475601,
+    "attacker": {
+      "id": 236240,
+      "name": "XxAce202xX",
+      "level": 90,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 61,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430600835,
+    "code": "16eb709bf08b6a6ebc9134eafec6d487",
+    "started": 1764475462,
+    "ended": 1764475464,
+    "attacker": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430600836,
+    "code": "4d45bd6ff0826631f656df87dc8add2d",
+    "started": 1764475462,
+    "ended": 1764475463,
+    "attacker": {
+      "id": 3440078,
+      "name": "Serj2024",
+      "level": 42,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430600776,
+    "code": "3fe0278be2fcbf6c9aadc4743351d251",
+    "started": 1764475447,
+    "ended": 1764475454,
+    "attacker": {
+      "id": 16352,
+      "name": "PeyDAmaN",
+      "level": 99,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3247958,
+      "name": "KFC23",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.17,
+    "respect_loss": 0.79,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430598658,
+    "code": "e1f5ce31ecfc71562e3d8d902eadc177",
+    "started": 1764474853,
+    "ended": 1764474858,
+    "attacker": {
+      "id": 3440078,
+      "name": "Serj2024",
+      "level": 42,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.42,
+    "respect_loss": 1.61,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430598659,
+    "code": "e9b7369ccc3ee4d40b57f971ca0bf01d",
+    "started": 1764474853,
+    "ended": 1764474855,
+    "attacker": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430596758,
+    "code": "b069fa84c4c51cadb7b58db6afa261a9",
+    "started": 1764474288,
+    "ended": 1764474291,
+    "attacker": {
+      "id": 3440078,
+      "name": "Serj2024",
+      "level": 42,
+      "faction": {
+        "id": 10184,
+        "name": "Monarch Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.6,
+    "respect_loss": 1.65,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430595681,
     "code": "6f9437e32995602b1ee92dda0ee28416",
     "started": 1764473987,
