@@ -135,7 +135,7 @@ function renderTable(data) {
     const container = document.getElementById("results-container");
     const trackerDiv = document.getElementById("tracker");
 
-    container.hidden = false;
+    container.style.display = "block";
     trackerDiv.innerHTML = "";
 
     // Sort before rendering
@@ -152,20 +152,12 @@ function renderTable(data) {
         let th = document.createElement("th");
         th.textContent = col.label;
 
-        // Remove any previous sort classes
-        th.classList.remove("sort-asc", "sort-desc");
-
-        // Add sort class if this column is the sorted one
-        if (col.key === sortColumn) {
-            th.classList.add(sortDirection === "asc" ? "sort-asc" : "sort-desc");
-        }
-
         th.addEventListener("click", () => {
             if (sortColumn === col.key) {
                 sortDirection = sortDirection === "asc" ? "desc" : "asc";
             } else {
                 sortColumn = col.key;
-                sortDirection = "asc"; // default first click ascending
+                sortDirection = "asc";
             }
             renderTable(lastDataSet);
         });
@@ -194,7 +186,7 @@ function renderTable(data) {
                 cell.textContent = num.toFixed(2);
             } else {
                 let num = Number(value);
-                cell.textContent = Number.isNaN(num) ? 0 : num;
+                cell.textContent = !Number.isNaN(num) ? num : 0;
             }
 
             row.appendChild(cell);
@@ -206,4 +198,3 @@ function renderTable(data) {
     table.appendChild(tbody);
     trackerDiv.appendChild(table);
 }
-
