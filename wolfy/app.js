@@ -184,10 +184,19 @@ function renderTable(data) {
 
             if (col.key === "name") {
                 cell.textContent = value;
-            } else {
+            } else if (["respect_gain", "respect_loss", "totalresp"].includes(col.key)) {
+                // Only these three get rounded
                 let num = Number(value);
                 if (!num || Number.isNaN(num)) num = 0;
-                cell.textContent = num.toFixed(2);   // round to 2 decimals
+                cell.textContent = num.toFixed(2);
+            } else {
+                // All other fields display as-is (but safe fallback to 0)
+                let num = Number(value);
+                if (!Number.isNaN(num)) {
+                    cell.textContent = num; 
+                } else {
+                    cell.textContent = 0;
+                }
             }
 
             cell.style.padding = "4px 8px";
