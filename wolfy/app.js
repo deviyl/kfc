@@ -45,7 +45,9 @@ function showRankedWars(wardata) {
 
     warSelect.innerHTML = `<option value="">-- Select a war --</option>`;
 
-    for (const war of Object.entries(wardata["rankedwars"])) {
+    const warsArray = Object.entries(wardata["rankedwars"]).reverse();
+
+    for (const war of warsArray) {
         let warId = war[0];
         let start = war[1]["war"]["start"];
         let end = war[1]["war"]["end"];
