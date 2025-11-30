@@ -30,14 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
 // Fetch the list of ranked wars
 // ---------------------------------------------------------------------------
 function showWars(ApiKey) {
-    console.log("Fetching Torn ranked wars…");
-
     fetch(`https://api.torn.com/faction/?selections=rankedwars&key=${ApiKey}`)
         .then(response => response.json())
-        .then(data => {
-            console.log("Ranked wars data received:", data);
-            showRankedWars(data);
-        })
+        .then(data => showRankedWars(data))
         .catch(err => console.error("Error loading wars:", err));
 }
 
@@ -65,7 +60,7 @@ function showRankedWars(wardata) {
 }
 
 // ---------------------------------------------------------------------------
-// Column mapping
+// Column mapping (your custom labels)
 // ---------------------------------------------------------------------------
 const columnMap = [
     { key: "name",          label: "Name" },
@@ -82,25 +77,54 @@ const columnMap = [
     { key: "totalresp",     label: "Total Respect" }
 ];
 
+// Sort state
+let sortColumn = "respect_gain";
+let sortDirection = "desc"; // default: highest respect first
+let lastDataSet = {}; // stored so we can re-render when sorting
+
 // ---------------------------------------------------------------------------
-// Fetch and display war data from PHP endpoint
+// Fetch and display war data
 // ---------------------------------------------------------------------------
 function showData(warValue) {
     const apikey = document.getElementById("apikey").value.trim();
     const [warId, start, end] = warValue.split(";");
 
     const url = `https://wolfhaven.at/warpayout.php?&start=${start}&end=${end}&apikey=${apikey}`;
-    console.log("Fetching PHP data from:", url);
 
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            console.log("War stats received:", data);
+            lastDataSet = data; // store for future sorts
             renderTable(data);
         })
-        .catch(err => {
-            console.error("Error fetching war data:", err);
-        });
+        .catch(err => console.error("Error fetching war data:", err));
+}
+
+// ---------------------------------------------------------------------------
+// Sorting helper
+// ---------------------------------------------------------------------------
+function sortData(dataObj, key, direction) {
+    let arr = Object.entries(dataObj);
+
+    arr.sort((a, b) => {
+        let A = a[1][key];
+        let B = b[1][key];
+
+        // Name sort alphabetically
+        if (key === "name") {
+            return direction === "asc"
+                ? A.localeCompare(B)
+                : B.localeCompare(A);
+        }
+
+        // Numeric sort, handle NaN
+        A = Number(A) || 0;
+        B = Number(B) || 0;
+
+        return direction === "asc" ? A - B : B - A;
+    });
+
+    return arr;
 }
 
 // ---------------------------------------------------------------------------
@@ -112,7 +136,10 @@ function renderTable(data) {
     const bleedDiv = document.getElementById("bleed");
 
     container.hidden = false;
-    bleedDiv.innerHTML = ""; // Clear old table
+    bleedDiv.innerHTML = "";
+
+    // Sort before rendering
+    let sorted = sortData(data, sortColumn, sortDirection);
 
     // Create table
     let table = document.createElement("table");
@@ -127,6 +154,18 @@ function renderTable(data) {
         let th = document.createElement("th");
         th.textContent = col.label;
         th.style.padding = "4px 8px";
+        th.style.cursor = "pointer";
+
+        th.addEventListener("click", () => {
+            if (sortColumn === col.key) {
+                sortDirection = sortDirection === "asc" ? "desc" : "asc";
+            } else {
+                sortColumn = col.key;
+                sortDirection = "asc";
+            }
+            renderTable(lastDataSet);
+        });
+
         headerRow.appendChild(th);
     });
 
@@ -136,19 +175,21 @@ function renderTable(data) {
     // ---- BODY ----
     let tbody = document.createElement("tbody");
 
-    Object.entries(data).forEach(([username, stats]) => {
+    sorted.forEach(([username, stats]) => {
         let row = document.createElement("tr");
 
         columnMap.forEach(col => {
             let cell = document.createElement("td");
             let value = stats[col.key];
 
-            // Replace null/NaN/undefined with 0
-            if (value === null || value === undefined || Number.isNaN(value)) {
-                value = 0;
+            if (col.key === "name") {
+                cell.textContent = value;
+            } else {
+                let num = Number(value);
+                if (!num || Number.isNaN(num)) num = 0;
+                cell.textContent = num.toFixed(2);   // round to 2 decimals
             }
 
-            cell.textContent = value;
             cell.style.padding = "4px 8px";
             row.appendChild(cell);
         });
@@ -157,6 +198,5 @@ function renderTable(data) {
     });
 
     table.appendChild(tbody);
-
     bleedDiv.appendChild(table);
 }
