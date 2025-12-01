@@ -1,5 +1,78 @@
 [
   {
+    "id": 430899716,
+    "code": "a1cdba7a93165f1e1c0a31937a02bb22",
+    "started": 1764605493,
+    "ended": 1764605494,
+    "attacker": null,
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.5,
+    "respect_loss": 0.38,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.58,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430899111,
+    "code": "494b0cdac5d95c058c7babcda511bdff",
+    "started": 1764605173,
+    "ended": 1764605181,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.45,
+    "respect_loss": 0.36,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 20
+      }
+    ]
+  },
+  {
     "id": 430894636,
     "code": "4132f637daafa3df141392b2b2626454",
     "started": 1764602474,
