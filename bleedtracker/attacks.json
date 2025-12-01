@@ -1,5 +1,1458 @@
 [
   {
+    "id": 430884461,
+    "code": "84d875cea198c9738d8fc094de9ec32d",
+    "started": 1764596217,
+    "ended": 1764596219,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 17,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.15,
+    "respect_loss": 1.04,
+    "chain": 51,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.63,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.18,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430884211,
+    "code": "0148438ec69eaf127d74f5a336a54344",
+    "started": 1764596077,
+    "ended": 1764596080,
+    "attacker": {
+      "id": 2271807,
+      "name": "Music",
+      "level": 74,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 40,
+    "respect_loss": 10,
+    "chain": 50,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.53,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 40,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430884179,
+    "code": "42ea59cdbb82b3ea6544f1f92cf26573",
+    "started": 1764596054,
+    "ended": 1764596056,
+    "attacker": {
+      "id": 3440078,
+      "name": "Serj2024",
+      "level": 42,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 10.27,
+    "respect_loss": 2.57,
+    "chain": 49,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1.17,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430884178,
+    "code": "2315bf840174c99de1ba933d2aadad08",
+    "started": 1764596054,
+    "ended": 1764596055,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430884064,
+    "code": "199b951350571488ee9a98881acc9683",
+    "started": 1764595987,
+    "ended": 1764595989,
+    "attacker": {
+      "id": 3440078,
+      "name": "Serj2024",
+      "level": 42,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.1,
+    "respect_loss": 1.27,
+    "chain": 48,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.17,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430883735,
+    "code": "45018ab4b14b5c1cff1a7be729b4a1fc",
+    "started": 1764595805,
+    "ended": 1764595808,
+    "attacker": null,
+    "defender": {
+      "id": 2839157,
+      "name": "CursedShadows",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.24,
+    "respect_loss": 1.06,
+    "chain": 47,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.22,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.17,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 430883490,
+    "code": "2ceee3741def27de9b8dc678b9a6d780",
+    "started": 1764595668,
+    "ended": 1764595673,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.42,
+    "respect_loss": 1.11,
+    "chain": 46,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.63,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.17,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430883389,
+    "code": "a48e22feaaf808024f79afd0624d2529",
+    "started": 1764595594,
+    "ended": 1764595598,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 4016365,
+      "name": "777Lee777",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.63,
+    "respect_loss": 0.66,
+    "chain": 45,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.1,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.16,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430883149,
+    "code": "acb9d2aaefbc2b344dc392c67c828e08",
+    "started": 1764595444,
+    "ended": 1764595448,
+    "attacker": {
+      "id": 16352,
+      "name": "PeyDAmaN",
+      "level": 99,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.38,
+    "respect_loss": 1.1,
+    "chain": 44,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1.16,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430883147,
+    "code": "fc43dd7d64a46043136c36c436dc8133",
+    "started": 1764595443,
+    "ended": 1764595446,
+    "attacker": {
+      "id": 2674992,
+      "name": "Whiskey",
+      "level": 50,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430883045,
+    "code": "0768209ab230c8c683d4e3f801e63bfe",
+    "started": 1764595381,
+    "ended": 1764595383,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882902,
+    "code": "b3a06db9a367ea65d1985d59553659eb",
+    "started": 1764595299,
+    "ended": 1764595303,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8,
+    "respect_loss": 2,
+    "chain": 43,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.16,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882875,
+    "code": "5dd5ac608a50137f7b67af0e332296c5",
+    "started": 1764595286,
+    "ended": 1764595289,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.66,
+    "respect_loss": 1.91,
+    "chain": 42,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.16,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882842,
+    "code": "c1f6ebd39464792117680b11ee5da043",
+    "started": 1764595265,
+    "ended": 1764595268,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.04,
+    "respect_loss": 1.01,
+    "chain": 41,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.61,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.15,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882813,
+    "code": "933470f8ecee5168a7deacc55aa1a0c2",
+    "started": 1764595251,
+    "ended": 1764595253,
+    "attacker": {
+      "id": 1580868,
+      "name": "Monkeymia",
+      "level": 100,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 100,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.49,
+    "respect_loss": 1.87,
+    "chain": 40,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.84,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.15,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 430882716,
+    "code": "1d64fda70c042dff261de8699874ad9b",
+    "started": 1764595192,
+    "ended": 1764595196,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.96,
+    "respect_loss": 0.99,
+    "chain": 39,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.55,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.15,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882620,
+    "code": "9863676413c21bab97ae3c7d7c47aaf9",
+    "started": 1764595129,
+    "ended": 1764595132,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3796175,
+      "name": "PowerMax",
+      "level": 28,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.8,
+    "respect_loss": 1.95,
+    "chain": 38,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882482,
+    "code": "18b4f05604d9bae92b8fc6965ea1f2aa",
+    "started": 1764595048,
+    "ended": 1764595053,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8,
+    "respect_loss": 2,
+    "chain": 37,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882402,
+    "code": "6ac27bb6eb1a8e985b5beaa644a1db59",
+    "started": 1764594999,
+    "ended": 1764595008,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.87,
+    "respect_loss": 1.97,
+    "chain": 36,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882319,
+    "code": "3f431583ffe775567eaddacaf9b0b3a9",
+    "started": 1764594948,
+    "ended": 1764594952,
+    "attacker": {
+      "id": 3792048,
+      "name": "Wangiskhan",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.51,
+    "respect_loss": 2.13,
+    "chain": 35,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.32,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.14,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 430882292,
+    "code": "6f27327aad1aa90d3acc4e24cf85506c",
+    "started": 1764594934,
+    "ended": 1764594938,
+    "attacker": null,
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430882259,
+    "code": "7ccaabf0643f018362ae484091a7f091",
+    "started": 1764594916,
+    "ended": 1764594920,
+    "attacker": null,
+    "defender": {
+      "id": 3973089,
+      "name": "Sumeirou",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.91,
+    "respect_loss": 0.73,
+    "chain": 34,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.13,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430882096,
+    "code": "97894df9b3e89d8e76297343fea01d19",
+    "started": 1764594811,
+    "ended": 1764594816,
+    "attacker": null,
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.86,
+    "respect_loss": 0.96,
+    "chain": 33,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.17,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.13,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430881897,
+    "code": "db2ce9a06b02602663f60a44ac947612",
+    "started": 1764594692,
+    "ended": 1764594696,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3973089,
+      "name": "Sumeirou",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.11,
+    "respect_loss": 0.78,
+    "chain": 32,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.13,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430881805,
+    "code": "a542f8ca723ac126a49c2132d7585049",
+    "started": 1764594644,
+    "ended": 1764594657,
+    "attacker": {
+      "id": 4014225,
+      "name": "Rhythm007",
+      "level": 6,
+      "faction": {
+        "id": 52032,
+        "name": "The Crows"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 6,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.83,
+    "respect_loss": 0.71,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.75,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430881782,
+    "code": "98dcded942ab768984b1bbb90dc036b6",
+    "started": 1764594630,
+    "ended": 1764594632,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.78,
+    "respect_loss": 1.2,
+    "chain": 31,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.94,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.12,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430881596,
+    "code": "74c3de4e2724b6ae62c79a30f971d334",
+    "started": 1764594506,
+    "ended": 1764594509,
+    "attacker": null,
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 17,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.81,
+    "respect_loss": 0.7,
+    "chain": 30,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.01,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.12,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430881438,
+    "code": "72a2dfebe49e0aab520bb2ab01c56f2a",
+    "started": 1764594390,
+    "ended": 1764594394,
+    "attacker": null,
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.92,
+    "respect_loss": 0.73,
+    "chain": 29,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.12,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430881410,
+    "code": "c4ffdbcc0fd958c32aad363eb7d35c1e",
+    "started": 1764594374,
+    "ended": 1764594376,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430880999,
+    "code": "b44346960fa4db906cd9850114197748",
+    "started": 1764594118,
+    "ended": 1764594120,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 4016365,
+      "name": "777Lee777",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.52,
+    "respect_loss": 0.63,
+    "chain": 27,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.1,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.11,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430880984,
+    "code": "30b52ef0149ed3d4998404993a006b05",
+    "started": 1764594110,
+    "ended": 1764594112,
+    "attacker": {
+      "id": 3453618,
+      "name": "Sinnu71",
+      "level": 30,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3796175,
+      "name": "PowerMax",
+      "level": 28,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.11,
+    "respect_loss": 1.03,
+    "chain": 26,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.64,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430880896,
+    "code": "d7966d6d75c792b8b42a5396f1ea865d",
+    "started": 1764594030,
+    "ended": 1764594032,
+    "attacker": {
+      "id": 3795242,
+      "name": "wheeskey",
+      "level": 20,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 6,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 20,
+    "respect_loss": 5,
+    "chain": 25,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 20,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430880783,
+    "code": "4518b50e649698b9c4c9ad341b0242ce",
+    "started": 1764593951,
+    "ended": 1764593959,
+    "attacker": null,
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.96,
+    "respect_loss": 0.74,
+    "chain": 24,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.01,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430880608,
+    "code": "21cbd047a8e87c7605a60c65c5d55b34",
+    "started": 1764593833,
+    "ended": 1764593837,
+    "attacker": null,
+    "defender": {
+      "id": 3712127,
+      "name": "caits",
+      "level": 22,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.81,
+    "respect_loss": 0.7,
+    "chain": 23,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.01,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.09,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 430880568,
+    "code": "0865bc50eddaaf98271be40b0846efb2",
+    "started": 1764593812,
+    "ended": 1764593815,
+    "attacker": null,
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.76,
+    "respect_loss": 0.69,
+    "chain": 22,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.01,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.09,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
     "id": 430880445,
     "code": "33c86efb3292c69dbfa102d6ad4bed69",
     "started": 1764593726,
