@@ -1,5 +1,283 @@
 [
   {
+    "id": 430885537,
+    "code": "8ddb5b25cf7a3aa2ef3a147f2290a9fa",
+    "started": 1764596912,
+    "ended": 1764596915,
+    "attacker": {
+      "id": 3453618,
+      "name": "Sinnu71",
+      "level": 30,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.81,
+    "respect_loss": 0.95,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430885498,
+    "code": "3e00986f34ee72f09f1ee1423a5c2b72",
+    "started": 1764596891,
+    "ended": 1764596894,
+    "attacker": {
+      "id": 3299784,
+      "name": "BrotherTogs",
+      "level": 75,
+      "faction": {
+        "id": 10507,
+        "name": "Ducks of Quacken"
+      }
+    },
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.77,
+    "respect_loss": 0.44,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.54,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430885474,
+    "code": "dbac2bb6107e6fe0c68054e247a9a51f",
+    "started": 1764596871,
+    "ended": 1764596878,
+    "attacker": {
+      "id": 3453618,
+      "name": "Sinnu71",
+      "level": 30,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.13,
+    "respect_loss": 1.53,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.45,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430885357,
+    "code": "a1d395790006664fb0f72917c1ef059a",
+    "started": 1764596801,
+    "ended": 1764596803,
+    "attacker": null,
+    "defender": {
+      "id": 3973089,
+      "name": "Sumeirou",
+      "level": 24,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.4,
+    "respect_loss": 0.6,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.07,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430885303,
+    "code": "0c6294f63284ae430ffa8953b53ac3dc",
+    "started": 1764596775,
+    "ended": 1764596777,
+    "attacker": {
+      "id": 3453618,
+      "name": "Sinnu71",
+      "level": 30,
+      "faction": {
+        "id": 10184,
+        "name": "Odyssey"
+      }
+    },
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.76,
+    "respect_loss": 0.69,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430885244,
+    "code": "9beb2ce44cd7a64be6e429e942a5f574",
+    "started": 1764596739,
+    "ended": 1764596743,
+    "attacker": null,
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.95,
+    "respect_loss": 0.74,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.71,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 430885090,
+    "code": "54fd1c7184f841e4f2efb50b108a8db9",
+    "started": 1764596637,
+    "ended": 1764596641,
+    "attacker": {
+      "id": 2760683,
+      "name": "Everlynshadow",
+      "level": 63,
+      "faction": {
+        "id": 48007,
+        "name": "Payday Unit"
+      }
+    },
+    "defender": {
+      "id": 3796175,
+      "name": "PowerMax",
+      "level": 28,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.81,
+    "respect_loss": 0.45,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.59,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430884461,
     "code": "84d875cea198c9738d8fc094de9ec32d",
     "started": 1764596217,
