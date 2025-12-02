@@ -1,5 +1,47 @@
 [
   {
+    "id": 431027329,
+    "code": "3a7c27b9f65f2a6c12efac6edcee26ee",
+    "started": 1764687706,
+    "ended": 1764687719,
+    "attacker": {
+      "id": 3784285,
+      "name": "CigiliBop",
+      "level": 25,
+      "faction": {
+        "id": 54622,
+        "name": "Claws & Fangs"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.76,
+    "respect_loss": 0.69,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.53,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431023947,
     "code": "0834257771a91e8772935d0482d55ea7",
     "started": 1764685112,
