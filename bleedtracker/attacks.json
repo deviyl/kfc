@@ -1,5 +1,89 @@
 [
   {
+    "id": 431021911,
+    "code": "717561a9e8b13b3e0c14829a9bec5603",
+    "started": 1764683592,
+    "ended": 1764683596,
+    "attacker": {
+      "id": 2959714,
+      "name": "AyomX",
+      "level": 90,
+      "faction": {
+        "id": 53707,
+        "name": "ACAB"
+      }
+    },
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 48,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.56,
+    "respect_loss": 0.39,
+    "chain": 64,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.13,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.2,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431021429,
+    "code": "ff39957767540d4d5c2266b262333682",
+    "started": 1764683238,
+    "ended": 1764683245,
+    "attacker": {
+      "id": 4018991,
+      "name": "-Penguin",
+      "level": 7,
+      "faction": {
+        "id": 53822,
+        "name": "Black Trail"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 6,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.85,
+    "respect_loss": 0.71,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.77,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431017539,
     "code": "8210761471e29a5a7b7642a0d67079e3",
     "started": 1764680326,
