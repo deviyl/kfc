@@ -1,5 +1,47 @@
 [
   {
+    "id": 431049991,
+    "code": "413cfd2ddf61cb2ac13f59ce9cf75a3f",
+    "started": 1764703856,
+    "ended": 1764703870,
+    "attacker": {
+      "id": 3956749,
+      "name": "Mrlunkhead",
+      "level": 20,
+      "faction": {
+        "id": 49319,
+        "name": "IRON FORGE HQ"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.48,
+    "respect_loss": 0.62,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431027329,
     "code": "3a7c27b9f65f2a6c12efac6edcee26ee",
     "started": 1764687706,
