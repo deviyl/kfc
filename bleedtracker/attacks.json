@@ -1,5 +1,39 @@
 [
   {
+    "id": 431017539,
+    "code": "8210761471e29a5a7b7642a0d67079e3",
+    "started": 1764680326,
+    "ended": 1764680330,
+    "attacker": null,
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 48,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.27,
+    "respect_loss": 0.32,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431016658,
     "code": "15c4ed2e752be4ae1fe0a097cdf9e4e5",
     "started": 1764679681,
