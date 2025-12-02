@@ -1,5 +1,47 @@
 [
   {
+    "id": 431002187,
+    "code": "40050687b065d98e46c91e1f9342d44e",
+    "started": 1764668592,
+    "ended": 1764668610,
+    "attacker": {
+      "id": 3629199,
+      "name": "Tomk99",
+      "level": 9,
+      "faction": {
+        "id": 55401,
+        "name": "Torn City Reapers"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 6,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.09,
+    "respect_loss": 0.77,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 430996825,
     "code": "f92c3fda113b4e2b47d54e6482e9b845",
     "started": 1764663973,
