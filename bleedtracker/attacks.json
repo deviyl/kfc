@@ -1,5 +1,44 @@
 [
   {
+    "id": 431103302,
+    "code": "6ca6e453ae24afdf60310eb40ea7c3b3",
+    "started": 1764740468,
+    "ended": 1764740471,
+    "attacker": null,
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.22,
+    "respect_loss": 0.31,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 25
+      }
+    ]
+  },
+  {
     "id": 431095694,
     "code": "e777e40d47cadd44bdb5cabeab72feb3",
     "started": 1764734946,
