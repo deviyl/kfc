@@ -1,5 +1,47 @@
 [
   {
+    "id": 431113858,
+    "code": "482d176dba77a0082275fe21dc38e40d",
+    "started": 1764747913,
+    "ended": 1764747925,
+    "attacker": {
+      "id": 3649288,
+      "name": "Lucifef2077",
+      "level": 24,
+      "faction": {
+        "id": 46127,
+        "name": "Cyber Warfare"
+      }
+    },
+    "defender": {
+      "id": 3915740,
+      "name": "RogueWolf_",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Escape",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431106065,
     "code": "f1d513058ced57a50f6f4bc22aac7cfd",
     "started": 1764742036,
