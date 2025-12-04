@@ -1,5 +1,47 @@
 [
   {
+    "id": 431248388,
+    "code": "2eca9059fb391966de2139e1285ab2ed",
+    "started": 1764848098,
+    "ended": 1764848102,
+    "attacker": {
+      "id": 3253300,
+      "name": "Burdula",
+      "level": 51,
+      "faction": {
+        "id": 42542,
+        "name": "Echelon"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.64,
+    "respect_loss": 0.41,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.6,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431243786,
     "code": "148fc86ca126b8f9ff7ac59ac0aefe14",
     "started": 1764843886,
