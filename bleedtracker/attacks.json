@@ -1,5 +1,47 @@
 [
   {
+    "id": 431258271,
+    "code": "c852188df7bced452afe3b88f2332375",
+    "started": 1764854602,
+    "ended": 1764854608,
+    "attacker": {
+      "id": 3772263,
+      "name": "Puumkin",
+      "level": 27,
+      "faction": {
+        "id": 16040,
+        "name": "Winter is Coming"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431249640,
     "code": "8f915f4dbd60e94fb5152433feca89f6",
     "started": 1764849053,
