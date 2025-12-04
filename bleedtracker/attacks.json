@@ -1,5 +1,39 @@
 [
   {
+    "id": 431243786,
+    "code": "148fc86ca126b8f9ff7ac59ac0aefe14",
+    "started": 1764843886,
+    "ended": 1764843889,
+    "attacker": null,
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.89,
+    "respect_loss": 0.22,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431230534,
     "code": "af56942a11564fd758f22d5d730ca4a3",
     "started": 1764832605,
