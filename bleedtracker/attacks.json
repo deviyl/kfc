@@ -1,5 +1,47 @@
 [
   {
+    "id": 431524131,
+    "code": "3c5bf4f6d0e484b52c852ad8183f2f74",
+    "started": 1764953452,
+    "ended": 1764953459,
+    "attacker": {
+      "id": 3821918,
+      "name": "SAMYLC",
+      "level": 25,
+      "faction": {
+        "id": 50094,
+        "name": "The Azimuth"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431517481,
     "code": "4502845770b917dba73be93c26884173",
     "started": 1764951490,
