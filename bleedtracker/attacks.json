@@ -1,5 +1,52 @@
 [
   {
+    "id": 431614073,
+    "code": "abeaf9474e6dbdd5d0eec0a7e0440fcf",
+    "started": 1764974696,
+    "ended": 1764974708,
+    "attacker": {
+      "id": 2391530,
+      "name": "WackyNinja",
+      "level": 62,
+      "faction": {
+        "id": 38662,
+        "name": "OTF Headquarters"
+      }
+    },
+    "defender": {
+      "id": 3599627,
+      "name": "CaptainRinny",
+      "level": 49,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.39,
+    "respect_loss": 1.1,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
     "id": 431590171,
     "code": "00f5555c4c0a51cd3e79d9c7f41a7e17",
     "started": 1764969045,
