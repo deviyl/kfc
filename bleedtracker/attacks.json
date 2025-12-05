@@ -1,5 +1,52 @@
 [
   {
+    "id": 431572622,
+    "code": "b8281874cb548971aea021a00a1e734f",
+    "started": 1764965002,
+    "ended": 1764965006,
+    "attacker": {
+      "id": 3219521,
+      "name": "jtendo",
+      "level": 72,
+      "faction": {
+        "id": 1117,
+        "name": "Ascension"
+      }
+    },
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 45,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.23,
+    "respect_loss": 0.31,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.16,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
     "id": 431563777,
     "code": "10dee24771a8e8f7151bad1d30dfaa02",
     "started": 1764962837,
