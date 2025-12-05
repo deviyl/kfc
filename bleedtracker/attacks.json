@@ -1,5 +1,157 @@
 [
   {
+    "id": 431467143,
+    "code": "680d42599156db921cc6070b095ff8be",
+    "started": 1764938057,
+    "ended": 1764938098,
+    "attacker": {
+      "id": 4003358,
+      "name": "Felaisback07",
+      "level": 5,
+      "faction": {
+        "id": 43534,
+        "name": "Asthmatics"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431466331,
+    "code": "20d673c1cc6b2b6d8910575adfcfee79",
+    "started": 1764937776,
+    "ended": 1764937780,
+    "attacker": null,
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.31,
+    "respect_loss": 0.58,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.26,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431466293,
+    "code": "9a57a0205df9d6845ce663a29150e3d7",
+    "started": 1764937761,
+    "ended": 1764937762,
+    "attacker": {
+      "id": 4024685,
+      "name": "Lifestyle23",
+      "level": 5,
+      "faction": {
+        "id": 54996,
+        "name": "[TD] Order of Black Talon"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431463179,
+    "code": "330e86828bfafc190bbb2d82690fec60",
+    "started": 1764936768,
+    "ended": 1764936774,
+    "attacker": null,
+    "defender": {
+      "id": 4016365,
+      "name": "777Lee777",
+      "level": 8,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.33,
+    "respect_loss": 0.58,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.24,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431439822,
     "code": "6969d6f968f66cdab0173e9ca5fad088",
     "started": 1764923970,
