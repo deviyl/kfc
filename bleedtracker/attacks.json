@@ -1,5 +1,125 @@
 [
   {
+    "id": 431480144,
+    "code": "8bb2507a7c66a0fbf421cf9732592afe",
+    "started": 1764942235,
+    "ended": 1764942243,
+    "attacker": {
+      "id": 1375654,
+      "name": "Hot-Monkey",
+      "level": 100,
+      "faction": {
+        "id": 27223,
+        "name": "Stompers"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 85,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.99,
+    "respect_loss": 1,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431479282,
+    "code": "140034a6f597a2c2191ff42b28aad4ca",
+    "started": 1764941963,
+    "ended": 1764941967,
+    "attacker": null,
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.23,
+    "respect_loss": 0.31,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.29,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 33
+      }
+    ]
+  },
+  {
+    "id": 431479101,
+    "code": "78841b0e4d28f601af5685318de2ca3e",
+    "started": 1764941908,
+    "ended": 1764941913,
+    "attacker": {
+      "id": 2853588,
+      "name": "MrX1026",
+      "level": 5,
+      "faction": null
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431475583,
     "code": "4c74721f417d6271ee625cafbf531ce8",
     "started": 1764940835,
