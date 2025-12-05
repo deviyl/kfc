@@ -1,5 +1,47 @@
 [
   {
+    "id": 431389305,
+    "code": "c64bb8f0ffce500cdd6f7187a99fed27",
+    "started": 1764900721,
+    "ended": 1764900729,
+    "attacker": {
+      "id": 3932476,
+      "name": "KaBoogie",
+      "level": 9,
+      "faction": {
+        "id": 55344,
+        "name": "[TD] Knight Training Camp"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431382953,
     "code": "39cdd83fff02494a13933496ab86f851",
     "started": 1764898252,
