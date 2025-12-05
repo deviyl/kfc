@@ -1,5 +1,47 @@
 [
   {
+    "id": 431407040,
+    "code": "4689ee594a4a89bf067781a666f19919",
+    "started": 1764908055,
+    "ended": 1764908066,
+    "attacker": {
+      "id": 3245817,
+      "name": "haqqshaker",
+      "level": 15,
+      "faction": {
+        "id": 50207,
+        "name": "The Hideout"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.99,
+    "respect_loss": 0.5,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.95,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431400123,
     "code": "087ccaf4f9c2302d5e00a25519ae757a",
     "started": 1764904997,
