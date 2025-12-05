@@ -1,5 +1,39 @@
 [
   {
+    "id": 431625875,
+    "code": "1638623d0355bbd9bcdcd9a701e77b93",
+    "started": 1764977705,
+    "ended": 1764977709,
+    "attacker": null,
+    "defender": {
+      "id": 4016365,
+      "name": "777Lee777",
+      "level": 8,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.86,
+    "respect_loss": 0.22,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431617416,
     "code": "25f5b4db2e3d73dd9e6e0348f3513594",
     "started": 1764975395,
