@@ -1,5 +1,47 @@
 [
   {
+    "id": 431617416,
+    "code": "25f5b4db2e3d73dd9e6e0348f3513594",
+    "started": 1764975395,
+    "ended": 1764975416,
+    "attacker": {
+      "id": 280020,
+      "name": "Walking",
+      "level": 46,
+      "faction": {
+        "id": 51220,
+        "name": "Shadow Cult"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 52,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431614073,
     "code": "abeaf9474e6dbdd5d0eec0a7e0440fcf",
     "started": 1764974696,
