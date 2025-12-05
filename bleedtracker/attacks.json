@@ -1,5 +1,47 @@
 [
   {
+    "id": 431400123,
+    "code": "087ccaf4f9c2302d5e00a25519ae757a",
+    "started": 1764904997,
+    "ended": 1764905002,
+    "attacker": {
+      "id": 3598534,
+      "name": "saisho_",
+      "level": 32,
+      "faction": {
+        "id": 46627,
+        "name": "KOTOR"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.08,
+    "respect_loss": 0.52,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431389305,
     "code": "c64bb8f0ffce500cdd6f7187a99fed27",
     "started": 1764900721,
