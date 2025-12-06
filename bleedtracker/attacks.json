@@ -1,5 +1,47 @@
 [
   {
+    "id": 431842365,
+    "code": "0b14fe21fefdb923ccbfa7b58de78623",
+    "started": 1765046018,
+    "ended": 1765046024,
+    "attacker": {
+      "id": 2851101,
+      "name": "BigOunce32",
+      "level": 75,
+      "faction": {
+        "id": 40832,
+        "name": "TC Mafia Runners"
+      }
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.75,
+    "respect_loss": 0.44,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.47,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431827223,
     "code": "0f868fba76a8704419a2e542ae2aebc9",
     "started": 1765042212,
