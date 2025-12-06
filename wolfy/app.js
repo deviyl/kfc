@@ -4,8 +4,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     const loadWarsBtn = document.getElementById("load-wars");
     const warSelect = document.getElementById("wars");
+    const loadDataBtn = document.getElementById("load-data-btn");
 
-    if (!loadWarsBtn || !warSelect) {
+    if (!loadWarsBtn || !warSelect || !loadDataBtn) {
         console.error("HTML elements not found. Check element IDs.");
         return;
     }
@@ -18,10 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         showWars(key);
     });
-
-    warSelect.addEventListener("change", (e) => {
-        if (e.target.value) {
-            showData(e.target.value);
+    
+    loadDataBtn.addEventListener("click", () => {
+        const selectedValue = warSelect.value;
+        if (selectedValue) {
+            showData(selectedValue);
+        } else {
+            alert("Please select a war from the dropdown before loading data.");
         }
     });
 });
