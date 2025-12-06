@@ -1,5 +1,89 @@
 [
   {
+    "id": 431851549,
+    "code": "5888c657c459731cb22fd8cdcaf3e3b6",
+    "started": 1765048076,
+    "ended": 1765048079,
+    "attacker": {
+      "id": 2967224,
+      "name": "Muzan_Jackson",
+      "level": 84,
+      "faction": {
+        "id": 29107,
+        "name": "Fallen X"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431851526,
+    "code": "6a6e4185a88e425ac3073c31dfe5ced5",
+    "started": 1765048072,
+    "ended": 1765048080,
+    "attacker": {
+      "id": 2692283,
+      "name": "Sgt_Sleezy",
+      "level": 53,
+      "faction": {
+        "id": 39216,
+        "name": "Gonts"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.99,
+    "respect_loss": 0.5,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.66,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431842365,
     "code": "0b14fe21fefdb923ccbfa7b58de78623",
     "started": 1765046018,
