@@ -64,6 +64,7 @@ body {
     color: #ffffff;
     border: 1px solid #555;
     border-radius: 3px;
+    padding: 5px 8px;
 }
 
 #apikey-container button:hover {
