@@ -1,5 +1,91 @@
 [
   {
+    "id": 431646770,
+    "code": "1be12f6a894129b0bed0c7dc93ec9a5a",
+    "started": 1764982874,
+    "ended": 1764982881,
+    "attacker": {
+      "id": 2600123,
+      "name": "Ioo",
+      "level": 15,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.36,
+    "respect_loss": 0.34,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": 431636301,
+    "code": "6d866ec3b5f140a3490a394dfff883e3",
+    "started": 1764980354,
+    "ended": 1764980357,
+    "attacker": null,
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.43,
+    "respect_loss": 0.36,
+    "chain": 861,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.07,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 20
+      }
+    ]
+  },
+  {
     "id": 431625875,
     "code": "1638623d0355bbd9bcdcd9a701e77b93",
     "started": 1764977705,
