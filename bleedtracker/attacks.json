@@ -1,5 +1,81 @@
 [
   {
+    "id": 431715515,
+    "code": "4c0fc894c810b33f36ab667562f59f98",
+    "started": 1765004680,
+    "ended": 1765004685,
+    "attacker": {
+      "id": 4001516,
+      "name": "Mtfgee",
+      "level": 7,
+      "faction": {
+        "id": 43790,
+        "name": "SKS Adapted"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.09,
+    "respect_loss": 0.77,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431715100,
+    "code": "21fca88058c7a08cb9343492f9de6fea",
+    "started": 1765004509,
+    "ended": 1765004513,
+    "attacker": null,
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.58,
+    "respect_loss": 0.4,
+    "chain": 1020,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.5,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431689861,
     "code": "6fe6191cdd1577d2efa68bd9ce001ba2",
     "started": 1764995532,
