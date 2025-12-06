@@ -109,7 +109,7 @@ let lastDataSet = {}; // stored so we can re-render when sorting
 // Fetch and display war data
 // ---------------------------------------------------------------------------
 function showData(warValue) {
-    toggleLoading(true, "Fetching wars data...");
+    toggleLoading(true, "Fetching war data...");
     const apikey = document.getElementById("apikey").value.trim();
     const [warId, start, end, fac1ID, fac2ID] = warValue.split(";");
 
