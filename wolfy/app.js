@@ -52,11 +52,15 @@ function showRankedWars(wardata) {
         let warId = war[0];
         let start = war[1]["war"]["start"];
         let end = war[1]["war"]["end"];
+        
+        let factionEntries = Object.entries(war[1]["factions"]);
+        let fac1ID = factionEntries[0][0];
+        let fac1Name = factionEntries[0][1]["name"];
+        let fac2ID = factionEntries[1][0];
+        let fac2Name = factionEntries[1][1]["name"];
 
-        let factionNames = Object.entries(war[1]["factions"]).map(f => f[1]["name"]);
-        let label = `${factionNames[0]} vs. ${factionNames[1]}`;
-
-        warSelect.innerHTML += `<option value="${warId};${start};${end}">${label}</option>`;
+        let label = `${fac1Name} vs. ${fac2Name}`;
+        warSelect.innerHTML += `<option value="${warId};${start};${end};${fac1ID};${fac2ID}">${label}</option>`;
     }
 
     dropdownContainer.style.display = "block";
@@ -90,7 +94,7 @@ let lastDataSet = {}; // stored so we can re-render when sorting
 // ---------------------------------------------------------------------------
 function showData(warValue) {
     const apikey = document.getElementById("apikey").value.trim();
-    const [warId, start, end] = warValue.split(";");
+    const [warId, start, end, fac1ID, fac2ID] = warValue.split(";");
 
     const url = `https://wolfhaven.at/warpayout.php?&start=${start}&end=${end}&apikey=${apikey}`;
 
