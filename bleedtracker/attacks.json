@@ -1,5 +1,128 @@
 [
   {
+    "id": 431859806,
+    "code": "9b4d95a3b27295475a3c5f007bf23bd9",
+    "started": 1765049909,
+    "ended": 1765049915,
+    "attacker": {
+      "id": 2570170,
+      "name": "Peabody",
+      "level": 37,
+      "faction": null
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431858816,
+    "code": "3c0494f9d3eca599f101975b8ad81add",
+    "started": 1765049675,
+    "ended": 1765049679,
+    "attacker": {
+      "id": 3143166,
+      "name": "smips",
+      "level": 51,
+      "faction": {
+        "id": 39010,
+        "name": "SCALLYWAGS"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431858811,
+    "code": "6dcb761b20a335f4f812c06bb1922cd2",
+    "started": 1765049674,
+    "ended": 1765049680,
+    "attacker": {
+      "id": 1877287,
+      "name": "Rabid",
+      "level": 95,
+      "faction": {
+        "id": 35140,
+        "name": "Vault 76"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.31,
+    "respect_loss": 0.33,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431851549,
     "code": "5888c657c459731cb22fd8cdcaf3e3b6",
     "started": 1765048076,
