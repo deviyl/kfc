@@ -1,5 +1,47 @@
 [
   {
+    "id": 431917643,
+    "code": "b41939de239f85961d90e1faa41aa039",
+    "started": 1765062323,
+    "ended": 1765062326,
+    "attacker": {
+      "id": 1834002,
+      "name": "_rome_",
+      "level": 100,
+      "faction": {
+        "id": 6799,
+        "name": "The Untouchables"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.26,
+    "respect_loss": 0.31,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431908733,
     "code": "2cc207bcc7ea457cb28a7af5d1e7c97f",
     "started": 1765060612,
