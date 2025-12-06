@@ -27,14 +27,29 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ---------------------------------------------------------------------------
+// Loading Indicator
+// ---------------------------------------------------------------------------
+function toggleLoading(isVisible, message = "") {
+    const indicator = document.getElementById("loading-indicator");
+    if (indicator) {
+        indicator.style.display = isVisible ? "block" : "none";
+        indicator.innerHTML = isVisible ? message : "";
+    }
+}
+
+// ---------------------------------------------------------------------------
 // Fetch the list of ranked wars
 // ---------------------------------------------------------------------------
 function showWars(ApiKey) {
+    toggleLoading(true, "Fetching wars from API...");
     fetch(`https://api.torn.com/faction/?selections=rankedwars&key=${ApiKey}`) // old api
     //fetch(`https://api.torn.com/v2/faction/rankedwars?limit=20&key=${ApiKey}`) //v2 api
         .then(response => response.json())
         .then(data => showRankedWars(data))
-        .catch(err => console.error("Error loading wars:", err));
+        .catch(err => {
+            toggleLoading(true, `Error: ${err.message}. Check API key.`);
+        })
+        .finally(() => {});
 }
 
 // ---------------------------------------------------------------------------
@@ -64,6 +79,7 @@ function showRankedWars(wardata) {
     }
 
     dropdownContainer.style.display = "block";
+    toggleLoading(false);
 }
 
 // ---------------------------------------------------------------------------
