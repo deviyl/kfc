@@ -41,7 +41,7 @@ function toggleLoading(isVisible, message = "") {
 // Fetch the list of ranked wars
 // ---------------------------------------------------------------------------
 function showWars(ApiKey) {
-    toggleLoading(true, "Fetching wars from API...");
+    toggleLoading(true, "Fetching wars list...");
     fetch(`https://api.torn.com/faction/?selections=rankedwars&key=${ApiKey}`) // old api
     //fetch(`https://api.torn.com/v2/faction/rankedwars?limit=20&key=${ApiKey}`) //v2 api
         .then(response => response.json())
@@ -49,7 +49,6 @@ function showWars(ApiKey) {
         .catch(err => {
             toggleLoading(true, `Error: ${err.message}. Check API key.`);
         })
-        .finally(() => {});
 }
 
 // ---------------------------------------------------------------------------
@@ -109,6 +108,7 @@ let lastDataSet = {}; // stored so we can re-render when sorting
 // Fetch and display war data
 // ---------------------------------------------------------------------------
 function showData(warValue) {
+    toggleLoading(true, "Fetching wars data...");
     const apikey = document.getElementById("apikey").value.trim();
     const [warId, start, end, fac1ID, fac2ID] = warValue.split(";");
 
@@ -119,8 +119,11 @@ function showData(warValue) {
         .then(data => {
             lastDataSet = data; // store for future sorts
             renderTable(data);
+            toggleLoading(false);
         })
-        .catch(err => console.error("Error fetching war data:", err));
+        .catch(err => {
+            toggleLoading(true, `Error loading data: ${err.message}.`);
+        })
 }
 
 // ---------------------------------------------------------------------------
