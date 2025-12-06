@@ -152,3 +152,19 @@ body {
 #tracker tr:hover {
     background-color: #5c5c5c; 
 }
+
+/* Style for the totals row */
+.total-row {
+    background-color: #2C2C2C !important; 
+    font-weight: bold;
+}
+.total-row td {
+    color: #74C0FC; 
+    border-top: 2px solid #74C0FC !important;
+}
+#tracker tr:nth-child(even).total-row {
+    background-color: #2C2C2C !important;
+}
+#tracker tr:hover.total-row {
+    background-color: #2C2C2C !important; 
+}
