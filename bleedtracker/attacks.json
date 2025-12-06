@@ -1,5 +1,52 @@
 [
   {
+    "id": 431799849,
+    "code": "6a95cec5864fd8d89d19b7b22f228307",
+    "started": 1765035709,
+    "ended": 1765035711,
+    "attacker": {
+      "id": 1320165,
+      "name": "Madara_Uchiha01",
+      "level": 70,
+      "faction": {
+        "id": 23193,
+        "name": "Materia"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.37,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.44,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 25
+      }
+    ]
+  },
+  {
     "id": 431775999,
     "code": "1e1aaf82b4cfb631948810636ba12ddd",
     "started": 1765028916,
