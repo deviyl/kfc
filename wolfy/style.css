@@ -95,6 +95,18 @@ body {
     font-size: 14px;
 }
 
+#war-select-container button {
+    background-color: #4B4B4B;
+    color: #ffffff;
+    border: 1px solid #555;
+    border-radius: 3px;
+    padding: 5px 8px; 
+}
+
+#war-select-container button:hover {
+    background-color: #5c5c5c;
+}
+
 /* ---------------------------------------------------
    Results Table Section
 --------------------------------------------------- */
