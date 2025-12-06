@@ -58,6 +58,14 @@ body {
     background-color: #5c5c5c;
 }
 
+/* ---------------------------------------------------
+   Loading Indicator
+--------------------------------------------------- */
+#loading-indicator {
+    color: #4CAF50; 
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 /* ---------------------------------------------------
    War Dropdown Section
