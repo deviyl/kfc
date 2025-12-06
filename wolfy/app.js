@@ -80,7 +80,7 @@ const columnMap = [
     { key: "respect_gain",  label: "Respect Gained" },
     { key: "respect_loss",  label: "Respect Lost" },
     { key: "bonus",         label: "Bonuses" },
-    { key: "totalhit",      label: "Total Hits" },
+    { key: "totalhits",     label: "Total Hits" },
     { key: "totalresp",     label: "Total Respect" }
 ];
 
