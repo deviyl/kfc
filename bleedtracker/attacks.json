@@ -1,5 +1,131 @@
 [
   {
+    "id": 431821782,
+    "code": "45a7b83724c7e187e4a7c3a5a3efeb8e",
+    "started": 1765040992,
+    "ended": 1765040997,
+    "attacker": {
+      "id": 3148891,
+      "name": "Diogoro",
+      "level": 78,
+      "faction": {
+        "id": 22295,
+        "name": "Aquarius"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.38,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431820284,
+    "code": "0495ef47315d74f39612e700a3ee6d78",
+    "started": 1765040606,
+    "ended": 1765040609,
+    "attacker": {
+      "id": 1834002,
+      "name": "_rome_",
+      "level": 100,
+      "faction": {
+        "id": 6799,
+        "name": "The Untouchables"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.86,
+    "respect_loss": 0.47,
+    "chain": 861,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.48,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431820282,
+    "code": "0a206471515bc55ca9cec8abd1eb49a5",
+    "started": 1765040606,
+    "ended": 1765040609,
+    "attacker": {
+      "id": 3120244,
+      "name": "Irulie",
+      "level": 64,
+      "faction": {
+        "id": 50516,
+        "name": "Blackjack and Hookers"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431799849,
     "code": "6a95cec5864fd8d89d19b7b22f228307",
     "started": 1765035709,
