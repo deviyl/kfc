@@ -31,9 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
 // ---------------------------------------------------------------------------
 function toggleLoading(isVisible, message = "") {
     const indicator = document.getElementById("loading-indicator");
+    const spinnerHtml = '<span class="spinner">⏳</span>';
     if (indicator) {
         indicator.style.display = isVisible ? "block" : "none";
-        indicator.innerHTML = isVisible ? message : "";
+        indicator.innerHTML = isVisible ? `${spinnerHtml} ${message}` : "";
     }
 }
 
