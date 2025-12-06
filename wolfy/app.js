@@ -155,6 +155,30 @@ function sortData(dataObj, key, direction) {
 }
 
 // ---------------------------------------------------------------------------
+// Calculate Totals
+// ---------------------------------------------------------------------------
+function calculateTotals(data) {
+    let totals = {};
+    
+    // Initialize totals for every column except 'name'
+    columnMap.forEach(col => {
+        if (col.key !== "name") {
+            totals[col.key] = 0;
+        }
+    });
+
+    for (const username in data) {
+        const stats = data[username];
+        for (const key in stats) {
+            if (totals.hasOwnProperty(key)) {
+                totals[key] += Number(stats[key]) || 0;
+            }
+        }
+    }
+    return totals;
+}
+
+// ---------------------------------------------------------------------------
 // Build and display the data table
 // ---------------------------------------------------------------------------
 function renderTable(data) {
@@ -165,6 +189,9 @@ function renderTable(data) {
     container.style.display = "block";
     trackerDiv.innerHTML = "";
 
+    // Calculate Totals
+    const totals = calculateTotals(data);
+    
     // Sort before rendering
     let sorted = sortData(data, sortColumn, sortDirection);
 
@@ -227,6 +254,31 @@ function renderTable(data) {
         tbody.appendChild(row);
     });
 
+    // Add Total Row
+    let totalRow = document.createElement("tr");
+    totalRow.classList.add("total-row");
+
+    columnMap.forEach(col => {
+        let cell = document.createElement("td");
+        let key = col.key;
+        
+        if (key === "name") {
+            // First column says "TOTAL"
+            cell.textContent = "TOTAL";
+            cell.style.fontWeight = "bold"; 
+        } else {
+            let totalValue = totals[key];
+            
+            if (["respect_gain", "respect_loss", "totalresp"].includes(key)) {
+                cell.textContent = totalValue.toFixed(2);
+            } else {
+                cell.textContent = Math.round(totalValue); 
+            }
+        }
+        totalRow.appendChild(cell);
+    });
+    tbody.appendChild(totalRow);
+    
     table.appendChild(tbody);
     trackerDiv.appendChild(table);
 }
