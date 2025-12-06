@@ -1,5 +1,86 @@
 [
   {
+    "id": 431775999,
+    "code": "1e1aaf82b4cfb631948810636ba12ddd",
+    "started": 1765028916,
+    "ended": 1765028921,
+    "attacker": {
+      "id": 2647431,
+      "name": "BlackadderThe3",
+      "level": 97,
+      "faction": {
+        "id": 10566,
+        "name": "The Rifle Company"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.67,
+    "respect_loss": 0.42,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.2,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": 431775005,
+    "code": "489a71f869a7c545c5d7e72ca3626d50",
+    "started": 1765028521,
+    "ended": 1765028525,
+    "attacker": null,
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.45,
+    "respect_loss": 0.36,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.21,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431768154,
     "code": "b65f1c732f699ff6571a7fd3a6416fb3",
     "started": 1765025987,
