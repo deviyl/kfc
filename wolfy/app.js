@@ -117,13 +117,16 @@ const columnMap = [
     { key: "outsidehit",    label: "Outside Hits" },
     { key: "interrupt",     label: "Interrupts" },
     { key: "assist",        label: "Assists" },
-    { key: "defend",        label: "Defends" },
     { key: "loss",          label: "Losses" },
+    { key: "escape",        label: "Escapes"},
+    { key: "insidemerc",    label: "Inside Mercs" },
+    { key: "totalhits",     label: "Total Hits" },
+    { key: "defend",        label: "Defends" },
     { key: "respect_gain",  label: "Respect Gained" },
     { key: "respect_loss",  label: "Respect Lost" },
     { key: "bonus",         label: "Bonuses" },
-    { key: "totalhits",     label: "Total Hits" },
-    { key: "totalresp",     label: "Total Respect" }
+    { key: "totalresp",     label: "Total Respect" },
+    { key: "balanceresp",   label: "Respect Balance" }
 ];
 
 // Sort state
@@ -154,7 +157,7 @@ function showData(warValue) {
     const startTimeFormatted = formatTimestamp(start);
     const endTimeFormatted = formatTimestamp(end);
     
-    const url = `https://wolfhaven.at/warpayout.php?start=${start}&end=${end}&apikey=${apikey}`;
+    const url = `https://wolfhaven.at/warpayout.php?start=${start}&end=${end}&apikey=${apikey}&fac1ID=${fac1ID}&fac2ID=${fac2ID}`;
 
     fetch(url)
         .then(response => response.json())
