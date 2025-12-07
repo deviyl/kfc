@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const useCustomEndCheckbox = document.getElementById("use-custom-end");
     const customEndDatetimeInput = document.getElementById("custom-end-datetime");
 
-    if (!loadWarsBtn || !warSelect || !loadDataBtn !customTimeContainer || !useCustomEndCheckbox || !customEndDatetimeInput) {
+    if (!loadWarsBtn || !warSelect || !loadDataBtn || !customTimeContainer || !useCustomEndCheckbox || !customEndDatetimeInput) {
         console.error("HTML elements not found. Check element IDs.");
         return;
     }
