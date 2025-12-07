@@ -163,7 +163,7 @@ function showData(warValue) {
 
             const resultsContainer = document.getElementById("results-container");
             const timeTag = (end !== apiEnd) ? '<strong> (Custom)</strong>' : ''; // if custom end
-            const timeHTML = `<p style="font-style: italic;">Start Time: **${startTimeFormatted}** &mdash; End Time: **${endTimeFormatted}**</p>`;
+            const timeHTML = `<p style="font-style: italic;">Start Time: **${startTimeFormatted}** &mdash; End Time: **${endTimeFormatted}**${timeTag}</p>`;
             
             resultsContainer.innerHTML = `<h3>War Data</h3>${timeHTML}<div id="tracker"></div>`;
             
