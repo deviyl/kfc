@@ -1,5 +1,81 @@
 [
   {
+    "id": 432049396,
+    "code": "44c94f6b24df89fe4a54237c11bd735f",
+    "started": 1765101498,
+    "ended": 1765101508,
+    "attacker": {
+      "id": 2391530,
+      "name": "WackyNinja",
+      "level": 62,
+      "faction": {
+        "id": 38662,
+        "name": "OTF Headquarters"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432049329,
+    "code": "152220cc4c5b7db149377359555ae51e",
+    "started": 1765101467,
+    "ended": 1765101473,
+    "attacker": null,
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 45,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.18,
+    "respect_loss": 0.8,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.61,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432030718,
     "code": "e91a757d5114e784d182ec351bd2b9ed",
     "started": 1765094648,
