@@ -144,8 +144,9 @@ function showData(warValue) {
     const customEndDatetimeInput = document.getElementById("custom-end-datetime");
     
     if (useCustomEndCheckbox.checked && customEndDatetimeInput.value) {
-        // Convert the datetime picker to a Unix timestamp (seconds)
-        const customDate = new Date(customEndDatetimeInput.value); 
+        let customTimeString = customEndDatetimeInput.value;
+        // treat custom date as utc
+        const customDate = new Date(customTimeString + ":00.000Z");
         // convert ms to s
         end = Math.floor(customDate.getTime() / 1000); 
     }    
@@ -161,7 +162,7 @@ function showData(warValue) {
             lastDataSet = data; // store for future sorts
 
             const resultsContainer = document.getElementById("results-container");
-            const timeTag = (end !== apiEnd) ? '<strong>(Custom)</strong>' : ''; // if custom end
+            const timeTag = (end !== apiEnd) ? '<strong> (Custom)</strong>' : ''; // if custom end
             const timeHTML = `<p style="font-style: italic;">Start Time: **${startTimeFormatted}** &mdash; End Time: **${endTimeFormatted}**</p>`;
             
             resultsContainer.innerHTML = `<h3>War Data</h3>${timeHTML}<div id="tracker"></div>`;
