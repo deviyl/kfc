@@ -129,7 +129,7 @@ function showData(warValue) {
     const startTimeFormatted = formatTimestamp(start);
     const endTimeFormatted = formatTimestamp(end);
     
-    const url = wolfhaven.at/warpayout.php?start=${start}&end=${end}&apikey=${apikey}&fac1ID=${fac1ID}&fac2ID=${fac2ID};
+    const url = 'https://wolfhaven.at/warpayout.php?start=${start}&end=${end}&apikey=${apikey}&fac1ID=${fac1ID}&fac2ID=${fac2ID}';
 
     fetch(url)
         .then(response => response.json())
