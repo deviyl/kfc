@@ -137,7 +137,7 @@ let lastDataSet = {}; // stored so we can re-render when sorting
 function showData(warValue) {
     toggleLoading(true, "Fetching war data...");
     const apikey = document.getElementById("apikey").value.trim();
-    const [warId, start, end, fac1ID, fac2ID] = warValue.split(";");
+    const [warId, start, apiEnd, fac1ID, fac2ID] = warValue.split(";");
     
     let end = apiEnd; // Default API end time
     const useCustomEndCheckbox = document.getElementById("use-custom-end");
