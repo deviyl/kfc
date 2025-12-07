@@ -155,11 +155,13 @@ function showData(warValue) {
 
         // validation to ensure custom time is between original start and end times
         if (customEndTimestamp < start) {
-            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be before the war's start time.</p>`);
+            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be before the war's start time of <strong>${formatTimestamp(start)}</strong>.</p>`);
+            document.getElementById("results-container").style.display = "none";
             return; 
         }
         if (customEndTimestamp > originalEnd) {
-            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be after the war's original end time.</p>`);
+            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be after the war's end time of <strong>${formatTimestamp(originalEnd)}</strong>.</p>`);
+            document.getElementById("results-container").style.display = "none";
             return; 
         }
         end = customEndTimestamp;
