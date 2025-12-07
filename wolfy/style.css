@@ -81,6 +81,43 @@ body {
 }
 
 /* ---------------------------------------------------
+    Custom End Time Section
+--------------------------------------------------- */
+#custom-end-time-container {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#custom-end-time-container input[type="datetime-local"] {
+    background-color: #4B4B4B !important;
+    color: #ffffff !important;
+    border: 1px solid #555;    
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 3px;
+    outline: none;
+    margin-left: 10px;
+}
+
+#custom-end-time-container input[type="datetime-local"]:focus {
+    border-color: #74C0FC;
+}
+
+#custom-end-time-container input[type="datetime-local"]:hover {
+    background-color: #4B4B4B !important;
+}
+
+#custom-end-time-container label {
+    margin-right: 5px;
+}
+
+#custom-end-datetime {
+    display: none;
+}
+
+/* ---------------------------------------------------
    War Dropdown Section
 --------------------------------------------------- */
 #war-select-container {
