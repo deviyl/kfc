@@ -58,7 +58,7 @@ function toggleMessage(isVisible, message = "", emoji= "⏳") {
     const emojiHtml = `<span class="spinner">${emoji}</span>`;
     if (indicator) {
         indicator.style.display = isVisible ? "block" : "none";
-        indicator.innerHTML = isVisible ? `${spinnerHtml} ${message}` : "";
+        indicator.innerHTML = isVisible ? `${emojiHtml} ${message}` : "";
     }
 }
 
