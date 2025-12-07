@@ -53,9 +53,9 @@ function formatTimestamp(unixTimestamp) {
 // ---------------------------------------------------------------------------
 // Loading Indicator
 // ---------------------------------------------------------------------------
-function toggleLoading(isVisible, message = "") {
+function toggleMessage(isVisible, message = "", emoji= "⏳") {
     const indicator = document.getElementById("loading-indicator");
-    const spinnerHtml = '<span class="spinner">⏳</span>';
+    const spinnerHtml = '<span class="spinner">${emoji}</span>';
     if (indicator) {
         indicator.style.display = isVisible ? "block" : "none";
         indicator.innerHTML = isVisible ? `${spinnerHtml} ${message}` : "";
@@ -66,13 +66,13 @@ function toggleLoading(isVisible, message = "") {
 // Fetch the list of ranked wars
 // ---------------------------------------------------------------------------
 function showWars(ApiKey) {
-    toggleLoading(true, "Fetching wars list...");
+    toggleMessage(true, "Fetching wars list...");
     fetch(`https://api.torn.com/faction/?selections=rankedwars&key=${ApiKey}`) // old api
     //fetch(`https://api.torn.com/v2/faction/rankedwars?limit=20&key=${ApiKey}`) //v2 api
         .then(response => response.json())
         .then(data => showRankedWars(data))
         .catch(err => {
-            toggleLoading(true, `Error: ${err.message}. Check API key.`);
+            toggleMessage(true, `Error: ${err.message}. Check API key.`, "❌");
         })
 }
 
@@ -105,7 +105,7 @@ function showRankedWars(wardata) {
 
     dropdownContainer.style.display = "block";
     customTimeContainer.style.display = "flex";
-    toggleLoading(false);
+    toggleMessage(false);
 }
 
 // ---------------------------------------------------------------------------
@@ -138,7 +138,7 @@ let lastDataSet = {}; // stored so we can re-render when sorting
 // Fetch and display war data
 // ---------------------------------------------------------------------------
 function showData(warValue) {
-    toggleLoading(true, "Fetching war data...");
+    toggleMessage(true, "Fetching war data...");
     const apikey = document.getElementById("apikey").value.trim();
     const [warId, start, originalEnd, fac1ID, fac2ID] = warValue.split(";").map(Number);
     
@@ -155,12 +155,12 @@ function showData(warValue) {
 
         // validation to ensure custom time is between original start and end times
         if (customEndTimestamp < start) {
-            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be before the war's start time of <strong>${formatTimestamp(start)}</strong>.</p>`);
+            toggleMessage(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be before the war's start time of::  <strong>${formatTimestamp(start)}</strong>.</p>`, "❌");
             document.getElementById("results-container").style.display = "none";
             return; 
         }
         if (customEndTimestamp > originalEnd) {
-            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be after the war's end time of <strong>${formatTimestamp(originalEnd)}</strong>.</p>`);
+            toggleMessage(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be after the war's end time of::  <strong>${formatTimestamp(originalEnd)}</strong>.</p>`, "❌");
             document.getElementById("results-container").style.display = "none";
             return; 
         }
@@ -184,10 +184,10 @@ function showData(warValue) {
             resultsContainer.innerHTML = `<h3>War Data</h3>${timeHTML}<div id="tracker"></div>`;
             
             renderTable(data);
-            toggleLoading(false);
+            toggleMessage(false);
         })
         .catch(err => {
-            toggleLoading(true, `Error loading data: ${err.message}.`);
+            toggleMessage(true, `Error loading data: ${err.message}.`, "❌");
         })
 }
 
