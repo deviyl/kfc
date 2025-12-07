@@ -140,9 +140,9 @@ let lastDataSet = {}; // stored so we can re-render when sorting
 function showData(warValue) {
     toggleLoading(true, "Fetching war data...");
     const apikey = document.getElementById("apikey").value.trim();
-    const [warId, start, apiEnd, fac1ID, fac2ID] = warValue.split(";");
+    const [warId, start, originalEnd, fac1ID, fac2ID] = warValue.split(";").map(Number);
     
-    let end = apiEnd; // Default API end time
+    let end = originalEnd; // Default API end time
     const useCustomEndCheckbox = document.getElementById("use-custom-end");
     const customEndDatetimeInput = document.getElementById("custom-end-datetime");
     
@@ -150,14 +150,25 @@ function showData(warValue) {
         let customTimeString = customEndDatetimeInput.value;
         // treat custom date as utc
         const customDate = new Date(customTimeString + ":00.000Z");
-        // convert ms to s
-        end = Math.floor(customDate.getTime() / 1000); 
+        // save into custom var and convert ms to s
+        let customEndTimestamp = Math.floor(customDate.getTime() / 1000); 
+
+        // validation to ensure custom time is between original start and end times
+        if (customEndTimestamp < start) {
+            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be before the war's start time.</p>`);
+            return; 
+        }
+        if (customEndTimestamp > originalEnd) {
+            toggleLoading(true, `<p style='color: red; font-weight: bold;'>Error: Custom end time cannot be after the war's original end time.</p>`);
+            return; 
+        }
+        end = customEndTimestamp;
     }    
        
     const startTimeFormatted = formatTimestamp(start);
     const endTimeFormatted = formatTimestamp(end);
     
-    const url = `https://wolfhaven.at/warpayout.php?start=${start}&end=${end}&apikey=${apikey}&fac1ID=${fac1ID}&fac2ID=${fac2ID}`;
+    const url = `https://wolfhaven.at/WarPayout/warpayout.php?start=${start}&end=${end}&apikey=${apikey}&fac1ID=${fac1ID}&fac2ID=${fac2ID}`;
 
     fetch(url)
         .then(response => response.json())
@@ -165,7 +176,7 @@ function showData(warValue) {
             lastDataSet = data; // store for future sorts
 
             const resultsContainer = document.getElementById("results-container");
-            const timeTag = (end !== apiEnd) ? '<strong> (Custom)</strong>' : ''; // if custom end
+            const timeTag = (end !== originalEnd) ? '<strong> (Custom)</strong>' : ''; // if custom end
             const timeHTML = `<p style="font-style: italic;">Start Time: **${startTimeFormatted}** &mdash; End Time: **${endTimeFormatted}**${timeTag}</p>`;
             
             resultsContainer.innerHTML = `<h3>War Data</h3>${timeHTML}<div id="tracker"></div>`;
