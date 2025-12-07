@@ -230,7 +230,7 @@ function calculateTotals(data) {
 // Build and display the data table
 // ---------------------------------------------------------------------------
 function renderTable(data) {
-
+    document.getElementById("cooperation").style.display = "none";
     const container = document.getElementById("results-container");
     const trackerDiv = document.getElementById("tracker");
 
