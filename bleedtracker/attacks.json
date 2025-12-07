@@ -1,5 +1,47 @@
 [
   {
+    "id": 432112115,
+    "code": "95bb2f44b000f7cd929873ed32a4d4ee",
+    "started": 1765126690,
+    "ended": 1765126696,
+    "attacker": {
+      "id": 2490821,
+      "name": "marka5268",
+      "level": 43,
+      "faction": {
+        "id": 55129,
+        "name": "Hinode Jingu"
+      }
+    },
+    "defender": {
+      "id": 2291615,
+      "name": "Daany56778",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.5,
+    "respect_loss": 0.38,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.77,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432068326,
     "code": "02f1ef09762e1b0dc6eed2d896ddc33d",
     "started": 1765108882,
