@@ -1,5 +1,131 @@
 [
   {
+    "id": 431975966,
+    "code": "ea5b188442137c9b18ec76295643f73c",
+    "started": 1765076391,
+    "ended": 1765076398,
+    "attacker": {
+      "id": 3424284,
+      "name": "Koldar",
+      "level": 32,
+      "faction": {
+        "id": 46570,
+        "name": "INSANITY X"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 5.23,
+    "respect_loss": 1.31,
+    "chain": 3825,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.64,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.65,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431975850,
+    "code": "b7bb5e7f266230095f12df9837670ad4",
+    "started": 1765076357,
+    "ended": 1765076385,
+    "attacker": {
+      "id": 3619801,
+      "name": "RedGobbo",
+      "level": 45,
+      "faction": {
+        "id": 39010,
+        "name": "SCALLYWAGS"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Stalemate",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431964444,
+    "code": "522c7828ae78d1c82d1115e603d764f7",
+    "started": 1765073069,
+    "ended": 1765073078,
+    "attacker": {
+      "id": 3473819,
+      "name": "Pseudolegend",
+      "level": 61,
+      "faction": {
+        "id": 39010,
+        "name": "SCALLYWAGS"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 6.01,
+    "respect_loss": 1.5,
+    "chain": 4876,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.67,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431962820,
     "code": "13fe07a8f3fa73c364878e521ca00cd3",
     "started": 1765072657,
