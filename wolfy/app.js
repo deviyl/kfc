@@ -5,8 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const loadWarsBtn = document.getElementById("load-wars");
     const warSelect = document.getElementById("wars");
     const loadDataBtn = document.getElementById("load-data-btn");
+    const customTimeContainer = document.getElementById("custom-end-time-container");
+    const useCustomEndCheckbox = document.getElementById("use-custom-end");
+    const customEndDatetimeInput = document.getElementById("custom-end-datetime");
 
-    if (!loadWarsBtn || !warSelect || !loadDataBtn) {
+    if (!loadWarsBtn || !warSelect || !loadDataBtn !customTimeContainer || !useCustomEndCheckbox || !customEndDatetimeInput) {
         console.error("HTML elements not found. Check element IDs.");
         return;
     }
@@ -28,6 +31,13 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Please select a war from the dropdown before loading data.");
         }
     });
+    
+    useCustomEndCheckbox.addEventListener("change", () => {
+        customEndDatetimeInput.style.display = useCustomEndCheckbox.checked ? "inline-block" : "none";
+        if (!useCustomEndCheckbox.checked) {
+            customEndDatetimeInput.value = "";
+        }
+    });   
 });
 
 // ---------------------------------------------------------------------------
@@ -72,7 +82,8 @@ function showWars(ApiKey) {
 function showRankedWars(wardata) {
     const warSelect = document.getElementById("wars");
     const dropdownContainer = document.getElementById("war-select-container");
-
+    const customTimeContainer = document.getElementById("custom-end-time-container");
+    
     warSelect.innerHTML = `<option value="">-- Select a war --</option>`;
 
     const warsArray = Object.entries(wardata["rankedwars"]).reverse();
@@ -93,6 +104,7 @@ function showRankedWars(wardata) {
     }
 
     dropdownContainer.style.display = "block";
+    customTimeContainer.style.display = "flex";
     toggleLoading(false);
 }
 
@@ -126,6 +138,18 @@ function showData(warValue) {
     toggleLoading(true, "Fetching war data...");
     const apikey = document.getElementById("apikey").value.trim();
     const [warId, start, end, fac1ID, fac2ID] = warValue.split(";");
+    
+    let end = apiEnd; // Default API end time
+    const useCustomEndCheckbox = document.getElementById("use-custom-end");
+    const customEndDatetimeInput = document.getElementById("custom-end-datetime");
+    
+    if (useCustomEndCheckbox.checked && customEndDatetimeInput.value) {
+        // Convert the datetime picker to a Unix timestamp (seconds)
+        const customDate = new Date(customEndDatetimeInput.value); 
+        // convert ms to s
+        end = Math.floor(customDate.getTime() / 1000); 
+    }    
+       
     const startTimeFormatted = formatTimestamp(start);
     const endTimeFormatted = formatTimestamp(end);
     
@@ -137,6 +161,7 @@ function showData(warValue) {
             lastDataSet = data; // store for future sorts
 
             const resultsContainer = document.getElementById("results-container");
+            const timeTag = (end !== apiEnd) ? '<strong>(Custom)</strong>' : ''; // if custom end
             const timeHTML = `<p style="font-style: italic;">Start Time: **${startTimeFormatted}** &mdash; End Time: **${endTimeFormatted}**</p>`;
             
             resultsContainer.innerHTML = `<h3>War Data</h3>${timeHTML}<div id="tracker"></div>`;
