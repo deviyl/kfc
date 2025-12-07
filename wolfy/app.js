@@ -51,7 +51,7 @@ function formatTimestamp(unixTimestamp) {
 }
 
 // ---------------------------------------------------------------------------
-// Loading Indicator
+// Messages (Loading or Error)
 // ---------------------------------------------------------------------------
 function toggleMessage(isVisible, message = "", emoji= "⏳") {
     const indicator = document.getElementById("loading-indicator");
