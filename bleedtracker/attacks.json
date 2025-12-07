@@ -1,5 +1,47 @@
 [
   {
+    "id": 432012520,
+    "code": "e879787620d52c2a03015d6edbce0a95",
+    "started": 1765088048,
+    "ended": 1765088051,
+    "attacker": {
+      "id": 3666950,
+      "name": "Talek",
+      "level": 37,
+      "faction": {
+        "id": 49862,
+        "name": "Dirty Mike and the Boyz"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.26,
+    "respect_loss": 0.56,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.21,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432007011,
     "code": "7f1ef24869514235bd847cee831aa465",
     "started": 1765086357,
