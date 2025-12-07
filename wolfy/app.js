@@ -31,6 +31,16 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ---------------------------------------------------------------------------
+// Timestamp Formatting
+// ---------------------------------------------------------------------------
+function formatTimestamp(unixTimestamp) {
+    if (!unixTimestamp) return "N/A";
+    const date = new Date(unixTimestamp * 1000);
+    let utcString = date.toUTCString();
+    return utcString.replace(" GMT", ""); 
+}
+
+// ---------------------------------------------------------------------------
 // Loading Indicator
 // ---------------------------------------------------------------------------
 function toggleLoading(isVisible, message = "") {
@@ -116,13 +126,21 @@ function showData(warValue) {
     toggleLoading(true, "Fetching war data...");
     const apikey = document.getElementById("apikey").value.trim();
     const [warId, start, end, fac1ID, fac2ID] = warValue.split(";");
-
-    const url = `https://wolfhaven.at/warpayout.php?&start=${start}&end=${end}&apikey=${apikey}`;
+    const startTimeFormatted = formatTimestamp(start);
+    const endTimeFormatted = formatTimestamp(end);
+    
+    const url = wolfhaven.at/warpayout.php?&start=${start}&end=${end}&apikey=${apikey}&fac1ID=${fac1ID}&fac2ID=${fac2ID};"
 
     fetch(url)
         .then(response => response.json())
         .then(data => {
             lastDataSet = data; // store for future sorts
+
+            const resultsContainer = document.getElementById("results-container");
+            const timeHTML = `<p style="font-style: italic;">Start Time: **${startTimeFormatted}** &mdash; End Time: **${endTimeFormatted}**</p>`;
+            
+            resultsContainer.innerHTML = `<h3>War Data</h3>${timeHTML}<div id="tracker"></div>`;
+            
             renderTable(data);
             toggleLoading(false);
         })
