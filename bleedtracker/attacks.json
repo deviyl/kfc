@@ -1,5 +1,123 @@
 [
   {
+    "id": 431962820,
+    "code": "13fe07a8f3fa73c364878e521ca00cd3",
+    "started": 1765072657,
+    "ended": 1765072664,
+    "attacker": {
+      "id": 1830515,
+      "name": "Kastor",
+      "level": 74,
+      "faction": {
+        "id": 8085,
+        "name": "Nuclear Blast"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.27,
+    "respect_loss": 0.32,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431958779,
+    "code": "7d1dc6cdc96a8c42810b0a3c66fcee71",
+    "started": 1765071567,
+    "ended": 1765071571,
+    "attacker": null,
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.31,
+    "respect_loss": 0.33,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 431956614,
+    "code": "fbf32c891a522f596b1078b01d027ec3",
+    "started": 1765070986,
+    "ended": 1765070991,
+    "attacker": {
+      "id": 2454026,
+      "name": "Sleiaa",
+      "level": 86,
+      "faction": {
+        "id": 37537,
+        "name": "SYN - The Regiment"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.39,
+    "respect_loss": 0.35,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.16,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 431917643,
     "code": "b41939de239f85961d90e1faa41aa039",
     "started": 1765062323,
