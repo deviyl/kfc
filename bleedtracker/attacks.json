@@ -1,5 +1,91 @@
 [
   {
+    "id": 432281699,
+    "code": "ff68425ab7af48d8b84ef4252eaeca31",
+    "started": 1765206954,
+    "ended": 1765206956,
+    "attacker": null,
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.95,
+    "respect_loss": 0.24,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 23
+      }
+    ]
+  },
+  {
+    "id": 432281374,
+    "code": "219e2b981a48c10447f52506c81c451c",
+    "started": 1765206775,
+    "ended": 1765206779,
+    "attacker": {
+      "id": 2246301,
+      "name": "TweakPigeon",
+      "level": 96,
+      "faction": {
+        "id": 15046,
+        "name": "We Are Rising"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.02,
+    "respect_loss": 0.25,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.13,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 22
+      }
+    ]
+  },
+  {
     "id": 432268001,
     "code": "8fe04f8b66bf622412c2b5b1b0b916cb",
     "started": 1765199044,
