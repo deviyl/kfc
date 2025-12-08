@@ -1,5 +1,47 @@
 [
   {
+    "id": 432229460,
+    "code": "19f1ab6517c7da9258056270806f3727",
+    "started": 1765175490,
+    "ended": 1765175495,
+    "attacker": {
+      "id": 2753513,
+      "name": "F0X",
+      "level": 94,
+      "faction": {
+        "id": 19,
+        "name": "39th Street Killers"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Arrested",
+    "respect_gain": 1.65,
+    "respect_loss": 0.41,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432205772,
     "code": "3a4d32a2d8d2d0ae86deef04b4a56e75",
     "started": 1765163519,
