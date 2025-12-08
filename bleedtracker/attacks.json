@@ -1,5 +1,136 @@
 [
   {
+    "id": 432268001,
+    "code": "8fe04f8b66bf622412c2b5b1b0b916cb",
+    "started": 1765199044,
+    "ended": 1765199046,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.38,
+    "respect_loss": 0.34,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 432267839,
+    "code": "2e227da963dca85c6b78b14d546343a6",
+    "started": 1765198962,
+    "ended": 1765198973,
+    "attacker": {
+      "id": 4007314,
+      "name": "KhaosKhrome",
+      "level": 13,
+      "faction": {
+        "id": 44414,
+        "name": "Big Wang Gang- recruiting"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.71,
+    "respect_loss": 0.68,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.58,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432267653,
+    "code": "5036a0dd4af7a9480140ece9ddc5768b",
+    "started": 1765198858,
+    "ended": 1765198861,
+    "attacker": {
+      "id": 1320165,
+      "name": "Madara_Uchiha01",
+      "level": 70,
+      "faction": {
+        "id": 23193,
+        "name": "Materia"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.38,
+    "respect_loss": 0.34,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.45,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432254191,
     "code": "da5dad2bb8288c00ede8f8a9fc151514",
     "started": 1765190977,
