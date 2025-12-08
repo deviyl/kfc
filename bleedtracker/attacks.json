@@ -1,5 +1,52 @@
 [
   {
+    "id": 432191128,
+    "code": "ec4782aa47c4cb528804570e3768ae44",
+    "started": 1765157028,
+    "ended": 1765157040,
+    "attacker": {
+      "id": 3170459,
+      "name": "Mr_Kaplan",
+      "level": 64,
+      "faction": {
+        "id": 15222,
+        "name": "Mortiferi"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.6,
+    "respect_loss": 0.4,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.78,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 23
+      }
+    ]
+  },
+  {
     "id": 432174021,
     "code": "00fae719947eed24ea2e05fc68c041cd",
     "started": 1765151006,
