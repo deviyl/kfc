@@ -1,5 +1,165 @@
 [
   {
+    "id": 432345735,
+    "code": "6ce10b2319a6ce79715f74978e173425",
+    "started": 1765244867,
+    "ended": 1765244873,
+    "attacker": {
+      "id": 3292192,
+      "name": "Jarnathan",
+      "level": 73,
+      "faction": {
+        "id": 10739,
+        "name": "The Next Level - Forge"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 62,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.95,
+    "respect_loss": 0.49,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.49,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432345512,
+    "code": "0fe5f8d7144596e49af6c369868c8dc9",
+    "started": 1765244732,
+    "ended": 1765244737,
+    "attacker": {
+      "id": 3849665,
+      "name": "KaterinaPaige",
+      "level": 40,
+      "faction": {
+        "id": 52777,
+        "name": "The H.R. Department"
+      }
+    },
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.39,
+    "respect_loss": 1.1,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432334413,
+    "code": "814217da194fe9dca13911d9bf8b819f",
+    "started": 1765239052,
+    "ended": 1765239060,
+    "attacker": null,
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.03,
+    "respect_loss": 0.26,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432333919,
+    "code": "246adce5d6d3acc923ae367574c6687f",
+    "started": 1765238816,
+    "ended": 1765238833,
+    "attacker": {
+      "id": 2905417,
+      "name": "NRD2nd",
+      "level": 90,
+      "faction": {
+        "id": 8317,
+        "name": "Naughty Souls"
+      }
+    },
+    "defender": {
+      "id": 3708737,
+      "name": "porchman",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.98,
+    "respect_loss": 0.25,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432331932,
     "code": "8db0248824e4314a0263bbd6160e4b0a",
     "started": 1765237843,
