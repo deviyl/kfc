@@ -1,5 +1,47 @@
 [
   {
+    "id": 432377802,
+    "code": "9f19ed7d0e5c266b65763728410ef337",
+    "started": 1765265922,
+    "ended": 1765265941,
+    "attacker": {
+      "id": 3333907,
+      "name": "Hipposaurus",
+      "level": 11,
+      "faction": {
+        "id": 52471,
+        "name": "Casual Ex Devils."
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432353175,
     "code": "544a94c5a6daccef93df6835f11bcb0e",
     "started": 1765249362,
