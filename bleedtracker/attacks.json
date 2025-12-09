@@ -1,5 +1,47 @@
 [
   {
+    "id": 432331932,
+    "code": "8db0248824e4314a0263bbd6160e4b0a",
+    "started": 1765237843,
+    "ended": 1765237846,
+    "attacker": {
+      "id": 2905417,
+      "name": "NRD2nd",
+      "level": 90,
+      "faction": {
+        "id": 8317,
+        "name": "Naughty Souls"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.32,
+    "respect_loss": 0.33,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.47,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432331776,
     "code": "38d57422565aff1be133ea64e21097f7",
     "started": 1765237724,
