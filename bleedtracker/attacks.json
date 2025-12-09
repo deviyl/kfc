@@ -1,5 +1,47 @@
 [
   {
+    "id": 432409341,
+    "code": "1b2c58f3eca2fad4b8968f87262b34e5",
+    "started": 1765289040,
+    "ended": 1765289044,
+    "attacker": {
+      "id": 3957938,
+      "name": "JayNayer",
+      "level": 21,
+      "faction": {
+        "id": 53887,
+        "name": "The Tideborn Legion"
+      }
+    },
+    "defender": {
+      "id": 3973089,
+      "name": "Sumeirou",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.1,
+    "respect_loss": 0.52,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432405617,
     "code": "a7720f2a9f45be09bbe77fe6f03e9687",
     "started": 1765286596,
