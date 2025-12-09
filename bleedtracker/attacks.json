@@ -1,5 +1,47 @@
 [
   {
+    "id": 432453264,
+    "code": "46fb188b748c62224ff0a1aca02ebee1",
+    "started": 1765317256,
+    "ended": 1765317286,
+    "attacker": {
+      "id": 2383717,
+      "name": "Skull_killa",
+      "level": 36,
+      "faction": {
+        "id": 6557,
+        "name": "Semper Fidelis"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432444263,
     "code": "6f5b0dd79c9addc4212e2cb1f29b728c",
     "started": 1765310569,
