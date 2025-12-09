@@ -1,5 +1,89 @@
 [
   {
+    "id": 432384929,
+    "code": "75d6ea836b7748e87b61f79aa04c283d",
+    "started": 1765271609,
+    "ended": 1765271612,
+    "attacker": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 62,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432384688,
+    "code": "4102f13436536b71a48dbdf69aa54580",
+    "started": 1765271429,
+    "ended": 1765271430,
+    "attacker": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 62,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432377802,
     "code": "9f19ed7d0e5c266b65763728410ef337",
     "started": 1765265922,
