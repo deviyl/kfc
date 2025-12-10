@@ -1,5 +1,170 @@
 [
   {
+    "id": 432740890,
+    "code": "f41adcb1008e2a988c647d1cb152a567",
+    "started": 1765387797,
+    "ended": 1765387799,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.54,
+    "respect_loss": 0.88,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.42,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432738960,
+    "code": "f3c6b86ee44f04659ad7e7e7571357dc",
+    "started": 1765387546,
+    "ended": 1765387548,
+    "attacker": {
+      "id": 3691156,
+      "name": "WisDomSon",
+      "level": 50,
+      "faction": {
+        "id": 53375,
+        "name": "WoIves"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.3,
+    "respect_loss": 0.57,
+    "chain": 11,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.56,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.01,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "revitalize",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": 432735864,
+    "code": "619f62a95082d342dc5583d4632e259b",
+    "started": 1765387108,
+    "ended": 1765387116,
+    "attacker": {
+      "id": 3718073,
+      "name": "Damndoll",
+      "level": 57,
+      "faction": {
+        "id": 8536,
+        "name": "Valiance Wanderers"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.54,
+    "respect_loss": 0.88,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.42,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432734180,
+    "code": "46201271dd511b0217feaaf120d78a6f",
+    "started": 1765386866,
+    "ended": 1765386869,
+    "attacker": {
+      "id": 3299563,
+      "name": "Limerance",
+      "level": 64,
+      "faction": {
+        "id": 7115,
+        "name": "Republic Of Futuria"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.07,
+    "respect_loss": 0.27,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432726725,
     "code": "11d6681577d1439c314ec8d82ba6f2f5",
     "started": 1765385820,
