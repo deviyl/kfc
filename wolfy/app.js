@@ -5,15 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const loadWarsBtn = document.getElementById("load-wars");
     const warSelect = document.getElementById("wars");
     const loadDataBtn = document.getElementById("load-data-btn");
+    const downloadCsvBtn = document.getElementById("download-csv-btn"); 
     const customTimeContainer = document.getElementById("custom-end-time-container");
     const useCustomEndCheckbox = document.getElementById("use-custom-end");
     const customEndDatetimeInput = document.getElementById("custom-end-datetime");
 
-    if (!loadWarsBtn || !warSelect || !loadDataBtn || !customTimeContainer || !useCustomEndCheckbox || !customEndDatetimeInput) {
+    if (!loadWarsBtn || !warSelect || !loadDataBtn || !customTimeContainer || !useCustomEndCheckbox || !customEndDatetimeInput || !downloadCsvBtn) {
         console.error("HTML elements not found. Check element IDs.");
         return;
     }
-
+    
     loadWarsBtn.addEventListener("click", () => {
         const key = document.getElementById("apikey").value.trim();
         if (!key) {
@@ -22,6 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         showWars(key);
     });
+    
+    downloadCsvBtn.addEventListener("click", createCSVDownload);
     
     loadDataBtn.addEventListener("click", () => {
         const selectedValue = warSelect.value;
