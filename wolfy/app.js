@@ -357,14 +357,31 @@ function createCSVDownload(){
     let csvContent = "data:text/csv;charset=utf-8,";
     let sorted = sortData(lastDataSet, sortColumn, sortDirection);
     let header = "";
+    
     columnMap.forEach(col => {
         header += col.label + ";";
     });
     csvContent += header + "\r\n";
+    
     sorted.forEach(([username,stats]) =>{
         let row = "";
+        
         columnMap.forEach(col => {
-            row += stats[col.key] + ";";
+            let value = stats[col.key];
+            let formattedValue;
+
+            if (col.key === "name") {
+                formattedValue = value;
+            } 
+            else if (["respect_gain", "respect_loss", "totalresp", "respect_balance"].includes(col.key)) {
+                let num = Number(value);
+                formattedValue = (!Number.isNaN(num) ? num : 0).toFixed(2);
+            } 
+            else {
+                let num = Number(value);
+                formattedValue = !Number.isNaN(num) ? Math.round(num) : 0;
+            }
+            row += formattedValue + ";";
         });
         csvContent += row + "\r\n";
     });
@@ -374,5 +391,4 @@ function createCSVDownload(){
     link.setAttribute("download", "warreport.csv");
     document.body.appendChild(link); // Required for FF
     link.click(); // This will download the data file named "warreport.csv".
-
 }
