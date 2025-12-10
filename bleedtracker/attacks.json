@@ -1,5 +1,47 @@
 [
   {
+    "id": 432872676,
+    "code": "61e56aea6dcfed48288e43e050e4857a",
+    "started": 1765404653,
+    "ended": 1765404656,
+    "attacker": {
+      "id": 2383208,
+      "name": "BuriCZ",
+      "level": 60,
+      "faction": {
+        "id": 7818,
+        "name": "The Box"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.46,
+    "respect_loss": 0.37,
+    "chain": 21,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.07,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432862408,
     "code": "8a3cf2739a3b8f025811100b006db73d",
     "started": 1765403056,
