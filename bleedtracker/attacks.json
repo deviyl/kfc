@@ -1,5 +1,199 @@
 [
   {
+    "id": 432678250,
+    "code": "7b4a099f117d2c6c4ba5cbb58292c3b4",
+    "started": 1765379683,
+    "ended": 1765379685,
+    "attacker": {
+      "id": 3866445,
+      "name": "stu940076",
+      "level": 38,
+      "faction": {
+        "id": 16335,
+        "name": "SMTH - November Chopin"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.71,
+    "respect_loss": 0.43,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.55,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432677255,
+    "code": "d8c409ba2f3a0ddc82f96d9e448d6ee5",
+    "started": 1765379565,
+    "ended": 1765379570,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.87,
+    "respect_loss": 0.47,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.6,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432675952,
+    "code": "340c0a88f6602014cad32dfabfd4f583",
+    "started": 1765379424,
+    "ended": 1765379429,
+    "attacker": {
+      "id": 2912178,
+      "name": "Safe-Haven",
+      "level": 39,
+      "faction": {
+        "id": 43653,
+        "name": "Good Fellas"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.73,
+    "respect_loss": 0.43,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.48,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432674513,
+    "code": "274741d74d592b0dd195eb77afe6cf81",
+    "started": 1765379257,
+    "ended": 1765379259,
+    "attacker": {
+      "id": 3736618,
+      "name": "Norikk",
+      "level": 46,
+      "faction": {
+        "id": 50516,
+        "name": "Blackjack and Hookers"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.16,
+    "respect_loss": 0.54,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.96,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432670402,
+    "code": "8ae81fdccb0edd1330dd87d8497cc7ef",
+    "started": 1765378814,
+    "ended": 1765378817,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.51,
+    "respect_loss": 0.63,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432665743,
     "code": "1eddd11a8a3186d5c717be6defe4cf7b",
     "started": 1765378322,
