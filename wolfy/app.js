@@ -373,7 +373,7 @@ function createCSVDownload(){
             if (col.key === "name") {
                 formattedValue = value;
             } 
-            else if (["respect_gain", "respect_loss", "totalresp", "respect_balance"].includes(col.key)) {
+            else if (["respect_gain", "respect_loss", "totalresp", "balanceresp"].includes(col.key)) {
                 let num = Number(value);
                 formattedValue = (!Number.isNaN(num) ? num : 0).toFixed(2);
             } 
