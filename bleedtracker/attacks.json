@@ -1,5 +1,89 @@
 [
   {
+    "id": 432665743,
+    "code": "1eddd11a8a3186d5c717be6defe4cf7b",
+    "started": 1765378322,
+    "ended": 1765378325,
+    "attacker": {
+      "id": 2728280,
+      "name": "juiceboun",
+      "level": 90,
+      "faction": {
+        "id": 26437,
+        "name": "The Prowl"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.01,
+    "respect_loss": 0.25,
+    "chain": 60,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.19,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432665695,
+    "code": "93174d1a287ea459f43b195fba841566",
+    "started": 1765378317,
+    "ended": 1765378324,
+    "attacker": {
+      "id": 1909046,
+      "name": "wanfazley",
+      "level": 30,
+      "faction": {
+        "id": 10850,
+        "name": "JUX Lite"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432654444,
     "code": "e7decfeb384fbeb15290a961ec6b831d",
     "started": 1765377210,
