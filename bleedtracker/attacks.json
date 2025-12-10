@@ -1,5 +1,173 @@
 [
   {
+    "id": 432782493,
+    "code": "a40f9d2f47775aed3fb9cf32a74d66f8",
+    "started": 1765392808,
+    "ended": 1765392810,
+    "attacker": {
+      "id": 1205688,
+      "name": "kyle01",
+      "level": 91,
+      "faction": {
+        "id": 23188,
+        "name": "Reign of Confusion"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.04,
+    "respect_loss": 1.01,
+    "chain": 37,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.48,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432780695,
+    "code": "7db3612d1b6b13ce16846eb48e994684",
+    "started": 1765392584,
+    "ended": 1765392588,
+    "attacker": {
+      "id": 3851785,
+      "name": "bow1982",
+      "level": 28,
+      "faction": {
+        "id": 40894,
+        "name": "Knights Who Say Ni"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.3,
+    "respect_loss": 0.82,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432777539,
+    "code": "6c620428fadcda37fc0fd2b0a5758821",
+    "started": 1765392150,
+    "ended": 1765392153,
+    "attacker": {
+      "id": 90100,
+      "name": "MoNKeY",
+      "level": 100,
+      "faction": {
+        "id": 89,
+        "name": "Catalysis"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.78,
+    "respect_loss": 0.94,
+    "chain": 611,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.43,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.45,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432776324,
+    "code": "093feac381fa498cce91d2dc04da9fa2",
+    "started": 1765391997,
+    "ended": 1765392003,
+    "attacker": {
+      "id": 3237207,
+      "name": "Blitz_Krieger",
+      "level": 40,
+      "faction": {
+        "id": 49617,
+        "name": "Filthy_Casuals"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.01,
+    "respect_loss": 0.75,
+    "chain": 37,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.4,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432764427,
     "code": "9a56981a277d8ced4b29cf18cf5579a4",
     "started": 1765390610,
