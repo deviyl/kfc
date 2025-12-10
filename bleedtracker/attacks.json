@@ -1,5 +1,199 @@
 [
   {
+    "id": 432834347,
+    "code": "a2190774876e843bcae9692fb38225f5",
+    "started": 1765399400,
+    "ended": 1765399411,
+    "attacker": {
+      "id": 1400718,
+      "name": "woodsie",
+      "level": 72,
+      "faction": {
+        "id": 45837,
+        "name": "dDossers"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.29,
+    "respect_loss": 1.07,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432833464,
+    "code": "d0f97f4d2023c9de0b4641163be2da31",
+    "started": 1765399298,
+    "ended": 1765399301,
+    "attacker": null,
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.04,
+    "respect_loss": 0.76,
+    "chain": 79,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.31,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.22,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432831840,
+    "code": "8d04b72fdad874cdc0e77676bea125b8",
+    "started": 1765399079,
+    "ended": 1765399081,
+    "attacker": {
+      "id": 2863022,
+      "name": "BlueStarz",
+      "level": 100,
+      "faction": {
+        "id": 41123,
+        "name": "Die Blade"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.57,
+    "respect_loss": 0.39,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432830839,
+    "code": "217f73f6f896756e77653eab27a21d3f",
+    "started": 1765398947,
+    "ended": 1765398949,
+    "attacker": null,
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.79,
+    "respect_loss": 0.95,
+    "chain": 38,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.31,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432826592,
+    "code": "ca2b3b56d0c401a336906277ac507796",
+    "started": 1765398401,
+    "ended": 1765398417,
+    "attacker": {
+      "id": 2495443,
+      "name": "CYBERDOG",
+      "level": 100,
+      "faction": {
+        "id": 16381,
+        "name": "Torrents of Estuary"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.86,
+    "respect_loss": 0.96,
+    "chain": 52,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.27,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.18,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 432821050,
     "code": "a06cbc5d72bbc402ac93142ca4b79480",
     "started": 1765397721,
