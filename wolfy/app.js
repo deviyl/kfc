@@ -346,3 +346,30 @@ function renderTable(data) {
     table.appendChild(tbody);
     trackerDiv.appendChild(table);
 }
+
+// ---------------------------------------------------------------------------
+// Create and Download the War Data as CSV
+// ---------------------------------------------------------------------------
+function createCSVDownload(){
+    let csvContent = "data:text/csv;charset=utf-8,";
+    let sorted = sortData(lastDataSet, sortColumn, sortDirection);
+    let header = "";
+    columnMap.forEach(col => {
+        header += col.label + ";";
+    });
+    csvContent += header + "\r\n";
+    sorted.forEach(([username,stats]) =>{
+        let row = "";
+        columnMap.forEach(col => {
+            row += stats[col.key] + ";";
+        });
+        csvContent += row + "\r\n";
+    });
+    var encodedUri = encodeURI(csvContent);
+    var link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "warreport.csv");
+    document.body.appendChild(link); // Required for FF
+    link.click(); // This will download the data file named "warreport.csv".
+
+}
