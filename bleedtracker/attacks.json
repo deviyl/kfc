@@ -1,5 +1,47 @@
 [
   {
+    "id": 433132034,
+    "code": "9c93d8fabdfd0d89114a8e172218bcbc",
+    "started": 1765453932,
+    "ended": 1765453938,
+    "attacker": {
+      "id": 3426569,
+      "name": "Chamoney",
+      "level": 43,
+      "faction": {
+        "id": 20211,
+        "name": "CR-ACK"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.09,
+    "respect_loss": 0.77,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433129396,
     "code": "54f3555bc350df0c0fdfe580f5c96710",
     "started": 1765453439,
