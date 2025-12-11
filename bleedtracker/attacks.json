@@ -1,5 +1,52 @@
 [
   {
+    "id": 433228892,
+    "code": "1f9e2493e03d1f26e62e05bc6d5301e0",
+    "started": 1765468364,
+    "ended": 1765468374,
+    "attacker": {
+      "id": 2620424,
+      "name": "Awwsum",
+      "level": 100,
+      "faction": {
+        "id": 14365,
+        "name": "JFK 2.1"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.96,
+    "respect_loss": 0.99,
+    "chain": 86,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.23,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 28
+      }
+    ]
+  },
+  {
     "id": 433223596,
     "code": "6236233ca7304e3b42d47a859f109aaf",
     "started": 1765467413,
