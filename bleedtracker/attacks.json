@@ -1,5 +1,39 @@
 [
   {
+    "id": 433398212,
+    "code": "b028c4961b140e127478bd63f4a5768b",
+    "started": 1765494945,
+    "ended": 1765494947,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.37,
+    "respect_loss": 0.34,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433388667,
     "code": "71e00f73c25eb8609751d0041051d248",
     "started": 1765493472,
