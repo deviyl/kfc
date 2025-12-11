@@ -1,5 +1,81 @@
 [
   {
+    "id": 433354557,
+    "code": "7135fcd94dbf0ce40939302395293479",
+    "started": 1765488168,
+    "ended": 1765488179,
+    "attacker": {
+      "id": 2655433,
+      "name": "YikesForever",
+      "level": 90,
+      "faction": {
+        "id": 43325,
+        "name": "Crime Syndicate"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.46,
+    "respect_loss": 1.12,
+    "chain": 57,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.6,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.19,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433346554,
+    "code": "71fa0155362075e3061f88d670d69ccc",
+    "started": 1765486900,
+    "ended": 1765486903,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.87,
+    "respect_loss": 0.47,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.36,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433337640,
     "code": "784db43d029de7907538f76f0e96a59a",
     "started": 1765485550,
