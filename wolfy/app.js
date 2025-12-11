@@ -25,9 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     
     downloadCsvBtn.addEventListener("click", createCSVDownload);
-    if (downloadCsvBtn) {
-        downloadCsvBtn.style.display = "none";
-    }
+    document.getElementById("download-csv-btn").style.display = "none";
     
     loadDataBtn.addEventListener("click", () => {
         const selectedValue = warSelect.value;
