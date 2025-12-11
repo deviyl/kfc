@@ -1,5 +1,81 @@
 [
   {
+    "id": 433223596,
+    "code": "6236233ca7304e3b42d47a859f109aaf",
+    "started": 1765467413,
+    "ended": 1765467417,
+    "attacker": {
+      "id": 3076511,
+      "name": "monkeymagic123",
+      "level": 74,
+      "faction": {
+        "id": 9412,
+        "name": "BLACK STATUES"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.66,
+    "respect_loss": 0.41,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.21,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433219782,
+    "code": "63e314494987470923e67300c77a7460",
+    "started": 1765466784,
+    "ended": 1765466788,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.91,
+    "respect_loss": 0.98,
+    "chain": 127,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.61,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.28,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433195956,
     "code": "b8651d939cab69a22784f98f623116cc",
     "started": 1765462893,
