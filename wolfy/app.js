@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     
     downloadCsvBtn.addEventListener("click", createCSVDownload);
+    if (downloadCsvBtn) {
+        downloadCsvBtn.style.display = "none";
+    }
     
     loadDataBtn.addEventListener("click", () => {
         const selectedValue = warSelect.value;
@@ -185,12 +188,14 @@ function showData(warValue) {
             const timeHTML = `<p style="font-style: italic;">Start Time: **${startTimeFormatted}** &mdash; End Time: **${endTimeFormatted}**${timeTag}</p>`;
             
             resultsContainer.innerHTML = `<h3>War Data</h3>${timeHTML}<div id="tracker"></div>`;
+            document.getElementById("download-csv-btn").style.display = "inline-block";
             
             renderTable(data);
             toggleMessage(false);
         })
         .catch(err => {
             toggleMessage(true, `Error loading data: ${err.message}.`, "❌");
+            document.getElementById("download-csv-btn").style.display = "none";
         })
 }
 
