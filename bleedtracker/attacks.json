@@ -1,5 +1,178 @@
 [
   {
+    "id": 432977722,
+    "code": "dd4207c9bea308b7b8084d7d08040ed3",
+    "started": 1765420905,
+    "ended": 1765420914,
+    "attacker": {
+      "id": 3465342,
+      "name": "arx",
+      "level": 48,
+      "faction": {
+        "id": 47563,
+        "name": "Heroin!"
+      }
+    },
+    "defender": {
+      "id": 3727751,
+      "name": "Bobbelbo",
+      "level": 35,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.4,
+    "respect_loss": 0.6,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.73,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432971919,
+    "code": "fe8ce08705bd1f2413140d2c028086a1",
+    "started": 1765419868,
+    "ended": 1765419873,
+    "attacker": {
+      "id": 2137694,
+      "name": "Lith",
+      "level": 100,
+      "faction": {
+        "id": 9533,
+        "name": "Natural Selection"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.54,
+    "respect_loss": 0.38,
+    "chain": 58,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.19,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432968254,
+    "code": "5c6dc6cdd8b6ad3c94b06c2b44e525cf",
+    "started": 1765419201,
+    "ended": 1765419204,
+    "attacker": {
+      "id": 1754917,
+      "name": "Konthor",
+      "level": 91,
+      "faction": {
+        "id": 9201,
+        "name": "Destination Unknown"
+      }
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.78,
+    "respect_loss": 0.44,
+    "chain": 63,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.17,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.2,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 432965889,
+    "code": "e80c2809cf588d279a5c9bdd79d909b2",
+    "started": 1765418804,
+    "ended": 1765418818,
+    "attacker": {
+      "id": 2165616,
+      "name": "hemi",
+      "level": 100,
+      "faction": {
+        "id": 42125,
+        "name": "ODB"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "revitalize",
+        "value": 25
+      }
+    ]
+  },
+  {
     "id": 432947906,
     "code": "b0d45d18d675f519a8cb2735144abd30",
     "started": 1765415840,
