@@ -1,5 +1,94 @@
 [
   {
+    "id": 433401685,
+    "code": "ba76a46799f4d27c46d9de9d8770417d",
+    "started": 1765495525,
+    "ended": 1765495530,
+    "attacker": {
+      "id": 2046844,
+      "name": "IWeWillWin1",
+      "level": 80,
+      "faction": {
+        "id": 40420,
+        "name": "Too Sober for this Shit"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.87,
+    "respect_loss": 0.47,
+    "chain": 142,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.29,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433400831,
+    "code": "958bc71d14a7ae73d3c964eb8b3b0c5c",
+    "started": 1765495373,
+    "ended": 1765495378,
+    "attacker": {
+      "id": 2897328,
+      "name": "yoyoYossarian",
+      "level": 99,
+      "faction": {
+        "id": 42125,
+        "name": "ODB"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.11,
+    "respect_loss": 1.53,
+    "chain": 90,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.24,
+      "warlord": 1.21
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 21
+      }
+    ]
+  },
+  {
     "id": 433398212,
     "code": "b028c4961b140e127478bd63f4a5768b",
     "started": 1765494945,
