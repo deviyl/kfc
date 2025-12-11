@@ -1,5 +1,128 @@
 [
   {
+    "id": 433309587,
+    "code": "3bbcd2d4b54b1cf60b54614a1fada15a",
+    "started": 1765481195,
+    "ended": 1765481205,
+    "attacker": {
+      "id": 734331,
+      "name": "Giapper",
+      "level": 100,
+      "faction": {
+        "id": 8706,
+        "name": "Carbon"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.68,
+    "respect_loss": 0.92,
+    "chain": 79,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.11,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.22,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433307465,
+    "code": "c7985a65021d724c974c9d67976acea8",
+    "started": 1765480822,
+    "ended": 1765480826,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.36,
+    "respect_loss": 0.34,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433306147,
+    "code": "136a3a3a80b53e17b2c4e3c102fe64d8",
+    "started": 1765480605,
+    "ended": 1765480607,
+    "attacker": {
+      "id": 3054822,
+      "name": "Baozi",
+      "level": 100,
+      "faction": {
+        "id": 16282,
+        "name": "Nuclear Winter"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.4,
+    "respect_loss": 0.35,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 48
+      }
+    ]
+  },
+  {
     "id": 433290155,
     "code": "8d8532c9b69c928ec6a91a44c8c10971",
     "started": 1765478088,
