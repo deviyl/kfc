@@ -1,5 +1,157 @@
 [
   {
+    "id": 433157026,
+    "code": "735cff8c98b9252e2649ed88001475d1",
+    "started": 1765457129,
+    "ended": 1765457131,
+    "attacker": {
+      "id": 3752237,
+      "name": "TheWardeness",
+      "level": 35,
+      "faction": {
+        "id": 54651,
+        "name": "Rogue Assembly"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.77,
+    "respect_loss": 0.94,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.74,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433147012,
+    "code": "e9a4c0c79498abf4955814f133257b2c",
+    "started": 1765455771,
+    "ended": 1765455776,
+    "attacker": {
+      "id": 3184947,
+      "name": "SheffSlacker",
+      "level": 52,
+      "faction": {
+        "id": 48180,
+        "name": "Talented"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.09,
+    "respect_loss": 0.52,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.79,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433146029,
+    "code": "5f5ff512c87c6d60eaae338c1d05fcbe",
+    "started": 1765455636,
+    "ended": 1765455638,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.57,
+    "respect_loss": 0.39,
+    "chain": 21,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433141779,
+    "code": "9c86d5f8c07cde7c0b9ed00a125ffc10",
+    "started": 1765455092,
+    "ended": 1765455095,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.52,
+    "respect_loss": 0.38,
+    "chain": 15,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433132034,
     "code": "9c93d8fabdfd0d89114a8e172218bcbc",
     "started": 1765453932,
