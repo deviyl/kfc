@@ -1,5 +1,81 @@
 [
   {
+    "id": 433326130,
+    "code": "41a0141bacebe1e20b85dc05e120b410",
+    "started": 1765483778,
+    "ended": 1765483784,
+    "attacker": {
+      "id": 2114440,
+      "name": "DeKleineKobini",
+      "level": 100,
+      "faction": {
+        "id": 22781,
+        "name": "The Wolverines"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.26,
+    "respect_loss": 0.56,
+    "chain": 21,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.94,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433324426,
+    "code": "b9602a09cee47ec745843826621ee27f",
+    "started": 1765483508,
+    "ended": 1765483510,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.61,
+    "respect_loss": 0.4,
+    "chain": 20,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433313303,
     "code": "ce773952ca6e6302e66f1538a987ce90",
     "started": 1765481728,
