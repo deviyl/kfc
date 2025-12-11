@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     warSelect.addEventListener("change", () => {
         downloadCsvBtn.style.display = "none";
         document.getElementById("results-container").style.display = "none";
+        document.getElementById("cooperation").style.display = "inline-block";
     });
 });
 
