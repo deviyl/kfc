@@ -1,5 +1,123 @@
 [
   {
+    "id": 433185488,
+    "code": "75ddff52d359fce48996220d6b587fdd",
+    "started": 1765461470,
+    "ended": 1765461473,
+    "attacker": {
+      "id": 2910006,
+      "name": "Drunks",
+      "level": 98,
+      "faction": {
+        "id": 1149,
+        "name": "WTF"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5,
+    "respect_loss": 1.25,
+    "chain": 392,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.48,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.4,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433184191,
+    "code": "496eba2d8980a6f084ae7297fa7ad7b5",
+    "started": 1765461243,
+    "ended": 1765461247,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.23,
+    "respect_loss": 0.31,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433178828,
+    "code": "1822fd66be86ba0de2c342d73d36e0a8",
+    "started": 1765460436,
+    "ended": 1765460438,
+    "attacker": {
+      "id": 3141884,
+      "name": "Rothshield",
+      "level": 93,
+      "faction": {
+        "id": 8468,
+        "name": "Bloodbath and Beyond"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.75,
+    "respect_loss": 0.44,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.11,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433178403,
     "code": "2b4b7ea25ad26ab6b57e9a86d5c738cb",
     "started": 1765460357,
