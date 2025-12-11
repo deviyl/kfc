@@ -1,5 +1,123 @@
 [
   {
+    "id": 433195956,
+    "code": "b8651d939cab69a22784f98f623116cc",
+    "started": 1765462893,
+    "ended": 1765462895,
+    "attacker": {
+      "id": 1869443,
+      "name": "DatGuy",
+      "level": 95,
+      "faction": {
+        "id": 22492,
+        "name": "Dystopia"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.33,
+    "respect_loss": 0.83,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.31,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433194175,
+    "code": "578c9a95bd369a4947fa69ab4b780c68",
+    "started": 1765462633,
+    "ended": 1765462637,
+    "attacker": null,
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 54,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.98,
+    "respect_loss": 0.5,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.25,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433192904,
+    "code": "930d4543d944d70201e5ba49df49c922",
+    "started": 1765462479,
+    "ended": 1765462499,
+    "attacker": {
+      "id": 1908720,
+      "name": "White-Rabbit",
+      "level": 100,
+      "faction": {
+        "id": 42125,
+        "name": "ODB"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.19,
+    "respect_loss": 1.05,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.93,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433185488,
     "code": "75ddff52d359fce48996220d6b587fdd",
     "started": 1765461470,
