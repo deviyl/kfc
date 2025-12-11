@@ -1,5 +1,47 @@
 [
   {
+    "id": 433274826,
+    "code": "cda0f7a1a55c49efc157deb17837790c",
+    "started": 1765475982,
+    "ended": 1765475992,
+    "attacker": {
+      "id": 3752237,
+      "name": "TheWardeness",
+      "level": 35,
+      "faction": {
+        "id": 54651,
+        "name": "Rogue Assembly"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.31,
+    "respect_loss": 1.08,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.95,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433269620,
     "code": "0ea327c2ae91e99281499a58efcc3136",
     "started": 1765475078,
