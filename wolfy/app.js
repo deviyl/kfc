@@ -357,6 +357,19 @@ function renderTable(data) {
 // Create and Download the War Data as CSV
 // ---------------------------------------------------------------------------
 function createCSVDownload(){
+
+    // Grab wars 
+    const warSelect = document.getElementById("wars");
+    const selectedOptionText = warSelect.options[warSelect.selectedIndex].text;
+    
+    // Clean up text for filename
+    let filename = selectedOptionText
+        .replace(/\s+vs\.\s+/g, '_vs_') // Replace ' vs. ' with '_vs_'
+        .replace(/\s+/g, '_')          // Replace spaces with underscores
+        .replace(/[^a-zA-Z0-9_]/g, '') // Remove non-alphanumeric characters
+        .toLowerCase();
+    const finalFilename = `${filename}.csv`;
+    
     let csvContent = "data:text/csv;charset=utf-8,";
     let sorted = sortData(lastDataSet, sortColumn, sortDirection);
     let header = "";
@@ -391,7 +404,7 @@ function createCSVDownload(){
     var encodedUri = encodeURI(csvContent);
     var link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "warreport.csv");
+    link.setAttribute("download", finalFilename);
     document.body.appendChild(link); // Required for FF
-    link.click(); // This will download the data file named "warreport.csv".
+    link.click(); // This will download the data file named to match the dropdown
 }
