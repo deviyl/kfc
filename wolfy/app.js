@@ -42,6 +42,12 @@ document.addEventListener("DOMContentLoaded", () => {
             customEndDatetimeInput.value = "";
         }
     });   
+
+    // Hide results table and download csv button if a new selection is made
+    warSelect.addEventListener("change", () => {
+        downloadCsvBtn.style.display = "none";
+        document.getElementById("results-container").style.display = "none";
+    });
 });
 
 // ---------------------------------------------------------------------------
