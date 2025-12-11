@@ -1,5 +1,89 @@
 [
   {
+    "id": 433244337,
+    "code": "ff45a6d553433d1b11a3e74bb4e702e2",
+    "started": 1765471053,
+    "ended": 1765471057,
+    "attacker": {
+      "id": 3789855,
+      "name": "Bborelli",
+      "level": 48,
+      "faction": {
+        "id": 40518,
+        "name": "Monarch Leviathan"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.75,
+    "respect_loss": 0.69,
+    "chain": 32,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.77,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.13,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433232969,
+    "code": "aef990597ae247216db1edfc8f74639a",
+    "started": 1765469010,
+    "ended": 1765469013,
+    "attacker": {
+      "id": 3752237,
+      "name": "TheWardeness",
+      "level": 35,
+      "faction": {
+        "id": 54651,
+        "name": "Rogue Assembly"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.77,
+    "respect_loss": 0.94,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.74,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433228892,
     "code": "1f9e2493e03d1f26e62e05bc6d5301e0",
     "started": 1765468364,
