@@ -1,5 +1,52 @@
 [
   {
+    "id": 433120141,
+    "code": "1777c5b8eeb6ec52c8d5348ceeff5bbe",
+    "started": 1765451843,
+    "ended": 1765451851,
+    "attacker": {
+      "id": 3396212,
+      "name": "Paypaygk",
+      "level": 79,
+      "faction": {
+        "id": 19,
+        "name": "39th Street Killers"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.27,
+    "respect_loss": 1.32,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.22
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 22
+      }
+    ]
+  },
+  {
     "id": 433111253,
     "code": "aee30f4f7c4463126cd2ffa838bb95dc",
     "started": 1765450038,
