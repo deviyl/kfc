@@ -1,5 +1,39 @@
 [
   {
+    "id": 433729924,
+    "code": "3d98d259921f880050792fdbba53efc6",
+    "started": 1765558075,
+    "ended": 1765558077,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.17,
+    "respect_loss": 0.29,
+    "chain": 12,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.02,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433723158,
     "code": "3b72300096df7557410f02640e0f023c",
     "started": 1765556966,
