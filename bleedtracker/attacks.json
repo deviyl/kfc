@@ -1,5 +1,86 @@
 [
   {
+    "id": 433501616,
+    "code": "d2963152fef114fe1cee115c2a2811f4",
+    "started": 1765512970,
+    "ended": 1765512972,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.36,
+    "respect_loss": 0.34,
+    "chain": 11,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.07,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.01,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "revitalize",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": 433500451,
+    "code": "5dcd7159296118a32bcf123b2bede48a",
+    "started": 1765512781,
+    "ended": 1765512785,
+    "attacker": {
+      "id": 3624230,
+      "name": "Deuce",
+      "level": 58,
+      "faction": {
+        "id": 3241,
+        "name": "JFK"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.61,
+    "respect_loss": 0.65,
+    "chain": 103,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.66,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.25,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433498727,
     "code": "5a8e4f5c7baeba8542b17dd90082267a",
     "started": 1765512425,
