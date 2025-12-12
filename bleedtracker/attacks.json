@@ -1,5 +1,47 @@
 [
   {
+    "id": 433623878,
+    "code": "c0439c0701beadca5209186f41878ce6",
+    "started": 1765538957,
+    "ended": 1765538957,
+    "attacker": {
+      "id": 2155699,
+      "name": "MikeTheHat",
+      "level": 97,
+      "faction": {
+        "id": 39756,
+        "name": "Abusement Park"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Interrupted",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": true,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433622723,
     "code": "9b83b105d90a99bf39cd2bc090ff803f",
     "started": 1765538673,
