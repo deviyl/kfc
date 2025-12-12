@@ -1,5 +1,115 @@
 [
   {
+    "id": 433597933,
+    "code": "a0cc6997612da87ee62d0726e9110cd3",
+    "started": 1765532800,
+    "ended": 1765532802,
+    "attacker": {
+      "id": 3097116,
+      "name": "FrozenMonkey",
+      "level": 89,
+      "faction": {
+        "id": 14365,
+        "name": "JFK 2.1"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.29,
+    "respect_loss": 0.32,
+    "chain": 28,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.11,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433597338,
+    "code": "7df941d2df4499ab7f9f090f65af2f3b",
+    "started": 1765532682,
+    "ended": 1765532684,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.17,
+    "respect_loss": 0.29,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433596804,
+    "code": "7959f4e86002152a3fec87d3d0706538",
+    "started": 1765532560,
+    "ended": 1765532563,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433586615,
     "code": "8939f4bd4a2aa91c666668e1c7411845",
     "started": 1765530252,
