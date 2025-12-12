@@ -1,5 +1,128 @@
 [
   {
+    "id": 433858808,
+    "code": "16287e9f61acbae07c9ba80d225a97b1",
+    "started": 1765579941,
+    "ended": 1765579946,
+    "attacker": {
+      "id": 1625577,
+      "name": "Wasabi",
+      "level": 90,
+      "faction": {
+        "id": 34623,
+        "name": "Viking Emus"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.02,
+    "respect_loss": 1.75,
+    "chain": 391,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.4,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": 433856986,
+    "code": "34a4ac5660c3189f8375f1992a312539",
+    "started": 1765579651,
+    "ended": 1765579660,
+    "attacker": {
+      "id": 2087102,
+      "name": "Sicknature",
+      "level": 100,
+      "faction": {
+        "id": 10174,
+        "name": "AQUA-Poseidon"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Interrupted",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": true,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433856926,
+    "code": "9807b392b9cc0b1301901f6e6b6f2636",
+    "started": 1765579640,
+    "ended": 1765579644,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.34,
+    "respect_loss": 0.34,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433848760,
     "code": "d7028fcbebbede5019f55889e60e3a1e",
     "started": 1765578285,
