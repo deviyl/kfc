@@ -1,5 +1,128 @@
 [
   {
+    "id": 433577105,
+    "code": "4d712a781407033f68cc370fa7276704",
+    "started": 1765528168,
+    "ended": 1765528199,
+    "attacker": {
+      "id": 1199986,
+      "name": "Enzotic",
+      "level": 97,
+      "faction": {
+        "id": 9036,
+        "name": "The Black Pearl"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.21,
+    "respect_loss": 1.05,
+    "chain": 15,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.46,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 433572960,
+    "code": "8c0ff444c11cdb0937a864ede73a31e7",
+    "started": 1765527185,
+    "ended": 1765527188,
+    "attacker": {
+      "id": 3545102,
+      "name": "Dadmacia",
+      "level": 65,
+      "faction": {
+        "id": 946,
+        "name": "PT-IronHearts"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.64,
+    "respect_loss": 0.41,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433570911,
+    "code": "53d3371b42fc8c76038262a405737602",
+    "started": 1765526703,
+    "ended": 1765526705,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.32,
+    "respect_loss": 0.33,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433556655,
     "code": "2212642d42069530beb4c9f4673c1baa",
     "started": 1765523749,
