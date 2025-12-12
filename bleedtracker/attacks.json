@@ -1,5 +1,81 @@
 [
   {
+    "id": 433817469,
+    "code": "618e2afb8a9cf9e63aec044f805bfe24",
+    "started": 1765573178,
+    "ended": 1765573183,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.14,
+    "respect_loss": 0.54,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433814557,
+    "code": "707a9645353075b98bc5da915761b3a1",
+    "started": 1765572697,
+    "ended": 1765572709,
+    "attacker": {
+      "id": 3924585,
+      "name": "Japontschik",
+      "level": 29,
+      "faction": {
+        "id": 50791,
+        "name": "Undead Legion"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433810480,
     "code": "7188662a622d73515e348ddbc5f09ac2",
     "started": 1765572013,
