@@ -1,5 +1,81 @@
 [
   {
+    "id": 433550921,
+    "code": "15d06f856753af875cdbc0a6a4e836ab",
+    "started": 1765522659,
+    "ended": 1765522662,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.48,
+    "respect_loss": 0.37,
+    "chain": 21,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.08,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433544420,
+    "code": "e062387827ec35ec9fda05f3f18382e6",
+    "started": 1765521338,
+    "ended": 1765521341,
+    "attacker": {
+      "id": 2908452,
+      "name": "QueenTheGreat",
+      "level": 98,
+      "faction": {
+        "id": 49069,
+        "name": "Unbroken Damage"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.41,
+    "respect_loss": 0.35,
+    "chain": 12,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.02,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433541438,
     "code": "4ca5dbdfdb8831aa6142043d5943b46d",
     "started": 1765520811,
