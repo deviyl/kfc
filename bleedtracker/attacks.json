@@ -1,5 +1,47 @@
 [
   {
+    "id": 433684776,
+    "code": "e092c11ab366ad4548164efcfa97d4bd",
+    "started": 1765550331,
+    "ended": 1765550336,
+    "attacker": {
+      "id": 1514485,
+      "name": "Stan",
+      "level": 100,
+      "faction": {
+        "id": 8867,
+        "name": "Monarch Chrysalis"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.51,
+    "respect_loss": 0.63,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.74,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433673798,
     "code": "df5feef71cdcd10387d34455f7f1927f",
     "started": 1765548574,
