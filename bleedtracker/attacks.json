@@ -1,5 +1,86 @@
 [
   {
+    "id": 433541438,
+    "code": "4ca5dbdfdb8831aa6142043d5943b46d",
+    "started": 1765520811,
+    "ended": 1765520814,
+    "attacker": null,
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 32,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.9,
+    "respect_loss": 0.22,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 26
+      }
+    ]
+  },
+  {
+    "id": 433538864,
+    "code": "86ccf0cd3ed86741c9d44b89707a2288",
+    "started": 1765520234,
+    "ended": 1765520238,
+    "attacker": {
+      "id": 3667710,
+      "name": "theinfyy",
+      "level": 51,
+      "faction": {
+        "id": 28073,
+        "name": "Shiny Hoard Avian Team"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.88,
+    "respect_loss": 0.47,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.71,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433521416,
     "code": "206b3af265e61387b9a9c65f0432b320",
     "started": 1765516831,
