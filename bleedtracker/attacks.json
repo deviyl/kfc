@@ -1,5 +1,47 @@
 [
   {
+    "id": 433801300,
+    "code": "3edfd3503644a85e5a1d420f10bb4393",
+    "started": 1765570475,
+    "ended": 1765570499,
+    "attacker": {
+      "id": 1757326,
+      "name": "_RazoR_",
+      "level": 100,
+      "faction": {
+        "id": 9041,
+        "name": "PT-Calculated"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.71,
+    "respect_loss": 0.93,
+    "chain": 531,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.8,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.43,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433786088,
     "code": "310804e9e35027ae6ece121c9212be07",
     "started": 1765567914,
