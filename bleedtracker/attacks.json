@@ -1,5 +1,47 @@
 [
   {
+    "id": 433605270,
+    "code": "7a0bd64594bee74e24b6f9bcd579fd0e",
+    "started": 1765534526,
+    "ended": 1765534532,
+    "attacker": {
+      "id": 1593622,
+      "name": "Hunter_Boy",
+      "level": 94,
+      "faction": {
+        "id": 35739,
+        "name": "Kingsmen"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.14,
+    "respect_loss": 0.54,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.98,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433597933,
     "code": "a0cc6997612da87ee62d0726e9110cd3",
     "started": 1765532800,
