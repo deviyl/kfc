@@ -1,5 +1,128 @@
 [
   {
+    "id": 433673798,
+    "code": "df5feef71cdcd10387d34455f7f1927f",
+    "started": 1765548574,
+    "ended": 1765548578,
+    "attacker": null,
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.85,
+    "respect_loss": 0.71,
+    "chain": 49,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.69,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.17,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433670955,
+    "code": "5a75f6c88508ce7b5c9a6174898e402e",
+    "started": 1765548137,
+    "ended": 1765548144,
+    "attacker": {
+      "id": 612696,
+      "name": "Satan",
+      "level": 100,
+      "faction": {
+        "id": 15046,
+        "name": "We Are Rising"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.47,
+    "respect_loss": 0.87,
+    "chain": 18,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.29,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.06,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433669344,
+    "code": "322072c6b32f9be00fd4243649d00c90",
+    "started": 1765547905,
+    "ended": 1765547909,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.4,
+    "respect_loss": 0.35,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.47,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
     "id": 433665503,
     "code": "ff6c12cffc8443ecfba311de9d7169e9",
     "started": 1765547163,
