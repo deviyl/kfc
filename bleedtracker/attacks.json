@@ -1,5 +1,131 @@
 [
   {
+    "id": 433643675,
+    "code": "4c6bb98fb518f331caeb40b616f66896",
+    "started": 1765543025,
+    "ended": 1765543029,
+    "attacker": {
+      "id": 2566927,
+      "name": "ShirZ",
+      "level": 99,
+      "faction": {
+        "id": 15929,
+        "name": "The Inquisition"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.47,
+    "respect_loss": 0.87,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.41,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433635165,
+    "code": "acf4c270fe612c2110a124a2eb72983d",
+    "started": 1765541372,
+    "ended": 1765541379,
+    "attacker": {
+      "id": 1601527,
+      "name": "wavelength",
+      "level": 100,
+      "faction": {
+        "id": 54248,
+        "name": "Transformers"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.53,
+    "respect_loss": 0.63,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.76,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433633346,
+    "code": "6776a437899e45770644adf0e37bd0d0",
+    "started": 1765540995,
+    "ended": 1765541005,
+    "attacker": {
+      "id": 3485602,
+      "name": "Jaz-",
+      "level": 29,
+      "faction": {
+        "id": 52867,
+        "name": "Darwin's Theory"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.43,
+    "respect_loss": 0.61,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.08,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433627553,
     "code": "08f498cce289eeb8de2ea012f9bfd12f",
     "started": 1765539801,
