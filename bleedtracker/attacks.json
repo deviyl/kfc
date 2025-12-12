@@ -1,5 +1,99 @@
 [
   {
+    "id": 433880328,
+    "code": "856c8864c5405654b6622b904fabc7ba",
+    "started": 1765583707,
+    "ended": 1765583708,
+    "attacker": {
+      "id": 1843901,
+      "name": "HM1",
+      "level": 100,
+      "faction": {
+        "id": 9055,
+        "name": "Natural Selection IV"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.82,
+    "respect_loss": 0.95,
+    "chain": 16,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.05,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 433879715,
+    "code": "3ecc33a8f156ede2ce5e0d5af5f72bba",
+    "started": 1765583578,
+    "ended": 1765583585,
+    "attacker": {
+      "id": 2087102,
+      "name": "Sicknature",
+      "level": 100,
+      "faction": {
+        "id": 10174,
+        "name": "AQUA-Poseidon"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.78,
+    "respect_loss": 1.45,
+    "chain": 138,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.72,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.28,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
     "id": 433873016,
     "code": "9635d516f47744a978086c0ad0667fb8",
     "started": 1765582329,
