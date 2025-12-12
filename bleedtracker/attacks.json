@@ -1,5 +1,173 @@
 [
   {
+    "id": 433699599,
+    "code": "0492bc90fe41bd26be8b56c273e7e7fb",
+    "started": 1765552864,
+    "ended": 1765552866,
+    "attacker": {
+      "id": 2734685,
+      "name": "Nightrage",
+      "level": 53,
+      "faction": {
+        "id": 47835,
+        "name": "The Rat-Pack"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.39,
+    "respect_loss": 0.6,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433699559,
+    "code": "afdabfc136b1947550075b9b6026900e",
+    "started": 1765552858,
+    "ended": 1765552865,
+    "attacker": {
+      "id": 3753796,
+      "name": "Ishitsubute",
+      "level": 35,
+      "faction": {
+        "id": 46627,
+        "name": "KOTOR"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433694231,
+    "code": "bc46849ac095605e4b44b0a37c8d9b2d",
+    "started": 1765551997,
+    "ended": 1765552000,
+    "attacker": {
+      "id": 3733500,
+      "name": "Butcherino",
+      "level": 46,
+      "faction": {
+        "id": 13665,
+        "name": "PT-Penguins"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.1,
+    "respect_loss": 0.77,
+    "chain": 363,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.39,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433692458,
+    "code": "d257d1d7a16b6f5e6aaeba74fe012185",
+    "started": 1765551695,
+    "ended": 1765551705,
+    "attacker": {
+      "id": 2065939,
+      "name": "Wiber",
+      "level": 100,
+      "faction": {
+        "id": 22781,
+        "name": "The Wolverines"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.99,
+    "respect_loss": 1,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.79,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433684776,
     "code": "e092c11ab366ad4548164efcfa97d4bd",
     "started": 1765550331,
