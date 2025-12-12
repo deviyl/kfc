@@ -1,5 +1,157 @@
 [
   {
+    "id": 433498727,
+    "code": "5a8e4f5c7baeba8542b17dd90082267a",
+    "started": 1765512425,
+    "ended": 1765512429,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.37,
+    "respect_loss": 0.34,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433497868,
+    "code": "3460dafb76b53cced4b2f03afcf0a86a",
+    "started": 1765512249,
+    "ended": 1765512255,
+    "attacker": {
+      "id": 2124935,
+      "name": "Mr_NiceGuy",
+      "level": 99,
+      "faction": {
+        "id": 47600,
+        "name": "Valhalla Warriors"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.32,
+    "respect_loss": 0.33,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.05,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433497558,
+    "code": "7486956a5d0877d33153732621685e59",
+    "started": 1765512192,
+    "ended": 1765512206,
+    "attacker": {
+      "id": 3396212,
+      "name": "Paypaygk",
+      "level": 79,
+      "faction": {
+        "id": 19,
+        "name": "39th Street Killers"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 6.26,
+    "respect_loss": 1.57,
+    "chain": 618,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.45,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433487654,
+    "code": "58838c5c1c7ee17da8354288953436ac",
+    "started": 1765510259,
+    "ended": 1765510263,
+    "attacker": null,
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.98,
+    "respect_loss": 0.25,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.24,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433480970,
     "code": "79c7e7094518d33462a0132dbaa593c0",
     "started": 1765509012,
