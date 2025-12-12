@@ -1,5 +1,73 @@
 [
   {
+    "id": 433665503,
+    "code": "ff6c12cffc8443ecfba311de9d7169e9",
+    "started": 1765547163,
+    "ended": 1765547166,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.47,
+    "respect_loss": 0.37,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.17,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433663004,
+    "code": "1ced7585c0917d1b9cabc1a740571042",
+    "started": 1765546726,
+    "ended": 1765546730,
+    "attacker": null,
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.74,
+    "respect_loss": 0.94,
+    "chain": 103,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.08,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.25,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433653906,
     "code": "93a687edc19d03b2329e0af47220ce24",
     "started": 1765544964,
