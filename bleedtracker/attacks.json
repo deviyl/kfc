@@ -1,5 +1,94 @@
 [
   {
+    "id": 433521416,
+    "code": "206b3af265e61387b9a9c65f0432b320",
+    "started": 1765516831,
+    "ended": 1765516849,
+    "attacker": {
+      "id": 3393547,
+      "name": "Darkness24",
+      "level": 41,
+      "faction": {
+        "id": 52218,
+        "name": "Torn City Traders"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.07,
+    "respect_loss": 1.02,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": 433519681,
+    "code": "9aac4bc7134a5cd87cf5ec65eb5bfe14",
+    "started": 1765516485,
+    "ended": 1765516491,
+    "attacker": {
+      "id": 3072056,
+      "name": "bags",
+      "level": 100,
+      "faction": {
+        "id": 43836,
+        "name": "LaFamilia"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.41,
+    "respect_loss": 0.85,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.37,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433501616,
     "code": "d2963152fef114fe1cee115c2a2811f4",
     "started": 1765512970,
