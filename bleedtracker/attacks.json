@@ -1,5 +1,52 @@
 [
   {
+    "id": 433627553,
+    "code": "08f498cce289eeb8de2ea012f9bfd12f",
+    "started": 1765539801,
+    "ended": 1765539807,
+    "attacker": {
+      "id": 2847239,
+      "name": "Hyper46",
+      "level": 100,
+      "faction": {
+        "id": 46442,
+        "name": "The Resolute"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.97,
+    "respect_loss": 1.24,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.85,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.21
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 21
+      }
+    ]
+  },
+  {
     "id": 433623878,
     "code": "c0439c0701beadca5209186f41878ce6",
     "started": 1765538957,
