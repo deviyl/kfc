@@ -1,5 +1,115 @@
 [
   {
+    "id": 433723158,
+    "code": "3b72300096df7557410f02640e0f023c",
+    "started": 1765556966,
+    "ended": 1765556968,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.53,
+    "respect_loss": 0.38,
+    "chain": 29,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.24,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.12,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433713286,
+    "code": "760185661e9d0d913f3e15f3eb6c8faf",
+    "started": 1765555262,
+    "ended": 1765555267,
+    "attacker": null,
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.5,
+    "respect_loss": 0.38,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.9,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433711802,
+    "code": "32e68295d706fba962c3f00ab8abbba8",
+    "started": 1765555043,
+    "ended": 1765555048,
+    "attacker": {
+      "id": 3427554,
+      "name": "O1ol1qu3",
+      "level": 64,
+      "faction": {
+        "id": 13665,
+        "name": "PT-Penguins"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 320,
+    "respect_loss": 80,
+    "chain": 500,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.56,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 320,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433702277,
     "code": "654398beec2bf5609e28bca57b87014a",
     "started": 1765553330,
