@@ -1,5 +1,89 @@
 [
   {
+    "id": 433622723,
+    "code": "9b83b105d90a99bf39cd2bc090ff803f",
+    "started": 1765538673,
+    "ended": 1765538674,
+    "attacker": {
+      "id": 2933976,
+      "name": "TheCatsPyjamas",
+      "level": 56,
+      "faction": {
+        "id": 7251,
+        "name": "KitsuLand"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433622167,
+    "code": "001b2a4bf36ac7c4a6da020106c8ccb7",
+    "started": 1765538546,
+    "ended": 1765538556,
+    "attacker": {
+      "id": 3637216,
+      "name": "Anika1991",
+      "level": 48,
+      "faction": {
+        "id": 21028,
+        "name": "Nuclear Clinic"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.28,
+    "respect_loss": 0.82,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.8,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433605270,
     "code": "7a0bd64594bee74e24b6f9bcd579fd0e",
     "started": 1765534526,
