@@ -1,5 +1,86 @@
 [
   {
+    "id": 433740572,
+    "code": "8634e5610d99fb89ef6ead42292cbe7c",
+    "started": 1765559959,
+    "ended": 1765559965,
+    "attacker": {
+      "id": 3263573,
+      "name": "Attempted",
+      "level": 74,
+      "faction": {
+        "id": 8954,
+        "name": "Nuclear Armageddon"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2,
+    "respect_loss": 0.5,
+    "chain": 28,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.11,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": 433736325,
+    "code": "e9c133fca24727174c818781a8edbd4e",
+    "started": 1765559247,
+    "ended": 1765559249,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.84,
+    "respect_loss": 0.21,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433729924,
     "code": "3d98d259921f880050792fdbba53efc6",
     "started": 1765558075,
