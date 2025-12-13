@@ -1,5 +1,47 @@
 [
   {
+    "id": 434056823,
+    "code": "c1025d1afd73dbf49e463c56d1194970",
+    "started": 1765620010,
+    "ended": 1765620013,
+    "attacker": {
+      "id": 711045,
+      "name": "Static",
+      "level": 50,
+      "faction": {
+        "id": 25025,
+        "name": "DP Warriors"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.17,
+    "respect_loss": 0.54,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.58,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434050422,
     "code": "3aa87e05b34bb30bd84611cad1236e48",
     "started": 1765618356,
