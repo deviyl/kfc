@@ -1,5 +1,47 @@
 [
   {
+    "id": 434030199,
+    "code": "30914d9932bf3501029bcb41f519faca",
+    "started": 1765613669,
+    "ended": 1765613672,
+    "attacker": {
+      "id": 3449988,
+      "name": "Steamrolla",
+      "level": 23,
+      "faction": {
+        "id": 50170,
+        "name": "Night Watch"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.44,
+    "respect_loss": 0.36,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.4,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434019352,
     "code": "dc6bc351529de33728549d708ff651e7",
     "started": 1765611247,
