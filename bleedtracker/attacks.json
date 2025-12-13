@@ -1,5 +1,128 @@
 [
   {
+    "id": 433932720,
+    "code": "7aed82f42b3ecffba5f5cd18da012dc4",
+    "started": 1765593080,
+    "ended": 1765593084,
+    "attacker": {
+      "id": 1537584,
+      "name": "TylerDurdenxyy",
+      "level": 100,
+      "faction": {
+        "id": 35183,
+        "name": "FightClub"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.56,
+    "respect_loss": 0.39,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.07,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": 433922515,
+    "code": "53be38904fabaa5167c7dbf9b61cd864",
+    "started": 1765591078,
+    "ended": 1765591092,
+    "attacker": {
+      "id": 3787667,
+      "name": "ButcherMan",
+      "level": 15,
+      "faction": {
+        "id": 49642,
+        "name": "Madhouse Asylum"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433920684,
+    "code": "072ad798dd76fb492e7234e2e6b9bc79",
+    "started": 1765590701,
+    "ended": 1765590705,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.4,
+    "respect_loss": 0.35,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433910973,
     "code": "5b15b425e367219ed2ee5e9636028d01",
     "started": 1765588878,
