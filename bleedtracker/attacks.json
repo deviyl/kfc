@@ -1,5 +1,52 @@
 [
   {
+    "id": 433958978,
+    "code": "5094f4d07fe289c738e47fbeaec54fc9",
+    "started": 1765598235,
+    "ended": 1765598238,
+    "attacker": {
+      "id": 2220919,
+      "name": "Hornz",
+      "level": 100,
+      "faction": {
+        "id": 11747,
+        "name": "Natural Selection II"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.54,
+    "respect_loss": 0.38,
+    "chain": 59,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.19,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "stricken",
+        "value": 31
+      }
+    ]
+  },
+  {
     "id": 433932720,
     "code": "7aed82f42b3ecffba5f5cd18da012dc4",
     "started": 1765593080,
