@@ -1,5 +1,47 @@
 [
   {
+    "id": 434317837,
+    "code": "460a47a62793456f83fa5586ca598828",
+    "started": 1765669076,
+    "ended": 1765669081,
+    "attacker": {
+      "id": 3557060,
+      "name": "BadHabbbits",
+      "level": 64,
+      "faction": {
+        "id": 51896,
+        "name": "We Are Rising II"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.66,
+    "respect_loss": 0.41,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.32,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434301880,
     "code": "eff1f6567a00966c3a632f4ab3f754d1",
     "started": 1765666410,
