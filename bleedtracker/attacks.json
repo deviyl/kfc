@@ -1,5 +1,47 @@
 [
   {
+    "id": 434163942,
+    "code": "47fb8c1424e5f8a05313b5f375884a48",
+    "started": 1765642273,
+    "ended": 1765642284,
+    "attacker": {
+      "id": 2966375,
+      "name": "m33n",
+      "level": 25,
+      "faction": {
+        "id": 50890,
+        "name": "Wartopia"
+      }
+    },
+    "defender": {
+      "id": 2291615,
+      "name": "Daany56778",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.16,
+    "respect_loss": 0.54,
+    "chain": 335,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.85,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.38,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434152309,
     "code": "3f4bd9f7ddb923f5f040b171887f9845",
     "started": 1765640174,
