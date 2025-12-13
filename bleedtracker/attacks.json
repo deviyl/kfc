@@ -1,5 +1,47 @@
 [
   {
+    "id": 434019352,
+    "code": "dc6bc351529de33728549d708ff651e7",
+    "started": 1765611247,
+    "ended": 1765611251,
+    "attacker": {
+      "id": 3346832,
+      "name": "Burgererer",
+      "level": 39,
+      "faction": {
+        "id": 36691,
+        "name": "Rabid Chihuahuas"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.94,
+    "respect_loss": 0.74,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.85,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434007407,
     "code": "958f0e04ba036123b5e4e6c4b8a48afb",
     "started": 1765608542,
