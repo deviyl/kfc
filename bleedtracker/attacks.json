@@ -1,5 +1,89 @@
 [
   {
+    "id": 434240667,
+    "code": "4235821aff41b2cd459cdc16b51878ec",
+    "started": 1765655993,
+    "ended": 1765655996,
+    "attacker": {
+      "id": 2125774,
+      "name": "Invert",
+      "level": 100,
+      "faction": {
+        "id": 16628,
+        "name": "Chain Reaction"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.57,
+    "respect_loss": 0.39,
+    "chain": 64,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.2,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434240439,
+    "code": "7b62ab1fcab6ab79bfe1860f30495edd",
+    "started": 1765655963,
+    "ended": 1765655969,
+    "attacker": {
+      "id": 3778281,
+      "name": "MedusasCrotch",
+      "level": 38,
+      "faction": {
+        "id": 20718,
+        "name": "S.C.A.R. Division X"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.04,
+    "respect_loss": 0.76,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.21,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434235622,
     "code": "39656e28accffee27de94a9b91a2c482",
     "started": 1765655052,
