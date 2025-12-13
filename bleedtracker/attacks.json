@@ -1,5 +1,157 @@
 [
   {
+    "id": 433910973,
+    "code": "5b15b425e367219ed2ee5e9636028d01",
+    "started": 1765588878,
+    "ended": 1765588890,
+    "attacker": {
+      "id": 2330900,
+      "name": "Reevaa",
+      "level": 100,
+      "faction": {
+        "id": 8151,
+        "name": "Chromatic"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.15,
+    "respect_loss": 1.04,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.9,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433890799,
+    "code": "c80710e83be211b63d0326f2bcbb1222",
+    "started": 1765585363,
+    "ended": 1765585368,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.96,
+    "respect_loss": 0.49,
+    "chain": 16,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1.05,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433885032,
+    "code": "1802e034b1a449a7ce4b6fe325eb7654",
+    "started": 1765584440,
+    "ended": 1765584443,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.37,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 433884977,
+    "code": "1ec98132fe8374cb452fc711ad3c2615",
+    "started": 1765584432,
+    "ended": 1765584449,
+    "attacker": {
+      "id": 2937426,
+      "name": "GarethJewel",
+      "level": 50,
+      "faction": {
+        "id": 8322,
+        "name": "The Project Syndicate"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.01,
+    "respect_loss": 0.75,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.57,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 433880328,
     "code": "856c8864c5405654b6622b904fabc7ba",
     "started": 1765583707,
