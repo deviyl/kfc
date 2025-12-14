@@ -1,5 +1,136 @@
 [
   {
+    "id": 434672056,
+    "code": "a61f923c779a2156b25401ff440fe66b",
+    "started": 1765750736,
+    "ended": 1765750739,
+    "attacker": {
+      "id": 3435615,
+      "name": "Dhhjkl",
+      "level": 61,
+      "faction": {
+        "id": 48769,
+        "name": "The Coalition"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.31,
+    "respect_loss": 0.58,
+    "chain": 14,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.76,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.04,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 38
+      }
+    ]
+  },
+  {
+    "id": 434669785,
+    "code": "e9272f48222f56fe76b429488170ebf4",
+    "started": 1765750193,
+    "ended": 1765750201,
+    "attacker": {
+      "id": 2151664,
+      "name": "Yuki",
+      "level": 100,
+      "faction": {
+        "id": 16282,
+        "name": "Nuclear Winter"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.55,
+    "respect_loss": 1.14,
+    "chain": 17,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.06,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434667817,
+    "code": "6a1b8181b06c208773782f0888da9333",
+    "started": 1765749686,
+    "ended": 1765749688,
+    "attacker": {
+      "id": 3748210,
+      "name": "Gioushy",
+      "level": 54,
+      "faction": {
+        "id": 8836,
+        "name": "Vinerri"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.14,
+    "respect_loss": 0.54,
+    "chain": 56,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.43,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.19,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434660829,
     "code": "5a31af8b4753fb8e76168f4efd6d0853",
     "started": 1765747937,
