@@ -1,5 +1,47 @@
 [
   {
+    "id": 434482019,
+    "code": "d814343e07e1238467463c5ba91b0d4a",
+    "started": 1765704252,
+    "ended": 1765704254,
+    "attacker": {
+      "id": 3963530,
+      "name": "FoquitaLoquita",
+      "level": 25,
+      "faction": {
+        "id": 1149,
+        "name": "WTF"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.54,
+    "respect_loss": 0.38,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.87,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434480873,
     "code": "d75fd489994c8876fd3951f0a1948ae3",
     "started": 1765703952,
