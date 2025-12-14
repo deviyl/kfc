@@ -1,5 +1,157 @@
 [
   {
+    "id": 434358692,
+    "code": "b2f7df5dfcdd3256395f1f6fde8fb48e",
+    "started": 1765676105,
+    "ended": 1765676111,
+    "attacker": {
+      "id": 3898628,
+      "name": "Morphine",
+      "level": 27,
+      "faction": {
+        "id": 8124,
+        "name": "NF Legacy"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.67,
+    "respect_loss": 0.92,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.67,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434350243,
+    "code": "7d51dbc667ef43a2a3e81e40f7fbe680",
+    "started": 1765674502,
+    "ended": 1765674505,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.31,
+    "respect_loss": 0.33,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434348999,
+    "code": "dfb2422d425b8a82305348d6d9e7af7d",
+    "started": 1765674264,
+    "ended": 1765674267,
+    "attacker": null,
+    "defender": {
+      "id": 3247958,
+      "name": "KFC23",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.15,
+    "respect_loss": 0.29,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434335517,
+    "code": "fcff3d777e83d8ff1d8f0addaf811125",
+    "started": 1765671945,
+    "ended": 1765671954,
+    "attacker": {
+      "id": 1686568,
+      "name": "Coce",
+      "level": 100,
+      "faction": {
+        "id": 8867,
+        "name": "Monarch Chrysalis"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.32,
+    "respect_loss": 1.33,
+    "chain": 89,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.24,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434323920,
     "code": "a421c305f8c4eae8981de61117adbc70",
     "started": 1765670216,
