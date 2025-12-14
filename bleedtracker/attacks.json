@@ -1,5 +1,47 @@
 [
   {
+    "id": 434536802,
+    "code": "ebbb14e7e696ecda1b2d5935ea5378bd",
+    "started": 1765718849,
+    "ended": 1765718855,
+    "attacker": {
+      "id": 789073,
+      "name": "Limpd",
+      "level": 100,
+      "faction": {
+        "id": 14078,
+        "name": "~Twisted~"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.5,
+    "respect_loss": 0.62,
+    "chain": 17,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.2,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.06,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434482019,
     "code": "d814343e07e1238467463c5ba91b0d4a",
     "started": 1765704252,
