@@ -1,5 +1,52 @@
 [
   {
+    "id": 434450469,
+    "code": "198f4ab413650fc745870908b67df2ed",
+    "started": 1765696613,
+    "ended": 1765696616,
+    "attacker": {
+      "id": 1843901,
+      "name": "HM1",
+      "level": 100,
+      "faction": {
+        "id": 9055,
+        "name": "Natural Selection IV"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.55,
+    "respect_loss": 0.39,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
     "id": 434433437,
     "code": "219d6ff88f03aa88e83983455eadb6b8",
     "started": 1765692404,
