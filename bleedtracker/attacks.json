@@ -1,5 +1,89 @@
 [
   {
+    "id": 434620596,
+    "code": "0f85555c7297cdaf701e356c5e7135df",
+    "started": 1765738571,
+    "ended": 1765738576,
+    "attacker": {
+      "id": 2803351,
+      "name": "-ZX-",
+      "level": 88,
+      "faction": {
+        "id": 50844,
+        "name": "The North Stand"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434620200,
+    "code": "2bd252a7cf27707b70ac45751751197c",
+    "started": 1765738486,
+    "ended": 1765738489,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.03,
+    "respect_loss": 0.26,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.14,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434619025,
     "code": "281a38c8f01d48f21f3c31da42259163",
     "started": 1765738206,
