@@ -1,5 +1,89 @@
 [
   {
+    "id": 434563901,
+    "code": "bcaadc3d9047ece03e18e6f8ccc91111",
+    "started": 1765725315,
+    "ended": 1765725317,
+    "attacker": {
+      "id": 1891335,
+      "name": "ultcyn",
+      "level": 66,
+      "faction": {
+        "id": 9953,
+        "name": "The Drunk Tank"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434563897,
+    "code": "04ee676c636d73f81879ba830eb6cb5b",
+    "started": 1765725314,
+    "ended": 1765725317,
+    "attacker": {
+      "id": 460247,
+      "name": "Hippopotamus",
+      "level": 100,
+      "faction": {
+        "id": 16628,
+        "name": "Chain Reaction"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.29,
+    "respect_loss": 0.32,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434556378,
     "code": "6b4746afe9a64c74fe68c0e197a9ff26",
     "started": 1765723556,
