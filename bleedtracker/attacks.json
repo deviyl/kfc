@@ -1,5 +1,81 @@
 [
   {
+    "id": 434601867,
+    "code": "7b78579ecbd49db1d5307baeb2e88b2a",
+    "started": 1765734173,
+    "ended": 1765734175,
+    "attacker": null,
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.36,
+    "respect_loss": 0.34,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.08,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434601535,
+    "code": "19675e2d082b61421b03d623305aa19b",
+    "started": 1765734087,
+    "ended": 1765734097,
+    "attacker": {
+      "id": 3525140,
+      "name": "ChonkyBanana",
+      "level": 29,
+      "faction": {
+        "id": 36457,
+        "name": "Warband of the Fallen"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.09,
+    "respect_loss": 0.52,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.21,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434591480,
     "code": "a309daa84f870ef3df27e27207d4385b",
     "started": 1765731898,
