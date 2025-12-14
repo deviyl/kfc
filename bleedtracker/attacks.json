@@ -1,5 +1,47 @@
 [
   {
+    "id": 434547649,
+    "code": "e4e894c34af4d27c3d504812f895f777",
+    "started": 1765721447,
+    "ended": 1765721452,
+    "attacker": {
+      "id": 3871342,
+      "name": "Laceyfacey",
+      "level": 44,
+      "faction": {
+        "id": 22887,
+        "name": "Resilience"
+      }
+    },
+    "defender": {
+      "id": 3251423,
+      "name": "err0r418125",
+      "level": 53,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.82,
+    "respect_loss": 0.46,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.93,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434540085,
     "code": "742afd2add4bcd02d8af5bae802cdd7b",
     "started": 1765719665,
