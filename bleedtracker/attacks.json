@@ -1,5 +1,44 @@
 [
   {
+    "id": 434433437,
+    "code": "219d6ff88f03aa88e83983455eadb6b8",
+    "started": 1765692404,
+    "ended": 1765692407,
+    "attacker": null,
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.3,
+    "respect_loss": 0.32,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.57,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 22
+      }
+    ]
+  },
+  {
     "id": 434429369,
     "code": "d63a3682a5f0f2c4301f5159873c4b40",
     "started": 1765691550,
