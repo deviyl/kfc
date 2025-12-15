@@ -1,5 +1,47 @@
 [
   {
+    "id": 434946185,
+    "code": "402a2e90708eafaa26ae08b136c956ab",
+    "started": 1765838088,
+    "ended": 1765838098,
+    "attacker": {
+      "id": 3855943,
+      "name": "BlakeBuckets",
+      "level": 32,
+      "faction": {
+        "id": 47600,
+        "name": "Valhalla Warriors"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 19,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2,
+    "respect_loss": 0.5,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.96,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434919616,
     "code": "91df892506b162fde125265070a80511",
     "started": 1765829076,
