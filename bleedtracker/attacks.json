@@ -1,5 +1,131 @@
 [
   {
+    "id": 434839966,
+    "code": "1e85ac1793a215c1e877bbdfe60816ae",
+    "started": 1765801437,
+    "ended": 1765801445,
+    "attacker": {
+      "id": 1585295,
+      "name": "I_AM_GROOT",
+      "level": 100,
+      "faction": {
+        "id": 8422,
+        "name": "Monarch Cupid"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.89,
+    "respect_loss": 0.97,
+    "chain": 19,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.54,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.07,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434839463,
+    "code": "04bafa7b871f497f29a86f7a8716cbac",
+    "started": 1765801293,
+    "ended": 1765801313,
+    "attacker": {
+      "id": 1957682,
+      "name": "PerfectPlayer",
+      "level": 99,
+      "faction": {
+        "id": 10739,
+        "name": "The Next Level - Forge"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 7.59,
+    "respect_loss": 1.9,
+    "chain": 52,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1.5,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.18,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 434834774,
+    "code": "267ccf062230ae3f932d526692d7b3f4",
+    "started": 1765799940,
+    "ended": 1765799955,
+    "attacker": {
+      "id": 183144,
+      "name": "Uncle_Griffon",
+      "level": 100,
+      "faction": {
+        "id": 10566,
+        "name": "The Rifle Company"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.29,
+    "respect_loss": 1.07,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434826839,
     "code": "c2dc01c9c0ba6cb496bdee2ad76ec80e",
     "started": 1765797412,
