@@ -1,5 +1,47 @@
 [
   {
+    "id": 434826839,
+    "code": "c2dc01c9c0ba6cb496bdee2ad76ec80e",
+    "started": 1765797412,
+    "ended": 1765797421,
+    "attacker": {
+      "id": 2189005,
+      "name": "CrazyEd989",
+      "level": 100,
+      "faction": {
+        "id": 49953,
+        "name": "BoW - 4.20"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.87,
+    "respect_loss": 0.72,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.68,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434747862,
     "code": "18e32458585c5844c1714a2cb0a7da8c",
     "started": 1765770298,
