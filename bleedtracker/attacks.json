@@ -1,5 +1,47 @@
 [
   {
+    "id": 434994327,
+    "code": "f0c36716bb967f3b8f4c0ceaff25b93a",
+    "started": 1765856286,
+    "ended": 1765856299,
+    "attacker": {
+      "id": 4009407,
+      "name": "thatdudeopie",
+      "level": 9,
+      "faction": {
+        "id": 38887,
+        "name": "Claws"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.36,
+    "respect_loss": 0.59,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 434985412,
     "code": "fedb9102f17c350875ed32b1dc188d2b",
     "started": 1765852388,
