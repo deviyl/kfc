@@ -1,5 +1,47 @@
 [
   {
+    "id": 435045960,
+    "code": "e294a26e2c06b8ea5aaeff36fab1ea30",
+    "started": 1765878146,
+    "ended": 1765878150,
+    "attacker": {
+      "id": 3920163,
+      "name": "Hypna",
+      "level": 7,
+      "faction": {
+        "id": 49877,
+        "name": "Slime Gang"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435045030,
     "code": "92f880352c1e72e0138c6662e9357999",
     "started": 1765877690,
