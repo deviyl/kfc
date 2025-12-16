@@ -1,5 +1,39 @@
 [
   {
+    "id": 435123575,
+    "code": "c75d871b9e53b233c039a2f2a4274999",
+    "started": 1765914039,
+    "ended": 1765914047,
+    "attacker": null,
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.85,
+    "respect_loss": 0.96,
+    "chain": 8,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.69,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435120210,
     "code": "445350d1b0e7acba669bd922c7aa65a4",
     "started": 1765912096,
