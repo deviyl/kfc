@@ -1,5 +1,47 @@
 [
   {
+    "id": 435024958,
+    "code": "8e5e8ec7c05b05974213529853b1dba5",
+    "started": 1765868841,
+    "ended": 1765868847,
+    "attacker": {
+      "id": 1643014,
+      "name": "HOWSTHAT",
+      "level": 100,
+      "faction": {
+        "id": 1149,
+        "name": "WTF"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.26,
+    "respect_loss": 0.81,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.28,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435008593,
     "code": "6d268d02cccab64682d94ff4690f9318",
     "started": 1765862556,
