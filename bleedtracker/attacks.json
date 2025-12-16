@@ -1,5 +1,120 @@
 [
   {
+    "id": 435140609,
+    "code": "a6591cdefd2346f7724c2eb6c948cb77",
+    "started": 1765924279,
+    "ended": 1765924286,
+    "attacker": null,
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435140560,
+    "code": "9971ce7604da67506dd4876aeb499bf1",
+    "started": 1765924251,
+    "ended": 1765924254,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.41,
+    "respect_loss": 0.35,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.48,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 435139647,
+    "code": "91b36681ddba91d8a2b36f12910fc24c",
+    "started": 1765923706,
+    "ended": 1765923713,
+    "attacker": null,
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 32,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435137616,
     "code": "5f65bc63dc7edfbbf63635240393e5d3",
     "started": 1765922571,
