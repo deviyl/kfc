@@ -1,5 +1,81 @@
 [
   {
+    "id": 435114938,
+    "code": "e58b72f86d5fdbe71598a2fbdbb1912b",
+    "started": 1765909334,
+    "ended": 1765909336,
+    "attacker": null,
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.14,
+    "respect_loss": 0.79,
+    "chain": 35,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.57,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.14,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435114843,
+    "code": "cb64ee57d76fb6d0ca764fb982383930",
+    "started": 1765909298,
+    "ended": 1765909300,
+    "attacker": {
+      "id": 2270005,
+      "name": "CHINGADERA",
+      "level": 100,
+      "faction": {
+        "id": 18736,
+        "name": "Monarch Research"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Interrupted",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": true,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435109418,
     "code": "2d6a96446789ff5bca47255b1dbd857e",
     "started": 1765906855,
