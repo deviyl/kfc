@@ -1,5 +1,47 @@
 [
   {
+    "id": 435008593,
+    "code": "6d268d02cccab64682d94ff4690f9318",
+    "started": 1765862556,
+    "ended": 1765862561,
+    "attacker": {
+      "id": 4018932,
+      "name": "WickedWarLord",
+      "level": 9,
+      "faction": {
+        "id": 49862,
+        "name": "Dirty Mike and the Boyz"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.13,
+    "respect_loss": 0.53,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.7,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435003118,
     "code": "6f4d3651f67263d9b51f845243f34621",
     "started": 1765859987,
