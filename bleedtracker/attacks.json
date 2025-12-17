@@ -1,5 +1,131 @@
 [
   {
+    "id": 435196226,
+    "code": "a304d6c1c0fb61bf0107e08147b681e3",
+    "started": 1765946270,
+    "ended": 1765946275,
+    "attacker": {
+      "id": 2745769,
+      "name": "jchawk",
+      "level": 97,
+      "faction": {
+        "id": 7835,
+        "name": "Monarch Mutation"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 4.29,
+    "respect_loss": 1.07,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435193629,
+    "code": "f07ff944b193ac53134c50bbf94b49de",
+    "started": 1765945178,
+    "ended": 1765945182,
+    "attacker": {
+      "id": 2156358,
+      "name": "Kobie",
+      "level": 100,
+      "faction": {
+        "id": 231,
+        "name": "Destructive Anomaly"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435193623,
+    "code": "85e3d6be33385279b25be27e322e533f",
+    "started": 1765945175,
+    "ended": 1765945181,
+    "attacker": {
+      "id": 2613566,
+      "name": "Fragzz",
+      "level": 100,
+      "faction": {
+        "id": 16282,
+        "name": "Nuclear Winter"
+      }
+    },
+    "defender": {
+      "id": 1978647,
+      "name": "Delldax",
+      "level": 86,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.05,
+    "respect_loss": 1.01,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.83,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435170078,
     "code": "607021e7aad21295e410e79f5ea48686",
     "started": 1765936003,
