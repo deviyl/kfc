@@ -1,5 +1,81 @@
 [
   {
+    "id": 435280076,
+    "code": "f6ffe31ff7942fd4b2f32cba324218c0",
+    "started": 1766008883,
+    "ended": 1766008889,
+    "attacker": {
+      "id": 2067364,
+      "name": "MrNova",
+      "level": 90,
+      "faction": {
+        "id": 39788,
+        "name": "Cerberus"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.59,
+    "respect_loss": 0.4,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.67,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435279825,
+    "code": "ceab6738c3bb3a138a9eab942a907a2a",
+    "started": 1766008669,
+    "ended": 1766008672,
+    "attacker": null,
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 46,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.31,
+    "respect_loss": 0.58,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.5,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435263986,
     "code": "2e38c54b43b3f8d3aca5079150c0b87a",
     "started": 1765995361,
