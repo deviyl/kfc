@@ -1,5 +1,44 @@
 [
   {
+    "id": 435286182,
+    "code": "f658aa5de783c4a8470509dd3a2aaa6c",
+    "started": 1766013986,
+    "ended": 1766013990,
+    "attacker": null,
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.07,
+    "respect_loss": 0.27,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.11,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 23
+      }
+    ]
+  },
+  {
     "id": 435280076,
     "code": "f6ffe31ff7942fd4b2f32cba324218c0",
     "started": 1766008883,
