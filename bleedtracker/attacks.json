@@ -1,5 +1,47 @@
 [
   {
+    "id": 435241824,
+    "code": "78090e7942be42ff62f4861bc9c5de72",
+    "started": 1765977937,
+    "ended": 1765977941,
+    "attacker": {
+      "id": 3465342,
+      "name": "arx",
+      "level": 48,
+      "faction": {
+        "id": 47563,
+        "name": "Heroin!"
+      }
+    },
+    "defender": {
+      "id": 3727751,
+      "name": "Bobbelbo",
+      "level": 35,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.45,
+    "respect_loss": 0.61,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.79,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435238006,
     "code": "f78d49c527a45e2994164901dae8f6ed",
     "started": 1765974541,
