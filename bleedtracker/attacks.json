@@ -1,5 +1,47 @@
 [
   {
+    "id": 435170078,
+    "code": "607021e7aad21295e410e79f5ea48686",
+    "started": 1765936003,
+    "ended": 1765936017,
+    "attacker": {
+      "id": 3195591,
+      "name": "Mary_FN_Poppins",
+      "level": 68,
+      "faction": {
+        "id": 15222,
+        "name": "Mortiferi"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.86,
+    "respect_loss": 0.71,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435145284,
     "code": "25d358663f2c4307ddce13b504f6b1d7",
     "started": 1765926244,
