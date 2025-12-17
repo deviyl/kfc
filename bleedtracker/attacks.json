@@ -1,5 +1,47 @@
 [
   {
+    "id": 435238006,
+    "code": "f78d49c527a45e2994164901dae8f6ed",
+    "started": 1765974541,
+    "ended": 1765974549,
+    "attacker": {
+      "id": 2986832,
+      "name": "EliminatorLive",
+      "level": 69,
+      "faction": {
+        "id": 51915,
+        "name": "Faster Than Light"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.69,
+    "respect_loss": 0.42,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.41,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435222049,
     "code": "8a7fc0b74e0cb5842a74f1fc089406e4",
     "started": 1765961290,
