@@ -1,5 +1,47 @@
 [
   {
+    "id": 435326282,
+    "code": "edebdc8e4eaae4584a00311162f29399",
+    "started": 1766040065,
+    "ended": 1766040068,
+    "attacker": {
+      "id": 3895125,
+      "name": "Dale42",
+      "level": 26,
+      "faction": {
+        "id": 53275,
+        "name": "Torn Networks"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.29,
+    "respect_loss": 0.57,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.78,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435297880,
     "code": "3097cf08478b89d20fcd8952b297f99a",
     "started": 1766020712,
