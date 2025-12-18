@@ -1,5 +1,81 @@
 [
   {
+    "id": 435446596,
+    "code": "4306ed89e2998a61924194e59768f47a",
+    "started": 1766102039,
+    "ended": 1766102043,
+    "attacker": null,
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0.85,
+    "respect_loss": 0.21,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435446543,
+    "code": "9e6ce2c84715fc3d9b614c5673d376b0",
+    "started": 1766102008,
+    "ended": 1766102011,
+    "attacker": {
+      "id": 3126447,
+      "name": "Jambo1uk",
+      "level": 90,
+      "faction": {
+        "id": 11581,
+        "name": "Natural Selection III"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Arrested",
+    "respect_gain": 1.13,
+    "respect_loss": 0.28,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435439779,
     "code": "e1cd5d68522f25dc5bec10c0d914344c",
     "started": 1766098415,
