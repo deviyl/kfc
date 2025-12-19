@@ -1,5 +1,86 @@
 [
   {
+    "id": 435520024,
+    "code": "77e74e86c75eecc0dc10141a8eb0e78f",
+    "started": 1766144081,
+    "ended": 1766144085,
+    "attacker": {
+      "id": 4024816,
+      "name": "Aravind314",
+      "level": 7,
+      "faction": {
+        "id": 50055,
+        "name": "Bleak"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435519660,
+    "code": "187a6b2c5b1f828a8e064eec09a3e939",
+    "started": 1766143803,
+    "ended": 1766143806,
+    "attacker": {
+      "id": 3994114,
+      "name": "Celldweller020",
+      "level": 5,
+      "faction": null
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435518477,
     "code": "61025a05af9043f0705e8b01bdda2f85",
     "started": 1766142948,
