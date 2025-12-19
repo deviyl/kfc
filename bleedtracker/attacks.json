@@ -1,5 +1,47 @@
 [
   {
+    "id": 435520429,
+    "code": "304a4a99857db53555fd68d20f19b751",
+    "started": 1766144416,
+    "ended": 1766144420,
+    "attacker": {
+      "id": 4007816,
+      "name": "Bollie_ZA",
+      "level": 12,
+      "faction": {
+        "id": 22691,
+        "name": "Beyond Valhalla"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.36,
+    "respect_loss": 0.59,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435520024,
     "code": "77e74e86c75eecc0dc10141a8eb0e78f",
     "started": 1766144081,
