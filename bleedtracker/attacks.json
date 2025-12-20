@@ -1,5 +1,47 @@
 [
   {
+    "id": 435674346,
+    "code": "b8e009385a911990f29690a67c6494ea",
+    "started": 1766214211,
+    "ended": 1766214222,
+    "attacker": {
+      "id": 4019942,
+      "name": "Savucona",
+      "level": 9,
+      "faction": {
+        "id": 52168,
+        "name": "White Eagles"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435667763,
     "code": "ed468b9df71a961f8b07516a577be462",
     "started": 1766210371,
