@@ -1,5 +1,47 @@
 [
   {
+    "id": 435791327,
+    "code": "6658af3e0c38db29f936341d96bc70d8",
+    "started": 1766269364,
+    "ended": 1766269369,
+    "attacker": {
+      "id": 2679467,
+      "name": "Beesus",
+      "level": 100,
+      "faction": {
+        "id": 43699,
+        "name": "Bees n Cheese"
+      }
+    },
+    "defender": {
+      "id": 1997029,
+      "name": "Somehomelessmen",
+      "level": 46,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Arrested",
+    "respect_gain": 1.28,
+    "respect_loss": 0.32,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435733118,
     "code": "2d315b44fb5d8db20bd0b47d571f133d",
     "started": 1766247123,
