@@ -1,5 +1,52 @@
 [
   {
+    "id": 435684586,
+    "code": "f37a4909df57dea80902b764b24bf5b6",
+    "started": 1766220401,
+    "ended": 1766220407,
+    "attacker": {
+      "id": 3931146,
+      "name": "HogGoblin",
+      "level": 12,
+      "faction": {
+        "id": 54233,
+        "name": "The Forsaken Realm"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.43,
+    "respect_loss": 0.36,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.81,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 24
+      }
+    ]
+  },
+  {
     "id": 435682874,
     "code": "5aa08ffd2f2bda166952ac5eb8a71998",
     "started": 1766219286,
