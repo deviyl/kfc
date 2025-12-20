@@ -1,5 +1,47 @@
 [
   {
+    "id": 435676328,
+    "code": "a096040a825b29f6b760bfdfa8220667",
+    "started": 1766215342,
+    "ended": 1766215356,
+    "attacker": {
+      "id": 4019676,
+      "name": "Groddd",
+      "level": 9,
+      "faction": {
+        "id": 8184,
+        "name": "Shapoopy Beans"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435674346,
     "code": "b8e009385a911990f29690a67c6494ea",
     "started": 1766214211,
