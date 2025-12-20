@@ -1,5 +1,47 @@
 [
   {
+    "id": 435689224,
+    "code": "41bfddcea4d008a537cf42e15bf74508",
+    "started": 1766223563,
+    "ended": 1766223571,
+    "attacker": {
+      "id": 4010610,
+      "name": "MafiaBobby",
+      "level": 12,
+      "faction": {
+        "id": 55292,
+        "name": "High Standard"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435686427,
     "code": "01ad48fc52b8e7d08a02d3b47efad31a",
     "started": 1766221587,
