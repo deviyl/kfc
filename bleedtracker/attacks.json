@@ -1,5 +1,220 @@
 [
   {
+    "id": 435974638,
+    "code": "4b861489642579ab990d0fc4d98f04a1",
+    "started": 1766359911,
+    "ended": 1766359913,
+    "attacker": {
+      "id": 3443229,
+      "name": "RealllBatman",
+      "level": 67,
+      "faction": {
+        "id": 14821,
+        "name": "JFK - Future Killers"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.36,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.42,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435973602,
+    "code": "3c68c03ea71de6afe98af47f59054d66",
+    "started": 1766359220,
+    "ended": 1766359221,
+    "attacker": {
+      "id": 1895784,
+      "name": "MBS",
+      "level": 100,
+      "faction": {
+        "id": 6731,
+        "name": "The Next Level"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435973599,
+    "code": "5f30702109ffd4fa49c4595850e37650",
+    "started": 1766359219,
+    "ended": 1766359222,
+    "attacker": {
+      "id": 2800121,
+      "name": "Kernjaca",
+      "level": 80,
+      "faction": {
+        "id": 8867,
+        "name": "Monarch Chrysalis"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.08,
+    "respect_loss": 0.27,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": 435973600,
+    "code": "0ae9419664154cf1ee6df5ce916d84ab",
+    "started": 1766359219,
+    "ended": 1766359220,
+    "attacker": {
+      "id": 2733267,
+      "name": "BiiGz",
+      "level": 100,
+      "faction": {
+        "id": 6731,
+        "name": "The Next Level"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 435973592,
+    "code": "498f228e10d8a7b5595e8fd2880dd96c",
+    "started": 1766359218,
+    "ended": 1766359221,
+    "attacker": {
+      "id": 3449848,
+      "name": "Sllow",
+      "level": 16,
+      "faction": {
+        "id": 50170,
+        "name": "Night Watch"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435965668,
     "code": "8fb1ad7db7d663a94b3c4c7fcea9e720",
     "started": 1766354578,
