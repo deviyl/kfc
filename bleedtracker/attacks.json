@@ -1,5 +1,39 @@
 [
   {
+    "id": 435960117,
+    "code": "40ec2d8570128e402a9ec82a9750b7db",
+    "started": 1766351566,
+    "ended": 1766351571,
+    "attacker": null,
+    "defender": {
+      "id": 3973089,
+      "name": "Sumeirou",
+      "level": 26,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.15,
+    "respect_loss": 0.29,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.36,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435926248,
     "code": "829ed002dc757d16d2668ca81bfcf6ce",
     "started": 1766334276,
