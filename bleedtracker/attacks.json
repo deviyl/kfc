@@ -1,5 +1,52 @@
 [
   {
+    "id": 436076819,
+    "code": "2ad44e36abd04e1aaae34019693e4cd6",
+    "started": 1766425528,
+    "ended": 1766425534,
+    "attacker": {
+      "id": 2549859,
+      "name": "Defectus",
+      "level": 100,
+      "faction": {
+        "id": 16628,
+        "name": "Chain Reaction"
+      }
+    },
+    "defender": {
+      "id": 3163596,
+      "name": "SaintMichael",
+      "level": 74,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Arrested",
+    "respect_gain": 1.63,
+    "respect_loss": 0.41,
+    "chain": 16,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.13,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.05,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "revitalize",
+        "value": 25
+      }
+    ]
+  },
+  {
     "id": 436038298,
     "code": "4d11061f1c81f860119d74a7e092fda7",
     "started": 1766398175,
