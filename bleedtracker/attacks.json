@@ -1,5 +1,52 @@
 [
   {
+    "id": 436102198,
+    "code": "f6943b79377bec4b1feb40b1176c9892",
+    "started": 1766446293,
+    "ended": 1766446297,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.44,
+    "respect_loss": 0.36,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.51,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
     "id": 436091052,
     "code": "540908cdf29e0463a9a84ac079bbef23",
     "started": 1766437438,
