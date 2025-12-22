@@ -1,5 +1,47 @@
 [
   {
+    "id": 436003718,
+    "code": "6d91c2fe036fb8cf4a096f1aaf7a326d",
+    "started": 1766374487,
+    "ended": 1766374510,
+    "attacker": {
+      "id": 3556608,
+      "name": "Lukey85",
+      "level": 31,
+      "faction": {
+        "id": 48912,
+        "name": "BLOODLINE"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.09,
+    "respect_loss": 0.77,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 435992696,
     "code": "3dd85af3a200ed915d0f9218691279b0",
     "started": 1766368183,
