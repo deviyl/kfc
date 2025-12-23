@@ -1,5 +1,254 @@
 [
   {
+    "id": 436158767,
+    "code": "4b1407f54b4f7f3e7ee1665a5334b567",
+    "started": 1766488825,
+    "ended": 1766488864,
+    "attacker": {
+      "id": 4015120,
+      "name": "Scorekixxx",
+      "level": 12,
+      "faction": {
+        "id": 53915,
+        "name": "Capital Development"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.37,
+    "respect_loss": 0.59,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.26,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436158664,
+    "code": "0a5902933bc7379c7bc48828c9a43929",
+    "started": 1766488736,
+    "ended": 1766488741,
+    "attacker": {
+      "id": 3953322,
+      "name": "LondonIn",
+      "level": 10,
+      "faction": {
+        "id": 8437,
+        "name": "The Mile High Clinic"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.36,
+    "respect_loss": 0.59,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436158641,
+    "code": "5d2feb26f8df6c26164eae2fbfd02982",
+    "started": 1766488710,
+    "ended": 1766488716,
+    "attacker": {
+      "id": 3964469,
+      "name": "ayrist",
+      "level": 10,
+      "faction": {
+        "id": 52539,
+        "name": "The Ascension Project"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436158479,
+    "code": "37d5e20f849b01ed789755c0ef253488",
+    "started": 1766488585,
+    "ended": 1766488595,
+    "attacker": {
+      "id": 3953322,
+      "name": "LondonIn",
+      "level": 10,
+      "faction": {
+        "id": 8437,
+        "name": "The Mile High Clinic"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.36,
+    "respect_loss": 0.59,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436158295,
+    "code": "e5f175100035a948c460ccd8974704d1",
+    "started": 1766488428,
+    "ended": 1766488435,
+    "attacker": {
+      "id": 3953322,
+      "name": "LondonIn",
+      "level": 10,
+      "faction": {
+        "id": 8437,
+        "name": "The Mile High Clinic"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.36,
+    "respect_loss": 0.59,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436157997,
+    "code": "c83f6449f18aff23bb34d95ae01eaa41",
+    "started": 1766488190,
+    "ended": 1766488200,
+    "attacker": {
+      "id": 3991091,
+      "name": "Monkey-D-garp",
+      "level": 12,
+      "faction": null
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436151320,
     "code": "c76072d4c81c2ed000d805e89cfbf5c6",
     "started": 1766481763,
