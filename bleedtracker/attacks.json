@@ -1,5 +1,47 @@
 [
   {
+    "id": 436189297,
+    "code": "686ba74cfd0455aa6b2df7a281c93f7d",
+    "started": 1766514342,
+    "ended": 1766514352,
+    "attacker": {
+      "id": 3857412,
+      "name": "ONLYLEGEND_",
+      "level": 31,
+      "faction": {
+        "id": 17001,
+        "name": "Trigger Happy Devils"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 3.05,
+    "respect_loss": 0.76,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.96,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436179635,
     "code": "c2ece1558e7358d9ca99900d816a4cad",
     "started": 1766506593,
