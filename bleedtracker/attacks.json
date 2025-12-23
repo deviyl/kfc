@@ -1,5 +1,47 @@
 [
   {
+    "id": 436129631,
+    "code": "6c200799f3a76fae8e9b1d89284f84f4",
+    "started": 1766464239,
+    "ended": 1766464254,
+    "attacker": {
+      "id": 2581221,
+      "name": "Andrew1278",
+      "level": 66,
+      "faction": {
+        "id": 19449,
+        "name": "Near~Death"
+      }
+    },
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.93,
+    "respect_loss": 0.48,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.06,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436115203,
     "code": "08bff8eaf57c3aa4e5aa87175eb3612d",
     "started": 1766454040,
