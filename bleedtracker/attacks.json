@@ -1,5 +1,44 @@
 [
   {
+    "id": 436253650,
+    "code": "c560dc5da4adf2e9d48f961c5b45ae19",
+    "started": 1766568077,
+    "ended": 1766568083,
+    "attacker": null,
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 46,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.08,
+    "respect_loss": 0.27,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.17,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 20
+      }
+    ]
+  },
+  {
     "id": 436230889,
     "code": "b09175dc0329054e1019ecb32fa8fb46",
     "started": 1766547770,
