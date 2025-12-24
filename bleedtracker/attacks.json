@@ -1,5 +1,44 @@
 [
   {
+    "id": 436281326,
+    "code": "79f3df3f99b9b077ec38d3efb847b30f",
+    "started": 1766596304,
+    "ended": 1766596309,
+    "attacker": null,
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.16,
+    "respect_loss": 0.29,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.07,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 20
+      }
+    ]
+  },
+  {
     "id": 436277370,
     "code": "0587d93d58ffac21a9713ce1c691116a",
     "started": 1766592246,
