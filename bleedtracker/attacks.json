@@ -1,5 +1,47 @@
 [
   {
+    "id": 436277370,
+    "code": "0587d93d58ffac21a9713ce1c691116a",
+    "started": 1766592246,
+    "ended": 1766592251,
+    "attacker": {
+      "id": 3158025,
+      "name": "Clumsy-Wolf",
+      "level": 87,
+      "faction": {
+        "id": 8536,
+        "name": "Valiance Wanderers"
+      }
+    },
+    "defender": {
+      "id": 3277325,
+      "name": "Kain_korso",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Arrested",
+    "respect_gain": 1.66,
+    "respect_loss": 0.41,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.31,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436276651,
     "code": "4310bce43893aeb5e187cb4afc6b2ae2",
     "started": 1766591534,
