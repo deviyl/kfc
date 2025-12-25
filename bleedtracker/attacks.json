@@ -1,5 +1,89 @@
 [
   {
+    "id": 436376522,
+    "code": "4cbb6a1efd287c4b93419ef0e81c45f4",
+    "started": 1766681220,
+    "ended": 1766681227,
+    "attacker": {
+      "id": 3327658,
+      "name": "Aegon",
+      "level": 52,
+      "faction": {
+        "id": 3241,
+        "name": "JFK"
+      }
+    },
+    "defender": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.17,
+    "respect_loss": 0.29,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.35,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436375613,
+    "code": "98c3ad37e867b06e8edda00c3c06d6d2",
+    "started": 1766680659,
+    "ended": 1766680668,
+    "attacker": {
+      "id": 3465342,
+      "name": "arx",
+      "level": 48,
+      "faction": {
+        "id": 47563,
+        "name": "Heroin!"
+      }
+    },
+    "defender": {
+      "id": 3727751,
+      "name": "Bobbelbo",
+      "level": 36,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.56,
+    "respect_loss": 0.64,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.89,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436328583,
     "code": "8edbe7e836539b3d61fdcac3dc385522",
     "started": 1766639533,
