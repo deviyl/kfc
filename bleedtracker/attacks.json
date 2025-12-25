@@ -1,5 +1,44 @@
 [
   {
+    "id": 436306749,
+    "code": "f52e4e9c4064c8ebd4f8b52f1aa2c41f",
+    "started": 1766621461,
+    "ended": 1766621465,
+    "attacker": null,
+    "defender": {
+      "id": 3163596,
+      "name": "SaintMichael",
+      "level": 74,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.37,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.33,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 26
+      }
+    ]
+  },
+  {
     "id": 436281326,
     "code": "79f3df3f99b9b077ec38d3efb847b30f",
     "started": 1766596304,
