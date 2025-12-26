@@ -1,5 +1,47 @@
 [
   {
+    "id": 436518264,
+    "code": "c45845c3465abc85b0285100ac2b7063",
+    "started": 1766763106,
+    "ended": 1766763107,
+    "attacker": {
+      "id": 3739714,
+      "name": "Eava",
+      "level": 26,
+      "faction": {
+        "id": 53638,
+        "name": "The Cragstone Coalition"
+      }
+    },
+    "defender": {
+      "id": 3796175,
+      "name": "PowerMax",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436506842,
     "code": "3f7000df76f49e606ee4a5953cdebb81",
     "started": 1766759047,
