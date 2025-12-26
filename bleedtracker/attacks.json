@@ -1,5 +1,165 @@
 [
   {
+    "id": 436439721,
+    "code": "7494d83397445ccd79e5a46ba3c740d4",
+    "started": 1766714708,
+    "ended": 1766714714,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.21,
+    "respect_loss": 0.3,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.03,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436436024,
+    "code": "68fdec0acae1d1701f6868982a569e49",
+    "started": 1766712778,
+    "ended": 1766712786,
+    "attacker": {
+      "id": 2626316,
+      "name": "LongDonWilly",
+      "level": 24,
+      "faction": {
+        "id": 41160,
+        "name": "The Shogunate"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436427563,
+    "code": "f7d0e54388951ca2c9dea008cca175b7",
+    "started": 1766708550,
+    "ended": 1766708552,
+    "attacker": {
+      "id": 3996335,
+      "name": "Blackbarons",
+      "level": 12,
+      "faction": {
+        "id": 49319,
+        "name": "Valiance Ghosts"
+      }
+    },
+    "defender": {
+      "id": 3171413,
+      "name": "xKittehxKatx",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436427231,
+    "code": "7a563ba85b55d736d816c8e0a641a036",
+    "started": 1766708433,
+    "ended": 1766708446,
+    "attacker": {
+      "id": 3996335,
+      "name": "Blackbarons",
+      "level": 12,
+      "faction": {
+        "id": 49319,
+        "name": "Valiance Ghosts"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436395510,
     "code": "960e91510df0f76688673421f68f8ffd",
     "started": 1766691780,
