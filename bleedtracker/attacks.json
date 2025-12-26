@@ -1,5 +1,47 @@
 [
   {
+    "id": 436536607,
+    "code": "911a1a91a4d5ae46b0bc94336f0ebb72",
+    "started": 1766770606,
+    "ended": 1766770609,
+    "attacker": {
+      "id": 2087183,
+      "name": "Hoezey",
+      "level": 100,
+      "faction": {
+        "id": 6731,
+        "name": "The Next Level"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Arrested",
+    "respect_gain": 1.19,
+    "respect_loss": 0.3,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436518264,
     "code": "c45845c3465abc85b0285100ac2b7063",
     "started": 1766763106,
