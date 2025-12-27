@@ -1,5 +1,47 @@
 [
   {
+    "id": 436631633,
+    "code": "04769e68fa27aa1617a69ae500c76555",
+    "started": 1766819438,
+    "ended": 1766819439,
+    "attacker": {
+      "id": 3551195,
+      "name": "ArchiAlert",
+      "level": 55,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 100,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436617299,
     "code": "c858d4dca6f6f1e49e97ccb9ced5d85a",
     "started": 1766810786,
