@@ -1,5 +1,89 @@
 [
   {
+    "id": 436687417,
+    "code": "e35caf53dcd0c1b8b5c152a4f635b81d",
+    "started": 1766852479,
+    "ended": 1766852484,
+    "attacker": {
+      "id": 3996335,
+      "name": "Blackbarons",
+      "level": 12,
+      "faction": {
+        "id": 49319,
+        "name": "Valiance Ghosts"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.98,
+    "respect_loss": 0.5,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.52,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436687347,
+    "code": "9230b328b6fb4bd2a76a4d80a7759cb9",
+    "started": 1766852447,
+    "ended": 1766852453,
+    "attacker": {
+      "id": 3996335,
+      "name": "Blackbarons",
+      "level": 12,
+      "faction": {
+        "id": 49319,
+        "name": "Valiance Ghosts"
+      }
+    },
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 6,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.62,
+    "respect_loss": 0.41,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436659284,
     "code": "c6010fcd0ccbdad6c862a47746a46f58",
     "started": 1766837565,
