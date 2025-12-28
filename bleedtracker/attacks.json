@@ -1,5 +1,81 @@
 [
   {
+    "id": 436838460,
+    "code": "b8725e0ffa24b94b04f59cce469b0176",
+    "started": 1766925442,
+    "ended": 1766925446,
+    "attacker": null,
+    "defender": {
+      "id": 2792892,
+      "name": "Xevi",
+      "level": 49,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 10,
+    "respect_loss": 2.5,
+    "chain": 10,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.12,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 10,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436835808,
+    "code": "e78004e5c7209bede7b66cb68ae90a02",
+    "started": 1766923829,
+    "ended": 1766923833,
+    "attacker": {
+      "id": 4013562,
+      "name": "Kzlak",
+      "level": 11,
+      "faction": {
+        "id": 52333,
+        "name": "Anti Social Social Club"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.93,
+    "respect_loss": 0.73,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.79,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436828362,
     "code": "53dfd84ce3b6750e19d9ca00c3b5e814",
     "started": 1766919819,
