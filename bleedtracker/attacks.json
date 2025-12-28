@@ -1,5 +1,52 @@
 [
   {
+    "id": 436828362,
+    "code": "53dfd84ce3b6750e19d9ca00c3b5e814",
+    "started": 1766919819,
+    "ended": 1766919833,
+    "attacker": {
+      "id": 1349907,
+      "name": "BlkMetalKnight",
+      "level": 100,
+      "faction": {
+        "id": 41238,
+        "name": "The Mile High Club"
+      }
+    },
+    "defender": {
+      "id": 3599627,
+      "name": "CaptainRinny",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.06,
+    "respect_loss": 0.26,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.13,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
     "id": 436824129,
     "code": "d6177ef325217de57e07b184675ce45c",
     "started": 1766917097,
