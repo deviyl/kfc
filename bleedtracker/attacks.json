@@ -1,5 +1,44 @@
 [
   {
+    "id": 436812933,
+    "code": "21fb76ac824af6c45eb29b7ffc2dbbcc",
+    "started": 1766910221,
+    "ended": 1766910231,
+    "attacker": {
+      "id": 4023323,
+      "name": "Whattasayo",
+      "level": 9,
+      "faction": null
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436797118,
     "code": "74e961339596c259362f21be6936c5b9",
     "started": 1766901090,
