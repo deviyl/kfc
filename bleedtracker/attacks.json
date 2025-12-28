@@ -1,5 +1,39 @@
 [
   {
+    "id": 436797118,
+    "code": "74e961339596c259362f21be6936c5b9",
+    "started": 1766901090,
+    "ended": 1766901094,
+    "attacker": null,
+    "defender": {
+      "id": 3150667,
+      "name": "CJ120",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1,
+    "respect_loss": 0.25,
+    "chain": 9,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.16,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436782494,
     "code": "5e3470d592f044a89d9725cd7b7c05f0",
     "started": 1766892877,
