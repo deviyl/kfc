@@ -1,5 +1,47 @@
 [
   {
+    "id": 436873624,
+    "code": "171beda99c385d438ef76665286e5e2e",
+    "started": 1766944520,
+    "ended": 1766944527,
+    "attacker": {
+      "id": 4025169,
+      "name": "Whestion",
+      "level": 13,
+      "faction": {
+        "id": 53822,
+        "name": "Black Trail"
+      }
+    },
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.09,
+    "respect_loss": 0.52,
+    "chain": 275,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.99,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.36,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436861222,
     "code": "c8fc2f3d42fa045633cdd345e18aaded",
     "started": 1766938361,
