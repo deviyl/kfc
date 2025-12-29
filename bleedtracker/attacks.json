@@ -1,5 +1,89 @@
 [
   {
+    "id": 436917772,
+    "code": "df1fa56c1ccfa4299db4cfbbf60598ce",
+    "started": 1766968295,
+    "ended": 1766968299,
+    "attacker": {
+      "id": 4013660,
+      "name": "MohikoK3",
+      "level": 19,
+      "faction": {
+        "id": 53274,
+        "name": "Late Nite Nibblers"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.05,
+    "respect_loss": 0.76,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.9,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 436915138,
+    "code": "5efa07745e766f92def25472e2346850",
+    "started": 1766967308,
+    "ended": 1766967311,
+    "attacker": {
+      "id": 3971628,
+      "name": "vbprog",
+      "level": 20,
+      "faction": {
+        "id": 53940,
+        "name": "Tesseract"
+      }
+    },
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 10,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.85,
+    "respect_loss": 0.46,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.76,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 436890274,
     "code": "089ffd618cf228b9b6b2a4c530f1adfb",
     "started": 1766953415,
