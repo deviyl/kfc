@@ -1,5 +1,47 @@
 [
   {
+    "id": 437037355,
+    "code": "cfb82a6ced01b469ab19c71f9a5c4d7b",
+    "started": 1767045362,
+    "ended": 1767045366,
+    "attacker": {
+      "id": 3919108,
+      "name": "WalterWhite1991",
+      "level": 26,
+      "faction": {
+        "id": 48743,
+        "name": "Eternal Reality"
+      }
+    },
+    "defender": {
+      "id": 3976413,
+      "name": "Carljnz",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437035903,
     "code": "33d7b2db3b884641472d72df9c435cba",
     "started": 1767044357,
