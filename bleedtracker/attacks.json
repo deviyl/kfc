@@ -1,5 +1,47 @@
 [
   {
+    "id": 437113199,
+    "code": "ca92085fff3951cb70968b3c1ff84b29",
+    "started": 1767099654,
+    "ended": 1767099664,
+    "attacker": {
+      "id": 3989833,
+      "name": "Deathdrake",
+      "level": 24,
+      "faction": {
+        "id": 13842,
+        "name": "Brazilian Unit"
+      }
+    },
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.51,
+    "respect_loss": 0.88,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437059361,
     "code": "38c49c7ccccf52c9724c0a8c0fb45986",
     "started": 1767058070,
