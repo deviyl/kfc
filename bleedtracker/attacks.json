@@ -1,5 +1,52 @@
 [
   {
+    "id": 437124314,
+    "code": "02dd1c19e9de0bef2197605a314e9efe",
+    "started": 1767107897,
+    "ended": 1767107902,
+    "attacker": {
+      "id": 2672297,
+      "name": "cAnDyShOp",
+      "level": 96,
+      "faction": {
+        "id": 13502,
+        "name": "Dead or Alive"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.1,
+    "respect_loss": 0.28,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.15,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 24
+      }
+    ]
+  },
+  {
     "id": 437118588,
     "code": "80208d413a3260d5074bcce758cd1ad5",
     "started": 1767103716,
