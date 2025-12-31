@@ -1,5 +1,47 @@
 [
   {
+    "id": 437229037,
+    "code": "5fccd6f41e711055104b341e8a1115b4",
+    "started": 1767185571,
+    "ended": 1767185576,
+    "attacker": {
+      "id": 7176,
+      "name": "shadowchild",
+      "level": 79,
+      "faction": {
+        "id": 19297,
+        "name": "Havoc"
+      }
+    },
+    "defender": {
+      "id": 3599627,
+      "name": "CaptainRinny",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.42,
+    "respect_loss": 0.35,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.51,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437219664,
     "code": "7d9dadce57cadf5a3648e62b9f277ba1",
     "started": 1767177908,
