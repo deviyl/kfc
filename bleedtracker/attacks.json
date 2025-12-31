@@ -1,5 +1,89 @@
 [
   {
+    "id": 437270194,
+    "code": "715b33f35d79ad7904009ca0c145b3d7",
+    "started": 1767219507,
+    "ended": 1767219511,
+    "attacker": {
+      "id": 1889573,
+      "name": "AgentSmith0714",
+      "level": 57,
+      "faction": {
+        "id": 38761,
+        "name": "Vinerri Shadow Cult"
+      }
+    },
+    "defender": {
+      "id": 3247958,
+      "name": "KFC23",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 3.6,
+    "respect_loss": 0.9,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 437270045,
+    "code": "14be701c71974a691702eaa5b57462eb",
+    "started": 1767219370,
+    "ended": 1767219372,
+    "attacker": {
+      "id": 2715469,
+      "name": "Brizo",
+      "level": 100,
+      "faction": {
+        "id": 28073,
+        "name": "Shiny Hoard Avian Team"
+      }
+    },
+    "defender": {
+      "id": 3163596,
+      "name": "SaintMichael",
+      "level": 74,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.41,
+    "respect_loss": 0.35,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.37,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437255909,
     "code": "224f7c1b42f7c496d5ec1cd2bb2497b3",
     "started": 1767206608,
