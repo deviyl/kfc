@@ -1,5 +1,44 @@
 [
   {
+    "id": 437371183,
+    "code": "fb6de8b345408dfdb44acbe536773df5",
+    "started": 1767286790,
+    "ended": 1767286796,
+    "attacker": {
+      "id": 4006277,
+      "name": "thehumboldt",
+      "level": 10,
+      "faction": null
+    },
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 7,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437369133,
     "code": "7287248d500064c87a94ca643e7fd7bf",
     "started": 1767285873,
