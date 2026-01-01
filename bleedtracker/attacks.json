@@ -1,5 +1,47 @@
 [
   {
+    "id": 437420690,
+    "code": "1f6e3ec342435c91980ab8590000599f",
+    "started": 1767305017,
+    "ended": 1767305023,
+    "attacker": {
+      "id": 3913421,
+      "name": "Wolfylein",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437399459,
     "code": "93df7e115b605de980a52a4445406380",
     "started": 1767297871,
