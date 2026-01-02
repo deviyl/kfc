@@ -1,5 +1,511 @@
 [
   {
+    "id": 437650894,
+    "code": "1871f42088938e917bf5be9b67068bb5",
+    "started": 1767394400,
+    "ended": 1767394403,
+    "attacker": null,
+    "defender": {
+      "id": 3708737,
+      "name": "porchman",
+      "level": 35,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.25,
+    "respect_loss": 1.06,
+    "chain": 1080,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.02,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 437650644,
+    "code": "7d477920991ad70cff6cfcf3ec926812",
+    "started": 1767394304,
+    "ended": 1767394306,
+    "attacker": null,
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 33,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.18,
+    "respect_loss": 1.04,
+    "chain": 1079,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.01,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.18
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 18
+      }
+    ]
+  },
+  {
+    "id": 437650641,
+    "code": "656586930b922977dcf32ca2e6a1fc14",
+    "started": 1767394303,
+    "ended": 1767394305,
+    "attacker": null,
+    "defender": {
+      "id": 3627681,
+      "name": "ZeTwilighTwizz",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.56,
+    "respect_loss": 1.14,
+    "chain": 1078,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.24
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 437650613,
+    "code": "21b111dc41f397d9470b29ae6b99a385",
+    "started": 1767394290,
+    "ended": 1767394292,
+    "attacker": null,
+    "defender": {
+      "id": 3418794,
+      "name": "BaldJonno",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.08,
+    "respect_loss": 1.02,
+    "chain": 1077,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.24
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 437650309,
+    "code": "42b64c976880cca638c0e3f38e0a557e",
+    "started": 1767394225,
+    "ended": 1767394227,
+    "attacker": null,
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.67,
+    "respect_loss": 1.17,
+    "chain": 1076,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.2,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": 437649559,
+    "code": "02e000df93712febeb767bf1352c3483",
+    "started": 1767394104,
+    "ended": 1767394106,
+    "attacker": null,
+    "defender": {
+      "id": 3157644,
+      "name": "SirJimboSliceSr",
+      "level": 56,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.22,
+    "respect_loss": 1.3,
+    "chain": 1075,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.09,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.24
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 437649491,
+    "code": "1fc7dbaa727f10f4beeee847589abbd5",
+    "started": 1767394093,
+    "ended": 1767394095,
+    "attacker": {
+      "id": 2653823,
+      "name": "Barry_Dylan",
+      "level": 100,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 3247958,
+      "name": "KFC23",
+      "level": 40,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.35,
+    "respect_loss": 1.34,
+    "chain": 1074,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.24
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 437649360,
+    "code": "ee56977e73e09c4f5917ca8178d35123",
+    "started": 1767394063,
+    "ended": 1767394065,
+    "attacker": {
+      "id": 2653823,
+      "name": "Barry_Dylan",
+      "level": 100,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 2802730,
+      "name": "datcracker420",
+      "level": 89,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 12.83,
+    "respect_loss": 3.21,
+    "chain": 1073,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.38,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.24
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 437649226,
+    "code": "405725f67ef7183c77f76521ec7ae289",
+    "started": 1767394026,
+    "ended": 1767394028,
+    "attacker": {
+      "id": 2653823,
+      "name": "Barry_Dylan",
+      "level": 100,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 100,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 437649225,
+    "code": "52b181dd94213f70a8b0931c494f76fb",
+    "started": 1767394026,
+    "ended": 1767394028,
+    "attacker": {
+      "id": 1075643,
+      "name": "Gun_Ru",
+      "level": 100,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 100,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 13.45,
+    "respect_loss": 3.36,
+    "chain": 1072,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.03,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
+    "id": 437649040,
+    "code": "b2364ec880d7fddd5018937acc8c8e4c",
+    "started": 1767393979,
+    "ended": 1767393981,
+    "attacker": {
+      "id": 2653823,
+      "name": "Barry_Dylan",
+      "level": 100,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 3150667,
+      "name": "CJ120",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.98,
+    "respect_loss": 1.5,
+    "chain": 1071,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.11,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1.25,
+      "overseas": 1,
+      "chain": 1.51,
+      "warlord": 1.24
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "id": 437649039,
+    "code": "b2dc0156acae742e6cc5762dc1fafce5",
+    "started": 1767393978,
+    "ended": 1767393980,
+    "attacker": {
+      "id": 1075643,
+      "name": "Gun_Ru",
+      "level": 100,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 3150667,
+      "name": "CJ120",
+      "level": 31,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Assist",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437648724,
     "code": "3a34a40968044b219f095b64836b05c0",
     "started": 1767393881,
