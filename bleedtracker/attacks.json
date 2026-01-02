@@ -1,5 +1,47 @@
 [
   {
+    "id": 437523259,
+    "code": "fdb22d270d57346595812925574171a7",
+    "started": 1767350500,
+    "ended": 1767350507,
+    "attacker": {
+      "id": 3307757,
+      "name": "FrontlineSea13",
+      "level": 60,
+      "faction": {
+        "id": 8397,
+        "name": "ilimitada"
+      }
+    },
+    "defender": {
+      "id": 2939779,
+      "name": "JaydusStrokka",
+      "level": 50,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.81,
+    "respect_loss": 0.7,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437514888,
     "code": "8d03b7854deccd4449482906e42c4e48",
     "started": 1767345777,
