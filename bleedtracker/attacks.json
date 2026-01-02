@@ -1,5 +1,39 @@
 [
   {
+    "id": 437585165,
+    "code": "23df86940eee1ae17808d5be4400697c",
+    "started": 1767375269,
+    "ended": 1767375273,
+    "attacker": null,
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 46,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.82,
+    "respect_loss": 0.7,
+    "chain": 1023,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.53,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.5,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437564383,
     "code": "ffb2ce5dad5de4c3892280495bedcea9",
     "started": 1767368227,
