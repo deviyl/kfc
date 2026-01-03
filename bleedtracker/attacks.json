@@ -1,5 +1,47 @@
 [
   {
+    "id": 437808359,
+    "code": "f2c287234ebed568cb83cbbf494553d1",
+    "started": 1767454344,
+    "ended": 1767454347,
+    "attacker": {
+      "id": 2778086,
+      "name": "Glare",
+      "level": 21,
+      "faction": {
+        "id": 49846,
+        "name": "Seventh Heaven"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437797541,
     "code": "d101d77ada7ddc6079fbb936aea07be4",
     "started": 1767451668,
