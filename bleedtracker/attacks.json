@@ -1,5 +1,52 @@
 [
   {
+    "id": 437761038,
+    "code": "3c8eeeeaa82df567a2199f4897bc6ba4",
+    "started": 1767436300,
+    "ended": 1767436309,
+    "attacker": {
+      "id": 1075643,
+      "name": "Gun_Ru",
+      "level": 100,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 100,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 7.13,
+    "respect_loss": 1.78,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.03,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.17
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 17
+      }
+    ]
+  },
+  {
     "id": 437751310,
     "code": "40dbaba97580507a4cf97c0861576684",
     "started": 1767431268,
