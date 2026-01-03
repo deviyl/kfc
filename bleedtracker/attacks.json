@@ -1,5 +1,44 @@
 [
   {
+    "id": 437693494,
+    "code": "5b349b3d62978a3959967d6ce973d972",
+    "started": 1767406902,
+    "ended": 1767406910,
+    "attacker": {
+      "id": 2897879,
+      "name": "Mel3",
+      "level": 20,
+      "faction": null
+    },
+    "defender": {
+      "id": 3708737,
+      "name": "porchman",
+      "level": 35,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 437660359,
     "code": "36b823599ad610152ea79bba0cea8078",
     "started": 1767397421,
