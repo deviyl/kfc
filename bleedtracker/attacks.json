@@ -1,5 +1,89 @@
 [
   {
+    "id": 438160089,
+    "code": "0df37103f7cf7ef81d9d818900c69cab",
+    "started": 1767560325,
+    "ended": 1767560333,
+    "attacker": {
+      "id": 3256880,
+      "name": "IxAMxHAWK",
+      "level": 55,
+      "faction": {
+        "id": 50348,
+        "name": "A Murder's Omen"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 1.37,
+    "respect_loss": 0.34,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 438159762,
+    "code": "5cb5c401d8f6de49346fbf05f930407e",
+    "started": 1767560185,
+    "ended": 1767560208,
+    "attacker": {
+      "id": 3256880,
+      "name": "IxAMxHAWK",
+      "level": 55,
+      "faction": {
+        "id": 50348,
+        "name": "A Murder's Omen"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.37,
+    "respect_loss": 0.34,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.19,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438154795,
     "code": "fcc2bc5a40344916059a7269c66e5bd8",
     "started": 1767557944,
