@@ -1,5 +1,52 @@
 [
   {
+    "id": 437952861,
+    "code": "569e3bdede0f564537ffd0761778b194",
+    "started": 1767486668,
+    "ended": 1767486673,
+    "attacker": {
+      "id": 3695179,
+      "name": "AmorePetrol",
+      "level": 41,
+      "faction": {
+        "id": 41545,
+        "name": "The Imperial Hegemon"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.99,
+    "respect_loss": 0.5,
+    "chain": 4,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.15
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 15
+      }
+    ]
+  },
+  {
     "id": 437891666,
     "code": "30a654a8e2bd8b5fb809a7c7fa9a2738",
     "started": 1767474011,
