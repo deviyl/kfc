@@ -1,5 +1,52 @@
 [
   {
+    "id": 438118259,
+    "code": "cb54ae2a3ef3fac8f5f13cfdddb3e8a6",
+    "started": 1767544203,
+    "ended": 1767544212,
+    "attacker": {
+      "id": 674469,
+      "name": "Infernial",
+      "level": 100,
+      "faction": {
+        "id": 9533,
+        "name": "Natural Selection"
+      }
+    },
+    "defender": {
+      "id": 1102071,
+      "name": "Ckreepa",
+      "level": 75,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.02,
+    "respect_loss": 0.5,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.97,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "plunder",
+        "value": 43
+      }
+    ]
+  },
+  {
     "id": 438088615,
     "code": "b3058324169a4e7c2ca1b154ab0cbf8a",
     "started": 1767533260,
