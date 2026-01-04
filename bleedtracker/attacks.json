@@ -1,5 +1,136 @@
 [
   {
+    "id": 438043249,
+    "code": "67e764c84efee09c676595059b67aa33",
+    "started": 1767514594,
+    "ended": 1767514601,
+    "attacker": {
+      "id": 4010610,
+      "name": "MafiaBobby",
+      "level": 16,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 8,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.57,
+    "respect_loss": 1.39,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 2.68,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 438042342,
+    "code": "261e9f64a4c52a9c0e6fde6e278bbcea",
+    "started": 1767514290,
+    "ended": 1767514312,
+    "attacker": {
+      "id": 4010610,
+      "name": "MafiaBobby",
+      "level": 16,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 8,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 438042231,
+    "code": "59f7284786daec7a24c0dbd0b8f4d2c3",
+    "started": 1767514252,
+    "ended": 1767514255,
+    "attacker": {
+      "id": 4010610,
+      "name": "MafiaBobby",
+      "level": 16,
+      "faction": {
+        "id": 37803,
+        "name": "PT-PimpTuga"
+      }
+    },
+    "defender": {
+      "id": 4036438,
+      "name": "RT8",
+      "level": 2,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2.97,
+    "respect_loss": 0.74,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.47,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "proficience",
+        "value": 22
+      }
+    ]
+  },
+  {
     "id": 438015341,
     "code": "07985aeb2a237d9f417841b4c43ffc48",
     "started": 1767504605,
