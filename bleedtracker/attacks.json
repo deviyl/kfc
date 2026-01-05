@@ -1,5 +1,39 @@
 [
   {
+    "id": 438286681,
+    "code": "6acc4705c7750e8ff021118b106fdcbb",
+    "started": 1767624685,
+    "ended": 1767624693,
+    "attacker": null,
+    "defender": {
+      "id": 3774090,
+      "name": "Jereos",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.97,
+    "respect_loss": 0.49,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.8,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438274199,
     "code": "f20aeb181962d7b35ccf08c1f57e6a52",
     "started": 1767616666,
