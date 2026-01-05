@@ -1,5 +1,89 @@
 [
   {
+    "id": 438274199,
+    "code": "f20aeb181962d7b35ccf08c1f57e6a52",
+    "started": 1767616666,
+    "ended": 1767616675,
+    "attacker": {
+      "id": 2485161,
+      "name": "Crowbait",
+      "level": 35,
+      "faction": {
+        "id": 16503,
+        "name": "The Four Twenty C-K-A"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 64,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.76,
+    "respect_loss": 0.44,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.42,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 438270961,
+    "code": "dbbc718f4856eab7df8af50a5b4b4991",
+    "started": 1767614669,
+    "ended": 1767614671,
+    "attacker": {
+      "id": 3994292,
+      "name": "GH27",
+      "level": 21,
+      "faction": {
+        "id": 54248,
+        "name": "Transformers"
+      }
+    },
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 9,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 2,
+    "respect_loss": 0.5,
+    "chain": 3,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.92,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438263557,
     "code": "a9d22f157d5aa85e56dcd664d597b8dc",
     "started": 1767610022,
