@@ -1,5 +1,39 @@
 [
   {
+    "id": 438431982,
+    "code": "b2b30432983de1db2f585c61487bcd3b",
+    "started": 1767712161,
+    "ended": 1767712164,
+    "attacker": null,
+    "defender": {
+      "id": 3727751,
+      "name": "Bobbelbo",
+      "level": 37,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.23,
+    "respect_loss": 0.31,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.11,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1.25,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438423683,
     "code": "bba5c32e592d84fc977261c7455cdc12",
     "started": 1767706658,
