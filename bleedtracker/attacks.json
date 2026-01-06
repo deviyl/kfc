@@ -1,5 +1,47 @@
 [
   {
+    "id": 438404547,
+    "code": "eb67a6e35dc5e6cb39ac5b840ac49c87",
+    "started": 1767692860,
+    "ended": 1767692866,
+    "attacker": {
+      "id": 1593809,
+      "name": "Brissos",
+      "level": 30,
+      "faction": {
+        "id": 49955,
+        "name": "WGAW"
+      }
+    },
+    "defender": {
+      "id": 3513090,
+      "name": "Squith",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 2.05,
+    "respect_loss": 0.51,
+    "chain": 1,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.78,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438363880,
     "code": "64576d3cefdb92629971d07f7d3d1c1a",
     "started": 1767667168,
