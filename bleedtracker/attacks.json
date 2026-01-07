@@ -1,5 +1,47 @@
 [
   {
+    "id": 438524846,
+    "code": "b6160466b62b71c2012242079f4b6c1a",
+    "started": 1767773597,
+    "ended": 1767773620,
+    "attacker": {
+      "id": 2273711,
+      "name": "GraceFilledLife",
+      "level": 100,
+      "faction": {
+        "id": 6731,
+        "name": "The Next Level"
+      }
+    },
+    "defender": {
+      "id": 2741991,
+      "name": "MrNoggins",
+      "level": 100,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Hospitalized",
+    "respect_gain": 6.75,
+    "respect_loss": 1.69,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 1,
+      "retaliation": 1.5,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438508641,
     "code": "9fbcf07636665a9e028901c122327a91",
     "started": 1767761202,
