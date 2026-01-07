@@ -1,5 +1,39 @@
 [
   {
+    "id": 438587186,
+    "code": "8d9fb80c65b459498e6a4aa6080afb67",
+    "started": 1767821853,
+    "ended": 1767821857,
+    "attacker": null,
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 9,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.02,
+    "respect_loss": 0.5,
+    "chain": 5,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.59,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438559874,
     "code": "282e05ffa125285fb3511598f9f276f5",
     "started": 1767801739,
