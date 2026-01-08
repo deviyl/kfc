@@ -1,5 +1,47 @@
 [
   {
+    "id": 438654567,
+    "code": "83362168913616f8f97194c2c70e43a4",
+    "started": 1767871419,
+    "ended": 1767871429,
+    "attacker": {
+      "id": 3784285,
+      "name": "CigiliBop",
+      "level": 29,
+      "faction": {
+        "id": 48790,
+        "name": "Ruined Chaos"
+      }
+    },
+    "defender": {
+      "id": 3697464,
+      "name": "backa117",
+      "level": 20,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 2.27,
+    "respect_loss": 0.57,
+    "chain": 2,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.75,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438643155,
     "code": "1f05de6b9f07591abeeaa6e7b6d3e36f",
     "started": 1767861316,
