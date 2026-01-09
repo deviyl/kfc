@@ -1,5 +1,47 @@
 [
   {
+    "id": 438956233,
+    "code": "422af67e8c7722f1b3c1eb8748bd2120",
+    "started": 1767982217,
+    "ended": 1767982226,
+    "attacker": {
+      "id": 3643369,
+      "name": "RogueEagle",
+      "level": 29,
+      "faction": {
+        "id": 52984,
+        "name": "Blood Coven"
+      }
+    },
+    "defender": {
+      "id": 3811762,
+      "name": "hoppopotamus",
+      "level": 29,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438919290,
     "code": "18bc87bb63e5620eea20a11835aec618",
     "started": 1767973432,
