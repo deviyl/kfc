@@ -1,5 +1,39 @@
 [
   {
+    "id": 438850610,
+    "code": "457662be830a4d0096c849d4d52427b7",
+    "started": 1767947086,
+    "ended": 1767947091,
+    "attacker": null,
+    "defender": {
+      "id": 3708737,
+      "name": "porchman",
+      "level": 35,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Mugged",
+    "respect_gain": 1.77,
+    "respect_loss": 0.44,
+    "chain": 6,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 2.02,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 438699776,
     "code": "d77a567c130d42ab296522b81c74394b",
     "started": 1767894587,
