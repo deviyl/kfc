@@ -1,5 +1,52 @@
 [
   {
+    "id": 438919290,
+    "code": "18bc87bb63e5620eea20a11835aec618",
+    "started": 1767973432,
+    "ended": 1767973434,
+    "attacker": {
+      "id": 3506714,
+      "name": "Osmio",
+      "level": 44,
+      "faction": {
+        "id": 55512,
+        "name": "Coal miners"
+      }
+    },
+    "defender": {
+      "id": 4031427,
+      "name": "764464_Praful",
+      "level": 9,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 1.5,
+    "respect_loss": 0.38,
+    "chain": 7,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1.24,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1.16
+    },
+    "finishing_hit_effects": [
+      {
+        "name": "warlord",
+        "value": 16
+      }
+    ]
+  },
+  {
     "id": 438854432,
     "code": "ae09d9f2de3991e5a6d9c61abfe2f734",
     "started": 1767949052,
