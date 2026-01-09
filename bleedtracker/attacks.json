@@ -1,5 +1,419 @@
 [
   {
+    "id": 439027451,
+    "code": "b3e3e1856f9130391bf2ffa02a9241dc",
+    "started": 1767995694,
+    "ended": 1767995697,
+    "attacker": {
+      "id": 2101473,
+      "name": "SoggyBiscuits",
+      "level": 97,
+      "faction": {
+        "id": 41620,
+        "name": "Wargasm Revival Medicare"
+      }
+    },
+    "defender": {
+      "id": 3562619,
+      "name": "Postman_",
+      "level": 64,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.08,
+    "respect_loss": 1.27,
+    "chain": 164,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.48,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439027291,
+    "code": "c81dc252a265b60d9d432afa9e4031ac",
+    "started": 1767995661,
+    "ended": 1767995663,
+    "attacker": null,
+    "defender": {
+      "id": 4015482,
+      "name": "Kreachussy",
+      "level": 15,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.23,
+    "respect_loss": 0.81,
+    "chain": 163,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.16,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439026063,
+    "code": "b8eea9d35b56d427643e728e100a2448",
+    "started": 1767995431,
+    "ended": 1767995434,
+    "attacker": {
+      "id": 2101473,
+      "name": "SoggyBiscuits",
+      "level": 97,
+      "faction": {
+        "id": 41620,
+        "name": "Wargasm Revival Medicare"
+      }
+    },
+    "defender": {
+      "id": 3727751,
+      "name": "Bobbelbo",
+      "level": 37,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.25,
+    "respect_loss": 0.81,
+    "chain": 162,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.06,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439025780,
+    "code": "b300871999e7138a54ea69d231c72ab1",
+    "started": 1767995375,
+    "ended": 1767995378,
+    "attacker": null,
+    "defender": {
+      "id": 3643566,
+      "name": "Heisenberg2014",
+      "level": 34,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 5.26,
+    "respect_loss": 1.32,
+    "chain": 160,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.73,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439025777,
+    "code": "666c726d1082195b9e02fcb3b897a927",
+    "started": 1767995374,
+    "ended": 1767995381,
+    "attacker": null,
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 47,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 9.59,
+    "respect_loss": 2.4,
+    "chain": 161,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439025600,
+    "code": "833402da1396ed31d24e2a16be88fb89",
+    "started": 1767995340,
+    "ended": 1767995347,
+    "attacker": {
+      "id": 3424104,
+      "name": "Mcfancy",
+      "level": 56,
+      "faction": {
+        "id": 41620,
+        "name": "Wargasm Revival Medicare"
+      }
+    },
+    "defender": {
+      "id": 3563386,
+      "name": "Doomlegion",
+      "level": 47,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Lost",
+    "respect_gain": 0,
+    "respect_loss": 0,
+    "chain": 0,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": false,
+    "modifiers": {
+      "fair_fight": 1,
+      "war": 1,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439025349,
+    "code": "1a8f8a7dab908304be63a19572a771d5",
+    "started": 1767995289,
+    "ended": 1767995292,
+    "attacker": {
+      "id": 2101473,
+      "name": "SoggyBiscuits",
+      "level": 97,
+      "faction": {
+        "id": 41620,
+        "name": "Wargasm Revival Medicare"
+      }
+    },
+    "defender": {
+      "id": 2224014,
+      "name": "Blazebugg",
+      "level": 73,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 4.74,
+    "respect_loss": 1.18,
+    "chain": 159,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.34,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439024947,
+    "code": "7c488c3471b0beefb844516c19a95a12",
+    "started": 1767995218,
+    "ended": 1767995220,
+    "attacker": null,
+    "defender": {
+      "id": 3418794,
+      "name": "BaldJonno",
+      "level": 18,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.49,
+    "respect_loss": 0.87,
+    "chain": 158,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.23,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439024892,
+    "code": "079fbfa61532294aa80dd985b564be46",
+    "started": 1767995207,
+    "ended": 1767995209,
+    "attacker": null,
+    "defender": {
+      "id": 2291615,
+      "name": "Daany56778",
+      "level": 27,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.06,
+    "respect_loss": 0.76,
+    "chain": 157,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.04,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439024834,
+    "code": "0150f820904463347a5d262632482087",
+    "started": 1767995197,
+    "ended": 1767995199,
+    "attacker": {
+      "id": 1974799,
+      "name": "Doctor_Enable",
+      "level": 43,
+      "faction": {
+        "id": 41620,
+        "name": "Wargasm Revival Medicare"
+      }
+    },
+    "defender": {
+      "id": 3722358,
+      "name": "Deviyl",
+      "level": 25,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 8.74,
+    "respect_loss": 2.18,
+    "chain": 156,
+    "is_interrupted": false,
+    "is_stealthed": false,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 3,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
+    "id": 439024481,
+    "code": "7aaebf3599472b42fe155b540dfce972",
+    "started": 1767995128,
+    "ended": 1767995130,
+    "attacker": null,
+    "defender": {
+      "id": 1737122,
+      "name": "Fulgrim2",
+      "level": 30,
+      "faction": {
+        "id": 38097,
+        "name": "Kentucky Fried Criminals"
+      }
+    },
+    "result": "Attacked",
+    "respect_gain": 3.23,
+    "respect_loss": 0.81,
+    "chain": 155,
+    "is_interrupted": false,
+    "is_stealthed": true,
+    "is_raid": false,
+    "is_ranked_war": true,
+    "modifiers": {
+      "fair_fight": 1.08,
+      "war": 2,
+      "retaliation": 1,
+      "group": 1,
+      "overseas": 1,
+      "chain": 1.3,
+      "warlord": 1
+    },
+    "finishing_hit_effects": []
+  },
+  {
     "id": 439023917,
     "code": "e79e0ea46c7c263d1377d18c2d2876fd",
     "started": 1767995023,
