@@ -84,6 +84,12 @@
     "respect_loss": 40
   },
   {
+    "name": "H0DL",
+    "count": 1,
+    "respect_gain": 2.41,
+    "respect_loss": 0.6
+  },
+  {
     "name": "Heisenberg2014",
     "count": 1,
     "respect_gain": 4.91,
@@ -138,6 +144,12 @@
     "respect_loss": 3.65
   },
   {
+    "name": "Postman_",
+    "count": 1,
+    "respect_gain": 3.72,
+    "respect_loss": 0.93
+  },
+  {
     "name": "SirJimboSliceSr",
     "count": 5,
     "respect_gain": 14.33,
@@ -151,9 +163,9 @@
   },
   {
     "name": "SPANJO22",
-    "count": 3,
-    "respect_gain": 8.98,
-    "respect_loss": 2.24
+    "count": 6,
+    "respect_gain": 19.46,
+    "respect_loss": 4.85
   },
   {
     "name": "Wolfylein",
@@ -169,14 +181,14 @@
   },
   {
     "name": "ZeTwilighTwizz",
-    "count": 2,
-    "respect_gain": 10.24,
-    "respect_loss": 2.56
+    "count": 3,
+    "respect_gain": 12.7,
+    "respect_loss": 3.18
   },
   {
     "name": "Total",
-    "count": 74,
-    "respect_gain": 669.26,
-    "respect_loss": 167.33
+    "count": 80,
+    "respect_gain": 688.33,
+    "respect_loss": 172.09
   }
 ]
