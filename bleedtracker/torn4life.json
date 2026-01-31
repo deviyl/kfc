@@ -36,6 +36,12 @@
     "respect_loss": 10
   },
   {
+    "name": "CJ120",
+    "count": 1,
+    "respect_gain": 5.29,
+    "respect_loss": 1.32
+  },
+  {
     "name": "Ckreepa",
     "count": 3,
     "respect_gain": 35.86,
@@ -145,8 +151,8 @@
   },
   {
     "name": "Total",
-    "count": 63,
-    "respect_gain": 621.29,
-    "respect_loss": 155.35
+    "count": 64,
+    "respect_gain": 626.58,
+    "respect_loss": 156.67
   }
 ]
