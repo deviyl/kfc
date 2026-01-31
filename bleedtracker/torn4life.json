@@ -66,6 +66,12 @@
     "respect_loss": 40
   },
   {
+    "name": "Heisenberg2014",
+    "count": 1,
+    "respect_gain": 4.91,
+    "respect_loss": 1.23
+  },
+  {
     "name": "Hershey54",
     "count": 1,
     "respect_gain": 2.24,
@@ -151,8 +157,8 @@
   },
   {
     "name": "Total",
-    "count": 64,
-    "respect_gain": 626.58,
-    "respect_loss": 156.67
+    "count": 65,
+    "respect_gain": 631.49,
+    "respect_loss": 157.9
   }
 ]
