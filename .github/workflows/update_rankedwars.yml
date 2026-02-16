@@ -3,7 +3,7 @@ name: Update Ranked Wars
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"   # every hour
+ #   - cron: "0 * * * *"   # every hour
 
 jobs:
   update-rankedwars:
