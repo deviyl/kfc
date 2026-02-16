@@ -1,9 +1,9 @@
 name: Update Bleed Tracker
 
-#on:
-#  workflow_dispatch:   # allows manual trigger
-#  schedule:
-  #    - cron: "*/10 * * * *"  # run every 10 minutes
+on:
+  workflow_dispatch:   # allows manual trigger
+  schedule:
+     - cron: "*/10 * * * *"  # run every 10 minutes
 
 jobs:
   run-script:
