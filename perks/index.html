@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faction Roles & Permissions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/deviyl/icon/refs/heads/main/devicon-modified.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Faction Roles</h1>
+  <span class="subtitle">Permission Reference</span>
+  <span class="updated-tag" id="updated-tag">Loading…</span>
+</header>
+
+<div class="legend">
+  <div class="legend-item"><div class="dot dot-yes"></div>Permitted</div>
+  <div class="legend-item"><div class="dot dot-no"></div>Not permitted</div>
+</div>
+
+<div class="filter-bar" id="filter-bar">
+  <button class="filter-btn active" data-cat="all">All</button>
+</div>
+
+<div class="table-scroll">
+  <table id="perm-table">
+    <thead id="table-head"></thead>
+    <tbody id="table-body"></tbody>
+  </table>
+</div>
+
+<p class="page-footer">Data refreshed daily via GitHub Actions · Torn Faction Permissions</p>
+
+<script src="script.js"></script>
+</body>
+</html>
