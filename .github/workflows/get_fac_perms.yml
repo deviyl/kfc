@@ -1,0 +1,29 @@
+name: Fetch Torn Faction Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch faction positions from Torn API
+        run: |
+          curl -s "https://api.torn.com/faction/?selections=positions&key=${{ secrets.TORN_API_KEY }}" \
+            -o data/positions.json
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/positions.json
+          git diff --staged --quiet || git commit -m "chore: update faction positions data [skip ci]"
+          git push
