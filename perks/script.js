@@ -57,11 +57,11 @@ const CATEGORIES = [
 async function init() {
   let data;
   try {
-    const res = await fetch('data/positions.json');
+    const res = await fetch('positions.json');
     data = await res.json();
   } catch (e) {
     document.getElementById('table-body').innerHTML =
-      '<tr><td colspan="99" style="padding:24px;color:#ff4500;font-family:monospace">Failed to load data/positions.json</td></tr>';
+      '<tr><td colspan="99" style="padding:24px;color:#ff4500;font-family:monospace">Failed to load positions.json</td></tr>';
     return;
   }
 
@@ -70,7 +70,7 @@ async function init() {
 
   const tag = document.getElementById('updated-tag');
   try {
-    const headRes = await fetch('data/positions.json', { method: 'HEAD' });
+    const headRes = await fetch('positions.json', { method: 'HEAD' });
     const lm = headRes.headers.get('last-modified');
     tag.textContent = lm
       ? 'Updated ' + new Date(lm).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
