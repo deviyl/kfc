@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Fetch faction positions from Torn API
-        run: curl -s "https://api.torn.com/faction/?selections=positions&key=${{ secrets.TORN_API_KEY }}" -o positions.json
+        run: curl -s "https://api.torn.com/faction/?selections=positions&key=${{ secrets.TORN_API_KEY }}" | python3 -m json.tool > positions.json
 
       - name: Commit and push updated data
         run: |
