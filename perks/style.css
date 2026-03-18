@@ -1,74 +1,64 @@
 :root {
-  --bg:        #0d0000;
-  --surface:   #1a0a0a;
-  --surface2:  #2a0505;
-  --border:    #441111;
-  --border2:   #220808;
-  --accent:    #ff4500;
-  --accent2:   #ff8c00;
-  --muted:     #cca3a3;
-  --dimmed:    #666;
-  --yes:       #00cc44;
-  --no:        #330a0a;
-  --yes-icon:  #00cc44;
-  --no-icon:   #441111;
-  --text:      #e0e0e0;
-  --mono:      'Share Tech Mono', monospace;
-  --head:      'Barlow Condensed', sans-serif;
+  --bg:      #0d0000;
+  --surface: #1a0a0a;
+  --surface2:#2a0505;
+  --border:  #441111;
+  --border2: #220808;
+  --accent:  #ff4500;
+  --accent2: #ff8c00;
+  --muted:   #cca3a3;
+  --dimmed:  #666;
+  --yes:     #00cc44;
+  --no:      #330a0a;
+  --text:    #e0e0e0;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
-  font-family: var(--head);
-  min-height: 100vh;
-  padding: 0 0 60px;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.site-header {
-  background: var(--surface);
-  border-bottom: 2px solid var(--accent);
-  padding: 18px 24px 14px;
+.main-wrapper {
   display: flex;
-  align-items: baseline;
-  gap: 18px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.site-header h1 {
-  font-family: var(--head);
-  font-weight: 900;
-  font-size: clamp(1.4rem, 4vw, 2rem);
-  letter-spacing: 3px;
-  text-transform: uppercase;
+.container {
+  background: var(--surface);
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(255, 69, 0, 0.2);
+  width: 80%;
+  max-width: 1400px;
+  border: 1px solid var(--border);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
   color: var(--accent);
-  line-height: 1;
-}
-
-.site-header .subtitle {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  color: var(--muted);
-  letter-spacing: 1px;
-}
-
-.updated-tag {
-  margin-left: auto;
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  color: var(--dimmed);
-  white-space: nowrap;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .legend {
   display: flex;
   gap: 22px;
-  padding: 10px 24px;
-  background: var(--surface2);
-  border-bottom: 1px solid var(--border2);
+  padding: 10px 0;
   flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid var(--border2);
+  margin-bottom: 4px;
 }
 
 .legend-item {
@@ -76,7 +66,6 @@ body {
   align-items: center;
   gap: 7px;
   font-size: 0.8rem;
-  font-family: var(--mono);
   color: var(--muted);
 }
 
@@ -87,24 +76,23 @@ body {
 .filter-bar {
   display: flex;
   gap: 8px;
-  padding: 12px 24px;
+  padding: 12px 0;
   flex-wrap: wrap;
   border-bottom: 1px solid var(--border2);
+  margin-bottom: 4px;
 }
 
 .filter-btn {
-  font-family: var(--head);
-  font-weight: 700;
-  font-size: 0.72rem;
-  letter-spacing: 1.5px;
+  font-size: 0.8em;
+  font-weight: bold;
   text-transform: uppercase;
   padding: 5px 12px;
   border: 1px solid var(--border);
-  border-radius: 3px;
+  border-radius: 4px;
   background: transparent;
   color: var(--muted);
   cursor: pointer;
-  transition: all 0.15s;
+  transition: background 0.3s;
 }
 
 .filter-btn:hover, .filter-btn.active {
@@ -115,27 +103,27 @@ body {
 
 .table-scroll {
   overflow-x: auto;
-  padding: 24px 24px 0;
+  padding-top: 12px;
   animation: fadeUp 0.4s ease both;
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.85em;
+  background: rgba(0, 0, 0, 0.3);
   min-width: 700px;
 }
 
 thead th {
-  font-family: var(--head);
-  font-weight: 700;
-  font-size: 0.78rem;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  padding: 10px 14px;
-  background: var(--surface2);
-  border: 1px solid var(--border2);
+  font-weight: bold;
+  padding: 8px 5px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
   color: var(--accent2);
   white-space: nowrap;
+  text-transform: uppercase;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -154,21 +142,20 @@ thead th.col-label {
   position: sticky;
   left: 0;
   z-index: 3;
-  background: var(--surface2);
+  background: var(--surface);
 }
 
 tbody tr {
-  transition: background 0.1s;
+  transition: background 0.3s;
 }
 
 tbody tr:hover {
-  background: rgba(255, 69, 0, 0.06);
+  background: rgba(255, 69, 0, 0.1);
 }
 
 tbody tr.category-header td {
   background: var(--bg);
   padding: 16px 14px 5px;
-  font-family: var(--head);
   font-weight: 900;
   font-size: 0.68rem;
   letter-spacing: 3px;
@@ -177,25 +164,25 @@ tbody tr.category-header td {
   border: none;
   border-top: 2px solid var(--border);
   border-bottom: 1px solid var(--border2);
+  text-align: left;
 }
 
 tbody td {
-  border: 1px solid var(--border2);
-  padding: 0;
+  border-bottom: 1px solid var(--border2);
+  padding: 8px 5px;
 }
 
 td.perm-label {
-  padding: 9px 14px;
-  font-family: var(--head);
-  font-size: 0.88rem;
-  font-weight: 600;
+  padding: 8px 14px;
+  font-weight: bold;
   color: var(--text);
   white-space: nowrap;
   position: sticky;
   left: 0;
   background: var(--surface);
   z-index: 1;
-  border-right: 2px solid var(--border);
+  border-right: 1px solid var(--border);
+  text-align: left;
 }
 
 tbody tr:hover td.perm-label {
@@ -219,9 +206,9 @@ td.perm-cell {
 }
 
 .yes-mark {
-  background: rgba(0,204,68,0.15);
+  background: rgba(0, 204, 68, 0.2);
   color: var(--yes);
-  border: 1px solid rgba(0,204,68,0.35);
+  border: 1px solid rgba(0, 204, 68, 0.35);
 }
 
 .no-mark {
@@ -231,7 +218,6 @@ td.perm-cell {
 }
 
 thead .role-name {
-  writing-mode: horizontal-tb;
   font-size: 0.72rem;
   letter-spacing: 1px;
 }
@@ -239,7 +225,6 @@ thead .role-name {
 .default-badge {
   display: inline-block;
   font-size: 0.55rem;
-  font-family: var(--mono);
   background: var(--accent);
   color: #fff;
   border-radius: 2px;
@@ -249,14 +234,10 @@ thead .role-name {
   letter-spacing: 0.5px;
 }
 
-.page-footer {
-  text-align: center;
-  margin-top: 32px;
-  font-family: var(--mono);
-  font-size: 0.65rem;
-  color: var(--dimmed);
-  letter-spacing: 1px;
-}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.3); border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent2); }
 
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(16px); }
@@ -264,6 +245,6 @@ thead .role-name {
 }
 
 @media (max-width: 600px) {
-  .site-header, .legend, .filter-bar, .table-scroll { padding-left: 12px; padding-right: 12px; }
+  .container { width: 95%; }
   .filter-btn { font-size: 0.65rem; padding: 4px 9px; }
 }
