@@ -68,15 +68,6 @@ async function init() {
   const positions = data.positions || {};
   const roles = Object.keys(positions);
 
-  const tag = document.getElementById('updated-tag');
-  try {
-    const headRes = await fetch('positions.json', { method: 'HEAD' });
-    const lm = headRes.headers.get('last-modified');
-    tag.textContent = lm
-      ? 'Updated ' + new Date(lm).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-      : 'Data loaded';
-  } catch { tag.textContent = 'Data loaded'; }
-
   buildFilterBar(roles, positions);
   buildTable(roles, positions, 'all');
 }
