@@ -176,12 +176,12 @@ body {
 
 .hero {
     position: relative;
-    min-height: 52vh;
+    min-height: 18vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: 80px 24px;
+    padding: 40px 24px;
 }
 
 .hero-bg-grid {
@@ -415,7 +415,13 @@ body {
     text-transform: uppercase;
 }
 
-.footer-logo { color: var(--accent); font-weight: 700; }
+.footer-logo {
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.footer-logo:hover { color: var(--accent2); }
 
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
