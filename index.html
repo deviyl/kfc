@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deviyl · Faction Tools</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/deviyl/icon/refs/heads/main/devicon-modified.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="site-nav">
+        <a href="/" class="nav-logo">
+            <img src="https://raw.githubusercontent.com/deviyl/icon/refs/heads/main/devicon-modified.png" alt="Deviyl" class="nav-logo-img">
+            <span>DEVIYL</span>
+        </a>
+        <div class="nav-links">
+            <a href="/activity-tracker/" class="nav-link">Activity Tracker</a>
+            <a href="/faction-roles/" class="nav-link">Faction Roles</a>
+            <a href="/grand-prix/view-races.html" class="nav-link">Grand Prix</a>
+            <a href="/grand-prix/admin.html" class="nav-link nav-link-admin">Admin</a>
+        </div>
+        <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="/activity-tracker/" class="mobile-link">Activity Tracker</a>
+        <a href="/faction-roles/" class="mobile-link">Faction Roles</a>
+        <a href="/grand-prix/view-races.html" class="mobile-link">Grand Prix Results</a>
+        <a href="/grand-prix/admin.html" class="mobile-link mobile-link-admin">Admin Panel</a>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg-grid"></div>
+            <div class="hero-glow hero-glow-1"></div>
+            <div class="hero-glow hero-glow-2"></div>
+            <div class="hero-inner">
+                <p class="hero-eyebrow">TORN · FACTION TOOLS</p>
+                <h1 class="hero-title">
+                    <span class="hero-title-line">COMMAND</span>
+                    <span class="hero-title-line hero-title-line-accent">CENTER</span>
+                </h1>
+                <p class="hero-sub">Tracking. Intelligence. Race Control.</p>
+            </div>
+        </section>
+
+        <section class="tools-grid">
+            <a href="/activity-tracker/" class="tool-card tool-card-tracker">
+                <div class="tool-card-glow"></div>
+                <div class="tool-card-inner">
+                    <div class="tool-icon">⚔️</div>
+                    <div class="tool-label">ACTIVITY TRACKER</div>
+                    <h2 class="tool-title">Faction Activity</h2>
+                    <p class="tool-desc">Monitor member activity, last-seen timestamps, and 7-day engagement scores across your entire faction.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Live Data</span>
+                        <span class="tag">Activity Charts</span>
+                        <span class="tag">Member Status</span>
+                    </div>
+                    <div class="tool-arrow">→</div>
+                </div>
+            </a>
+
+            <a href="/faction-roles/" class="tool-card tool-card-roles">
+                <div class="tool-card-glow"></div>
+                <div class="tool-card-inner">
+                    <div class="tool-icon">🛡️</div>
+                    <div class="tool-label">PERMISSIONS</div>
+                    <h2 class="tool-title">Faction Roles</h2>
+                    <p class="tool-desc">Browse and filter the complete permission matrix for every faction role — who can do what at a glance.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Role Matrix</span>
+                        <span class="tag">Filterable</span>
+                        <span class="tag">Daily Sync</span>
+                    </div>
+                    <div class="tool-arrow">→</div>
+                </div>
+            </a>
+
+            <a href="/grand-prix/view-races.html" class="tool-card tool-card-gp">
+                <div class="tool-card-glow"></div>
+                <div class="tool-card-inner">
+                    <div class="tool-icon">🏁</div>
+                    <div class="tool-label">GRAND PRIX</div>
+                    <h2 class="tool-title">Race Results</h2>
+                    <p class="tool-desc">Live standings, race-by-race results, and prize breakdowns for KFC Grand Prix events.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Standings</span>
+                        <span class="tag">Race Results</span>
+                        <span class="tag">Prizes</span>
+                    </div>
+                    <div class="tool-arrow">→</div>
+                </div>
+            </a>
+
+            <a href="/grand-prix/admin.html" class="tool-card tool-card-admin">
+                <div class="tool-card-glow"></div>
+                <div class="tool-card-inner">
+                    <div class="tool-icon">⚙️</div>
+                    <div class="tool-label">RESTRICTED</div>
+                    <h2 class="tool-title">Admin Panel</h2>
+                    <p class="tool-desc">Create and manage Grand Prix events, add players, fetch race results, and publish standings.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Event Setup</span>
+                        <span class="tag">Player Mgmt</span>
+                        <span class="tag">Auth Required</span>
+                    </div>
+                    <div class="tool-arrow">→</div>
+                </div>
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span class="footer-logo">DEVIYL</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-text">Torn Faction Tools</span>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('navHamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+            hamburger.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
