@@ -75,7 +75,7 @@
 
 .event-dropdown:hover { border-color: var(--primary); background: rgba(255, 255, 255, 0.08); }
 
-.event-dropdown:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1); }
+.event-dropdown:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.1); }
 
 .event-dropdown option { background: var(--secondary-light); color: var(--text-primary); }
 
@@ -126,7 +126,7 @@
 .prizes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
 
 .prize-card {
-    background: rgba(212, 175, 55, 0.05);
+    background: rgba(255, 69, 0, 0.05);
     border: 1px solid var(--primary);
     border-radius: 8px;
     padding: 24px;
@@ -134,7 +134,7 @@
     transition: all 0.3s ease;
 }
 
-.prize-card:hover { background: rgba(212, 175, 55, 0.1); transform: translateY(-4px); box-shadow: 0 12px 24px rgba(212, 175, 55, 0.2); }
+.prize-card:hover { background: rgba(255, 69, 0, 0.1); transform: translateY(-4px); box-shadow: 0 12px 24px rgba(255, 69, 0, 0.2); }
 
 .prize-rank { font-size: 18px; font-weight: 700; color: var(--primary); margin-bottom: 12px; }
 
@@ -181,7 +181,7 @@
 
 .standings-table { width: 100%; border-collapse: collapse; }
 
-.standings-table thead { background: linear-gradient(90deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.05)); border-bottom: 2px solid var(--primary); }
+.standings-table thead { background: linear-gradient(90deg, rgba(255, 69, 0, 0.15), rgba(255, 69, 0, 0.05)); border-bottom: 2px solid var(--primary); }
 
 .standings-table th {
     padding: 18px 16px;
@@ -205,9 +205,9 @@
     position: relative;
 }
 
-.standings-table tbody tr:hover { background: rgba(212, 175, 55, 0.05); }
+.standings-table tbody tr:hover { background: rgba(255, 69, 0, 0.05); }
 
-.standings-table tbody tr:nth-child(1) { background: rgba(212, 175, 55, 0.1); border-left: 4px solid var(--primary); }
+.standings-table tbody tr:nth-child(1) { background: rgba(255, 69, 0, 0.1); border-left: 4px solid var(--primary); }
 
 .standings-table tbody tr:nth-child(2) { border-left: 4px solid #c0c0c0; }
 
@@ -244,10 +244,10 @@
     transition: all 0.3s ease;
 }
 
-.race-result-card:hover { border-color: var(--primary); background: rgba(212, 175, 55, 0.05); transform: translateY(-4px); }
+.race-result-card:hover { border-color: var(--primary); background: rgba(255, 69, 0, 0.05); transform: translateY(-4px); }
 
 .race-result-header {
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(255, 23, 68, 0.05));
+    background: linear-gradient(135deg, rgba(255, 69, 0, 0.1), rgba(255, 23, 68, 0.05));
     border-bottom: 2px solid var(--primary);
     padding: 20px;
 }
@@ -278,9 +278,9 @@
     transition: all 0.3s ease;
 }
 
-.race-result-item:hover { background: rgba(212, 175, 55, 0.1); border-left-color: var(--primary); }
+.race-result-item:hover { background: rgba(255, 69, 0, 0.1); border-left-color: var(--primary); }
 
-.race-result-item.top3 { background: rgba(212, 175, 55, 0.1); border-left-color: var(--primary); }
+.race-result-item.top3 { background: rgba(255, 69, 0, 0.1); border-left-color: var(--primary); }
 
 .result-position { font-weight: 800; font-size: 18px; color: var(--primary); width: 35px; text-align: center; }
 
