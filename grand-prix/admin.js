@@ -526,6 +526,7 @@ authForm.addEventListener('submit', async (e) => {
 
         apiKey = inputApiKey;
         setCookie('tornApiKey', inputApiKey);
+        setCookie('adminPassword', inputPassword, 7);
         
         await callTornAPI('/v2/user/races?limit=1&cat=custom');
 
