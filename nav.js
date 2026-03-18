@@ -18,7 +18,8 @@
             (page === 'home'        && path === '/kfc/')                         ||
             (page === 'activity'    && path.startsWith('/kfc/activity'))         ||
             (page === 'perks'       && path.startsWith('/kfc/perks'))            ||
-            (page === 'grand-prix'  && path.includes('/kfc/grand-prix'));
+            (page === 'grand-prix'  && path.includes('/kfc/grand-prix'))         ||
+            (page === 'warcalc'     && path.startsWith('/kfc/warcalc'));
         if (isActive) el.classList.add('active');
     });
 
