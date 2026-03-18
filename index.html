@@ -11,26 +11,7 @@
 </head>
 <body>
 
-    <nav class="site-nav">
-        <a href="https://www.torn.com/factions.php?step=profile&ID=38097" class="nav-logo" target="_blank" rel="noopener">
-            <img src="https://raw.githubusercontent.com/deviyl/icon/refs/heads/main/devicon-modified.png" alt="KFC" class="nav-logo-img">
-            <span>KFC</span>
-        </a>
-        <div class="nav-links">
-            <a href="/kfc/activity" class="nav-link">Activity Tracker</a>
-            <a href="/kfc/perks" class="nav-link">Faction Roles</a>
-            <a href="/kfc/grand-prix/view-races.html" class="nav-link">Grand Prix</a>
-        </div>
-        <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
-            <span></span><span></span><span></span>
-        </button>
-    </nav>
-
-    <div class="mobile-menu" id="mobileMenu">
-        <a href="/kfc/activity" class="mobile-link">Activity Tracker</a>
-        <a href="/kfc/perks" class="mobile-link">Faction Roles</a>
-        <a href="/kfc/grand-prix/view-races.html" class="mobile-link">Grand Prix Results</a>
-    </div>
+    <div id="nav-placeholder"></div>
 
     <main>
         <section class="hero">
@@ -100,13 +81,6 @@
         <span class="footer-text">KFC Tools</span>
     </footer>
 
-    <script>
-        const hamburger = document.getElementById('navHamburger');
-        const mobileMenu = document.getElementById('mobileMenu');
-        hamburger.addEventListener('click', () => {
-            mobileMenu.classList.toggle('open');
-            hamburger.classList.toggle('open');
-        });
-    </script>
+    <script src="/kfc/nav.js"></script>
 </body>
 </html>
