@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Faction Roles & Permissions</title>
-<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/deviyl/icon/refs/heads/main/devicon-modified.png">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="main-wrapper">
-  <div class="container">
-    <h1>Faction Roles & Permissions</h1>
-
-    <div class="legend">
-      <div class="legend-item"><div class="dot dot-yes"></div>Permitted</div>
-      <div class="legend-item"><div class="dot dot-no"></div>Not permitted</div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faction Roles & Permissions</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/deviyl/icon/refs/heads/main/devicon-modified.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/kfc/nav.css">
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+  
+    <div class="main-wrapper">
+      <div class="container">
+        <h1>Faction Roles & Permissions</h1>
+    
+        <div class="legend">
+          <div class="legend-item"><div class="dot dot-yes"></div>Permitted</div>
+          <div class="legend-item"><div class="dot dot-no"></div>Not permitted</div>
+        </div>
+    
+        <div class="filter-bar" id="filter-bar">
+          <button class="filter-btn active" data-cat="all">All</button>
+        </div>
+    
+        <div class="table-scroll">
+          <table id="perm-table">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
     </div>
-
-    <div class="filter-bar" id="filter-bar">
-      <button class="filter-btn active" data-cat="all">All</button>
-    </div>
-
-    <div class="table-scroll">
-      <table id="perm-table">
-        <thead id="table-head"></thead>
-        <tbody id="table-body"></tbody>
-      </table>
-    </div>
-  </div>
-</div>
-
-<script src="script.js"></script>
-</body>
+  
+    <script src="script.js"></script>
+    <script src="/kfc/nav.js"></script>
+  </body>
 </html>
