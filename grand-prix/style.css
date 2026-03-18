@@ -29,6 +29,21 @@ html, body {
     padding: 0;
 }
 
+.races-container {
+    min-height: 100vh;
+    background: var(--bg-dark);
+    padding: 16px var(--grid);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
 .admin-container {
     width: 100%;
     min-height: 100vh;
