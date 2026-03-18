@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torn Faction Activity Tracker</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/deviyl/icon/refs/heads/main/devicon-modified.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>⚔️ Faction Activity Tracker</h1>
+            
+            <div class="summary" id="summary">
+                <div class="faction-card">
+                    <div class="faction-name">Total Members</div>
+                    <div class="score">-</div>
+                </div>
+                <div class="faction-card">
+                    <div class="faction-name">Active (24h)</div>
+                    <div class="score">-</div>
+                </div>
+                <div class="faction-card">
+                    <div class="faction-name">Data Logged</div>
+                    <div class="score">-</div>
+                </div>
+                <div class="faction-card">
+                    <div class="faction-name">Last Poll</div>
+                    <div class="score" style="font-size: 0.9em;">-</div>
+                </div>
+            </div>
+            
+            <h2 style="margin: 25px 0 15px 0; color: #ff8c00; font-size: 1.1em;">Members</h2>
+            <div class="controls" style="margin-bottom: 15px;">
+                <input type="text" id="searchBox" placeholder="Filter by name..." onkeyup="filterMembers()" style="flex: 0 1 300px;">
+            </div>
+            <table class="deadline-table">
+                <thead>
+                    <tr>
+                        <th onclick="sortMembers('name')" style="cursor: pointer;">
+                            Name 
+                            <span class="sort-indicator" id="sort-name">↕</span>
+                        </th>
+                        <th onclick="sortMembers('daysInFaction')" style="cursor: pointer;">
+                            Days in Fac 
+                            <span class="sort-indicator" id="sort-daysInFaction">↕</span>
+                        </th>
+                        <th onclick="sortMembers('lastSeen')" style="cursor: pointer;">
+                            Last Seen 
+                            <span class="sort-indicator" id="sort-lastSeen">↓</span>
+                        </th>
+                        <th onclick="sortMembers('pings')" style="cursor: pointer;">
+                            Activity Score (7d) 
+                            <span class="sort-indicator" id="sort-pings">↕</span>
+                        </th>
+                        <th onclick="sortMembers('avgPerDay')" style="cursor: pointer;">
+                            Avg/Day 
+                            <span class="sort-indicator" id="sort-avgPerDay">↕</span>
+                        </th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="membersTable">
+                    <tr>
+                        <td colspan="6" style="text-align: center; color: #888; padding: 40px;">Loading data...</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div id="activityDetail" class="activity-modal hidden">
+                <div class="modal-overlay" onclick="closeActivity()"></div>
+                <div class="modal-content">
+                    <button class="close-btn" onclick="closeActivity()">✕</button>
+                    <h3>Activity Timeline for <span id="memberName"></span></h3>
+                    <div class="online-count"><span id="onlineCount">Online Count: 0</span></div>
+                    <div id="noDataMessage" class="activity-chart-container" style="display: none; color: #888; padding: 20px; text-align: center; display: flex; align-items: center; justify-content: center;">No activity data available for this period</div>
+                    <div class="activity-chart-container" id="chartContainer">
+                        <canvas id="activityChart"></canvas>
+                    </div>
+                    <div class="chart-navigation">
+                        <button class="nav-btn" onclick="navChartPrevious()">← Previous</button>
+                        <span class="nav-info" id="navInfo"></span>
+                        <button class="nav-btn" onclick="navChartNext()">Next →</button>
+                    </div>
+                    <div id="dateRangeContainer"></div>
+                    <div class="activity-timeline" id="timeline"></div>
+                </div>
+            </div>
+            
+            <div class="last-updated" id="lastUpdated">
+                Data last updated: Loading... | Current TCT: <span id="currentTCT">--:--</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

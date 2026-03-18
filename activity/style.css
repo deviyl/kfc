@@ -1,0 +1,675 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: #0d0000;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    background: #1a0a0a;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(255, 69, 0, 0.2);
+    width: 80%;
+    max-width: 1400px;
+    border: 1px solid #441111;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #ff4500;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ff8c00;
+    font-size: 1.1em;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: #ff4500;
+    font-size: 1.8em;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s;
+}
+
+.logout-btn:hover {
+    color: #ff6b35;
+}
+
+.hidden {
+    display: none !important;
+}
+
+input[type="text"],
+input[type="range"],
+select {
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #662222;
+    background: #000;
+    color: #ff8c00;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+select {
+    padding: 10px;
+    cursor: pointer;
+}
+
+select option {
+    background: #1a0a0a;
+    color: #ff8c00;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    background: #ff4500;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff6b35;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #0d0000;
+    border-radius: 8px;
+    border: 1px solid #441111;
+}
+
+.controls label {
+    color: #ff8c00;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.controls input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.faction-card {
+    background: #2a0505;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #551111;
+}
+
+.faction-name {
+    color: #ff8c00;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.score {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sort-indicator {
+    color: #666;
+    font-size: 0.8em;
+    margin-left: 4px;
+    transition: color 0.3s;
+}
+
+.sort-indicator.active {
+    color: #ff4500;
+}
+
+th:hover .sort-indicator {
+    color: #ff8c00;
+}
+
+.sort-btn {
+    background: none;
+    border: none;
+    color: #ff8c00;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 0 4px;
+    transition: color 0.3s;
+    margin-left: 4px;
+}
+
+.sort-btn:hover {
+    color: #ff4500;
+}
+
+.sort-indicator {
+    color: #ff8c00;
+    font-size: 0.85em;
+    margin-left: 4px;
+    transition: color 0.3s;
+}
+
+.deadline-table th {
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.deadline-table th:hover {
+    background: rgba(255, 69, 0, 0.1);
+}
+
+.deadline-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.85em;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.deadline-table th,
+.deadline-table td {
+    padding: 8px 5px;
+    border-bottom: 1px solid #220808;
+    text-align: left;
+}
+
+.deadline-table th {
+    background: #1a0a0a;
+    border-bottom: 1px solid #441111;
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+.deadline-table tbody tr:hover {
+    background: rgba(255, 69, 0, 0.1);
+}
+
+.member-row {
+    transition: background 0.3s;
+}
+
+.member-link {
+    color: #ff8c00;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.member-link:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+.status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.status-active {
+    background: rgba(0, 255, 0, 0.2);
+    color: #00ff00;
+    border: 1px solid #00aa00;
+}
+
+.status-warning {
+    background: rgba(255, 140, 0, 0.2);
+    color: #ff8c00;
+    border: 1px solid #ff6b00;
+}
+
+.status-inactive {
+    background: rgba(139, 0, 0, 0.2);
+    color: #ff6b6b;
+    border: 1px solid #990000;
+}
+
+.details-link {
+    color: #ff8c00;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.details-link:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+.activity-detail {
+    background: #2a0505;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 1px solid #441111;
+}
+
+.activity-detail.hidden {
+    display: none;
+}
+
+.activity-detail h4 {
+    color: #ff8c00;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.close-btn {
+    float: right;
+    background: none;
+    border: none;
+    color: #ff4500;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.3s;
+}
+
+.close-btn:hover {
+    color: #ff8c00;
+}
+
+.activity-chart-container {
+    background: #0d0000;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #441111;
+    margin-bottom: 20px;
+    position: relative;
+    height: 300px;
+}
+
+.chart-navigation {
+    background: #0d0000;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #441111;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background 0.3s;
+}
+
+.nav-btn:hover {
+    background: #ff6b35;
+}
+
+.nav-info {
+    color: #ff8c00;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+.date-range-input-container {
+    background: #0d0000;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #441111;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.date-range-input-container label {
+    color: #ff8c00;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.date-range-input-container input[type="number"] {
+    width: 80px;
+    padding: 8px;
+    background: #000;
+    color: #ff8c00;
+    border: 1px solid #662222;
+    border-radius: 4px;
+}
+
+.date-range-input-container button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+}
+
+.timeline-header {
+    background: #2a0505;
+    padding: 12px 15px;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid #441111;
+    cursor: pointer;
+    transition: background 0.3s;
+    user-select: none;
+}
+
+.timeline-header:hover {
+    background: #3a0505;
+}
+
+.timeline-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 12px 0;
+}
+
+.activity-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.activity-entry {
+    background: #0d0000;
+    padding: 10px;
+    border-left: 3px solid #ff4500;
+    font-size: 0.85em;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.activity-time {
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+.activity-relative {
+    color: #cca3a3;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
+.activity-status {
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 2px;
+}
+
+.activity-detail-time {
+    color: #666;
+    font-size: 0.8em;
+    margin-top: 2px;
+}
+
+.last-updated {
+    text-align: center;
+    color: #666;
+    font-size: 0.75em;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #441111;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff4500;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff8c00;
+}
+
+/* Sort Indicator Styles */
+.sort-indicator {
+    color: #666;
+    margin-left: 4px;
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+.sort-indicator.active {
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+.deadline-table th[onclick] {
+    cursor: pointer;
+    user-select: none;
+}
+
+.deadline-table th[onclick]:hover {
+    background: rgba(255, 69, 0, 0.05);
+}
+
+/* Refresh Button */
+.refresh-btn {
+    background: none;
+    border: none;
+    color: #ff8c00;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 0 8px;
+    transition: color 0.3s, transform 0.3s;
+    vertical-align: middle;
+}
+
+.refresh-btn:hover {
+    color: #ff4500;
+    transform: rotate(180deg);
+}
+
+/* Refresh Icon */
+.refresh-icon {
+    cursor: pointer;
+    font-size: 16px;
+    color: #ff8c00;
+    line-height: 1;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.refresh-icon:hover {
+    color: #ff4500;
+}
+
+.refresh-icon.spinning {
+    animation: spin 0.6s ease;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Modal Popup Styles */
+.activity-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.activity-modal.hidden {
+    display: none !important;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.modal-content {
+    position: relative;
+    background: #1a0a0a;
+    border: 1px solid #441111;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 900px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+
+.modal-content h3 {
+    color: #ff8c00;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.modal-content .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #ff4500;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.3s;
+}
+
+.modal-content .close-btn:hover {
+    color: #ff8c00;
+}
+
+@media (max-width: 1024px) {
+    .modal-content {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        max-height: 95vh;
+        padding: 15px;
+    }
+    
+    .modal-content h3 {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+}
+
+/* Currently Time Styling */
+.currently-time {
+    color: #ff8c00;
+    font-size: 0.75em;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+/* Online Count Display */
+.online-count {
+    color: #ff8c00;
+    font-size: 0.75em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+/* Excellent Pings (100+) */
+.pings-excellent {
+    background-color: rgba(0, 200, 100, 0.2) !important;
+    color: #00ff66;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+/* Center align specific columns */
+.deadline-table td:nth-child(2),
+.deadline-table td:nth-child(4),
+.deadline-table td:nth-child(5),
+.deadline-table td:nth-child(6) {
+    text-align: center;
+}
+
+.deadline-table th:nth-child(2),
+.deadline-table th:nth-child(4),
+.deadline-table th:nth-child(5),
+.deadline-table th:nth-child(6) {
+    text-align: center;
+}
