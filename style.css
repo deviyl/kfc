@@ -221,25 +221,6 @@ body {
     margin-bottom: 20px;
 }
 
-.tool-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 20px;
-}
-
-.tag {
-    font-family: var(--mono);
-    font-size: 0.62rem;
-    letter-spacing: 1px;
-    padding: 3px 8px;
-    border-radius: 2px;
-    border: 1px solid var(--border);
-    background: var(--surface2);
-    color: var(--dimmed);
-    text-transform: uppercase;
-}
-
 .tool-arrow {
     font-family: var(--mono);
     font-size: 1.1rem;
