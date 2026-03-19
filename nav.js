@@ -6,6 +6,7 @@
         const res = await fetch('/kfc/nav.html');
         const html = await res.text();
         placeholder.innerHTML = html;
+        placeholder.classList.add('loaded');
     } catch (e) {
         console.error('Failed to load nav:', e);
         return;
@@ -19,7 +20,8 @@
             (page === 'activity'    && path.startsWith('/kfc/activity'))         ||
             (page === 'perks'       && path.startsWith('/kfc/perks'))            ||
             (page === 'grand-prix'  && path.includes('/kfc/grand-prix'))         ||
-            (page === 'warcalc'     && path.startsWith('/kfc/warcalc'));
+            (page === 'warcalc'     && path.startsWith('/kfc/warcalc'))          ||
+            (page === 'userscripts' && path.startsWith('/kfc/userscripts'));
         if (isActive) el.classList.add('active');
     });
 
