@@ -153,18 +153,21 @@ body {
 
 .tool-card-tracker { --card-accent: #ff4500; }
 .tool-card-roles   { --card-accent: #ff8c00; }
-.tool-card-gp      { --card-accent: #d4af37; }
+.tool-card-gp      { --card-accent: #ff4500; }
 .tool-card-warcalc { --card-accent: #ff4500; }
+.tool-card-userscripts { --card-accent: #ff4500; }
 
 .tool-card-tracker:hover { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
 .tool-card-roles:hover   { border-color: #ff8c00; box-shadow: 0 8px 40px rgba(255,140,0,0.15); }
-.tool-card-gp:hover      { border-color: #d4af37; box-shadow: 0 8px 40px rgba(212,175,55,0.15); }
+.tool-card-gp:hover      { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
 .tool-card-warcalc:hover { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
+.tool-card-userscripts:hover { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
 
 .tool-card-tracker .tool-card-glow { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
 .tool-card-roles .tool-card-glow   { background: radial-gradient(ellipse at 0% 0%, rgba(255,140,0,0.08) 0%, transparent 60%); }
-.tool-card-gp .tool-card-glow      { background: radial-gradient(ellipse at 0% 0%, rgba(212,175,55,0.08) 0%, transparent 60%); }
+.tool-card-gp .tool-card-glow      { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
 .tool-card-warcalc .tool-card-glow { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
+.tool-card-userscripts .tool-card-glow { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
 
 .tool-card-inner {
     position: relative;
