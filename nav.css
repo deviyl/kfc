@@ -12,8 +12,16 @@
     --nav-head:     'Barlow Condensed', sans-serif;
 }
 
-/* Push page content below fixed nav */
 body { padding-top: var(--nav-h); }
+
+#nav-placeholder {
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+#nav-placeholder.loaded {
+    opacity: 1;
+}
 
 .site-nav {
     position: fixed;
@@ -104,7 +112,6 @@ body { padding-top: var(--nav-h); }
     background: rgba(212, 175, 55, 0.07);
 }
 
-/* Hamburger */
 .nav-hamburger {
     display: none;
     flex-direction: column;
@@ -131,7 +138,6 @@ body { padding-top: var(--nav-h); }
 .nav-hamburger.open span:nth-child(2) { opacity: 0; }
 .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-/* Mobile menu */
 .mobile-menu {
     display: none;
     position: fixed;
