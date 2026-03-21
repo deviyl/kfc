@@ -37,7 +37,12 @@ body {
     padding: 40px 24px;
 }
 
-.hero-bg-grid {
+.hero-banner {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
     position: absolute;
     inset: 0;
     background-image:
