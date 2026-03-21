@@ -21,7 +21,8 @@
             (page === 'perks'       && path.startsWith('/kfc/perks'))            ||
             (page === 'grand-prix'  && path.includes('/kfc/grand-prix'))         ||
             (page === 'warcalc'     && path.startsWith('/kfc/warcalc'))          ||
-            (page === 'userscripts' && path.startsWith('/kfc/userscripts'));
+            (page === 'userscripts' && path.startsWith('/kfc/userscripts'))      ||
+            (page === 'usefullinks' && path.startsWith('/kfc/usefullinks'));
         if (isActive) el.classList.add('active');
     });
 
