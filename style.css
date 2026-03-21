@@ -38,7 +38,7 @@ body {
 }
 
 .hero-banner {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -79,6 +79,7 @@ body {
     position: relative;
     text-align: center;
     animation: fadeUp 0.7s ease both;
+    width: 100%;
 }
 
 .hero-eyebrow {
