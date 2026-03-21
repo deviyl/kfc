@@ -18,7 +18,7 @@
     <div class="main-container">
         <section class="scripts-section">
             <div class="section-header">
-                <h2>Deviyl's Userscripts</h2>
+                <h2><a href="https://www.torn.com/profiles.php?XID=3722358" target="_blank" class="section-title-link">Deviyl's Userscripts</a></h2>
             </div>
             
             <div class="cards-grid">
@@ -82,56 +82,56 @@
             </div>
 
             <div class="cards-grid">
-                <a href="https://www.torn.com/forums.php#/p=threads&f=67&t=16538393" target="_blank" class="script-card">
+                <button class="script-card popup-trigger" data-popup="vault">
                     <div class="card-header">
                         <span class="card-title">🏦 Faction Vault Request</span>
                     </div>
                     <div class="card-body">
                         <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fusercount.deviyl.workers.dev&query=%24.vault&style=plastic&label=Total%20Installs&color=ff4500" alt="Installs" class="badge">
                     </div>
-                </a>
+                </button>
 
-                <a href="https://www.torn.com/forums.php" target="_blank" class="script-card">
+                <button class="script-card popup-trigger" data-popup="roulette">
                     <div class="card-header">
                         <span class="card-title">🎡 Roulette Tracker</span>
                     </div>
                     <div class="card-body">
                         <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fusercount.deviyl.workers.dev&query=%24.roulette&style=plastic&label=Total%20Installs&color=ff4500" alt="Installs" class="badge">
                     </div>
-                </a>
+                </button>
 
-                <a href="https://www.torn.com/forums.php" target="_blank" class="script-card">
+                <button class="script-card popup-trigger" data-popup="online">
                     <div class="card-header">
                         <span class="card-title">👁 Online Monitor<br>(Discord Notify)</span>
                     </div>
                     <div class="card-body">
                         <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fusercount.deviyl.workers.dev&query=%24.online&style=plastic&label=Total%20Installs&color=ff4500" alt="Installs" class="badge">
                     </div>
-                </a>
+                </button>
 
-                <a href="https://www.torn.com/forums.php" target="_blank" class="script-card">
+                <button class="script-card popup-trigger" data-popup="revive">
                     <div class="card-header">
                         <span class="card-title">💊 Revive | Blacklist<br>(Discord Notify)</span>
                     </div>
                     <div class="card-body">
                         <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fusercount.deviyl.workers.dev&query=%24.revive_combined&style=plastic&label=Total%20Installs&color=ff4500" alt="Installs" class="badge">
                     </div>
-                </a>
+                </button>
 
-                <a href="https://www.torn.com/forums.php" target="_blank" class="script-card">
+                <button class="script-card popup-trigger" data-popup="casino">
                     <div class="card-header">
                         <span class="card-title">🎰 Casino Custom<br>Self Exclusion</span>
                     </div>
                     <div class="card-body">
                         <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fusercount.deviyl.workers.dev&query=%24.casino&style=plastic&label=Total%20Installs&color=ff4500" alt="Installs" class="badge">
                     </div>
-                </a>
+                </button>
             </div>
         </section>
 
         <section class="scripts-section">
             <div class="section-header">
-                <h2>Wolfylien's Userscripts</h2>
+                <h2><a href="https://www.torn.com/profiles.php?XID=3913421" target="_blank" class="section-title-link">Wolfylien's Userscripts</a></h2>
             </div>
 
             <div class="cards-grid">
@@ -146,6 +146,41 @@
             </div>
         </section>
     </div>
+
+    <div class="popup hidden" id="popup">
+        <div class="popup-overlay" id="popup-overlay"></div>
+        <div class="popup-content">
+            <button class="popup-close" id="popup-close">&times;</button>
+            <p>Contact <a href="https://www.torn.com/profiles.php?XID=3722358" target="_blank">Deviyl</a> for info on this script</p>
+        </div>
+    </div>
+
+    <script>
+        const popup = document.getElementById('popup');
+        const popupClose = document.getElementById('popup-close');
+        const popupOverlay = document.getElementById('popup-overlay');
+        const popupTriggers = document.querySelectorAll('.popup-trigger');
+
+        popupTriggers.forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                popup.classList.remove('hidden');
+            });
+        });
+
+        popupClose.addEventListener('click', () => {
+            popup.classList.add('hidden');
+        });
+
+        popupOverlay.addEventListener('click', () => {
+            popup.classList.add('hidden');
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                popup.classList.add('hidden');
+            }
+        });
+    </script>
 
     <script src="/kfc/nav.js"></script>
 </body>
