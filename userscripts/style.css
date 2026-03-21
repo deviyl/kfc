@@ -39,6 +39,22 @@ body {
     margin-bottom: 20px;
 }
 
+.section-header h2 {
+    font-size: 1.8em;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.section-header h3 {
+    font-size: 1.3em;
+    color: var(--color-primary-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
 .page-header hr {
     border: none;
     border-top: 3px solid var(--color-primary);
@@ -57,29 +73,14 @@ body {
 }
 
 .section-header {
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid var(--color-border);
-}
-
-.section-header h1 {
-    font-size: 2em;
-    color: var(--color-primary);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-
-.section-description {
-    color: #aaa;
-    font-size: 0.95em;
-    max-width: 600px;
+    margin-bottom: 25px;
+    padding-bottom: 0;
 }
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
     margin-bottom: 30px;
 }
 
@@ -105,9 +106,9 @@ body {
 
 .card-header {
     background: linear-gradient(135deg, rgba(255, 69, 0, 0.15), rgba(255, 140, 0, 0.1));
-    padding: 20px;
+    padding: 15px;
     border-bottom: 1px solid var(--color-border);
-    min-height: 80px;
+    min-height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,12 +161,8 @@ body {
 
 @media (max-width: 1024px) {
     .cards-grid {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 18px;
-    }
-
-    .section-header h1 {
-        font-size: 1.6em;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 12px;
     }
 
     .main-container {
@@ -175,25 +172,21 @@ body {
 
 @media (max-width: 768px) {
     .cards-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 15px;
-    }
-
-    .section-header h1 {
-        font-size: 1.4em;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 12px;
     }
 
     .card-header {
-        padding: 15px;
-        min-height: 70px;
+        padding: 12px;
+        min-height: 50px;
     }
 
     .card-title {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .card-body {
-        padding: 15px;
+        padding: 12px;
     }
 
     .main-container {
@@ -205,23 +198,14 @@ body {
     }
 
     .section-header {
-        margin-bottom: 25px;
-        padding-bottom: 15px;
+        margin-bottom: 20px;
     }
 }
 
 @media (max-width: 480px) {
     .cards-grid {
         grid-template-columns: 1fr;
-        gap: 12px;
-    }
-
-    .section-header h1 {
-        font-size: 1.2em;
-    }
-
-    .section-description {
-        font-size: 0.9em;
+        gap: 10px;
     }
 
     .main-container {
