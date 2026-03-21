@@ -38,11 +38,13 @@ body {
 }
 
 .hero-banner {
-    max-width: 50%;
+    width: 300px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
+.hero-bg-grid {
     position: absolute;
     inset: 0;
     background-image:
