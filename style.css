@@ -181,7 +181,7 @@ body {
 
 .tool-card-inner {
     position: relative;
-    padding: 32px 28px;
+    padding: 20px 20px;
 }
 
 .tool-card::before {
@@ -199,8 +199,8 @@ body {
 .tool-card:hover::before { opacity: 1; }
 
 .tool-icon {
-    font-size: 2rem;
-    margin-bottom: 14px;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
     display: block;
     line-height: 1;
 }
@@ -210,28 +210,28 @@ body {
     font-size: 0.65rem;
     letter-spacing: 3px;
     color: var(--card-accent);
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     opacity: 0.8;
 }
 
 .tool-title {
     font-family: var(--head);
     font-weight: 900;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--text);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     line-height: 1.1;
 }
 
 .tool-desc {
     font-family: var(--head);
     font-weight: 400;
-    font-size: 0.92rem;
-    line-height: 1.5;
+    font-size: 0.88rem;
+    line-height: 1.4;
     color: var(--muted);
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .tool-arrow {
