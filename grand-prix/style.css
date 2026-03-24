@@ -46,7 +46,6 @@ html, body {
 
 .admin-container {
     width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,6 +56,10 @@ html, body {
     width: 100%;
     max-width: 450px;
     animation: fadeInScale 0.6s ease-out;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .auth-card {
