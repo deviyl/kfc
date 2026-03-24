@@ -53,14 +53,6 @@ html, body {
     padding: var(--grid);
 }
 
-.admin-container.showing-admin {
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: var(--grid);
-    min-height: auto;
-}
-
 .auth-panel {
     width: 100%;
     max-width: 450px;
