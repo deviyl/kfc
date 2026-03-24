@@ -1,5 +1,5 @@
 const API_BASE = 'https://api.torn.com';
-const CLOUDFLARE_WORKER = 'https://kfc.deviyl.workers.dev/save-event';
+const CLOUDFLARE_WORKER = 'https://kfc.deviyl.workers.dev/';
 
 function getCookie(name) {
     const value = `; ${document.cookie}`;
