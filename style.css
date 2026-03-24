@@ -164,6 +164,7 @@ body {
 .tool-card-warcalc { --card-accent: #ff4500; }
 .tool-card-userscripts { --card-accent: #ff4500; }
 .tool-card-usefullinks { --card-accent: #ff4500; }
+.tool-card-admin       { --card-accent: #ff4500; }
 
 .tool-card-tracker:hover { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
 .tool-card-roles:hover   { border-color: #ff8c00; box-shadow: 0 8px 40px rgba(255,140,0,0.15); }
@@ -171,6 +172,7 @@ body {
 .tool-card-warcalc:hover { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
 .tool-card-userscripts:hover { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
 .tool-card-usefullinks:hover { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
+.tool-card-admin:hover       { border-color: #ff4500; box-shadow: 0 8px 40px rgba(255,69,0,0.15); }
 
 .tool-card-tracker .tool-card-glow { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
 .tool-card-roles .tool-card-glow   { background: radial-gradient(ellipse at 0% 0%, rgba(255,140,0,0.08) 0%, transparent 60%); }
@@ -178,6 +180,7 @@ body {
 .tool-card-warcalc .tool-card-glow { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
 .tool-card-userscripts .tool-card-glow { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
 .tool-card-usefullinks .tool-card-glow { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
+.tool-card-admin .tool-card-glow       { background: radial-gradient(ellipse at 0% 0%, rgba(255,69,0,0.08) 0%, transparent 60%); }
 
 .tool-card-inner {
     position: relative;
@@ -212,17 +215,6 @@ body {
     color: var(--card-accent);
     margin-bottom: 4px;
     opacity: 0.8;
-}
-
-.tool-title {
-    font-family: var(--head);
-    font-weight: 900;
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--text);
-    margin-bottom: 8px;
-    line-height: 1.1;
 }
 
 .tool-desc {
