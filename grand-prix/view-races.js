@@ -5,7 +5,7 @@ const tabButtons = document.querySelectorAll('.tab-button');
 const tabContents = document.querySelectorAll('.tab-content');
 
 let currentEventData = null;
-const GITHUB_WORKER = 'https://kfcrace.deviyl.workers.dev/save-event';
+const GITHUB_WORKER = 'https://kfc.deviyl.workers.dev/save-event';
 
 async function fetchEventFromGitHub(eventName) {
     try {
