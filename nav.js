@@ -23,7 +23,7 @@
             (page === 'warcalc'     && path.startsWith('/kfc/warcalc'))          ||
             (page === 'userscripts' && path.startsWith('/kfc/userscripts'))      ||
             (page === 'usefullinks' && path.startsWith('/kfc/usefullinks'))      ||
-            (page === 'admin'       && path.startsWith('/admin'));
+            (page === 'admin'       && path.startsWith('/kfc/admin'));
         if (isActive) el.classList.add('active');
     });
 
