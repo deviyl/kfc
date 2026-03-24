@@ -532,7 +532,6 @@ authForm.addEventListener('submit', async (e) => {
 
         authPanel.style.display = 'none';
         adminPanel.style.display = 'block';
-        document.querySelector('.admin-container').classList.add('showing-admin');
         initializeAdmin();
     } catch (error) {
         authError.textContent = 'Invalid API key or network error';
@@ -1485,6 +1484,5 @@ if (getCookie('tornApiKey')) {
     apiKey = getCookie('tornApiKey');
     authPanel.style.display = 'none';
     adminPanel.style.display = 'block';
-    document.querySelector('.admin-container').classList.add('showing-admin');
     initializeAdmin();
 }
