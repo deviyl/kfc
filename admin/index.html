@@ -11,43 +11,36 @@
 <body>
     <div id="nav-placeholder"></div>
 
-    <div id="auth-panel" class="auth-container">
-        <div class="auth-card">
-            <h2>Security Check</h2>
-            <p>Enter administrative password to proceed.</p>
-            <div class="auth-input-group">
-                <input type="password" id="password-input" placeholder="Password...">
-                <button id="login-btn">Verify</button>
+    <div class="admin-container">
+        <div id="authPanel" class="auth-panel">
+            <div class="auth-card">
+                <h1>Admin Panel</h1>
+                
+                <form id="authForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="adminPassword">Admin Password</label>
+                        <input 
+                            type="password" 
+                            id="adminPassword" 
+                            placeholder="Enter admin password"
+                            required
+                        >
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Access Admin Panel</button>
+                    <div id="authError" class="error-message" style="display: none;"></div>
+                </form>
             </div>
-            <p id="error-msg" class="error-text" style="display: none;">Invalid password. Access denied.</p>
-        </div>
-    </div>
-
-    <div id="admin-content" style="display: none;">
-        <div class="page-header">
-            <h1>Admin Panel</h1>
-            <hr>
         </div>
 
-        <div class="main-container">
-            <div class="cards-grid">
-                <a href="https://www.wolftimer.com/WarPayout/" target="_blank" class="link-card">
-                    <div class="card-header">
-                        <span class="card-title">War Tracker</span>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-description">Monitor war progress and payout calculations.</p>
-                    </div>
-                </a>
+        <div id="admin-content" style="display: none;">
+            <div class="page-header">
+                <h1>Admin Panel</h1>
+                <hr>
+            </div>
 
-                <a href="https://wolftimer.com/index2.html" target="_blank" class="link-card">
-                    <div class="card-header">
-                        <span class="card-title">Special Wolf Timer</span>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-description">Access the alternative Wolf Timer interface.</p>
-                    </div>
-                </a>
+            <div class="main-container">
+                <div id="cards-container" class="cards-grid"></div>
             </div>
         </div>
     </div>
