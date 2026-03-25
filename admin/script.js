@@ -19,51 +19,85 @@ function getCookie(name) {
     return null;
 }
 
-async function validate(password) {
+function injectLinks(links) {
+    const container = document.getElementById('cards-container');
+    if (!container || !links) return;
+    container.innerHTML = '';
+    links.forEach(link => {
+        const card = document.createElement('a');
+        card.href = link.url;
+        card.target = '_blank';
+        card.className = 'link-card';
+        card.innerHTML = `
+            <div class="card-header">
+                <span class="card-title">${link.title}</span>
+            </div>
+            <div class="card-body">
+                <p class="card-description">${link.description}</p>
+            </div>
+        `;
+        container.appendChild(card);
+    });
+}
+
+async function apiCall(action, password) {
     try {
         const response = await fetch(WORKER_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                action: 'validate-password',
-                password: password
-            })
+            body: JSON.stringify({ action, password })
         });
-
-        const data = await response.json();
-        return data.valid === true;
+        return await response.json();
     } catch (error) {
-        console.error('Auth error:', error);
-        return false;
+        return { success: false };
     }
 }
 
-function showContent() {
-    document.getElementById('auth-panel').style.display = 'none';
-    document.getElementById('admin-content').style.display = 'block';
+async function attemptAccess(password) {
+    const auth = await apiCall('validate-password', password);
+    if (auth.success) {
+        const data = await apiCall('get-admin-links', password);
+        if (data.success && data.links) {
+            injectLinks(data.links);
+            return true;
+        }
+    }
+    return false;
 }
 
-async function handleLogin() {
-    const password = document.getElementById('password-input').value;
-    const errorMsg = document.getElementById('error-msg');
+function showContent() {
+    const authPanel = document.getElementById('authPanel');
+    const adminContent = document.getElementById('admin-content');
+    if (authPanel) authPanel.style.display = 'none';
+    if (adminContent) adminContent.style.display = 'block';
+}
+
+async function handleLogin(e) {
+    if (e) e.preventDefault();
+    const passwordInput = document.getElementById('adminPassword');
+    const errorMsg = document.getElementById('authError');
+    const password = passwordInput.value;
     
     errorMsg.style.display = 'none';
+    errorMsg.textContent = '';
 
-    if (await validate(password)) {
-        setCookie(COOKIE_NAME, "validated", 7);
+    if (await attemptAccess(password)) {
+        setCookie(COOKIE_NAME, password, 7);
         showContent();
     } else {
+        errorMsg.textContent = 'Invalid password. Access denied.';
         errorMsg.style.display = 'block';
     }
 }
 
 window.onload = async () => {
-    if (getCookie(COOKIE_NAME)) {
+    const savedPassword = getCookie(COOKIE_NAME);
+    if (savedPassword && await attemptAccess(savedPassword)) {
         showContent();
     }
 
-    document.getElementById('login-btn').addEventListener('click', handleLogin);
-    document.getElementById('password-input').addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') handleLogin();
-    });
+    const authForm = document.getElementById('authForm');
+    if (authForm) {
+        authForm.addEventListener('submit', handleLogin);
+    }
 };
