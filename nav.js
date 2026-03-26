@@ -21,6 +21,7 @@
             (page === 'perks'       && path.startsWith('/kfc/perks'))            ||
             (page === 'grand-prix'  && path.includes('/kfc/grand-prix'))         ||
             (page === 'warcalc'     && path.startsWith('/kfc/warcalc'))          ||
+            (page === 'wolftimer'   && path.startsWith('/kfc/wolftimer'))        ||
             (page === 'userscripts' && path.startsWith('/kfc/userscripts'))      ||
             (page === 'usefullinks' && path.startsWith('/kfc/usefullinks'))      ||
             (page === 'admin'       && path.startsWith('/kfc/admin'));
