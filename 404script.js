@@ -21,24 +21,7 @@ async function logInvalidURL() {
     };
 
     try {
-        const response = await fetch('/kfc/data/invalidURL.json');
-        let logs = [];
-
-        if (response.ok) {
-            try {
-                logs = await response.json();
-                if (!Array.isArray(logs)) {
-                    logs = [];
-                }
-            } catch (e) {
-                console.warn('Could not parse existing invalidURL.json:', e);
-                logs = [];
-            }
-        }
-
-        logs.push(logEntry);
-        await sendLogToServer(logs);
-
+        await sendLogToServer([logEntry]);
     } catch (error) {
         console.warn('Failed to log invalid URL:', error);
     }
