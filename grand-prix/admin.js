@@ -81,7 +81,7 @@ async function getRaceResults(raceName) {
 async function fetchEventFromGitHub(eventName) {
     try {
         const timestamp = Date.now();
-        const rawUrl = `https://raw.githubusercontent.com/deviyl/kfc-grand-prix/main/races/${encodeURIComponent(eventName)}.json?t=${timestamp}`;
+        const rawUrl = `https://raw.githubusercontent.com/deviyl/kfc/main/grand-prix/races/${encodeURIComponent(eventName)}.json?t=${timestamp}`;
         const response = await fetch(rawUrl);
         
         if (!response.ok) {
