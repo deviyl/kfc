@@ -29,7 +29,7 @@ async function logInvalidURL() {
 
 async function sendLogToServer(logs) {
     try {
-        const response = await fetch('https://api.kfc.workers.dev/', {
+        const response = await fetch('https://kfc.deviyl.workers.dev/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
