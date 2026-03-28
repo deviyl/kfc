@@ -45,32 +45,5 @@ async function sendLogToServer(logs) {
         }
     } catch (error) {
         console.warn('Could not send logs to server:', error);
-        storeLogLocally(logs);
-    }
-}
-
-function storeLogLocally(logs) {
-    try {
-        const storageKey = 'kfc_invalid_urls';
-        const existing = localStorage.getItem(storageKey);
-        let storedLogs = [];
-
-        if (existing) {
-            try {
-                storedLogs = JSON.parse(existing);
-                if (!Array.isArray(storedLogs)) {
-                    storedLogs = [];
-                }
-            } catch (e) {
-                storedLogs = [];
-            }
-        }
-
-        const combined = [...storedLogs, ...logs].slice(-1000);
-        localStorage.setItem(storageKey, JSON.stringify(combined));
-
-        console.info('Logged to local storage. Total entries:', combined.length);
-    } catch (error) {
-        console.warn('Could not store logs locally:', error);
     }
 }
