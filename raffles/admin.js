@@ -236,7 +236,6 @@ document.getElementById('raffleForm').addEventListener('submit', async (e) => {
 function displayRaffle(raffleData) {
   currentRaffleData = raffleData;
   
-  document.getElementById('raffleSelector').style.display = 'none';
   document.getElementById('activeRaffleDisplay').style.display = 'block';
   document.getElementById('raffleFormContainer').style.display = 'none';
   document.getElementById('entryManagementSection').style.display = 'block';
