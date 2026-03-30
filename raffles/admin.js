@@ -1,24 +1,9 @@
-const CONFIG = {
-  github: {
-    owner: 'deviyl',
-    repo: 'kfc',
-    branch: 'main',
-  },
-  raffles: {
-    dirPath: 'raffles',
-  },
-  passwords: {
-    admin: 'NogLovesToes',
-  },
-};
-
 const GITHUB_WORKER = 'https://kfc.deviyl.workers.dev/';
 
 let apiKey = '';
 let currentRaffleData = null;
 let selectedWinner = null;
 
-// ============= Auth =============
 document.getElementById('authForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const password = document.getElementById('adminPassword').value;
@@ -66,7 +51,6 @@ document.getElementById('clearApiBtn').addEventListener('click', () => {
   document.getElementById('apiKey').value = '';
 });
 
-// Check for saved API key on load
 window.addEventListener('load', () => {
   const savedKey = localStorage.getItem('raffleApiKey');
   if (savedKey) {
@@ -75,7 +59,6 @@ window.addEventListener('load', () => {
   }
 });
 
-// ============= Raffle Creation =============
 document.getElementById('newRaffleBtn').addEventListener('click', () => {
   document.getElementById('raffleFormContainer').style.display = 'block';
   document.getElementById('activeRaffleDisplay').style.display = 'none';
@@ -139,7 +122,7 @@ function showRaffleSelector(raffles) {
 async function fetchRaffleFromGitHub(raffleName) {
   try {
     const timestamp = Date.now();
-    const rawUrl = `https://raw.githubusercontent.com/deviyl/kfc/main/raffles/${encodeURIComponent(raffleName)}.json?t=${timestamp}`;
+    const rawUrl = `https://raw.githubusercontent.com/deviyl/kfc/main/raffles/data/${encodeURIComponent(raffleName)}.json?t=${timestamp}`;
     const response = await fetch(rawUrl);
     
     if (!response.ok) {
@@ -215,7 +198,6 @@ function updateCurrentRaffleName() {
   }
 }
 
-// ============= Entry Management =============
 document.getElementById('addEntryBtn').addEventListener('click', async () => {
   if (!currentRaffleData) {
     alert('Please create or load a raffle first');
@@ -379,7 +361,6 @@ document.getElementById('saveEntriesBtn').addEventListener('click', async () => 
   }
 });
 
-// ============= Draw Functionality =============
 document.getElementById('readyToDrawBtn').addEventListener('click', () => {
   if (!currentRaffleData || !currentRaffleData.entries) {
     alert('No entries to draw from');
@@ -397,7 +378,6 @@ document.getElementById('readyToDrawBtn').addEventListener('click', () => {
 });
 
 function generateDrawTable(entries) {
-  // Create array with each entry repeated by ticket count
   const drawList = [];
   entries.forEach(entry => {
     for (let i = 0; i < entry.tickets; i++) {
@@ -408,13 +388,11 @@ function generateDrawTable(entries) {
     }
   });
   
-  // Shuffle
   for (let i = drawList.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [drawList[i], drawList[j]] = [drawList[j], drawList[i]];
   }
   
-  // Create table with multiple columns (10 per column)
   const tableContainer = document.getElementById('drawTable');
   tableContainer.innerHTML = '';
   
@@ -447,7 +425,6 @@ function generateDrawTable(entries) {
   table.appendChild(tbody);
   tableContainer.appendChild(table);
   
-  // Store draw list for later
   tableContainer.dataset.drawList = JSON.stringify(drawList);
 }
 
@@ -459,7 +436,7 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
   document.getElementById('cancelDrawBtn').disabled = true;
   
   const cellCount = drawList.length;
-  const cycles = Math.floor(Math.random() * 9) + 2; // 2-10 cycles
+  const cycles = Math.floor(Math.random() * 9) + 2;
   const totalHighlights = cellCount * cycles;
   
   let currentIndex = 0;
@@ -467,17 +444,14 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
   for (let i = 0; i < totalHighlights; i++) {
     const cellIndex = i % cellCount;
     
-    // Remove highlight from previous
     document.querySelectorAll('.draw-cell').forEach(cell => cell.classList.remove('highlight'));
     
-    // Add highlight to current
     const cellId = `draw-cell-${cellIndex}`;
     document.getElementById(cellId).classList.add('highlight');
     
     await new Promise(resolve => setTimeout(resolve, 50));
   }
   
-  // Final winner
   const winnerIndex = Math.floor(Math.random() * cellCount);
   document.querySelectorAll('.draw-cell').forEach(cell => cell.classList.remove('highlight'));
   document.getElementById(`draw-cell-${winnerIndex}`).classList.add('highlight-winner');
@@ -485,7 +459,6 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
   const winner = drawList[winnerIndex];
   selectedWinner = winner;
   
-  // Show result
   setTimeout(() => {
     document.getElementById('drawModal').style.display = 'none';
     document.getElementById('entryManagementSection').style.display = 'none';
