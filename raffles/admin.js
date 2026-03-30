@@ -137,35 +137,56 @@ function displayRaffleSelector(raffles) {
   
   raffles.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
   
-  const selectorContainer = document.getElementById('raffleSelector');
-  selectorContainer.innerHTML = '';
+  const modal = document.createElement('div');
+  modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:9999;';
   
-  const div = document.createElement('div');
-  div.style.cssText = 'display:flex; flex-direction:column; gap:12px;';
+  const content = document.createElement('div');
+  content.style.cssText = 'background:linear-gradient(135deg, var(--secondary-light) 0%, var(--bg-light) 100%);border:2px solid var(--primary);border-radius:8px;padding:32px;max-width:400px;color:var(--text-primary);';
   
-  raffles.forEach((raffle) => {
-    const btn = document.createElement('button');
-    btn.className = 'btn btn-secondary';
-    btn.textContent = raffle.name;
-    btn.style.width = '100%';
-    btn.addEventListener('click', () => {
-      displayRaffle(raffle);
-      selectorContainer.innerHTML = '';
-    });
-    div.appendChild(btn);
+  content.innerHTML = `
+    <h2 style="font-size:20px;margin:0 0 24px 0;color:var(--primary);text-transform:uppercase;letter-spacing:1px;">Select Raffle to Load</h2>
+  `;
+  
+  const select = document.createElement('select');
+  select.className = 'event-dropdown';
+  select.style.cssText = 'width:100%;margin-bottom:24px;';
+  
+  raffles.forEach(raffle => {
+    const option = document.createElement('option');
+    option.value = JSON.stringify(raffle);
+    option.textContent = raffle.name;
+    select.appendChild(option);
   });
   
-  const closeBtn = document.createElement('button');
-  closeBtn.className = 'btn btn-secondary';
-  closeBtn.textContent = 'Cancel';
-  closeBtn.style.width = '100%';
-  closeBtn.addEventListener('click', () => {
-    selectorContainer.innerHTML = '';
-  });
-  div.appendChild(closeBtn);
+  content.appendChild(select);
   
-  selectorContainer.appendChild(div);
-  selectorContainer.style.display = 'block';
+  const buttonContainer = document.createElement('div');
+  buttonContainer.style.cssText = 'display:flex;gap:12px;';
+  
+  const loadBtn = document.createElement('button');
+  loadBtn.className = 'btn btn-primary';
+  loadBtn.textContent = 'Load';
+  loadBtn.style.cssText = 'flex:1;';
+  loadBtn.addEventListener('click', () => {
+    const selected = JSON.parse(select.value);
+    document.body.removeChild(modal);
+    displayRaffle(selected);
+  });
+  
+  const cancelBtn = document.createElement('button');
+  cancelBtn.className = 'btn btn-secondary';
+  cancelBtn.textContent = 'Cancel';
+  cancelBtn.style.cssText = 'flex:1;';
+  cancelBtn.addEventListener('click', () => {
+    document.body.removeChild(modal);
+  });
+  
+  buttonContainer.appendChild(loadBtn);
+  buttonContainer.appendChild(cancelBtn);
+  content.appendChild(buttonContainer);
+  
+  modal.appendChild(content);
+  document.body.appendChild(modal);
 }
 
 async function fetchRaffleFromGitHub(raffleName) {
@@ -534,12 +555,26 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
   const winner = drawList[winnerIndex];
   selectedWinner = winner;
   
-  setTimeout(() => {
+  document.getElementById('startDrawBtn').style.display = 'none';
+  document.getElementById('startDrawBtn').disabled = false;
+  document.getElementById('cancelDrawBtn').disabled = false;
+  
+  const saveBtn = document.createElement('button');
+  saveBtn.id = 'saveWinnerBtn';
+  saveBtn.className = 'btn btn-primary';
+  saveBtn.textContent = 'Save Winner';
+  saveBtn.style.cssText = 'flex:1;';
+  
+  const cancelBtn = document.getElementById('cancelDrawBtn');
+  const footer = cancelBtn.parentElement;
+  footer.insertBefore(saveBtn, cancelBtn);
+  
+  saveBtn.addEventListener('click', () => {
     document.getElementById('drawModal').style.display = 'none';
     document.getElementById('entryManagementSection').style.display = 'none';
     document.getElementById('resultSection').style.display = 'block';
     document.getElementById('winnerDisplay').textContent = winner.name;
-  }, 1000);
+  });
 });
 
 document.getElementById('cancelDrawBtn').addEventListener('click', () => {
