@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle Results</title>
+    <link rel="icon" type="image/png" href="/kfc/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/kfc/nav.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="races-container">
+        <header class="races-header">
+            <div class="header-content">
+                <h1>🎰 KFC Raffles</h1>
+                <a href="admin.html" class="btn btn-secondary" style="text-decoration: none; margin-left: auto; padding: 10px 20px; font-size: 14px;">⚙️ Admin</a>
+            </div>
+        </header>
+
+        <section class="races-section">
+            <div class="event-selector">
+                <label for="raffleSelect">Select Raffle:</label>
+                <select id="raffleSelect" class="event-dropdown">
+                    <option value="">Loading raffles...</option>
+                </select>
+                <button id="refreshBtn" style="padding:12px 24px;background:#ff4500;color:#0d0000;border:none;border-radius:4px;cursor:pointer;font-weight:600;white-space:nowrap;">🔄 Refresh</button>
+            </div>
+        </section>
+
+        <section id="raffleInfoPanel" class="races-section event-info-panel" style="display: none;">
+            <div class="event-info-header">
+                <div>
+                    <h2 id="raffleTitle">Raffle Name</h2>
+                </div>
+                <div class="event-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Prize:</span>
+                        <span id="rafflePrizeDisplay" class="meta-value"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Ticket Cost:</span>
+                        <span id="raffleTicketCostDisplay" class="meta-value"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="winnerSection" class="event-display" style="display: none; background: rgba(255, 69, 0, 0.1); border: 2px solid var(--accent-light); margin-bottom: 32px;">
+                <h3 style="color: var(--accent-light); margin: 0 0 16px 0;">🎉 WINNER 🎉</h3>
+                <div style="font-size: 32px; font-weight: 700; color: var(--accent-light); text-align: center;">
+                    <span id="winnerName"></span>
+                </div>
+            </div>
+
+            <div class="prizes-section" style="display: none;">
+                <h3>Prize</h3>
+                <div class="prize-card">
+                    <div id="prizeDisplay" class="prize-amount"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="races-section">
+            <h3 style="font-size: 18px; margin-bottom: 20px; color: var(--primary);">Raffle Participants</h3>
+            <div class="standings-display">
+                <div id="entriesDisplay"></div>
+            </div>
+        </section>
+
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <h2>No Raffles Available</h2>
+            <p>No raffles have been created yet. Check back soon!</p>
+        </div>
+    </div>
+
+    <script src="view-raffles.js"></script>
+    <script src="/kfc/nav.js"></script>
+</body>
+</html>

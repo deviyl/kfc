@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC Raffles Admin</title>
+    <link rel="icon" type="image/png" href="/kfc/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/kfc/nav.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="admin-container">
+        <div id="authPanel" class="auth-panel">
+            <div class="auth-card">
+                <h1>🎰 KFC Raffles Admin</h1>
+                
+                <form id="authForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="apiKey">Torn API Key (Minimal)</label>
+                        <input 
+                            type="password" 
+                            id="apiKey" 
+                            placeholder="Enter your minimal API key"
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="adminPassword">Admin Password</label>
+                        <input 
+                            type="password" 
+                            id="adminPassword" 
+                            placeholder="Enter admin password"
+                            required
+                        >
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Access Admin Panel</button>
+                    <div id="authError" class="error-message" style="display: none;"></div>
+                </form>
+            </div>
+        </div>
+
+        <div id="adminPanel" class="admin-panel" style="display: none;">
+            <div class="admin-header">
+                <div>
+                    <h1>🎰 KFC Raffles Manager</h1>
+                    <p class="admin-subtitle" id="currentRaffleName">No active raffle</p>
+                </div>
+                <div class="admin-controls">
+                    <a href="view-raffles.html" class="btn btn-secondary" style="text-decoration: none; margin-right: 8px;">📊 View Raffles</a>
+                    <button id="clearApiBtn" class="btn btn-secondary">Clear API Key</button>
+                    <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+                </div>
+            </div>
+
+            <div class="admin-content">
+                <section class="admin-section">
+                    <h2>Raffle Management</h2>
+                    
+                    <div class="event-controls">
+                        <button id="newRaffleBtn" class="btn btn-primary">Create New Raffle</button>
+                        <button id="loadRaffleBtn" class="btn btn-secondary">Load Existing Raffle</button>
+                    </div>
+
+                    <div id="raffleFormContainer" class="form-container" style="display: none;">
+                        <h3 id="raffleFormTitle">Create New Raffle</h3>
+                        
+                        <form id="raffleForm" class="event-form">
+                            <div class="form-group">
+                                <label for="raffleName">Raffle Name</label>
+                                <input 
+                                    type="text" 
+                                    id="raffleName" 
+                                    placeholder="e.g., Mystery Box Raffle"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="rafflePrize">Prize</label>
+                                <input 
+                                    type="text" 
+                                    id="rafflePrize" 
+                                    placeholder="e.g., $500 Gift Card"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ticketCost">Ticket Cost</label>
+                                <input 
+                                    type="text" 
+                                    id="ticketCost" 
+                                    placeholder="e.g., 100k"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="maxTickets">Max Total Tickets</label>
+                                <input 
+                                    type="number" 
+                                    id="maxTickets" 
+                                    min="1"
+                                    placeholder="e.g., 500"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="maxPerPlayer">Max Tickets Per Player</label>
+                                <input 
+                                    type="number" 
+                                    id="maxPerPlayer" 
+                                    min="1"
+                                    placeholder="e.g., 50"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Create Raffle</button>
+                                <button type="button" id="cancelRaffleBtn" class="btn btn-secondary">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="activeRaffleDisplay" class="event-display" style="display: none;">
+                        <h3>Active Raffle</h3>
+                        <div class="event-info">
+                            <div class="info-row">
+                                <span class="label">Raffle Name:</span>
+                                <span id="displayRaffleName" class="value"></span>
+                            </div>
+                            <div class="info-row">
+                                <span class="label">Prize:</span>
+                                <span id="displayRafflePrize" class="value"></span>
+                            </div>
+                            <div class="info-row">
+                                <span class="label">Ticket Cost:</span>
+                                <span id="displayTicketCost" class="value"></span>
+                            </div>
+                            <div class="info-row">
+                                <span class="label">Tickets Sold:</span>
+                                <span id="displayTicketsSold" class="value"></span>
+                            </div>
+                            <div class="info-row">
+                                <span class="label">Status:</span>
+                                <span id="displayRaffleStatus" class="value"></span>
+                            </div>
+                        </div>
+                        <div class="event-actions">
+                            <button id="editRaffleBtn" class="btn btn-secondary">Edit Raffle</button>
+                            <button id="deleteRaffleBtn" class="btn btn-danger">Delete Raffle</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="admin-section" id="entryManagementSection" style="display: none;">
+                    <h2>Entry Management</h2>
+                    <p id="ticketCapacity" style="color: var(--text-secondary); margin-bottom: 16px;"></p>
+                    
+                    <div class="player-input-group">
+                        <input 
+                            type="number" 
+                            id="playerIdInput" 
+                            placeholder="Enter Torn Player ID"
+                            min="1"
+                        >
+                        <input 
+                            type="number" 
+                            id="ticketCountInput" 
+                            placeholder="Number of Tickets"
+                            min="1"
+                        >
+                        <button id="addEntryBtn" class="btn btn-primary">+ Add Entry</button>
+                    </div>
+
+                    <div id="entriesContainer" class="players-grid"></div>
+
+                    <div id="playerError" class="error-message" style="display: none;"></div>
+
+                    <div style="display: flex; gap: 12px; margin-top: 20px;">
+                        <button id="saveEntriesBtn" class="btn btn-primary" style="flex: 1;">Save Entries</button>
+                        <button id="readyToDrawBtn" class="btn btn-warning" style="background:#ff9800; flex: 1;">🎲 Ready to Draw?</button>
+                    </div>
+                </section>
+
+                <section class="admin-section" id="resultSection" style="display: none;">
+                    <h2>Draw Result</h2>
+                    <div class="event-display">
+                        <div class="info-row">
+                            <span class="label">Winner:</span>
+                            <span id="winnerDisplay" class="value" style="color: var(--accent-light); font-size: 18px;"></span>
+                        </div>
+                        <button id="saveRaffleBtn" class="btn btn-primary" style="width: 100%; margin-top: 20px;">🔒 Lock & Save Raffle</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Draw Popup Modal -->
+    <div id="drawModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🎲 Raffle Draw</h2>
+                <button class="modal-close" id="closeDrawModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="drawTable" class="draw-table"></div>
+            </div>
+            <div class="modal-footer">
+                <button id="startDrawBtn" class="btn btn-primary">🎯 Draw Winner</button>
+                <button id="cancelDrawBtn" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+    <script src="/kfc/nav.js"></script>
+</body>
+</html>
