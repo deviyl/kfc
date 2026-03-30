@@ -9,7 +9,7 @@ let currentRaffleData = null;
 async function fetchRaffleFromGitHub(raffleName) {
     try {
         const timestamp = Date.now();
-        const rawUrl = `https://raw.githubusercontent.com/deviyl/kfc/main/raffles/${encodeURIComponent(raffleName)}.json?t=${timestamp}`;
+        const rawUrl = `https://raw.githubusercontent.com/deviyl/kfc/main/raffles/data/${encodeURIComponent(raffleName)}.json?t=${timestamp}`;
         const response = await fetch(rawUrl);
         
         if (!response.ok) {
@@ -135,11 +135,9 @@ function displayRaffle(raffleData) {
     document.getElementById('rafflePrizeDisplay').textContent = raffleData.prize;
     document.getElementById('raffleTicketCostDisplay').textContent = raffleData.ticketCost;
 
-    // Show prize section
     document.querySelector('.prizes-section').style.display = 'block';
     document.getElementById('prizeDisplay').textContent = raffleData.prize;
 
-    // Show winner if raffle is locked
     if (raffleData.locked && raffleData.winner) {
         document.getElementById('winnerSection').style.display = 'block';
         document.getElementById('winnerName').textContent = raffleData.winner.name;
@@ -159,7 +157,6 @@ function displayEntries(raffleData) {
         return;
     }
 
-    // Filter to only show paid entries
     const paidEntries = raffleData.entries.filter(entry => entry.paid);
 
     if (paidEntries.length === 0) {
@@ -167,7 +164,6 @@ function displayEntries(raffleData) {
         return;
     }
 
-    // Create table
     let tableHtml = '<div class="standings-table-wrapper"><table class="standings-table"><thead><tr>';
     tableHtml += '<th>Player ID</th><th>Player Name</th><th>Tickets</th></tr></thead><tbody>';
 
@@ -184,7 +180,7 @@ function displayEntries(raffleData) {
 }
 
 let autoRefreshEnabled = true;
-const REFRESH_INTERVAL = 30000; // 30 seconds
+const REFRESH_INTERVAL = 30000;
 
 async function autoRefresh() {
     if (autoRefreshEnabled && currentRaffleData) {
@@ -193,7 +189,6 @@ async function autoRefresh() {
             currentRaffleData = updated;
             displayEntries(updated);
             
-            // Update winner if raffle just got locked
             if (updated.locked && updated.winner) {
                 document.getElementById('winnerSection').style.display = 'block';
                 document.getElementById('winnerName').textContent = updated.winner.name;
