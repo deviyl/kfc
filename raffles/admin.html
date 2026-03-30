@@ -13,7 +13,7 @@
     <div class="admin-container">
         <div id="authPanel" class="auth-panel">
             <div class="auth-card">
-                <h1>🎰 KFC Raffles Admin</h1>
+                    <h1>🎰 KFC Raffles Admin</h1>
                 
                 <form id="authForm" class="auth-form">
                     <div class="form-group">
@@ -59,6 +59,8 @@
                 <section class="admin-section">
                     <h2>Raffle Management</h2>
                     
+                    <div id="raffleSelector" style="display: none;"></div>
+                    
                     <div class="event-controls">
                         <button id="newRaffleBtn" class="btn btn-primary">Create New Raffle</button>
                         <button id="loadRaffleBtn" class="btn btn-secondary">Load Existing Raffle</button>
@@ -72,8 +74,7 @@
                                 <label for="raffleName">Raffle Name</label>
                                 <input 
                                     type="text" 
-                                    id="raffleName" 
-                                    placeholder="e.g., Mystery Box Raffle"
+                                    id="raffleName"
                                     required
                                 >
                             </div>
@@ -82,8 +83,7 @@
                                 <label for="rafflePrize">Prize</label>
                                 <input 
                                     type="text" 
-                                    id="rafflePrize" 
-                                    placeholder="e.g., $500 Gift Card"
+                                    id="rafflePrize"
                                     required
                                 >
                             </div>
@@ -92,8 +92,7 @@
                                 <label for="ticketCost">Ticket Cost</label>
                                 <input 
                                     type="text" 
-                                    id="ticketCost" 
-                                    placeholder="e.g., 100k"
+                                    id="ticketCost"
                                     required
                                 >
                             </div>
@@ -104,7 +103,6 @@
                                     type="number" 
                                     id="maxTickets" 
                                     min="1"
-                                    placeholder="e.g., 500"
                                     required
                                 >
                             </div>
@@ -115,7 +113,6 @@
                                     type="number" 
                                     id="maxPerPlayer" 
                                     min="1"
-                                    placeholder="e.g., 50"
                                     required
                                 >
                             </div>
@@ -165,14 +162,12 @@
                     <div class="player-input-group">
                         <input 
                             type="number" 
-                            id="playerIdInput" 
-                            placeholder="Enter Torn Player ID"
+                            id="playerIdInput"
                             min="1"
                         >
                         <input 
                             type="number" 
                             id="ticketCountInput" 
-                            placeholder="Number of Tickets"
                             min="1"
                         >
                         <button id="addEntryBtn" class="btn btn-primary">+ Add Entry</button>
