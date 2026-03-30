@@ -706,11 +706,7 @@ html, body {
 
 .standings-table tbody tr:hover { background: rgba(255, 69, 0, 0.05); }
 
-.standings-table tbody tr:nth-child(1) { background: rgba(255, 69, 0, 0.1); border-left: 4px solid var(--primary); }
 
-.standings-table tbody tr:nth-child(2) { border-left: 4px solid #c0c0c0; }
-
-.standings-table tbody tr:nth-child(3) { border-left: 4px solid #cd7f32; }
 
 .standings-rank {
     font-weight: 800;
@@ -718,10 +714,6 @@ html, body {
     color: var(--primary);
     width: 50px;
 }
-
-.standings-table tbody tr:nth-child(2) .standings-rank { color: #c0c0c0; }
-
-.standings-table tbody tr:nth-child(3) .standings-rank { color: #cd7f32; }
 
 .standings-name { color: var(--text-primary); font-weight: 600; }
 
@@ -809,6 +801,112 @@ html, body {
 .empty-state h2 { font-size: 32px; margin-bottom: 16px; color: var(--primary); }
 
 .empty-state p { color: var(--text-secondary); font-size: 16px; }
+
+@media (max-width: 1024px) {
+    .event-info-header { flex-direction: column; gap: 24px; }
+    .event-meta { text-align: left; flex-direction: row; }
+    .races-results-container { grid-template-columns: 1fr; }
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: linear-gradient(135deg, var(--secondary-light) 0%, var(--bg-light) 100%);
+    border: 2px solid var(--primary);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1000px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+}
+
+.modal-header {
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    font-size: 24px;
+    color: var(--primary);
+    margin: 0;
+}
+
+.modal-close {
+    background: transparent;
+    border: none;
+    color: var(--primary);
+    font-size: 32px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.modal-close:hover { color: var(--accent-light); }
+
+.modal-body {
+    padding: 24px 32px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    padding: 24px 32px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.draw-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.draw-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.draw-cell {
+    padding: 12px;
+    border: 1px solid var(--border);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--text-secondary);
+    font-weight: 500;
+    transition: all 0.1s ease;
+    min-height: 40px;
+}
+
+.draw-cell.highlight {
+    background: var(--primary);
+    color: var(--secondary);
+    font-weight: 700;
+    box-shadow: inset 0 0 10px rgba(255, 69, 0, 0.5);
+}
+
+.draw-cell.highlight-winner {
+    background: var(--accent-light);
+    color: var(--secondary);
+    font-weight: 700;
+    box-shadow: 0 0 30px rgba(255, 23, 68, 0.8);
+}
 
 @media (max-width: 1024px) {
     .event-info-header { flex-direction: column; gap: 24px; }
