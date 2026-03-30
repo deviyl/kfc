@@ -15,7 +15,7 @@
     {
       "playerId": 3722358,
       "playerName": "Deviyl",
-      "tickets": 3,
+      "tickets": 5,
       "paid": true
     },
     {
@@ -23,9 +23,15 @@
       "playerName": "Xevi",
       "tickets": 2,
       "paid": true
+    },
+    {
+      "playerId": 3599627,
+      "playerName": "CaptainRinny",
+      "tickets": 2,
+      "paid": false
     }
   ],
-  "totalTickets": 10,
+  "totalTickets": 14,
   "locked": false,
   "winner": null
 }
