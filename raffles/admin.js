@@ -603,6 +603,12 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
 });
 
 document.getElementById('cancelDrawBtn').addEventListener('click', () => {
+    selectedWinner = null;
+    document.getElementById('startDrawBtn').style.display = 'block';
+    const saveWinnerBtn = document.getElementById('saveWinnerBtn');
+    if (saveWinnerBtn) {
+        saveWinnerBtn.remove();
+    }
     document.getElementById('drawModal').style.display = 'none';
 });
 
