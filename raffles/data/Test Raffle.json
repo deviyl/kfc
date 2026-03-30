@@ -1,0 +1,37 @@
+{
+  "name": "Test Raffle",
+  "prize": "Toe Pics",
+  "ticketCost": "50k",
+  "maxTickets": 100,
+  "maxPerPlayer": 10,
+  "createdAt": "2026-03-29T12:00:00.000Z",
+  "entries": [
+    {
+      "playerId": 3627681,
+      "playerName": "ZeTwilighTwizz",
+      "tickets": 5,
+      "paid": true
+    },
+    {
+      "playerId": 3722358,
+      "playerName": "Deviyl",
+      "tickets": 3,
+      "paid": true
+    },
+    {
+      "playerId": 3913421,
+      "playerName": "PeachesCat",
+      "tickets": 7,
+      "paid": false
+    },
+    {
+      "playerId": 2792892,
+      "playerName": "Xevi",
+      "tickets": 2,
+      "paid": true
+    }
+  ],
+  "totalTickets": 17,
+  "locked": false,
+  "winner": null
+}
