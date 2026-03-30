@@ -4,6 +4,42 @@ let apiKey = '';
 let currentRaffleData = null;
 let selectedWinner = null;
 
+function getCookie(name) {
+  const nameEQ = name + '=';
+  const cookies = document.cookie.split(';');
+  for (let cookie of cookies) {
+    cookie = cookie.trim();
+    if (cookie.indexOf(nameEQ) === 0) {
+      return cookie.substring(nameEQ.length);
+    }
+  }
+  return '';
+}
+
+function setCookie(name, value, days = 365) {
+  const date = new Date();
+  date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+  const expires = 'expires=' + date.toUTCString();
+  document.cookie = name + '=' + value + ';' + expires + ';path=/';
+}
+
+function deleteCookie(name) {
+  setCookie(name, '', -1);
+}
+
+window.addEventListener('load', () => {
+  const savedPassword = getCookie('adminPassword');
+  const savedApiKey = getCookie('tornApiKey');
+  
+  if (savedPassword && savedApiKey) {
+    apiKey = savedApiKey;
+    document.getElementById('adminPassword').value = savedPassword;
+    document.getElementById('apiKey').value = '••••••••';
+    document.getElementById('authPanel').style.display = 'none';
+    document.getElementById('adminPanel').style.display = 'block';
+  }
+});
+
 document.getElementById('authForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const password = document.getElementById('adminPassword').value;
@@ -19,10 +55,10 @@ document.getElementById('authForm').addEventListener('submit', async (e) => {
     const data = await response.json();
     if (data.success) {
       apiKey = key;
-      localStorage.setItem('raffleApiKey', key);
+      setCookie('adminPassword', password);
+      setCookie('tornApiKey', key);
       document.getElementById('authPanel').style.display = 'none';
       document.getElementById('adminPanel').style.display = 'block';
-      loadRaffles();
     } else {
       showAuthError('Invalid password');
     }
@@ -38,7 +74,8 @@ function showAuthError(message) {
 }
 
 document.getElementById('logoutBtn').addEventListener('click', () => {
-  localStorage.removeItem('raffleApiKey');
+  deleteCookie('adminPassword');
+  deleteCookie('tornApiKey');
   apiKey = '';
   document.getElementById('adminPanel').style.display = 'none';
   document.getElementById('authPanel').style.display = 'block';
@@ -46,17 +83,9 @@ document.getElementById('logoutBtn').addEventListener('click', () => {
 });
 
 document.getElementById('clearApiBtn').addEventListener('click', () => {
-  localStorage.removeItem('raffleApiKey');
+  deleteCookie('tornApiKey');
   apiKey = '';
   document.getElementById('apiKey').value = '';
-});
-
-window.addEventListener('load', () => {
-  const savedKey = localStorage.getItem('raffleApiKey');
-  if (savedKey) {
-    apiKey = savedKey;
-    document.getElementById('apiKey').value = '••••••••';
-  }
 });
 
 document.getElementById('newRaffleBtn').addEventListener('click', () => {
@@ -93,14 +122,14 @@ async function loadRaffles() {
       }
     }
     
-    showRaffleSelector(raffles);
+    displayRaffleSelector(raffles);
   } catch (error) {
     console.error('Error loading raffles:', error);
     alert('Failed to load raffles');
   }
 }
 
-function showRaffleSelector(raffles) {
+function displayRaffleSelector(raffles) {
   if (raffles.length === 0) {
     alert('No raffles found. Create a new one!');
     return;
@@ -108,15 +137,35 @@ function showRaffleSelector(raffles) {
   
   raffles.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
   
-  const raffleNames = raffles.map(r => r.name);
-  const selectedRaffle = prompt('Select a raffle:\n' + raffleNames.map((n, i) => `${i + 1}. ${n}`).join('\n') + '\n\nEnter the number:', '1');
+  const selectorContainer = document.getElementById('raffleSelector');
+  selectorContainer.innerHTML = '';
   
-  if (selectedRaffle) {
-    const index = parseInt(selectedRaffle) - 1;
-    if (index >= 0 && index < raffles.length) {
-      displayRaffle(raffles[index]);
-    }
-  }
+  const div = document.createElement('div');
+  div.style.cssText = 'display:flex; flex-direction:column; gap:12px;';
+  
+  raffles.forEach((raffle) => {
+    const btn = document.createElement('button');
+    btn.className = 'btn btn-secondary';
+    btn.textContent = raffle.name;
+    btn.style.width = '100%';
+    btn.addEventListener('click', () => {
+      displayRaffle(raffle);
+      selectorContainer.innerHTML = '';
+    });
+    div.appendChild(btn);
+  });
+  
+  const closeBtn = document.createElement('button');
+  closeBtn.className = 'btn btn-secondary';
+  closeBtn.textContent = 'Cancel';
+  closeBtn.style.width = '100%';
+  closeBtn.addEventListener('click', () => {
+    selectorContainer.innerHTML = '';
+  });
+  div.appendChild(closeBtn);
+  
+  selectorContainer.appendChild(div);
+  selectorContainer.style.display = 'block';
 }
 
 async function fetchRaffleFromGitHub(raffleName) {
@@ -166,6 +215,7 @@ document.getElementById('raffleForm').addEventListener('submit', async (e) => {
 function displayRaffle(raffleData) {
   currentRaffleData = raffleData;
   
+  document.getElementById('raffleSelector').style.display = 'none';
   document.getElementById('activeRaffleDisplay').style.display = 'block';
   document.getElementById('raffleFormContainer').style.display = 'none';
   document.getElementById('entryManagementSection').style.display = 'block';
@@ -230,7 +280,7 @@ document.getElementById('addEntryBtn').addEventListener('click', async () => {
   
   try {
     const playerData = await fetchPlayerFromAPI(playerId);
-    const playerName = playerData.player.name;
+    const playerName = playerData.name;
     
     const existingEntry = currentRaffleData.entries.find(e => e.playerId === playerId);
     if (existingEntry) {
@@ -267,7 +317,11 @@ async function fetchPlayerFromAPI(playerId) {
   if (!response.ok) {
     throw new Error('Player not found');
   }
-  return await response.json();
+  const data = await response.json();
+  if (!data.name) {
+    throw new Error('Invalid player data');
+  }
+  return data;
 }
 
 function displayEntries() {
@@ -291,8 +345,8 @@ function displayEntries() {
         </div>
       </div>
       <div style="display: flex; gap: 6px;">
-        <button class="toggle-paid-btn" data-index="${index}" style="padding: 8px 12px; background: ${entry.paid ? 'var(--success)' : 'var(--warning)'}; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; font-weight: 600;">
-          ${entry.paid ? '✓' : 'Mark Paid'}
+        <button class="toggle-paid-btn" data-index="${index}" style="padding: 8px 12px; background: ${entry.paid ? 'var(--text-secondary)' : 'var(--warning)'}; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; font-weight: 600; ${entry.paid ? 'cursor: not-allowed;' : ''}">
+          ${entry.paid ? '✓ Paid' : 'Mark Paid'}
         </button>
         <button class="player-remove" data-index="${index}">×</button>
       </div>
@@ -303,8 +357,10 @@ function displayEntries() {
   document.querySelectorAll('.toggle-paid-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const index = parseInt(btn.dataset.index);
-      currentRaffleData.entries[index].paid = !currentRaffleData.entries[index].paid;
-      displayEntries();
+      if (!currentRaffleData.entries[index].paid) {
+        currentRaffleData.entries[index].paid = true;
+        displayEntries();
+      }
     });
   });
   
@@ -339,6 +395,11 @@ function showPlayerError(message) {
 document.getElementById('saveEntriesBtn').addEventListener('click', async () => {
   if (!currentRaffleData) return;
   
+  const btn = document.getElementById('saveEntriesBtn');
+  const originalText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = 'Saving...';
+  
   try {
     const response = await fetch(GITHUB_WORKER, {
       method: 'POST',
@@ -352,11 +413,19 @@ document.getElementById('saveEntriesBtn').addEventListener('click', async () => 
     
     const data = await response.json();
     if (data.success) {
-      alert('Entries saved successfully!');
+      btn.textContent = '✓ Saved';
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.disabled = false;
+      }, 2000);
     } else {
+      btn.textContent = originalText;
+      btn.disabled = false;
       alert('Failed to save entries: ' + data.error);
     }
   } catch (error) {
+    btn.textContent = originalText;
+    btn.disabled = false;
     alert('Error saving entries: ' + error.message);
   }
 });
@@ -439,22 +508,28 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
   const cycles = Math.floor(Math.random() * 9) + 2;
   const totalHighlights = cellCount * cycles;
   
-  let currentIndex = 0;
-  
   for (let i = 0; i < totalHighlights; i++) {
     const cellIndex = i % cellCount;
     
     document.querySelectorAll('.draw-cell').forEach(cell => cell.classList.remove('highlight'));
     
     const cellId = `draw-cell-${cellIndex}`;
-    document.getElementById(cellId).classList.add('highlight');
+    const cell = document.getElementById(cellId);
+    if (cell) {
+      cell.classList.add('highlight');
+      cell.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
     
     await new Promise(resolve => setTimeout(resolve, 50));
   }
   
   const winnerIndex = Math.floor(Math.random() * cellCount);
   document.querySelectorAll('.draw-cell').forEach(cell => cell.classList.remove('highlight'));
-  document.getElementById(`draw-cell-${winnerIndex}`).classList.add('highlight-winner');
+  const winnerCell = document.getElementById(`draw-cell-${winnerIndex}`);
+  if (winnerCell) {
+    winnerCell.classList.add('highlight-winner');
+    winnerCell.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
   
   const winner = drawList[winnerIndex];
   selectedWinner = winner;
@@ -464,7 +539,7 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
     document.getElementById('entryManagementSection').style.display = 'none';
     document.getElementById('resultSection').style.display = 'block';
     document.getElementById('winnerDisplay').textContent = winner.name;
-  }, 500);
+  }, 1000);
 });
 
 document.getElementById('cancelDrawBtn').addEventListener('click', () => {
@@ -487,6 +562,11 @@ document.getElementById('saveRaffleBtn').addEventListener('click', async () => {
   currentRaffleData.locked = true;
   currentRaffleData.winner = selectedWinner;
   
+  const btn = document.getElementById('saveRaffleBtn');
+  const originalText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = 'Saving...';
+  
   try {
     const response = await fetch(GITHUB_WORKER, {
       method: 'POST',
@@ -500,12 +580,20 @@ document.getElementById('saveRaffleBtn').addEventListener('click', async () => {
     
     const data = await response.json();
     if (data.success) {
-      alert('🎉 Raffle locked and saved! Winner: ' + selectedWinner.name);
-      displayRaffle(currentRaffleData);
+      btn.textContent = '✓ Locked';
+      setTimeout(() => {
+        displayRaffle(currentRaffleData);
+        btn.textContent = originalText;
+        btn.disabled = false;
+      }, 2000);
     } else {
+      btn.textContent = originalText;
+      btn.disabled = false;
       alert('Failed to save raffle: ' + data.error);
     }
   } catch (error) {
+    btn.textContent = originalText;
+    btn.disabled = false;
     alert('Error saving raffle: ' + error.message);
   }
 });
