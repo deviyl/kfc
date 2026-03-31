@@ -137,6 +137,10 @@ document.getElementById('newRaffleBtn').addEventListener('click', () => {
     document.getElementById('activeRaffleDisplay').style.display = 'none';
     document.getElementById('raffleFormTitle').textContent = 'Create New Raffle';
     document.getElementById('raffleForm').reset();
+    
+    const submitBtn = document.getElementById('raffleSubmitBtn');
+    submitBtn.textContent = 'Create Raffle';
+    
     currentRaffleData = null;
     updateCurrentRaffleName();
 });
@@ -256,17 +260,50 @@ document.getElementById('raffleForm').addEventListener('submit', async (e) => {
         ticketCost,
         maxTickets,
         maxPerPlayer,
-        createdAt: new Date().toISOString(),
-        entries: [],
-        totalTickets: 0,
-        locked: false,
-        winner: null,
+        createdAt: currentRaffleData ? currentRaffleData.createdAt : new Date().toISOString(),
+        entries: currentRaffleData ? currentRaffleData.entries : [],
+        totalTickets: currentRaffleData ? currentRaffleData.totalTickets : 0,
+        locked: currentRaffleData ? currentRaffleData.locked : false,
+        winner: currentRaffleData ? currentRaffleData.winner : null,
     };
     
-    currentRaffleData = raffleData;
-    displayRaffle(raffleData);
-    document.getElementById('raffleFormContainer').style.display = 'none';
-    updateCurrentRaffleName();
+    const btn = e.target.querySelector('button[type="submit"]');
+    const originalText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+    
+    try {
+        const response = await fetch(CLOUDFLARE_WORKER, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                action: 'save-raffle',
+                raffleName: raffleName,
+                raffleData: raffleData,
+            }),
+        });
+        
+        const data = await response.json();
+        if (data.success) {
+            currentRaffleData = raffleData;
+            btn.textContent = '✓ Saved';
+            setTimeout(() => {
+                displayRaffle(raffleData);
+                document.getElementById('raffleFormContainer').style.display = 'none';
+                updateCurrentRaffleName();
+                btn.textContent = originalText;
+                btn.disabled = false;
+            }, 2000);
+        } else {
+            btn.textContent = originalText;
+            btn.disabled = false;
+            alert('Failed to save raffle: ' + data.error);
+        }
+    } catch (error) {
+        btn.textContent = originalText;
+        btn.disabled = false;
+        alert('Error saving raffle: ' + error.message);
+    }
 });
 
 function displayRaffle(raffleData) {
@@ -704,6 +741,9 @@ document.getElementById('editRaffleBtn').addEventListener('click', () => {
     document.getElementById('raffleFormContainer').style.display = 'block';
     document.getElementById('activeRaffleDisplay').style.display = 'none';
     document.getElementById('raffleFormTitle').textContent = 'Edit Raffle';
+    
+    const submitBtn = document.getElementById('raffleSubmitBtn');
+    submitBtn.textContent = 'Save Raffle';
     
     document.getElementById('raffleName').value = currentRaffleData.name;
     document.getElementById('rafflePrize').value = currentRaffleData.prize;
