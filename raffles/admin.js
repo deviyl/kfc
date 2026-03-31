@@ -436,6 +436,7 @@ function handleDeleteRaffle() {
     })();
 }
 
+function updateCurrentRaffleName() {
     const nameElement = document.getElementById('currentRaffleName');
     if (currentRaffleData) {
         nameElement.textContent = currentRaffleData.name;
