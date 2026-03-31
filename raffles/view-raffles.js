@@ -2,7 +2,7 @@ const raffleSelect = document.getElementById('raffleSelect');
 const raffleInfoPanel = document.getElementById('raffleInfoPanel');
 const emptyState = document.getElementById('emptyState');
 
-const GITHUB_WORKER = 'https://kfc.deviyl.workers.dev/';
+const CLOUDFLARE_WORKER = 'https://kfc.deviyl.workers.dev/';
 
 let currentRaffleData = null;
 
@@ -25,7 +25,7 @@ async function fetchRaffleFromGitHub(raffleName) {
 
 async function loadAllRaffles() {
     try {
-        const response = await fetch(GITHUB_WORKER, {
+        const response = await fetch(CLOUDFLARE_WORKER, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
