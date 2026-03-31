@@ -123,7 +123,11 @@
                     </div>
 
                     <div id="activeRaffleDisplay" class="event-display" style="display: none;">
-                        <h3>Active Raffle</h3>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                            <h3 style="margin: 0;">Active Raffle</h3>
+                            <button id="toggleRaffleInfoBtn" class="btn btn-secondary" style="padding: 8px 16px; font-size: 12px;">▼ Collapse</button>
+                        </div>
+                        <div id="raffleInfoContent">
                         <div class="event-info">
                             <div class="info-row">
                                 <span class="label">Raffle Name:</span>
@@ -150,7 +154,8 @@
                                 <span id="displayRaffleStatus" class="value"></span>
                             </div>
                         </div>
-                        <div class="event-actions">
+                        </div>
+                        <div id="raffleActionButtons" class="event-actions">
                             <button id="editRaffleBtn" class="btn btn-secondary">Edit Raffle</button>
                             <button id="deleteRaffleBtn" class="btn btn-danger">Delete Raffle</button>
                         </div>
