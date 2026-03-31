@@ -14,6 +14,9 @@
     }
   ],
   "totalTickets": 100,
-  "locked": false,
-  "winner": null
+  "locked": true,
+  "winner": {
+    "name": "MrNoggins",
+    "id": 2741991
+  }
 }
