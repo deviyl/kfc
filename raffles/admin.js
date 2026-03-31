@@ -57,7 +57,9 @@ async function fetchRaffleFromGitHub(raffleName) {
     try {
         const timestamp = Date.now();
         const rawUrl = `https://raw.githubusercontent.com/deviyl/kfc/main/raffles/data/${encodeURIComponent(raffleName)}.json?t=${timestamp}`;
-        const response = await fetch(rawUrl);
+        const response = await fetch(rawUrl, {
+            cache: 'no-store'
+        });
         
         if (!response.ok) {
             throw new Error('Raffle not found on GitHub');
