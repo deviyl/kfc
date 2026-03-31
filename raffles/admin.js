@@ -653,18 +653,18 @@ function generateDrawTable(entries) {
     const tableContainer = document.getElementById('drawTable');
     tableContainer.innerHTML = '';
     
-    const columns = Math.ceil(drawList.length / 10);
+    const columns = Math.ceil(drawList.length / 20);
     const table = document.createElement('table');
     table.style.width = '100%';
     table.style.borderCollapse = 'collapse';
     
     const tbody = document.createElement('tbody');
     
-    for (let row = 0; row < 10; row++) {
+    for (let row = 0; row < 20; row++) {
         const tr = document.createElement('tr');
         
         for (let col = 0; col < columns; col++) {
-            const index = col * 10 + row;
+            const index = col * 20 + row;
             const td = document.createElement('td');
             td.className = 'draw-cell';
             td.id = `draw-cell-${index}`;
@@ -693,7 +693,7 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
     document.getElementById('cancelDrawBtn').disabled = true;
     
     const cellCount = drawList.length;
-    const cycles = Math.floor(Math.random() * 9) + 2;
+    const cycles = Math.floor(Math.random() * 4) + 2;
     const totalHighlights = cellCount * cycles;
     
     for (let i = 0; i < totalHighlights; i++) {
@@ -708,7 +708,7 @@ document.getElementById('startDrawBtn').addEventListener('click', async () => {
             cell.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
         
-        await new Promise(resolve => setTimeout(resolve, 50));
+        await new Promise(resolve => setTimeout(resolve, 40));
     }
     
     const winnerIndex = Math.floor(Math.random() * cellCount);
