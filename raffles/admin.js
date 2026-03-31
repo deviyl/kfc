@@ -313,12 +313,51 @@ function displayRaffle(raffleData) {
     document.getElementById('raffleFormContainer').style.display = 'none';
     document.getElementById('entryManagementSection').style.display = 'block';
     
+    const raffleInfoContent = document.getElementById('raffleInfoContent');
+    raffleInfoContent.innerHTML = `
+        <div class="event-info">
+            <div class="info-row">
+                <span class="label">Raffle Name:</span>
+                <span id="displayRaffleName" class="value"></span>
+            </div>
+            <div class="info-row">
+                <span class="label">Prize:</span>
+                <span id="displayRafflePrize" class="value"></span>
+            </div>
+            <div class="info-row">
+                <span class="label">Ticket Cost:</span>
+                <span id="displayTicketCost" class="value"></span>
+            </div>
+            <div class="info-row">
+                <span class="label">Tickets Sold:</span>
+                <span id="displayTicketsSold" class="value"></span>
+            </div>
+            <div class="info-row">
+                <span class="label">Max Per Player:</span>
+                <span id="displayMaxPerPlayer" class="value"></span>
+            </div>
+            <div class="info-row">
+                <span class="label">Status:</span>
+                <span id="displayRaffleStatus" class="value"></span>
+            </div>
+        </div>
+    `;
+    
     document.getElementById('displayRaffleName').textContent = raffleData.name;
     document.getElementById('displayRafflePrize').textContent = raffleData.prize;
     document.getElementById('displayTicketCost').textContent = raffleData.ticketCost;
     document.getElementById('displayTicketsSold').textContent = `${raffleData.totalTickets || 0} / ${raffleData.maxTickets}`;
     document.getElementById('displayMaxPerPlayer').textContent = raffleData.maxPerPlayer;
     document.getElementById('displayRaffleStatus').textContent = raffleData.locked ? '🔒 LOCKED' : 'Open';
+    
+    const actionButtons = document.getElementById('raffleActionButtons');
+    actionButtons.innerHTML = `
+        <button id="editRaffleBtn" class="btn btn-secondary">Edit Raffle</button>
+        <button id="deleteRaffleBtn" class="btn btn-danger">Delete Raffle</button>
+    `;
+    
+    document.getElementById('editRaffleBtn').addEventListener('click', handleEditRaffle);
+    document.getElementById('deleteRaffleBtn').addEventListener('click', handleDeleteRaffle);
     
     if (raffleData.locked && raffleData.winner) {
         document.getElementById('resultSection').style.display = 'block';
@@ -331,9 +370,72 @@ function displayRaffle(raffleData) {
     updateTicketCapacity();
     displayEntries();
     updateCurrentRaffleName();
+    
+    setupToggleButton();
 }
 
-function updateCurrentRaffleName() {
+function setupToggleButton() {
+    const toggleBtn = document.getElementById('toggleRaffleInfoBtn');
+    const infoContent = document.getElementById('raffleInfoContent');
+    const actionButtons = document.getElementById('raffleActionButtons');
+    
+    toggleBtn.addEventListener('click', () => {
+        const isHidden = infoContent.style.display === 'none';
+        infoContent.style.display = isHidden ? 'flex' : 'none';
+        actionButtons.style.display = isHidden ? 'flex' : 'none';
+        toggleBtn.textContent = isHidden ? '▼ Collapse' : '▶ Expand';
+    });
+}
+
+function handleEditRaffle() {
+    document.getElementById('raffleFormContainer').style.display = 'block';
+    document.getElementById('activeRaffleDisplay').style.display = 'none';
+    document.getElementById('raffleFormTitle').textContent = 'Edit Raffle';
+    
+    const submitBtn = document.getElementById('raffleSubmitBtn');
+    submitBtn.textContent = 'Save Raffle';
+    
+    document.getElementById('raffleName').value = currentRaffleData.name;
+    document.getElementById('rafflePrize').value = currentRaffleData.prize;
+    document.getElementById('ticketCost').value = currentRaffleData.ticketCost;
+    document.getElementById('maxTickets').value = currentRaffleData.maxTickets;
+    document.getElementById('maxPerPlayer').value = currentRaffleData.maxPerPlayer;
+}
+
+function handleDeleteRaffle() {
+    if (!currentRaffleData) return;
+    
+    const confirmed = confirm('Are you sure you want to delete this raffle? This cannot be undone.');
+    if (!confirmed) return;
+    
+    (async () => {
+        try {
+            const response = await fetch(CLOUDFLARE_WORKER, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    action: 'delete-raffle',
+                    raffleName: currentRaffleData.name,
+                }),
+            });
+            
+            const data = await response.json();
+            if (data.success) {
+                alert('Raffle deleted');
+                currentRaffleData = null;
+                document.getElementById('activeRaffleDisplay').style.display = 'none';
+                document.getElementById('entryManagementSection').style.display = 'none';
+                document.getElementById('raffleFormContainer').style.display = 'none';
+                updateCurrentRaffleName();
+            } else {
+                alert('Failed to delete raffle: ' + data.error);
+            }
+        } catch (error) {
+            alert('Error deleting raffle: ' + error.message);
+        }
+    })();
+}
+
     const nameElement = document.getElementById('currentRaffleName');
     if (currentRaffleData) {
         nameElement.textContent = currentRaffleData.name;
@@ -703,51 +805,4 @@ document.getElementById('saveRaffleBtn').addEventListener('click', async () => {
 
 document.getElementById('cancelRaffleBtn').addEventListener('click', () => {
     document.getElementById('raffleFormContainer').style.display = 'none';
-});
-
-document.getElementById('deleteRaffleBtn').addEventListener('click', async () => {
-    if (!currentRaffleData) return;
-    
-    const confirmed = confirm('Are you sure you want to delete this raffle? This cannot be undone.');
-    if (!confirmed) return;
-    
-    try {
-        const response = await fetch(CLOUDFLARE_WORKER, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                action: 'delete-raffle',
-                raffleName: currentRaffleData.name,
-            }),
-        });
-        
-        const data = await response.json();
-        if (data.success) {
-            alert('Raffle deleted');
-            currentRaffleData = null;
-            document.getElementById('activeRaffleDisplay').style.display = 'none';
-            document.getElementById('entryManagementSection').style.display = 'none';
-            document.getElementById('raffleFormContainer').style.display = 'none';
-            updateCurrentRaffleName();
-        } else {
-            alert('Failed to delete raffle: ' + data.error);
-        }
-    } catch (error) {
-        alert('Error deleting raffle: ' + error.message);
-    }
-});
-
-document.getElementById('editRaffleBtn').addEventListener('click', () => {
-    document.getElementById('raffleFormContainer').style.display = 'block';
-    document.getElementById('activeRaffleDisplay').style.display = 'none';
-    document.getElementById('raffleFormTitle').textContent = 'Edit Raffle';
-    
-    const submitBtn = document.getElementById('raffleSubmitBtn');
-    submitBtn.textContent = 'Save Raffle';
-    
-    document.getElementById('raffleName').value = currentRaffleData.name;
-    document.getElementById('rafflePrize').value = currentRaffleData.prize;
-    document.getElementById('ticketCost').value = currentRaffleData.ticketCost;
-    document.getElementById('maxTickets').value = currentRaffleData.maxTickets;
-    document.getElementById('maxPerPlayer').value = currentRaffleData.maxPerPlayer;
 });
