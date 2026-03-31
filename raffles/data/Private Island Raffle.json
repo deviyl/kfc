@@ -7,13 +7,31 @@
   "createdAt": "2026-03-31T20:18:48.291Z",
   "entries": [
     {
-      "playerId": 3722358,
-      "playerName": "Deviyl",
-      "tickets": 15,
+      "playerId": 3913421,
+      "playerName": "Wolfylein",
+      "tickets": 10,
+      "paid": true
+    },
+    {
+      "playerId": 3562619,
+      "playerName": "Postman_",
+      "tickets": 10,
+      "paid": true
+    },
+    {
+      "playerId": 3563386,
+      "playerName": "Doomlegion",
+      "tickets": 10,
+      "paid": true
+    },
+    {
+      "playerId": 3796175,
+      "playerName": "PowerMax",
+      "tickets": 10,
       "paid": true
     }
   ],
-  "totalTickets": 15,
+  "totalTickets": 40,
   "locked": false,
   "winner": null
 }
