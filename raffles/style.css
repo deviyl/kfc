@@ -819,8 +819,8 @@ html, body {
     background: linear-gradient(135deg, var(--secondary-light) 0%, var(--bg-light) 100%);
     border: 2px solid var(--primary);
     border-radius: 12px;
-    width: 90%;
-    max-width: 1000px;
+    width: 95%;
+    max-width: 1200px;
     max-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -878,14 +878,15 @@ html, body {
 }
 
 .draw-cell {
-    padding: 12px;
+    padding: 6px 8px;
     border: 1px solid var(--border);
     text-align: center;
     background: rgba(0, 0, 0, 0.2);
     color: var(--text-secondary);
     font-weight: 500;
+    font-size: 12px;
     transition: all 0.1s ease;
-    min-height: 40px;
+    min-height: 28px;
 }
 
 .draw-cell.highlight {
