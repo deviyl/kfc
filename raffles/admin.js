@@ -806,4 +806,5 @@ document.getElementById('saveRaffleBtn').addEventListener('click', async () => {
 
 document.getElementById('cancelRaffleBtn').addEventListener('click', () => {
     document.getElementById('raffleFormContainer').style.display = 'none';
+    document.getElementById('activeRaffleDisplay').style.display = 'block';
 });
