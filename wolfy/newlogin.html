@@ -1,0 +1,474 @@
+deviyl
+deviyl
+Buffering...
+
+deviyl [TORN],  — Yesterday at 15:19
+i just sent that whole script to chatgpt and asked it to identify possible memory leaks.. there's a whole pile of stuff it came back with xD
+WolfyleinWolfylein [PAWS],  — Yesterday at 15:19
+THE SCRIPT IS 5 LINES LONG
+Wait are we talking Navigator or the "Alert Popup" Thing?
+deviyl [TORN],  — Yesterday at 15:20
+https://greasyfork.org/en/scripts/463484-heasley-s-egg-navigator/code
+Heasley's Egg Navigator
+Traverse every page in Torn in search for eggs
+this one
+which one are you using
+WolfyleinWolfylein [PAWS],  — Yesterday at 15:20
+Yes this one
+And the Egg Finder
+deviyl [TORN],  — Yesterday at 15:20
+TT does popups.. i was just using this to navigate each page
+but i sent that one to chatgpt.. i'm about to leave work.. i'm gonna read it later
+WolfyleinWolfylein [PAWS],  — Yesterday at 15:22
+Lol imagine using Chat GPT...
+XD
+deviyl [TORN],  — Yesterday at 15:27
+Lmao I mean I don't wanna troubleshoot someone else's scripts
+I barely wanna troubleshoot mine lol
+And idk if I could just identify memory leaks by looking at code lol.. maybe with a bunch of logging
+WolfyleinWolfylein [PAWS],  — Yesterday at 15:34
+XD
+WolfyleinWolfylein [PAWS],  — Yesterday at 15:49
+Thanks for all the help today btw!
+deviyl [TORN],  — Yesterday at 15:57
+Any time, can't wait to see the new site
+WolfyleinWolfylein [PAWS],  — Yesterday at 15:58
+Me either XD
+Performance might be a problem tho
+You saw how long it takes to load
+Tho thats mostly just Torn sadly
+deviyl [TORN],  — Yesterday at 16:04
+You run this on a server, right? Why not just make a python script to pull all of the data every 30s or however often you do it.. update a local json, then  have the html just serve the static json
+Instant html
+That's how I do the activity tracker.. I have a python script cronned every 15m to update a json and the page just serves that file.. so users never see the delay from the api fetch
+WolfyleinWolfylein [PAWS],  — Yesterday at 16:23
+First of all, rip my API Calls.
+Second, wont work if someone from a different faction wants data.
+Thrid.. no
+deviyl [TORN],  — Yesterday at 16:24
+Still use everyone else's API key.. they submit them in the form, save them to another json on your server that no one can access except the script
+WolfyleinWolfylein [PAWS],  — Yesterday at 16:25
+I need to use everyones api anyway
+But I cant make it universal then
+deviyl [TORN],  — Yesterday at 16:25
+But true about it not being very universal.. that's why I've been trying to do as much as I can on GitHub so it's easy for anyone
+WolfyleinWolfylein [PAWS],  — Yesterday at 16:28
+The only problem is the initial loading anyway, after that, the refresh wont be noticed as much, since only the text thats already there changes then
+WolfyleinWolfylein [PAWS],  — Yesterday at 18:27
+NiNi Dev
+was nice talking to you again :WolfySalute:
+deviyl [TORN],  — Yesterday at 19:02
+Night night
+WolfyleinWolfylein [PAWS],  — 10:19
+Kinda digging it
+Image
+deviyl [TORN],  — 10:32
+Looks sweet
+WolfyleinWolfylein [PAWS],  — 10:38
+A little extra touch
+Image
+THE CHICKEN!
+In theory, I can make it work like that
+deviyl [TORN],  — 10:41
+Lmao nice
+WolfyleinWolfylein [PAWS],  — 10:43
+Ok that shit actually is fire
+At this point I dont understand half of what its doing, but it looks nice
+And I need to add the actualy functionality still XD
+Dev, ima send you a file
+Can you check or find a way to hide the dashboard button once the dashboard is open?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wolf Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+
+test.html
+9 KB
+Also.. why the hell is my AI talking to me kinda.. LIT?
+Like what
+Image
+WolfyleinWolfylein [PAWS],  — 10:53
+Nvm, got it, added 2 lines of Js to hide or show the button on opening ^^
+"Got it — this is a pro UI move 🔥
+We’ll turn the sidebar into an overlay panel:"
+Like jesus, its like a cringe kid is sitting behind the ai
+deviyl [TORN],  — 10:55
+pro ui move 🔥
+WolfyleinWolfylein [PAWS],  — 10:56
+Still cant find a proper way to add an X Button inside the Dashboard then
+So AI aint perfect, but I will keep the theme like that, maybe with a little less... glow XD
+deviyl [TORN],  — 11:00
+i have an x on my warcalc that deletes your saved api key cookie
+basically just a logout x
+WolfyleinWolfylein [PAWS],  — 11:00
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wolf Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+
+test2.html
+9 KB
+Try this one, if you can ^^
+I think I like the navbar more than the sidebar
+Also I dont need to care about the Button anymore then ^^ Just gonna put everything on one page, besides the Login
+﻿
+Wolfylein
+Wolfylein
+wolfylein
+We/Woo
+ 
+ 
+ 
+ 
+ 
+https://www.patreon.com/WolfysGameplay
+
+Youtube: https://www.youtube.com/channel/UCbDZ_Fper-IzHakqLV9ZgCQ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wolf Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="nav-left">
+        <button id="menuBtn">☰</button>
+        <h2>ARCHIVE</h2>
+    </div>
+</header>
+
+<!-- DROPDOWN MENU -->
+<div class="dropdown" id="dropdown">
+    <a class="nav-link" href="#dashboard">Dashboard</a>
+    <a class="nav-link" href="#members">Members</a>
+    <a class="nav-link" href="#logs">Logs</a>
+</div>
+
+<!-- MAIN -->
+<main class="main">
+
+    <!-- DASHBOARD -->
+    <div class="page" id="dashboard">
+        <h1 class="page-title">DASHBOARD</h1>
+        <p>Welcome to your infernal control panel.</p>
+    </div>
+
+    <!-- MEMBERS -->
+    <div class="page" id="members">
+        <h1 class="page-title">MEMBER REGISTRY</h1>
+
+        <div class="filter-bar">
+            <button class="active">All</button>
+            <button>In Crime</button>
+            <button>Unassigned</button>
+        </div>
+
+        <div class="table-container">
+            <table class="wolf-table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Role</th>
+                    <th>Weight</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Fenrir</td>
+                    <td><span class="status active">In Crime</span></td>
+                    <td>Mastermind</td>
+                    <td><div class="impact high"><span></span></div></td>
+                </tr>
+                <tr>
+                    <td>Nyx</td>
+                    <td><span class="status idle">Unassigned</span></td>
+                    <td>-</td>
+                    <td><div class="impact none"><span></span></div></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- LOGS -->
+    <div class="page" id="logs">
+        <h1 class="page-title">SYSTEM LOGS</h1>
+        <p>No recent activity recorded.</p>
+    </div>
+
+</main>
+
+<script>
+    const menuBtn = document.getElementById("menuBtn");
+    const dropdown = document.getElementById("dropdown");
+    const pages = document.querySelectorAll(".page");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    // Toggle dropdown
+    menuBtn.addEventListener("click", () => {
+        dropdown.classList.toggle("open");
+    });
+
+    // Close when clicking outside
+    document.addEventListener("click", (e) => {
+        if (!dropdown.contains(e.target) && !menuBtn.contains(e.target)) {
+            dropdown.classList.remove("open");
+        }
+    });
+
+    // Router
+    function showPage() {
+        let hash = window.location.hash.substring(1);
+        if (!hash) hash = "dashboard";
+
+        pages.forEach(p => p.classList.remove("active"));
+
+        const active = document.getElementById(hash);
+        if (active) active.classList.add("active");
+
+        navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === "#" + hash) {
+                link.classList.add("active");
+            }
+        });
+    }
+
+    window.addEventListener("hashchange", showPage);
+    showPage();
+</script>
+
+</body>
+</html>
+
+<style>
+    /* RESET */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Cinzel', serif;
+    }
+
+    /* BACKGROUND */
+    body {
+        background: url('bg.jpg') no-repeat center center/cover;
+        min-height: 100vh;
+        color: white;
+        position: relative;
+    }
+
+    /* OVERLAY */
+    body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(2px);
+        z-index: 0;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 15px 20px;
+
+        background: rgba(10, 0, 0, 0.7);
+        backdrop-filter: blur(10px);
+
+        border-bottom: 1px solid rgba(255,0,0,0.3);
+
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .navbar h2 {
+        color: #ff2e2e;
+        text-shadow: 0 0 10px red;
+    }
+
+    /* MENU BUTTON */
+    #menuBtn {
+        background: transparent;
+        border: 1px solid rgba(255,0,0,0.5);
+        color: #ff4d4d;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    /* DROPDOWN */
+    .dropdown {
+        position: fixed;
+        top: 60px;
+        left: 20px;
+
+        background: rgba(10, 0, 0, 0.9);
+        backdrop-filter: blur(10px);
+
+        border: 1px solid rgba(255,0,0,0.3);
+        border-radius: 10px;
+
+        padding: 10px;
+        width: 180px;
+
+        opacity: 0;
+        transform: translateY(-10px);
+        pointer-events: none;
+
+        transition: 0.25s ease;
+        z-index: 999;
+    }
+
+    .dropdown.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    /* LINKS */
+    .dropdown a {
+        display: block;
+        padding: 10px;
+        color: #ccc;
+        text-decoration: none;
+        border-radius: 6px;
+    }
+
+    .dropdown a:hover,
+    .dropdown a.active {
+        background: rgba(255,0,0,0.2);
+        color: #fff;
+    }
+
+    /* MAIN */
+    .main {
+        padding: 100px 30px 30px;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* PAGES */
+    .page {
+        display: none;
+    }
+
+    .page.active {
+        display: block;
+    }
+
+    /* TITLE */
+    .page-title {
+        margin-bottom: 20px;
+        color: #ff3b3b;
+        text-shadow: 0 0 10px red;
+    }
+
+    /* FILTER */
+    .filter-bar {
+        margin-bottom: 20px;
+    }
+
+    .filter-bar button {
+        margin-right: 10px;
+        padding: 8px 14px;
+        border: 1px solid rgba(255,0,0,0.4);
+        background: transparent;
+        color: #ccc;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .filter-bar button:hover,
+    .filter-bar .active {
+        background: rgba(255,0,0,0.3);
+        color: #fff;
+    }
+
+    /* TABLE */
+    .table-container {
+        background: rgba(10,10,10,0.6);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,0,0,0.3);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .wolf-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .wolf-table th {
+        background: linear-gradient(#2a0000, #550000);
+        padding: 12px;
+        color: #ff4d4d;
+    }
+
+    .wolf-table td {
+        padding: 12px;
+        border-bottom: 1px solid rgba(255,0,0,0.1);
+    }
+
+    .wolf-table tr:hover {
+        background: rgba(255,0,0,0.1);
+    }
+
+    /* STATUS */
+    .status {
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+
+    .status.active {
+        background: rgba(255,0,0,0.3);
+        color: #ff4d4d;
+    }
+
+    .status.idle {
+        background: rgba(255,255,255,0.1);
+        color: #aaa;
+    }
+
+    /* IMPACT */
+    .impact {
+        width: 100%;
+        height: 8px;
+        background: rgba(255,0,0,0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .impact span {
+        display: block;
+        height: 100%;
+        background: linear-gradient(to right, #ff0000, #ff4d4d);
+    }
+
+    .impact.low span { width: 30%; }
+    .impact.medium span { width: 60%; }
+    .impact.high span { width: 90%; }
+    .impact.none span { width: 0%; }
+</style>
+test2.html
+9 KB
