@@ -21,9 +21,9 @@ if not API_KEY:
 
 BASE_URL = "https://api.torn.com/v2/torn/{id}/items?key={key}"
 ID_START = 0
-ID_END = 2000
+ID_END = 10
 DELAY_SECONDS = 2
-CONSECUTIVE_MISSING_LIMIT = 10
+CONSECUTIVE_MISSING_LIMIT = 20
 OUTPUT_PATH = Path("items/item_prices.json")
 
 # Set to True to delete the existing JSON and re-fetch everything from scratch
