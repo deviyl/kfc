@@ -58,6 +58,7 @@ def extract_item_data(data: dict) -> dict | None:
     return {
         "name": item.get("name"),
         "sell_price": value.get("sell_price"),
+        "market_price": value.get("market_price"),
     }
 
 ## -------------------------
