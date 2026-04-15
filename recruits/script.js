@@ -2,8 +2,9 @@ const PROFILE_LINK_KEYS = {
   userId:      { nameKey: 'username',      idKey: 'userId' },
   recruiterId: { nameKey: 'recruiterName', idKey: 'recruiterId' },
 };
-const DATE_KEYS = new Set(['sentAt', 'resolvedAt']);
+
 const SKIP_KEYS = new Set(['username', 'recruiterName']);
+
 const LABELS = {
   userId:       'User',
   recruiterId:  'Recruiter',
@@ -19,6 +20,9 @@ const LABELS = {
   joined:       'Joined',
 };
 
+const DATE_KEYS = new Set(['sentAt', 'resolvedAt']);
+const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
+
 function formatDate(isoString) {
   if (!isoString) return '—';
   const d = new Date(isoString);
@@ -29,6 +33,11 @@ function formatDate(isoString) {
   return `${yyyy}/${mm}/${dd}`;
 }
 
+function toTitleCase(str) {
+  if (!str) return '—';
+  return str.replace(/\w\S*/g, w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+}
+
 function renderProfileLink(td, name, id) {
   if (!name || !id) { td.textContent = 'Unknown User'; return; }
   const a = document.createElement('a');
@@ -36,12 +45,8 @@ function renderProfileLink(td, name, id) {
   a.className = 'profile-link';
   a.target = '_blank';
   a.rel = 'noopener noreferrer';
-  a.textContent = name;
-  const idSpan = document.createElement('span');
-  idSpan.className = 'profile-id';
-  idSpan.textContent = `[${id}]`;
+  a.textContent = `${name} [${id}]`;
   td.appendChild(a);
-  td.appendChild(idSpan);
 }
 
 function renderCell(key, record) {
@@ -62,8 +67,16 @@ function renderCell(key, record) {
 
   if (key === 'joined') {
     const badge = document.createElement('span');
-    badge.className = val ? 'badge badge-yes' : 'badge badge-no';
-    badge.textContent = val ? 'Yes' : 'No';
+    if (val === null || val === undefined) {
+      badge.className = 'badge badge-pending';
+      badge.textContent = 'Pending';
+    } else if (val) {
+      badge.className = 'badge badge-yes';
+      badge.textContent = 'Yes';
+    } else {
+      badge.className = 'badge badge-no';
+      badge.textContent = 'No';
+    }
     td.appendChild(badge);
     return td;
   }
@@ -79,6 +92,11 @@ function renderCell(key, record) {
     } else {
       td.textContent = val || '—';
     }
+    return td;
+  }
+
+  if (key === 'property') {
+    td.textContent = toTitleCase(val);
     return td;
   }
 
@@ -113,25 +131,29 @@ function buildRows(recruits, columns) {
   });
 }
 
-function updateStats(recruits) {
-  const total  = recruits.length;
-  const joined = recruits.filter(r => r.joined).length;
-  document.getElementById('stat-total').textContent   = total;
-  document.getElementById('stat-joined').textContent  = joined;
-  document.getElementById('stat-pending').textContent = total - joined;
-}
-
 async function init() {
   try {
     const res = await fetch('data/recruits.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const recruits = await res.json();
-    if (!recruits.length) throw new Error('No records found');
+    const all = await res.json();
+    if (!all.length) throw new Error('No records found');
 
-    const columns = getColumns(recruits[0]);
+    const cutoff = Date.now() - THIRTY_DAYS_MS;
+    const recruits = all.filter(r => {
+      if (!r.sentAt) return false;
+      return new Date(r.sentAt).getTime() >= cutoff;
+    });
+
+    const columns = getColumns(all[0]);
     buildHeader(columns);
+
+    if (!recruits.length) {
+      document.getElementById('table-body').innerHTML =
+        `<tr class="error-row"><td colspan="${columns.length}">No recruits in the last 30 days.</td></tr>`;
+      return;
+    }
+
     buildRows(recruits, columns);
-    updateStats(recruits);
   } catch (e) {
     document.getElementById('table-body').innerHTML =
       `<tr class="error-row"><td colspan="99">Failed to load data/recruits.json — ${e.message}</td></tr>`;
