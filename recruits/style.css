@@ -88,24 +88,45 @@ thead th.sort-active {
   opacity: 0.85;
 }
 
-.secondary-sort-bar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 0 8px;
-  flex-wrap: wrap;
-  border-bottom: 1px solid var(--border2);
-  margin-bottom: 4px;
-  animation: fadeUp 0.2s ease both;
+#secondary-sort-row td.secondary-sort-cell {
+  background: var(--surface2);
+  border-bottom: 2px solid var(--border);
+  padding: 4px 4px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .secondary-sort-label {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--muted);
   white-space: nowrap;
-  margin-right: 4px;
+  font-weight: bold;
+}
+
+.secondary-sort-btn {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 2px 8px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--dimmed);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  line-height: 1.4;
+}
+
+.secondary-sort-btn:hover {
+  background: var(--surface2);
+  color: var(--muted);
+}
+
+.secondary-sort-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
 }
 
 .filter-btn {
