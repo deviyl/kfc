@@ -79,7 +79,7 @@ function sortedData() {
   return [...recruitsData].sort((a, b) => {
     const primary = compareRecords(a, b, sortKey, sortDir);
     if (primary !== 0) return primary;
-    // secondary sort only when primary is recruiterId
+    // Secondary sort only when primary is recruiterId
     if (sortKey === 'recruiterId' && secondarySortKey) {
       return compareRecords(a, b, secondarySortKey, 1);
     }
@@ -199,6 +199,7 @@ function buildHeader(columns) {
     const td = document.createElement('td');
     td.className = 'secondary-sort-cell';
     td.dataset.key = key;
+    if (PROFILE_LINK_KEYS[key]) td.classList.add('col-left');
 
     if (key === 'recruiterId') {
       const label = document.createElement('span');
@@ -218,11 +219,9 @@ function buildHeader(columns) {
       });
       td.appendChild(btn);
     }
-
     tr2.appendChild(td);
   });
   thead.appendChild(tr2);
-
   refreshHeaderArrows();
 }
 
@@ -254,9 +253,8 @@ function onHeaderClick(key) {
 }
 
 // ---------------------------------------------------------------------------
-// Secondary sort row when Recruiter is primary sort
+// Secondary sort row
 // ---------------------------------------------------------------------------
-
 function refreshSecondarySort() {
   const row = document.getElementById('secondary-sort-row');
   if (!row) return;
