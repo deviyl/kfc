@@ -48,7 +48,7 @@ function toTitleCase(str) {
 }
 
 // ---------------------------------------------------------------------------
-// Sort value
+// Sort value extraction
 // ---------------------------------------------------------------------------
 function getSortValue(record, key) {
   if (key === 'recruiterId') return (record.recruiterName || '').toLowerCase();
@@ -161,13 +161,15 @@ function getColumns(record) {
 }
 
 // ---------------------------------------------------------------------------
-// Header 
+// Header
 // ---------------------------------------------------------------------------
 function buildHeader(columns) {
   const thead = document.getElementById('table-head');
   thead.innerHTML = '';
-  const tr = document.createElement('tr');
 
+  // Row 1 - sortable column headers
+  const tr = document.createElement('tr');
+  tr.id = 'header-row';
   columns.forEach(key => {
     const th = document.createElement('th');
     th.dataset.key = key;
@@ -183,17 +185,49 @@ function buildHeader(columns) {
 
     th.appendChild(labelSpan);
     th.appendChild(arrowSpan);
-
     th.addEventListener('click', () => onHeaderClick(key));
     tr.appendChild(th);
   });
-
   thead.appendChild(tr);
+
+  // Row 2 - secondary sort (hidden until Recruiter is primary sort)
+  const tr2 = document.createElement('tr');
+  tr2.id = 'secondary-sort-row';
+  tr2.style.display = 'none';
+
+  columns.forEach(key => {
+    const td = document.createElement('td');
+    td.className = 'secondary-sort-cell';
+    td.dataset.key = key;
+
+    if (key === 'recruiterId') {
+      const label = document.createElement('span');
+      label.className = 'secondary-sort-label';
+      label.textContent = 'Secondary Sort';
+      td.appendChild(label);
+    } else {
+      const btn = document.createElement('button');
+      btn.className = 'secondary-sort-btn';
+      btn.dataset.key = key;
+      btn.textContent = '↕';
+      btn.title = `Secondary sort by ${LABELS[key] || key}`;
+      btn.addEventListener('click', () => {
+        secondarySortKey = secondarySortKey === key ? null : key;
+        refreshSecondarySort();
+        buildRows(columnsData);
+      });
+      td.appendChild(btn);
+    }
+
+    tr2.appendChild(td);
+  });
+  thead.appendChild(tr2);
+
   refreshHeaderArrows();
 }
 
 function refreshHeaderArrows() {
-  document.querySelectorAll('#table-head th').forEach(th => {
+  document.querySelectorAll('#header-row th').forEach(th => {
     const key = th.dataset.key;
     const arrow = th.querySelector('.sort-arrow');
     if (key === sortKey) {
@@ -212,7 +246,6 @@ function onHeaderClick(key) {
   } else {
     sortKey = key;
     sortDir = 1;
-    // reset secondary sort if we're leaving recruiter sort
     if (key !== 'recruiterId') secondarySortKey = null;
   }
   refreshHeaderArrows();
@@ -221,31 +254,23 @@ function onHeaderClick(key) {
 }
 
 // ---------------------------------------------------------------------------
-// Secondary sort bar
+// Secondary sort row when Recruiter is primary sort
 // ---------------------------------------------------------------------------
+
 function refreshSecondarySort() {
-  const bar = document.getElementById('secondary-sort-bar');
-  if (!bar) return;
+  const row = document.getElementById('secondary-sort-row');
+  if (!row) return;
 
   if (sortKey !== 'recruiterId') {
-    bar.style.display = 'none';
+    row.style.display = 'none';
     return;
   }
 
-  bar.style.display = 'flex';
-  bar.innerHTML = '<span class="secondary-sort-label">Then sort by:</span>';
-
-  const secondaryOptions = columnsData.filter(k => k !== 'recruiterId');
-  secondaryOptions.forEach(key => {
-    const btn = document.createElement('button');
-    btn.className = 'filter-btn' + (secondarySortKey === key ? ' active' : '');
-    btn.textContent = LABELS[key] || key;
-    btn.addEventListener('click', () => {
-      secondarySortKey = secondarySortKey === key ? null : key;
-      refreshSecondarySort();
-      buildRows(columnsData);
-    });
-    bar.appendChild(btn);
+  row.style.display = '';
+  row.querySelectorAll('.secondary-sort-btn').forEach(btn => {
+    const key = btn.dataset.key;
+    btn.classList.toggle('active', key === secondarySortKey);
+    btn.title = `Secondary sort by ${LABELS[key] || key}`;
   });
 }
 
@@ -281,7 +306,6 @@ async function init() {
 
     columnsData = getColumns(all[0]);
     buildHeader(columnsData);
-    refreshSecondarySort();
 
     if (!recruitsData.length) {
       document.getElementById('table-body').innerHTML =
@@ -292,7 +316,7 @@ async function init() {
     buildRows(columnsData);
   } catch (e) {
     document.getElementById('table-body').innerHTML =
-      `<tr class="error-row"><td colspan="99">Failed to load data/recruits.json — ${e.message}</td></tr>`;
+      `<tr class="error-row"><td colspan="99">No recruits!</td></tr>`;
   }
 }
 
