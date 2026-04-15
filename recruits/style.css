@@ -96,6 +96,11 @@ thead th.sort-active {
   vertical-align: middle;
 }
 
+#secondary-sort-row td.secondary-sort-cell.col-left {
+  text-align: left;
+  padding-left: 14px;
+}
+
 .secondary-sort-label {
   font-size: 0.6rem;
   text-transform: uppercase;
