@@ -69,6 +69,64 @@ h1 {
   margin-right: 4px;
 }
 
+thead th.sortable {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+thead th.sortable:hover {
+  color: var(--accent);
+}
+
+thead th.sort-active {
+  color: var(--accent) !important;
+}
+
+.sort-arrow {
+  font-size: 0.8em;
+  opacity: 0.85;
+}
+
+.secondary-sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0 8px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border2);
+  margin-bottom: 4px;
+  animation: fadeUp 0.2s ease both;
+}
+
+.secondary-sort-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.filter-btn {
+  font-size: 0.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
 .table-scroll {
   overflow-x: auto;
   padding-top: 12px;
