@@ -156,7 +156,7 @@ async function init() {
     buildRows(recruits, columns);
   } catch (e) {
     document.getElementById('table-body').innerHTML =
-      `<tr class="error-row"><td colspan="99">Failed to load data/recruits.json — ${e.message}</td></tr>`;
+      `<tr class="error-row"><td colspan="99">No recruits found!</td></tr>`;
   }
 }
 
