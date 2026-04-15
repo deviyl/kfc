@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruit Tracker</title>
+    <link rel="icon" type="image/png" href="/kfc/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/kfc/nav.css">
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
 
+    <div class="main-wrapper">
+      <div class="container">
+        <h1>Recruit Tracker</h1>
+
+        <div class="summary-bar" id="summary-bar">
+          <div class="summary-item">
+            <span class="summary-value" id="stat-total">—</span>
+            <span class="summary-label">Total Recruits</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-value" id="stat-joined">—</span>
+            <span class="summary-label">Joined</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-value" id="stat-pending">—</span>
+            <span class="summary-label">Pending</span>
+          </div>
+        </div>
+
+        <div class="table-scroll">
+          <table id="recruit-table">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="/kfc/nav.js"></script>
+  </body>
+</html>
