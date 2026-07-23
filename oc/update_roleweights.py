@@ -6,14 +6,11 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 URL = "https://tornprobability.com:3000/api/GetRoleWeights"
-
 OUTPUT = Path(__file__).parent / "roleweights.json"
-
 
 def fail(msg):
     print(msg)
     sys.exit(1)
-
 
 try:
     req = Request(
@@ -22,40 +19,31 @@ try:
             "User-Agent": "GitHubActions"
         }
     )
-
     with urlopen(req, timeout=30) as response:
         if response.status != 200:
             fail(f"HTTP {response.status}")
 
         raw = response.read().decode("utf-8")
-
 except Exception as e:
     fail(str(e))
-
 
 try:
     data = json.loads(raw)
 except Exception:
     fail("Response is not valid JSON")
-
-
 if not isinstance(data, dict):
     fail("Root JSON is not an object")
-
 if len(data) == 0:
     fail("JSON object is empty")
-
 required_crimes = {
     "MobMentality",
     "PetProject",
     "BreakTheBank",
     "DishItOut",
 }
-
 missing = required_crimes - set(data.keys())
 if missing:
     fail(f"Missing expected crimes: {', '.join(sorted(missing))}")
-
 for crime, roles in data.items():
     if not isinstance(roles, dict):
         fail(f"{crime} is not an object")
@@ -66,10 +54,8 @@ for crime, roles in data.items():
     for role, weight in roles.items():
         if not isinstance(weight, (int, float)):
             fail(f"{crime}/{role} is not numeric")
-
 OUTPUT.write_text(
     json.dumps(data, indent=2, ensure_ascii=False),
     encoding="utf-8"
 )
-
 print(f"Saved {OUTPUT}")
