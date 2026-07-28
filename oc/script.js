@@ -15,6 +15,14 @@ function initViewSwitcher() {
 
   links.forEach(link => link.addEventListener('click', (e) => { e.preventDefault(); selectView(links, frame, link); }));
 
+  const hash = window.location.hash.replace('#', '');
+  const hashMatch = hash ? Array.from(links).find(l => l.dataset.hash === hash) : null;
+
+  if (hashMatch) {
+    selectView(links, frame, hashMatch);
+    return;
+  }
+
   let lastSrc = null;
   try { lastSrc = localStorage.getItem(LAST_VIEW_KEY); } catch (e) {}
 
