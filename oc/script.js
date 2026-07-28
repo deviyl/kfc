@@ -20,6 +20,7 @@ function initViewSwitcher() {
 
   if (hashMatch) {
     selectView(links, frame, hashMatch);
+    history.replaceState(null, '', window.location.pathname + window.location.search);
     return;
   }
 
