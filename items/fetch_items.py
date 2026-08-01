@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-Fetch item data from the Torn API for item IDs 0–2000.
-Runs at 1 request per 2 seconds to stay within rate limits.
-Stops early if 10 consecutive IDs return {"error": {"code": 6}} (Incorrect ID),
-assuming no further items exist beyond that point.
-Outputs: items/item_prices.json  →  { "id": { "name": ..., "sell_price": ... }, ... }
-"""
 import json
 import os
 import time
@@ -27,13 +20,16 @@ CONSECUTIVE_MISSING_LIMIT = 20
 OUTPUT_PATH = Path("items/item_prices.json")
 
 # Set to True to delete the existing JSON and re-fetch everything from scratch
-FORCE_REFRESH = True
+FORCE_REFRESH = False
+
+# Every run re-fetches items already in the JSON, overwriting their stored
+# values with fresh data (rather than skipping items that are already cached).
+REFRESH_EXISTING = True
 
 ## -------------------------
 ## HELPERS
 ## -------------------------
 def fetch_item(item_id: int) -> dict | None:
-    """Call the Torn API for a single item ID. Returns the parsed JSON or None on network error."""
     url = BASE_URL.format(id=item_id, key=API_KEY)
     try:
         response = requests.get(url, timeout=15)
@@ -44,12 +40,10 @@ def fetch_item(item_id: int) -> dict | None:
         return None
 
 def is_incorrect_id(data: dict) -> bool:
-    """Return True if the API response is an 'Incorrect ID' error (code 6)."""
     error = data.get("error")
     return isinstance(error, dict) and error.get("code") == 6
 
 def extract_item_data(data: dict) -> dict | None:
-    """Pull name and sell_price out of the API response structure."""
     items = data.get("items")
     if not items or not isinstance(items, list):
         return None
@@ -78,13 +72,16 @@ def main():
     else:
         prices: dict = {}
 
+    print(f"REFRESH_EXISTING is {REFRESH_EXISTING} — "
+          f"{'re-fetching' if REFRESH_EXISTING else 'skipping'} already-cached items.")
+
     total = ID_END - ID_START + 1
     consecutive_missing = 0
 
     for item_id in range(ID_START, ID_END + 1):
         str_id = str(item_id)
 
-        if str_id in prices:
+        if str_id in prices and not REFRESH_EXISTING:
             print(f"[{item_id}/{ID_END}] Already cached — skipping")
             continue
 
@@ -92,8 +89,11 @@ def main():
         data = fetch_item(item_id)
 
         if data is None:
-            prices[str_id] = {"name": None, "sell_price": None}
-            print("request failed")
+            # Keep any existing entry rather than filling it with a null on a
+            # failure; only create a placeholder if nothing exists yet.
+            if str_id not in prices:
+                prices[str_id] = {"name": None, "sell_price": None}
+            print("request failed — keeping previous value" if str_id in prices else "request failed")
             consecutive_missing = 0
         elif is_incorrect_id(data):
             consecutive_missing += 1
