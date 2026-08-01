@@ -27,7 +27,7 @@ CONSECUTIVE_MISSING_LIMIT = 20
 OUTPUT_PATH = Path("items/item_prices.json")
 
 # Set to True to delete the existing JSON and re-fetch everything from scratch
-FORCE_REFRESH = False
+FORCE_REFRESH = True
 
 ## -------------------------
 ## HELPERS
