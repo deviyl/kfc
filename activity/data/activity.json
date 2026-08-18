@@ -1,96 +1,6 @@
 {
   "snapshots": [
     {
-      "timestamp": "2026-07-19T09:15:16.027650+00:00",
-      "members": {
-        "1978647": {
-          "last_action_timestamp": 1784451938,
-          "last_action_relative": "9 minutes ago",
-          "status": "Idle"
-        },
-        "2741991": {
-          "last_action_timestamp": 1784449359,
-          "last_action_relative": "52 minutes ago",
-          "status": "Offline"
-        },
-        "2792892": {
-          "last_action_timestamp": 1784448840,
-          "last_action_relative": "1 hour ago",
-          "status": "Offline"
-        },
-        "2939779": {
-          "last_action_timestamp": 1784450965,
-          "last_action_relative": "25 minutes ago",
-          "status": "Offline"
-        },
-        "3163147": {
-          "last_action_timestamp": 1784446951,
-          "last_action_relative": "1 hour ago",
-          "status": "Idle"
-        },
-        "3163171": {
-          "last_action_timestamp": 1784451462,
-          "last_action_relative": "17 minutes ago",
-          "status": "Idle"
-        },
-        "3251423": {
-          "last_action_timestamp": 1784435962,
-          "last_action_relative": "4 hours ago",
-          "status": "Offline"
-        },
-        "3463677": {
-          "last_action_timestamp": 1784445331,
-          "last_action_relative": "1 hour ago",
-          "status": "Offline"
-        },
-        "3562619": {
-          "last_action_timestamp": 1784431539,
-          "last_action_relative": "5 hours ago",
-          "status": "Offline"
-        },
-        "3599627": {
-          "last_action_timestamp": 1784449378,
-          "last_action_relative": "52 minutes ago",
-          "status": "Idle"
-        },
-        "3722358": {
-          "last_action_timestamp": 1784433276,
-          "last_action_relative": "5 hours ago",
-          "status": "Idle"
-        },
-        "3774090": {
-          "last_action_timestamp": 1784432227,
-          "last_action_relative": "5 hours ago",
-          "status": "Offline"
-        },
-        "3993903": {
-          "last_action_timestamp": 1784424138,
-          "last_action_relative": "7 hours ago",
-          "status": "Offline"
-        },
-        "4006094": {
-          "last_action_timestamp": 1784432498,
-          "last_action_relative": "5 hours ago",
-          "status": "Offline"
-        },
-        "4191720": {
-          "last_action_timestamp": 1784447093,
-          "last_action_relative": "1 hour ago",
-          "status": "Offline"
-        },
-        "4196596": {
-          "last_action_timestamp": 1784452474,
-          "last_action_relative": "0 minutes ago",
-          "status": "Online"
-        },
-        "4218543": {
-          "last_action_timestamp": 1784449238,
-          "last_action_relative": "54 minutes ago",
-          "status": "Offline"
-        }
-      }
-    },
-    {
       "timestamp": "2026-07-19T09:30:09.921226+00:00",
       "members": {
         "1978647": {
@@ -318251,6 +318161,121 @@
         "4431839": {
           "last_action_timestamp": 1787058065,
           "last_action_relative": "14 minutes ago",
+          "status": "Offline"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-08-18T13:30:09.275475+00:00",
+      "members": {
+        "1978647": {
+          "last_action_timestamp": 1787055001,
+          "last_action_relative": "1 hour ago",
+          "status": "Idle"
+        },
+        "2741991": {
+          "last_action_timestamp": 1787049894,
+          "last_action_relative": "2 hours ago",
+          "status": "Offline"
+        },
+        "2792892": {
+          "last_action_timestamp": 1787052999,
+          "last_action_relative": "1 hour ago",
+          "status": "Offline"
+        },
+        "2939779": {
+          "last_action_timestamp": 1787058873,
+          "last_action_relative": "15 minutes ago",
+          "status": "Offline"
+        },
+        "3163147": {
+          "last_action_timestamp": 1787058185,
+          "last_action_relative": "27 minutes ago",
+          "status": "Idle"
+        },
+        "3163171": {
+          "last_action_timestamp": 1787059163,
+          "last_action_relative": "10 minutes ago",
+          "status": "Idle"
+        },
+        "3251423": {
+          "last_action_timestamp": 1787052423,
+          "last_action_relative": "2 hours ago",
+          "status": "Offline"
+        },
+        "3254595": {
+          "last_action_timestamp": 1787059643,
+          "last_action_relative": "2 minutes ago",
+          "status": "Offline"
+        },
+        "3463677": {
+          "last_action_timestamp": 1787045276,
+          "last_action_relative": "4 hours ago",
+          "status": "Offline"
+        },
+        "3562619": {
+          "last_action_timestamp": 1787051576,
+          "last_action_relative": "2 hours ago",
+          "status": "Offline"
+        },
+        "3582700": {
+          "last_action_timestamp": 1787047411,
+          "last_action_relative": "3 hours ago",
+          "status": "Offline"
+        },
+        "3599627": {
+          "last_action_timestamp": 1787058818,
+          "last_action_relative": "16 minutes ago",
+          "status": "Offline"
+        },
+        "3722358": {
+          "last_action_timestamp": 1787058907,
+          "last_action_relative": "15 minutes ago",
+          "status": "Idle"
+        },
+        "3774090": {
+          "last_action_timestamp": 1787057488,
+          "last_action_relative": "38 minutes ago",
+          "status": "Offline"
+        },
+        "3913421": {
+          "last_action_timestamp": 1787056861,
+          "last_action_relative": "49 minutes ago",
+          "status": "Offline"
+        },
+        "3993903": {
+          "last_action_timestamp": 1787054653,
+          "last_action_relative": "1 hour ago",
+          "status": "Offline"
+        },
+        "4006094": {
+          "last_action_timestamp": 1787058333,
+          "last_action_relative": "24 minutes ago",
+          "status": "Online"
+        },
+        "4084027": {
+          "last_action_timestamp": 1787058505,
+          "last_action_relative": "21 minutes ago",
+          "status": "Offline"
+        },
+        "4191720": {
+          "last_action_timestamp": 1787044390,
+          "last_action_relative": "4 hours ago",
+          "status": "Offline"
+        },
+        "4196596": {
+          "last_action_timestamp": 1787058332,
+          "last_action_relative": "24 minutes ago",
+          "status": "Offline"
+        },
+        "4430753": {
+          "last_action_timestamp": 1787059127,
+          "last_action_relative": "11 minutes ago",
+          "status": "Offline"
+        },
+        "4431839": {
+          "last_action_timestamp": 1787059250,
+          "last_action_relative": "9 minutes ago",
           "status": "Offline"
         }
       }
