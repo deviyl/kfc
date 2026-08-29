@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestions — Admin View</title>
+    <link rel="icon" type="image/png" href="/kfc/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/kfc/nav.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="main-wrapper">
+        <div class="container container-wide">
+            <h1>🗂️ Suggestions — Admin View</h1>
+
+            <div id="passwordGate" class="password-gate">
+                <input type="password" id="adminPassword" placeholder="Admin password">
+                <button id="unlockBtn">Unlock</button>
+            </div>
+
+            <div class="admin-toolbar">
+                <button id="refreshBtn" class="secondary-btn hidden">Refresh</button>
+            </div>
+
+            <div class="status-message" id="adminStatus"></div>
+
+            <div id="suggestionsList" class="suggestions-list hidden"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="/kfc/nav.js"></script>
+</body>
+</html>
