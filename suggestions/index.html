@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestion Box</title>
+    <link rel="icon" type="image/png" href="/kfc/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/kfc/nav.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>📝 Suggestion Box</h1>
+            <p class="subtext">Suggestions are posted anonymously — no names or IDs are recorded.</p>
+
+            <div class="suggestion-form">
+                <textarea
+                    id="suggestionInput"
+                    maxlength="500"
+                    placeholder="What would you like to suggest for the faction?"
+                ></textarea>
+                <div class="form-footer">
+                    <span class="char-counter" id="charCounter">500 characters left</span>
+                    <button id="submitBtn" onclick="submitSuggestion()">Submit Suggestion</button>
+                </div>
+                <div class="status-message" id="statusMessage"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="/kfc/nav.js"></script>
+</body>
+</html>
