@@ -1,58 +1,165 @@
 const WORKER_URL = 'https://kfc.deviyl.workers.dev/';
 const MAX_LENGTH = 500;
 const textarea = document.getElementById('suggestionInput');
-const charCounter = document.getElementById('charCounter');
-const submitBtn = document.getElementById('submitBtn');
-const statusMessage = document.getElementById('statusMessage');
 
-function updateCharCounter() {
-    const remaining = MAX_LENGTH - textarea.value.length;
-    charCounter.textContent = `${remaining} characters left`;
-    charCounter.classList.toggle('warn', remaining <= 50);
-}
+if (textarea) {
+    const charCounter = document.getElementById('charCounter');
+    const submitBtn = document.getElementById('submitBtn');
+    const statusMessage = document.getElementById('statusMessage');
 
-textarea.addEventListener('input', updateCharCounter);
-updateCharCounter();
+    const updateCharCounter = () => {
+        const remaining = MAX_LENGTH - textarea.value.length;
+        charCounter.textContent = `${remaining} characters left`;
+        charCounter.classList.toggle('warn', remaining <= 50);
+    };
 
-function setStatus(message, type) {
-    statusMessage.textContent = message;
-    statusMessage.className = 'status-message' + (type ? ` ${type}` : '');
-}
+    textarea.addEventListener('input', updateCharCounter);
+    updateCharCounter();
 
-async function submitSuggestion() {
-    const text = textarea.value.trim();
+    const setStatus = (message, type) => {
+        statusMessage.textContent = message;
+        statusMessage.className = 'status-message' + (type ? ` ${type}` : '');
+    };
 
-    if (!text) {
-        setStatus('Please enter a suggestion before submitting.', 'error');
-        return;
-    }
-    if (text.length > MAX_LENGTH) {
-        setStatus(`Suggestion is too long (max ${MAX_LENGTH} characters).`, 'error');
-        return;
-    }
+    window.submitSuggestion = async function submitSuggestion() {
+        const text = textarea.value.trim();
 
-    submitBtn.disabled = true;
-    setStatus('Submitting...', 'pending');
-
-    try {
-        const res = await fetch(WORKER_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ action: 'send-suggestion', text }),
-        });
-
-        const data = await res.json().catch(() => ({}));
-
-        if (!res.ok || data.error) {
-            throw new Error(data.error || `HTTP ${res.status}`);
+        if (!text) {
+            setStatus('Please enter a suggestion before submitting.', 'error');
+            return;
+        }
+        if (text.length > MAX_LENGTH) {
+            setStatus(`Suggestion is too long (max ${MAX_LENGTH} characters).`, 'error');
+            return;
         }
 
-        setStatus('Thanks! Your suggestion has been submitted anonymously.', 'success');
-        textarea.value = '';
-        updateCharCounter();
-    } catch (err) {
-        setStatus(`Something went wrong: ${err.message}`, 'error');
-    } finally {
-        submitBtn.disabled = false;
-    }
+        submitBtn.disabled = true;
+        setStatus('Submitting...', 'pending');
+
+        try {
+            const res = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'send-suggestion', text }),
+            });
+
+            const data = await res.json().catch(() => ({}));
+
+            if (!res.ok || data.error) {
+                throw new Error(data.error || `HTTP ${res.status}`);
+            }
+
+            setStatus('Thanks! Your suggestion has been submitted anonymously.', 'success');
+            textarea.value = '';
+            updateCharCounter();
+        } catch (err) {
+            setStatus(`Something went wrong: ${err.message}`, 'error');
+        } finally {
+            submitBtn.disabled = false;
+        }
+    };
+}
+
+const suggestionsList = document.getElementById('suggestionsList');
+
+if (suggestionsList) {
+    const passwordGate = document.getElementById('passwordGate');
+    const adminPassword = document.getElementById('adminPassword');
+    const unlockBtn = document.getElementById('unlockBtn');
+    const adminStatus = document.getElementById('adminStatus');
+    const refreshBtn = document.getElementById('refreshBtn');
+
+    const setAdminStatus = (message, type) => {
+        adminStatus.textContent = message;
+        adminStatus.className = 'status-message' + (type ? ` ${type}` : '');
+    };
+
+    const formatTimestamp = (isoString) => {
+        const date = new Date(isoString);
+        if (isNaN(date)) return isoString;
+        return date.toLocaleString(undefined, {
+            year: 'numeric', month: 'short', day: 'numeric',
+            hour: '2-digit', minute: '2-digit',
+            timeZone: 'UTC', timeZoneName: 'short',
+        });
+    };
+
+    const renderSuggestions = (suggestions) => {
+        if (!suggestions.length) {
+            suggestionsList.innerHTML = '<div class="empty-state">No suggestions yet.</div>';
+            return;
+        }
+
+        const sorted = [...suggestions].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+        suggestionsList.innerHTML = sorted.map(s => `
+            <div class="suggestion-card">
+                <div class="suggestion-timestamp">${formatTimestamp(s.timestamp)}</div>
+                <div class="suggestion-text"></div>
+            </div>
+        `).join('');
+
+        suggestionsList.querySelectorAll('.suggestion-card').forEach((card, i) => {
+            card.querySelector('.suggestion-text').textContent = sorted[i].text;
+        });
+    };
+
+    const loadSuggestions = async () => {
+        setAdminStatus('Loading suggestions...', 'pending');
+        try {
+            const res = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'get-suggestions' }),
+            });
+            const data = await res.json().catch(() => ({}));
+
+            if (!res.ok || data.error) {
+                throw new Error(data.error || `HTTP ${res.status}`);
+            }
+
+            renderSuggestions(data.suggestions || []);
+            setAdminStatus(`Loaded ${data.suggestions ? data.suggestions.length : 0} suggestion(s).`, 'success');
+        } catch (err) {
+            setAdminStatus(`Failed to load suggestions: ${err.message}`, 'error');
+        }
+    };
+
+    const unlock = async () => {
+        const password = adminPassword.value;
+        if (!password) {
+            setAdminStatus('Enter the admin password.', 'error');
+            return;
+        }
+
+        unlockBtn.disabled = true;
+        setAdminStatus('Checking password...', 'pending');
+
+        try {
+            const res = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'validate-password', password }),
+            });
+            const data = await res.json().catch(() => ({}));
+
+            if (!res.ok || data.error) {
+                throw new Error(data.error || 'Invalid password');
+            }
+
+            passwordGate.classList.add('hidden');
+            suggestionsList.classList.remove('hidden');
+            refreshBtn.classList.remove('hidden');
+            await loadSuggestions();
+        } catch (err) {
+            setAdminStatus(`${err.message}`, 'error');
+            unlockBtn.disabled = false;
+        }
+    };
+
+    unlockBtn.addEventListener('click', unlock);
+    adminPassword.addEventListener('keyup', (e) => {
+        if (e.key === 'Enter') unlock();
+    });
+    refreshBtn.addEventListener('click', loadSuggestions);
 }
