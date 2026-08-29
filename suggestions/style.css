@@ -48,6 +48,104 @@ h1 {
   font-size: 0.85em;
   margin-bottom: 20px;
 }
+.container-wide {
+  max-width: 900px;
+}
+.hidden {
+  display: none !important;
+}
+
+/* Admin: password gate */
+.password-gate {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.password-gate input[type="password"] {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9em;
+  padding: 10px 12px;
+  min-width: 220px;
+}
+.password-gate input[type="password"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.password-gate button,
+.secondary-btn {
+  font-size: 0.85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 22px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, opacity 0.2s;
+}
+.password-gate button:hover,
+.secondary-btn:hover {
+  background: var(--accent2);
+  border-color: var(--accent2);
+}
+.secondary-btn {
+  background: transparent;
+  color: var(--muted);
+  border-color: var(--border);
+}
+.secondary-btn:hover {
+  background: var(--surface2);
+  color: var(--accent2);
+  border-color: var(--border);
+}
+
+/* Admin: toolbar */
+.admin-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+/* Admin: suggestions list */
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  margin-top: 10px;
+}
+.suggestion-card {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.suggestion-timestamp {
+  font-size: 0.72em;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+.suggestion-text {
+  font-size: 0.95em;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.empty-state {
+  color: var(--dimmed);
+  padding: 30px 0;
+  font-size: 0.9em;
+}
 .suggestion-form {
   display: flex;
   flex-direction: column;
