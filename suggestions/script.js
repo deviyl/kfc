@@ -7,6 +7,9 @@ if (textarea) {
     const submitBtn = document.getElementById('submitBtn');
     const statusMessage = document.getElementById('statusMessage');
 
+    const COOLDOWN_MS = 24 * 60 * 60 * 1000; // one suggestion per day
+    const LAST_SUBMIT_KEY = 'kfcSuggestionLastSubmitted';
+
     const updateCharCounter = () => {
         const remaining = MAX_LENGTH - textarea.value.length;
         charCounter.textContent = `${remaining} characters left`;
@@ -21,7 +24,43 @@ if (textarea) {
         statusMessage.className = 'status-message' + (type ? ` ${type}` : '');
     };
 
+    const formatRemaining = (ms) => {
+        const totalMinutes = Math.ceil(ms / 60000);
+        const hours = Math.floor(totalMinutes / 60);
+        const minutes = totalMinutes % 60;
+        if (hours > 0) return `${hours}h ${minutes}m`;
+        return `${minutes}m`;
+    };
+
+    const msSinceLastSubmit = () => {
+        const last = localStorage.getItem(LAST_SUBMIT_KEY);
+        if (!last) return Infinity;
+        const elapsed = Date.now() - new Date(last).getTime();
+        return isNaN(elapsed) ? Infinity : elapsed;
+    };
+
+    const applyCooldownState = () => {
+        const elapsed = msSinceLastSubmit();
+        const remaining = COOLDOWN_MS - elapsed;
+
+        if (remaining > 0) {
+            textarea.disabled = true;
+            submitBtn.disabled = true;
+            setStatus(`You've already submitted a suggestion today. Try again in ${formatRemaining(remaining)}.`, 'pending');
+            return true;
+        }
+
+        textarea.disabled = false;
+        submitBtn.disabled = false;
+        return false;
+    };
+
+    applyCooldownState();
+    setInterval(applyCooldownState, 60 * 1000);
+
     window.submitSuggestion = async function submitSuggestion() {
+        if (applyCooldownState()) return;
+
         const text = textarea.value.trim();
 
         if (!text) {
@@ -49,12 +88,13 @@ if (textarea) {
                 throw new Error(data.error || `HTTP ${res.status}`);
             }
 
+            localStorage.setItem(LAST_SUBMIT_KEY, new Date().toISOString());
             setStatus('Thanks! Your suggestion has been submitted anonymously.', 'success');
             textarea.value = '';
             updateCharCounter();
+            applyCooldownState();
         } catch (err) {
             setStatus(`Something went wrong: ${err.message}`, 'error');
-        } finally {
             submitBtn.disabled = false;
         }
     };
