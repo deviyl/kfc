@@ -56,7 +56,6 @@ if (textarea) {
     };
 
     applyCooldownState();
-    setInterval(applyCooldownState, 60 * 1000);
 
     window.submitSuggestion = async function submitSuggestion() {
         if (applyCooldownState()) return;
@@ -89,10 +88,11 @@ if (textarea) {
             }
 
             localStorage.setItem(LAST_SUBMIT_KEY, new Date().toISOString());
-            setStatus('Thanks! Your suggestion has been submitted anonymously.', 'success');
+            setStatus('Suggestion Successfully Submitted!', 'success');
             textarea.value = '';
             updateCharCounter();
-            applyCooldownState();
+            textarea.disabled = true;
+            submitBtn.disabled = true;
         } catch (err) {
             setStatus(`Something went wrong: ${err.message}`, 'error');
             submitBtn.disabled = false;
