@@ -1,5 +1,9 @@
 const WORKER_URL = 'https://kfc.deviyl.workers.dev/';
 const MAX_LENGTH = 500;
+
+// ----------------------------------------------
+// SUBMISSION FORM (index.html)
+// ----------------------------------------------
 const textarea = document.getElementById('suggestionInput');
 
 if (textarea) {
@@ -100,6 +104,9 @@ if (textarea) {
     };
 }
 
+// ----------------------------------------------
+// ADMIN VIEW (admin.html)
+// ----------------------------------------------
 const suggestionsList = document.getElementById('suggestionsList');
 
 if (suggestionsList) {
@@ -109,9 +116,31 @@ if (suggestionsList) {
     const adminStatus = document.getElementById('adminStatus');
     const refreshBtn = document.getElementById('refreshBtn');
 
+    const SESSION_KEY = 'kfcAdminSessionExpires';
+    const SESSION_DURATION_MS = 48 * 60 * 60 * 1000;
+    const SESSION_REFRESH_THROTTLE_MS = 60 * 1000;
+    let lastSessionRefresh = 0;
+
     const setAdminStatus = (message, type) => {
         adminStatus.textContent = message;
         adminStatus.className = 'status-message' + (type ? ` ${type}` : '');
+    };
+
+    const isSessionValid = () => {
+        const expires = parseInt(localStorage.getItem(SESSION_KEY), 10);
+        return !isNaN(expires) && Date.now() < expires;
+    };
+
+    const startSession = () => {
+        localStorage.setItem(SESSION_KEY, String(Date.now() + SESSION_DURATION_MS));
+        lastSessionRefresh = Date.now();
+    };
+
+    const refreshSessionOnActivity = () => {
+        if (!isSessionValid()) return;
+        const now = Date.now();
+        if (now - lastSessionRefresh < SESSION_REFRESH_THROTTLE_MS) return;
+        startSession();
     };
 
     const formatTimestamp = (isoString) => {
@@ -165,6 +194,13 @@ if (suggestionsList) {
         }
     };
 
+    const showUnlockedView = async () => {
+        passwordGate.classList.add('hidden');
+        suggestionsList.classList.remove('hidden');
+        refreshBtn.classList.remove('hidden');
+        await loadSuggestions();
+    };
+
     const unlock = async () => {
         const password = adminPassword.value;
         if (!password) {
@@ -187,10 +223,8 @@ if (suggestionsList) {
                 throw new Error(data.error || 'Invalid password');
             }
 
-            passwordGate.classList.add('hidden');
-            suggestionsList.classList.remove('hidden');
-            refreshBtn.classList.remove('hidden');
-            await loadSuggestions();
+            startSession();
+            await showUnlockedView();
         } catch (err) {
             setAdminStatus(`${err.message}`, 'error');
             unlockBtn.disabled = false;
@@ -202,4 +236,12 @@ if (suggestionsList) {
         if (e.key === 'Enter') unlock();
     });
     refreshBtn.addEventListener('click', loadSuggestions);
+    ['click', 'keydown', 'mousemove', 'scroll'].forEach((evt) => {
+        document.addEventListener(evt, refreshSessionOnActivity, { passive: true });
+    });
+
+    if (isSessionValid()) {
+        startSession();
+        showUnlockedView();
+    }
 }
