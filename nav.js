@@ -19,11 +19,12 @@
             (page === 'home'        && path === '/kfc/')                         ||
             (page === 'activity'    && path.startsWith('/kfc/activity'))         ||
             (page === 'perks'       && path.startsWith('/kfc/perks'))            ||
-            (page === 'grand-prix'  && path.includes('/kfc/grand-prix'))         ||
-            (page === 'warcalc'     && path.startsWith('/kfc/warcalc'))          ||
             (page === 'wolftimer'   && path.startsWith('/kfc/wolftimer'))        ||
+            (page === 'warcalc'     && path.startsWith('/kfc/warcalc'))          ||
             (page === 'userscripts' && path.startsWith('/kfc/userscripts'))      ||
             (page === 'usefullinks' && path.startsWith('/kfc/usefullinks'))      ||
+            (page === 'suggestions' && path.startsWith('/kfc/suggestions'))      ||
+            (page === 'ocdicktator' && path.startsWith('/kfc/oc'))               ||
             (page === 'admin'       && path.startsWith('/kfc/admin'));
         if (isActive) el.classList.add('active');
     });
