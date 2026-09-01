@@ -43,6 +43,28 @@ h1 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 0;
+}
+.page-header h1 {
+  margin-bottom: 0;
+}
+.quick-link {
+  font-size: 1.3em;
+  line-height: 1;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+.quick-link:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
 .subtext {
   color: var(--muted);
   font-size: 0.85em;
@@ -54,8 +76,6 @@ h1 {
 .hidden {
   display: none !important;
 }
-
-/* Admin: password gate */
 .password-gate {
   display: flex;
   gap: 10px;
@@ -106,15 +126,11 @@ h1 {
   color: var(--accent2);
   border-color: var(--border);
 }
-
-/* Admin: toolbar */
 .admin-toolbar {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
 }
-
-/* Admin: suggestions list */
 .suggestions-list {
   display: flex;
   flex-direction: column;
