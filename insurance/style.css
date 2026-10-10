@@ -1,0 +1,89 @@
+:root {
+  --night:   #0d0000;
+  --panel:   #1a0a0a;
+  --panel-hi:#2a0505;
+  --edge:    #441111;
+  --edge-lo: #220808;
+  --flame:   #ff4500;
+  --amber:   #ff8c00;
+  --ash:     #cca3a3;
+  --paper:   #e0e0e0;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: var(--night);
+  color: var(--paper);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.page { display: flex; flex-direction: column; align-items: center; width: 100%; }
+
+.frame-card {
+  background: var(--panel);
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(255, 69, 0, 0.2);
+  width: 95%;
+  max-width: 1100px;
+  border: 1px solid var(--edge);
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: var(--flame);
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.tab-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px 4px 16px;
+  border-bottom: 1px solid var(--edge-lo);
+  margin-bottom: 4px;
+}
+
+.tab {
+  font-size: 0.78em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 6px 16px;
+  border: 1px solid var(--edge);
+  border-radius: 4px;
+  color: var(--ash);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.tab:hover { background: var(--panel-hi); color: var(--amber); }
+.tab.on { background: var(--flame); border-color: var(--flame); color: #fff; }
+
+.embed { padding-top: 12px; animation: rise 0.4s ease both; }
+
+#panel-frame {
+  width: 100%;
+  min-height: 80vh;
+  border: 1px solid var(--edge);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.3); border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: var(--flame); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--amber); }
+
+@keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .embed { animation: none; } }
+@media (max-width: 600px) {
+  .frame-card { width: 98%; }
+  .tab-row { flex-direction: column; align-items: stretch; }
+}
