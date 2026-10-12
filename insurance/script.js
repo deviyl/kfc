@@ -22,6 +22,13 @@ function initTabs() {
   const tabs = document.querySelectorAll('#tab-row .tab');
   const frame = document.getElementById('panel-frame');
   if (!tabs.length || !frame) return;
+  window.addEventListener('message', (e) => {
+    let origin = '';
+    try { origin = new URL(frame.src).origin; } catch (err) {}
+    const h = e.data && e.data.insuranceHeight;
+    if (e.origin !== origin || typeof h !== 'number' || h <= 0) return;
+    frame.style.height = Math.ceil(h) + 'px';
+  });
 
   tabs.forEach(tab => tab.addEventListener('click', (e) => { e.preventDefault(); selectView(tabs, frame, tab); }));
   window.addEventListener('hashchange', () => applyHash(tabs, frame));
