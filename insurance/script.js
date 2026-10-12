@@ -27,7 +27,8 @@ function initTabs() {
     try { origin = new URL(frame.src).origin; } catch (err) {}
     const h = e.data && e.data.insuranceHeight;
     if (e.origin !== origin || typeof h !== 'number' || h <= 0) return;
-    frame.style.height = Math.ceil(h) + 'px';
+    const border = frame.offsetHeight - frame.clientHeight;
+    frame.style.height = (Math.ceil(h) + Math.max(0, border)) + 'px';
   });
 
   tabs.forEach(tab => tab.addEventListener('click', (e) => { e.preventDefault(); selectView(tabs, frame, tab); }));
