@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Organized Crimes Guide</title>
+  <meta name="description" content="Hover over each part of an organized crime to learn what it means.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <h1>Parts of an Organized Crime</h1>
+    </header>
+
+    <section class="stage-wrap" aria-label="Annotated organized crime">
+      <div class="stage" id="stage">
+        <img src="https://raw.githubusercontent.com/deviyl/media/refs/heads/main/images/tornOC.PNG"
+             alt="Example Torn organized crime"
+             width="794" height="232">
+        <div class="hotspots" id="hotspots"></div>
+        <div class="bubble" id="bubble" role="tooltip" aria-live="polite">
+          <h2 id="bubble-title"></h2>
+          <p id="bubble-text"></p>
+        </div>
+      </div>
+      <p class="hint">This image is interactive, hover over certain areas to view more information.</p>
+    </section>
+
+    <section class="rules">
+      <h2>Before you join a role</h2>
+      <ol>
+        <li>Look at your pass rate on an empty role. Aim for 65 or higher. Press Join.</li>
+        <li>If you have the weights userscript, check the role's weight. Under 10% means anyone can join.</li>
+        <li>Nothing fits? Try a lower level crime, or ask leadership to spawn one for you.</li>
+      </ol>
+      <p>Download the
+        <a href="https://greasyfork.org/en/scripts/547973-torn-oc-weights-under-roles" target="_blank" rel="noopener">Torn OC Weights Under Roles</a>
+        userscript to view the individual role weights.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
