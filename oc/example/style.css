@@ -124,6 +124,15 @@ h1 {
   white-space: pre-line;
 }
 
+.bubble .bubble-footer {
+  margin: 12px 0 0;
+  color: #8c8c8c;
+  font-size: .75em;
+  white-space: pre-line;
+}
+
+.bubble .bubble-footer:empty { display: none; }
+
 .hint {
   margin: 14px 0 0;
   color: var(--soft);
