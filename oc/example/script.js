@@ -17,12 +17,14 @@ const spots = [
   {
     x: 18, y: 6, w: 128, h: 88,
     title: "The Clock",
-    text: "Time left until the crime completes (days:hours:minutes:seconds). Each role accounts for 24 hours. Here, 3 of 6 roles are filled-- two are done and the third is about 18.8 hours in. The timer will pause at 03:00:00:00 while the remaining three roles are empty. Once additional roles are filled, the timer will continue to count down. If filled roles complete and are waiting for people to join, the timer turns yellow and shows a pause symbol until more roles are filled. A crime that never gets members will time out after 7 days, shown by a yellow block with its own countdown until the crime expires."
+    text: "Time left until the crime completes (days:hours:minutes:seconds). Each role accounts for 24 hours. Here, 3 of 6 roles are filled-- two are done and the third is about 18.8 hours in. The timer will pause at 03:00:00:00 while the remaining three roles are empty. Once additional roles are filled, the timer will continue to count down. If filled roles complete and are waiting for people to join, the timer turns yellow and shows a pause symbol until more roles are filled.",
+    footer: "A crime that never gets members will time out after 7 days, shown by a yellow block with its own countdown until the crime expires."
   },
   {
     x: 160, y: 6, w: 110, h: 26,
     title: "Crime Name",
-    text: "The name of the organized crime. People will use it when asking for help, like \"Join the Bomber #1 role in the Bidding War OC!\""
+    text: "The name of the organized crime. People may use it when asking for help.", 
+    footer: "\"Join the Bomber #1 role in the Bidding War OC!\""
   },
   {
     x: 725, y: 8, w: 62, h: 32,
@@ -42,17 +44,19 @@ roles.forEach((r, i) => {
   spots.push({
     x: cx + 26, y: 108, w: 70, h: 20,
     title: "Role",
-    text: `The role's name. Use it to coordinate, like "Join the ${r.name} role in the Bidding War OC!"`
+    text: "The role's name. People may use it when asking for help.",
+    footer: `\"Join the ${r.name} role in the Bidding War OC!\"`
   });
 
   let pieText;
   if (r.progress === "complete") pieText = "Full circle: this member has finished their part.";
-  else if (r.progress === "partial") pieText = "Partly filled circle: this member is still working. Hover for the exact percentage.";
+  else if (r.progress === "partial") pieText = "Partly filled circle: this member is still working.\nHover for the exact percentage.";
   else pieText = "A question mark means the role is empty, so there is no progress yet.";
   spots.push({
     x: cx + 4, y: 110, w: 18, h: 18,
     title: "Progress",
-    text: `A small pie chart of the role's progress. \n\n${pieText}`
+    text: "A small pie chart of the role's progress.",
+    footer: `${pieText}`
   });
 
   spots.push({
@@ -60,7 +64,8 @@ roles.forEach((r, i) => {
     title: "Pass Rate",
     text: r.filled
       ? `${r.member}'s pass rate for this role. If the role is filled, the pass rate is shown for the current member.`
-      : `If a role is empty, this is YOUR pass rate for this role. Higher is better. Try to be at 65 or above unless it is a low weighted role or you are specifically instructed to join by leadership.`
+      : `If a role is empty, this is YOUR pass rate for this role. Higher is better. Try to be at 65 or above unless it is a low weighted role or you are specifically instructed to join by leadership.`,
+    footer: "Please note the role's weight to determine if pass rates lower than 65 are acceptable."
   });
 
   if (r.filled) {
@@ -82,7 +87,7 @@ roles.forEach((r, i) => {
     x: cx, y: 168, w: CARD_W, h: 52,
     title: "Weight",
     text: low
-      ? `This section is only visible with the weights userscript installed (linked below). Under 10% makes this a Low Weight role-- it matters so little that pass rate is ignored and anyone can join (this may vary for different factions). That is why a ${r.pass} is fine here.`
+      ? `This section is only visible with the weights userscript installed (linked below). Under 10% makes this a Low Weight role-- it matters so little that pass rate is ignored and anyone can join (this may vary for different factions). That is why ${r.pass} is fine here.`
       : `This section is only visible with the weights userscript installed (linked below). This role carries ${r.weight} of the crime, so its pass rate matters. Join only if yours is high enough.`
   });
 });
@@ -92,6 +97,7 @@ const stage = document.getElementById("stage");
 const bubble = document.getElementById("bubble");
 const bubbleTitle = document.getElementById("bubble-title");
 const bubbleText = document.getElementById("bubble-text");
+const bubbleFooter = document.getElementById("bubble-footer");
 
 spots.forEach(s => {
   const b = document.createElement("button");
@@ -100,7 +106,7 @@ spots.forEach(s => {
   b.style.cssText =
     `left:${(s.x / IMG_W) * 100}%;top:${(s.y / IMG_H) * 100}%;` +
     `width:${(s.w / IMG_W) * 100}%;height:${(s.h / IMG_H) * 100}%`;
-  b.setAttribute("aria-label", `${s.title}. ${s.text}`);
+  b.setAttribute("aria-label", `${s.title}. ${s.text}${s.footer ? " " + s.footer.trim() : ""}`);
 
   b.addEventListener("pointerenter", e => { if (e.pointerType === "mouse") show(b, s); });
   b.addEventListener("pointerleave", e => { if (e.pointerType === "mouse") hide(); });
@@ -117,6 +123,7 @@ document.addEventListener("keydown", e => { if (e.key === "Escape") hide(); });
 function show(el, s) {
   bubbleTitle.textContent = s.title;
   bubbleText.textContent = s.text;
+  bubbleFooter.textContent = s.footer ? s.footer.trim() : "";
 
   const st = stage.getBoundingClientRect();
   const hr = el.getBoundingClientRect();
