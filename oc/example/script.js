@@ -64,7 +64,7 @@ roles.forEach((r, i) => {
     title: "Pass Rate",
     text: r.filled
       ? `${r.member}'s pass rate for this role. If the role is filled, the pass rate is shown for the current member.`
-      : `If a role is empty, this is YOUR pass rate for this role. Higher is better. Try to be at 65 or above unless it is a low weighted role or you are specifically instructed to join by leadership.`,
+      : `Empty roles show YOUR pass rate. Higher is better. Try to be at 65 or above unless it is a low weighted role or you have been specifically instructed to join by leadership.`,
     footer: "Please note the role's weight to determine if pass rates lower than 65 are acceptable."
   });
 
@@ -134,10 +134,17 @@ function show(el, s) {
   let left = hr.left - st.left + hr.width / 2 - bw / 2;
   left = Math.max(8, Math.min(left, st.width - bw - 8));
 
-  const centerY = hr.top - st.top + hr.height / 2;
-  const top = centerY < st.height / 2
-    ? hr.bottom - st.top + gap
-    : hr.top - st.top - bh - gap;
+  const margin = 8;
+  const fitsBelow = hr.bottom + gap + bh <= window.innerHeight - margin;
+  const fitsAbove = hr.top - gap - bh >= margin;
+
+  let below = hr.top - st.top + hr.height / 2 < st.height / 2;
+  if (below && !fitsBelow && fitsAbove) below = false;
+  else if (!below && !fitsAbove && fitsBelow) below = true;
+
+  let viewTop = below ? hr.bottom + gap : hr.top - gap - bh;
+  viewTop = Math.max(margin, Math.min(viewTop, window.innerHeight - bh - margin));
+  const top = viewTop - st.top;
 
   bubble.style.left = left + "px";
   bubble.style.top = top + "px";
