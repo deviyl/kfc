@@ -78,7 +78,8 @@ roles.forEach((r, i) => {
     spots.push({
       x: cx + 4, y: 134, w: 114, h: 28,
       title: "Open Slot",
-      text: `The ${r.name} role is empty and waiting. Joining will continue the crime counter for the next 24 hours. Press Join to take it.`
+      text: `The ${r.name} role is empty and waiting. Press Join if you qualify!`,
+      footer: "Joining will progress the clock for the next 24 hours."
     });
   }
 
@@ -87,8 +88,9 @@ roles.forEach((r, i) => {
     x: cx, y: 168, w: CARD_W, h: 52,
     title: "Weight",
     text: low
-      ? `This section is only visible with the weights userscript installed (linked below). Under 10% makes this a Low Weight role-- it matters so little that pass rate is ignored and anyone can join (this may vary for different factions). That is why ${r.pass} is fine here.`
-      : `This section is only visible with the weights userscript installed (linked below). This role carries ${r.weight} of the crime, so its pass rate matters. Join only if yours is high enough.`
+      ? `Under 10% makes this a Low Weight role-- it matters so little that pass rate is ignored and anyone can join (this may vary for different factions). That is why ${r.pass} is fine here.`
+      : `This role carries ${r.weight} of the crime, so its pass rate matters. Join only if yours is high enough.`,
+    footer: "This section is only visible with the weights userscript installed (linked below)."
   });
 });
 
