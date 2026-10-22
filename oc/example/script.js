@@ -160,6 +160,6 @@ function hide() {
 document.getElementById('rules-btn').addEventListener('click', () => {
   const iframe = window.parent.document.getElementById('view-frame');
   if (iframe) {
-    iframe.src = '../rules/index.html';
+    iframe.src = 'rules/index.html';
   }
 });
