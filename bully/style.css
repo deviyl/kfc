@@ -296,3 +296,14 @@ h1 {
     flex-direction: column;
     gap: 8px;
 }
+
+select.form-input {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+select.form-input option {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
