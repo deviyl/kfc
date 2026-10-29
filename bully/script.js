@@ -115,7 +115,7 @@ function renderUI(config) {
         const posList = document.getElementById("leadership-positions-list");
         const defaultPositions = ["Leader", "Co-Leader", "Git Bucket Maintainer"];
         
-        let posHtml = defaultPositions.map(p => `<div class="list-row"><span>🛡️ <strong>${p}</strong> <span class="leadership-tag">(Default)</span></span></div>`).join("");
+        let posHtml = defaultPositions.map(p => `<div class="list-row"><span>🛡️ <strong>${p}</strong></span></div>`).join("");
         
         if (config.leadership_positions.length > 0) {
             posHtml += config.leadership_positions.map(p => `
