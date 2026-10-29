@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bully Bot - KFC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>Bully Bot</h1>
+            <button type="button" id="logout-btn" class="action-btn logout-btn">Logout</button>
+            <div id="alert-banner"></div>
+            <div id="auth-section" class="script-card auth-card">
+                <div class="section-header">
+                    <h2>Authentication</h2>
+                </div>
+                <p class="subsection-note">Enter your API Key to verify membership in KFC.<br>This key is not stored and is just used for authentication.</p>
+                <div class="auth-input-group">
+                    <input type="password" id="auth-key-input" class="form-input" placeholder="Enter your API Key...">
+                    <button type="button" id="auth-submit-btn" class="action-btn">Login</button>
+                </div>
+            </div>
+
+            <div id="dashboard-section" class="dashboard-section">
+                <div class="scripts-section">
+                    <div class="script-card dashboard-card">
+                        <div class="subsection-title">Current Keys Stored</div>
+                        <div id="keys-note" class="subsection-note"></div>
+                        <div id="api-keys-list" class="list-container"></div>
+                        <div class="input-action-group">
+                            <input type="text" id="new-api-key" class="form-input" placeholder="Enter new API Key...">
+                            <button type="button" id="add-key-btn" class="action-btn">Add Key</button>
+                        </div>
+
+                        <div class="subsection-title">Monitored Users</div>
+                        <div class="subsection-note">Users currently being monitored.</div>
+                        <div id="monitored-users-list" class="list-container"></div>
+                        <div class="input-action-group">
+                            <input type="text" id="new-user-id" class="form-input" placeholder="Enter User ID...">
+                            <button type="button" id="add-user-btn" class="action-btn">Add User</button>
+                        </div>
+
+                        <div id="leadership-section" style="display: none;">
+                            <div class="subsection-title">Leadership Positions</div>
+                            <div class="subsection-note">Manage roles permitted to access leadership settings. (Default: Leader, Co-Leader, Git Bucket Maintainer)</div>
+                            <div id="leadership-positions-list" class="list-container"></div>
+                            <div class="input-action-group">
+                                <input type="text" id="new-leadership-pos" class="form-input" placeholder="Enter custom position...">
+                                <button type="button" id="add-leadership-btn" class="action-btn">Add Position</button>
+                            </div>
+
+                            <div class="subsection-title">Discord & Alert Settings <span class="leadership-tag">(Leadership Only)</span></div>
+                            <form id="settings-form">
+                                <div class="settings-grid">
+                                    <div>
+                                        <label class="form-label">Cooldown Period (Minutes)</label>
+                                        <input type="number" id="cooldown-minutes" class="form-input" min="1" value="60">
+                                    </div>
+                                    <div>
+                                        <label class="form-label">Ping Type</label>
+                                        <select id="ping-type" class="form-input">
+                                            <option value="user">User Ping</option>
+                                            <option value="role">Role Ping</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="settings-field">
+                                    <label class="form-label">Discord Webhook URL <span id="webhook-status" class="status-indicator"></span></label>
+                                    <input type="text" id="discord-webhook" class="form-input" placeholder="Leave blank to keep existing, or enter new webhook...">
+                                </div>
+
+                                <div class="settings-field-last">
+                                    <label class="form-label">Discord User or Role ID to Ping <span id="role-status" class="status-indicator"></span></label>
+                                    <input type="text" id="discord-role-id" class="form-input" placeholder="Enter new ID or leave as is...">
+                                </div>
+
+                                <div class="form-actions">
+                                    <button type="submit" class="action-btn save-btn">Save Settings</button>
+                                    <button type="button" id="test-ping-btn" class="action-btn test-btn">Test Webhook</button>
+                                    <button type="button" id="run-check-btn" class="action-btn run-btn">Run Check Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
