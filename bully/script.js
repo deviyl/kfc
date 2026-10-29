@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("logout-btn")?.addEventListener("click", logout);
     document.getElementById("add-key-btn").addEventListener("click", () => callAction("add_key", "new-api-key"));
-    document.getElementById("add-user-btn").addEventListener("click", () => callAction("add_user", "new-user-id"));
+    document.getElementById("add-user-btn").addEventListener("click", addUser);
     document.getElementById("add-leadership-btn").addEventListener("click", () => callAction("add_leadership_position", "new-leadership-pos"));
     document.getElementById("settings-form").addEventListener("submit", saveSettings);
     document.getElementById("test-ping-btn").addEventListener("click", () => callAction("test_ping"));
@@ -99,10 +99,11 @@ function renderUI(config) {
     const usersList = document.getElementById("monitored-users-list");
     usersList.innerHTML = config.monitored_users.length ? "" : `<div class="empty-notice">No users being monitored yet.</div>`;
     config.monitored_users.forEach(u => {
+        const reasonDisplay = u.reason ? ` <span class="subsection-note">(${u.reason})</span>` : "";
         const item = document.createElement("div");
         item.className = "list-row";
         item.innerHTML = `
-            <span>🎯 <strong>${u.name}</strong> [${u.user_id}]</span>
+            <span>🎯 <strong>${u.name}</strong> [${u.user_id}]${reasonDisplay}</span>
             <button type="button" class="action-btn remove-btn" onclick="removeUser('${u.user_id}')">Remove</button>
         `;
         usersList.appendChild(item);
@@ -152,6 +153,30 @@ async function callAction(action, inputId = null) {
 
         if (inputId) document.getElementById(inputId).value = "";
         showBanner("Action executed successfully!", false);
+        loadDashboard(apiKey);
+    } catch (err) {
+        showBanner(err.message, true);
+    }
+}
+
+async function addUser() {
+    clearBanner();
+    const apiKey = getCookie("bully_key");
+    const userId = document.getElementById("new-user-id").value.trim();
+    const reason = document.getElementById("new-user-reason").value.trim();
+
+    try {
+        const response = await fetch(`${WORKER_URL}/api/action`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json", "x-api-key": apiKey },
+            body: JSON.stringify({ action: "add_user", user_id: userId, reason: reason })
+        });
+        const res = await response.json();
+        if (!response.ok) throw new Error(res.error);
+
+        document.getElementById("new-user-id").value = "";
+        document.getElementById("new-user-reason").value = "";
+        showBanner("Monitored user added successfully!", false);
         loadDashboard(apiKey);
     } catch (err) {
         showBanner(err.message, true);
