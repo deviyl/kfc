@@ -290,3 +290,9 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.stacked-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
