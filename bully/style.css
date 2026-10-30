@@ -275,88 +275,72 @@ h1 {
 }
 
 .toggle-container {
-  position: relative;
-  width: 100%;
+  display: flex;
+  align-items: center;
   height: 41px;
-  user-select: none;
 }
 
 .toggle-checkbox {
   display: none;
 }
 
-.toggle-label {
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  height: 41px;
+.toggle-switch-pill {
+  display: flex;
+  align-items: center;
   background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  width: 100%;
+  height: 41px;
+  cursor: pointer;
   position: relative;
-  transition: background 0.3s, border-color 0.3s;
+  padding: 3px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
 }
 
-.toggle-inner {
-  display: block;
-  width: 200%;
-  margin-left: -100%;
-  transition: margin 0.3s ease-in 0s;
+.toggle-switch-pill:hover {
+  border-color: var(--accent);
 }
 
-.toggle-inner::before, 
-.toggle-inner::after {
-  float: left;
-  width: 50%;
-  height: 39px;
-  padding: 0;
-  line-height: 39px;
+.toggle-option {
+  flex: 1;
+  text-align: center;
   font-size: 0.75rem;
   font-weight: bold;
-  box-sizing: border-box;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  color: var(--muted);
+  z-index: 2;
+  transition: color 0.3s;
+  user-select: none;
 }
 
-.toggle-inner::before {
-  content: "User Ping";
-  padding-left: 14px;
-  color: var(--accent2);
-}
-
-.toggle-inner::after {
-  content: "Role Ping";
-  padding-right: 14px;
-  text-align: right;
-  color: var(--accent);
-}
-
-.toggle-switch {
-  display: block;
-  width: 28px;
-  margin: 6px;
-  background: var(--surface2);
+.toggle-pill-thumb {
   position: absolute;
-  top: 0; 
-  bottom: 0;
-  right: calc(100% - 34px);
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  width: calc(50% - 3px);
+  background: var(--surface2);
   border: 1px solid var(--border);
-  border-radius: 4px;
-  transition: right 0.3s ease-in 0s, background 0.3s, border-color 0.3s;
+  border-radius: 16px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s, border-color 0.3s;
+  z-index: 1;
 }
 
-.toggle-checkbox:checked + .toggle-label .toggle-inner {
-  margin-left: 0;
-}
-
-.toggle-checkbox:checked + .toggle-label .toggle-switch {
-  right: 4px;
+.toggle-checkbox:checked + .toggle-switch-pill .toggle-pill-thumb {
+  transform: translateX(100%);
   background: var(--accent);
   border-color: var(--accent);
 }
 
-.toggle-checkbox:checked + .toggle-label {
-  border-color: var(--accent);
+.toggle-checkbox:not(:checked) + .toggle-switch-pill .toggle-option-user {
+  color: #fff;
+}
+
+.toggle-checkbox:checked + .toggle-switch-pill .toggle-option-role {
+  color: #fff;
 }
 
 .form-actions {
