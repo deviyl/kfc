@@ -310,7 +310,7 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--muted);
+  color: var(--accent2);
   z-index: 2;
   transition: color 0.3s;
   user-select: none;
