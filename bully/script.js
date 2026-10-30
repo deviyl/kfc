@@ -153,7 +153,10 @@ async function callAction(action, inputId = null) {
 
         if (inputId) document.getElementById(inputId).value = "";
         showBanner("Action executed successfully!", false);
-        loadDashboard(apiKey);
+
+        if (action !== "run_check") {
+            loadDashboard(apiKey);
+        }
     } catch (err) {
         showBanner(err.message, true);
     }
