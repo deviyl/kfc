@@ -45,55 +45,7 @@
                             <button type="button" id="add-user-btn" class="action-btn">Add User</button>
                         </div>
 
-                        <div id="leadership-section" style="display: none;">
-                            <details class="admin-dropdown">
-                                <summary class="admin-summary">
-                                    <span class="subsection-title inline-title">Leadership & Settings</span> 
-                                    <span class="leadership-tag">(Admin Panel)</span>
-                                </summary>
-                                <div class="admin-content">
-                                    <div class="subsection-title">Leadership Positions</div>
-                                    <div id="leadership-positions-list" class="list-container"></div>
-                                    <div class="input-action-group">
-                                        <input type="text" id="new-leadership-pos" class="form-input" placeholder="Enter custom position...">
-                                        <button type="button" id="add-leadership-btn" class="action-btn">Add Position</button>
-                                    </div>
-
-                                    <div class="subsection-title">Discord & Alert Settings</div>
-                                    <form id="settings-form">
-                                        <div class="settings-grid">
-                                            <div>
-                                                <label class="form-label">Cooldown Period (Minutes)</label>
-                                                <input type="number" id="cooldown-minutes" class="form-input" min="1" value="60">
-                                            </div>
-                                            <div>
-                                                <label class="form-label">Ping Type</label>
-                                                <select id="ping-type" class="form-input">
-                                                    <option value="user">User Ping</option>
-                                                    <option value="role">Role Ping</option>
-                                                </select>
-                                            </div>
-                                        </div>
-
-                                        <div class="settings-field">
-                                            <label class="form-label">Discord Webhook URL <span id="webhook-status" class="status-indicator"></span></label>
-                                            <input type="text" id="discord-webhook" class="form-input" placeholder="Leave blank to keep existing, or enter new webhook...">
-                                        </div>
-
-                                        <div class="settings-field-last">
-                                            <label class="form-label">Discord User or Role ID to Ping <span id="role-status" class="status-indicator"></span></label>
-                                            <input type="text" id="discord-role-id" class="form-input" placeholder="Enter new ID or leave as is...">
-                                        </div>
-
-                                        <div class="form-actions">
-                                            <button type="submit" class="action-btn save-btn">Save Settings</button>
-                                            <button type="button" id="test-ping-btn" class="action-btn test-btn">Test Webhook</button>
-                                            <button type="button" id="run-check-btn" class="action-btn run-btn">Run Check Now</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </details>
-                        </div>
+                        <div id="admin-container"></div>
                     </div>
                 </div>
             </div>
