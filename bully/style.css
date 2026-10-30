@@ -108,17 +108,6 @@ h1 {
   box-shadow: 0 0 8px rgba(255, 69, 0, 0.3);
 }
 
-select.form-input {
-  background-color: var(--bg);
-  color: var(--text);
-  border: 1px solid var(--border);
-}
-
-select.form-input option {
-  background-color: var(--surface);
-  color: var(--text);
-}
-
 .action-btn {
   background: var(--surface2);
   color: var(--text);
@@ -254,9 +243,9 @@ select.form-input option {
   text-transform: uppercase;
 }
 
-.settings-grid {
+.settings-grid-3col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   margin-bottom: 15px;
 }
@@ -271,18 +260,103 @@ select.form-input option {
   letter-spacing: 0.5px;
 }
 
-.settings-field {
-  margin-bottom: 15px;
+.settings-field-full {
+  margin-bottom: 20px;
 }
 
-.settings-field-last {
-  margin-bottom: 20px;
+.webhook-full-input {
+  width: 100%;
 }
 
 .status-indicator {
   font-size: 0.75rem;
   color: var(--accent2);
   font-weight: bold;
+}
+
+.toggle-container {
+  position: relative;
+  width: 100%;
+  height: 41px;
+  user-select: none;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  height: 41px;
+  background: var(--bg);
+  position: relative;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.toggle-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.toggle-inner::before, 
+.toggle-inner::after {
+  float: left;
+  width: 50%;
+  height: 39px;
+  padding: 0;
+  line-height: 39px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.toggle-inner::before {
+  content: "User Ping";
+  padding-left: 14px;
+  color: var(--accent2);
+}
+
+.toggle-inner::after {
+  content: "Role Ping";
+  padding-right: 14px;
+  text-align: right;
+  color: var(--accent);
+}
+
+.toggle-switch {
+  display: block;
+  width: 28px;
+  margin: 6px;
+  background: var(--surface2);
+  position: absolute;
+  top: 0; 
+  bottom: 0;
+  right: calc(100% - 34px);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  transition: right 0.3s ease-in 0s, background 0.3s, border-color 0.3s;
+}
+
+.toggle-checkbox:checked + .toggle-label .toggle-inner {
+  margin-left: 0;
+}
+
+.toggle-checkbox:checked + .toggle-label .toggle-switch {
+  right: 4px;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  border-color: var(--accent);
 }
 
 .form-actions {
@@ -345,8 +419,8 @@ select.form-input option {
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--accent); }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .container { width: 95%; padding: 12px; }
-  .settings-grid { grid-template-columns: 1fr; }
+  .settings-grid-3col { grid-template-columns: 1fr; }
   .logout-btn { float: none; margin-top: 10px; margin-bottom: 15px; display: block; width: 100%; }
 }
