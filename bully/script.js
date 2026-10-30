@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
         loadDashboard(savedKey);
     } else {
         document.getElementById("auth-section").style.display = "block";
+        document.getElementById("dashboard-section").style.display = "none";
+        document.getElementById("logout-btn").style.display = "none";
     }
 
     document.getElementById("auth-submit-btn").addEventListener("click", handleLogin);
@@ -130,7 +132,7 @@ function renderUI(config) {
         posList.innerHTML = posHtml;
 
         document.getElementById("cooldown-minutes").value = config.cooldown_minutes;
-        document.getElementById("ping-type").value = config.ping_type;
+        document.getElementById("ping-toggle").checked = (config.ping_type === "role");
         document.getElementById("webhook-status").textContent = config.webhook_set ? "[Configured]" : "[Not Configured]";
         document.getElementById("role-status").textContent = config.role_id_set ? "[Configured]" : "[Not Configured]";
     } else {
@@ -230,10 +232,12 @@ async function saveSettings(e) {
     clearBanner();
 
     const apiKey = getCookie("bully_key");
+    const isRolePing = document.getElementById("ping-toggle").checked;
+
     const payload = {
         action: "save_settings",
         cooldown_minutes: parseInt(document.getElementById("cooldown-minutes").value) || 60,
-        ping_type: document.getElementById("ping-type").value,
+        ping_type: isRolePing ? "role" : "user",
         discord_webhook: document.getElementById("discord-webhook").value.trim(),
         discord_role_id: document.getElementById("discord-role-id").value.trim()
     };
