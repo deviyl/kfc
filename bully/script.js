@@ -16,10 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("logout-btn")?.addEventListener("click", logout);
     document.getElementById("add-key-btn").addEventListener("click", () => callAction("add_key", "new-api-key"));
     document.getElementById("add-user-btn").addEventListener("click", addUser);
-    document.getElementById("add-leadership-btn").addEventListener("click", () => callAction("add_leadership_position", "new-leadership-pos"));
-    document.getElementById("settings-form").addEventListener("submit", saveSettings);
-    document.getElementById("test-ping-btn").addEventListener("click", () => callAction("test_ping"));
-    document.getElementById("run-check-btn").addEventListener("click", () => callAction("run_check"));
 });
 
 function setCookie(name, value, days) {
@@ -109,10 +105,15 @@ function renderUI(config) {
         usersList.appendChild(item);
     });
 
-    const leadershipSection = document.getElementById("leadership-section");
-    if (config.is_leadership) {
-        leadershipSection.style.display = "block";
+    const adminContainer = document.getElementById("admin-container");
+    if (config.is_leadership && config.admin_html) {
+        adminContainer.innerHTML = config.admin_html;
         
+        document.getElementById("add-leadership-btn").onclick = () => callAction("add_leadership_position", "new-leadership-pos");
+        document.getElementById("settings-form").onsubmit = saveSettings;
+        document.getElementById("test-ping-btn").onclick = () => callAction("test_ping");
+        document.getElementById("run-check-btn").onclick = () => callAction("run_check");
+
         const posList = document.getElementById("leadership-positions-list");
         const defaultPositions = ["Leader", "Co-Leader", "Git Bucket Maintainer"];
         
@@ -133,7 +134,7 @@ function renderUI(config) {
         document.getElementById("webhook-status").textContent = config.webhook_set ? "[Configured]" : "[Not Configured]";
         document.getElementById("role-status").textContent = config.role_id_set ? "[Configured]" : "[Not Configured]";
     } else {
-        leadershipSection.style.display = "none";
+        adminContainer.innerHTML = "";
     }
 }
 
