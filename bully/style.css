@@ -1,6 +1,6 @@
 body {
-    background-color: #0d1117;
-    color: #c9d1d9;
+    background-color: #0b0b0b;
+    color: #e0e0e0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -20,12 +20,12 @@ body {
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #e6edf3;
+    color: #ff4d4d;
 }
 
 .script-card {
-    background-color: #161b22;
-    border: 1px solid #30363d;
+    background-color: #141414;
+    border: 1px solid #262626;
     border-radius: 6px;
     padding: 20px;
     margin-bottom: 20px;
@@ -39,12 +39,12 @@ h1 {
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 10px;
-    color: #e6edf3;
+    color: #ffffff;
 }
 
 .subsection-note {
     font-size: 13px;
-    color: #8b949e;
+    color: #999999;
     margin-bottom: 15px;
     line-height: 1.4;
 }
@@ -54,7 +54,7 @@ h1 {
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #e6edf3;
+    color: #ffffff;
 }
 
 .auth-input-group,
@@ -71,23 +71,23 @@ h1 {
 
 .form-input {
     flex: 1;
-    background-color: #0d1117;
-    border: 1px solid #30363d;
+    background-color: #0b0b0b;
+    border: 1px solid #262626;
     border-radius: 6px;
     padding: 8px 12px;
-    color: #c9d1d9;
+    color: #e0e0e0;
     font-size: 14px;
     outline: none;
 }
 
 .form-input:focus {
-    border-color: #58a6ff;
+    border-color: #ff4d4d;
 }
 
 select.form-input {
     background-color: #1a1a1a;
     color: #e0e0e0;
-    border: 1px solid #333;
+    border: 1px solid #333333;
 }
 
 select.form-input option {
@@ -96,9 +96,9 @@ select.form-input option {
 }
 
 .action-btn {
-    background-color: #238636;
+    background-color: #cc0000;
     color: #ffffff;
-    border: 1px solid rgba(240, 246, 252, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 6px;
     padding: 8px 16px;
     font-size: 14px;
@@ -108,35 +108,35 @@ select.form-input option {
 }
 
 .action-btn:hover {
-    background-color: #2ea043;
+    background-color: #e60000;
 }
 
 .logout-btn {
-    background-color: #21262d;
-    border: 1px solid #30363d;
-    color: #f85149;
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    color: #ff4d4d;
     float: right;
     margin-top: -50px;
 }
 
 .logout-btn:hover {
-    background-color: #da3633;
+    background-color: #cc0000;
     color: #ffffff;
-    border-color: #f85149;
+    border-color: #cc0000;
 }
 
 .remove-btn {
-    background-color: #21262d;
-    border: 1px solid #30363d;
-    color: #f85149;
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    color: #ff4d4d;
     padding: 4px 10px;
     font-size: 12px;
 }
 
 .remove-btn:hover {
-    background-color: #da3633;
+    background-color: #cc0000;
     color: #ffffff;
-    border-color: #f85149;
+    border-color: #cc0000;
 }
 
 .list-container {
@@ -147,8 +147,8 @@ select.form-input option {
 }
 
 .list-row {
-    background-color: #0d1117;
-    border: 1px solid #30363d;
+    background-color: #0b0b0b;
+    border: 1px solid #262626;
     border-radius: 6px;
     padding: 10px 14px;
     display: flex;
@@ -159,14 +159,14 @@ select.form-input option {
 
 .empty-notice {
     font-size: 13px;
-    color: #8b949e;
+    color: #999999;
     font-style: italic;
     padding: 5px 0;
 }
 
 .admin-dropdown {
     margin-top: 25px;
-    border-top: 1px solid #30363d;
+    border-top: 1px solid #262626;
     padding-top: 15px;
 }
 
@@ -177,14 +177,14 @@ select.form-input option {
     align-items: center;
     justify-content: space-between;
     padding: 8px 12px;
-    background-color: #21262d;
+    background-color: #1a1a1a;
     border-radius: 6px;
-    border: 1px solid #30363d;
+    border: 1px solid #262626;
     transition: background-color 0.2s;
 }
 
 .admin-summary:hover {
-    background-color: #30363d;
+    background-color: #262626;
 }
 
 .admin-summary::-webkit-details-marker {
@@ -203,7 +203,7 @@ select.form-input option {
 
 .leadership-tag {
     font-size: 12px;
-    color: #8b949e;
+    color: #999999;
     font-weight: normal;
 }
 
@@ -219,7 +219,7 @@ select.form-input option {
     font-size: 13px;
     font-weight: 500;
     margin-bottom: 6px;
-    color: #e6edf3;
+    color: #ffffff;
 }
 
 .settings-field {
@@ -232,7 +232,7 @@ select.form-input option {
 
 .status-indicator {
     font-size: 12px;
-    color: #8b949e;
+    color: #999999;
     font-weight: normal;
 }
 
@@ -242,31 +242,31 @@ select.form-input option {
 }
 
 .save-btn {
-    background-color: #238636;
+    background-color: #cc0000;
 }
 
 .test-btn {
-    background-color: #21262d;
-    border: 1px solid #30363d;
-    color: #c9d1d9;
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    color: #e0e0e0;
 }
 
 .test-btn:hover {
-    background-color: #30363d;
+    background-color: #262626;
 }
 
 .run-btn {
-    background-color: #1f6feb;
+    background-color: #ff6600;
 }
 
 .run-btn:hover {
-    background-color: #388bfd;
+    background-color: #ff8533;
 }
 
 .success-banner {
-    background-color: rgba(35, 134, 54, 0.15);
-    border: 1px solid #238636;
-    color: #3fb950;
+    background-color: rgba(204, 0, 0, 0.15);
+    border: 1px solid #cc0000;
+    color: #ff4d4d;
     padding: 10px 14px;
     border-radius: 6px;
     margin-bottom: 15px;
@@ -274,9 +274,9 @@ select.form-input option {
 }
 
 .error-banner {
-    background-color: rgba(218, 54, 51, 0.15);
-    border: 1px solid #da3633;
-    color: #f85149;
+    background-color: rgba(204, 0, 0, 0.15);
+    border: 1px solid #cc0000;
+    color: #ff4d4d;
     padding: 10px 14px;
     border-radius: 6px;
     margin-bottom: 15px;
