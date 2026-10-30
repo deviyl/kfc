@@ -323,16 +323,14 @@ h1 {
   left: 3px;
   width: calc(50% - 3px);
   background: var(--surface2);
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 16px;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s, border-color 0.3s;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
 }
 
 .toggle-checkbox:checked + .toggle-switch-pill .toggle-pill-thumb {
   transform: translateX(100%);
-  background: var(--accent);
-  border-color: var(--accent);
 }
 
 .toggle-checkbox:not(:checked) + .toggle-switch-pill .toggle-option-user {
