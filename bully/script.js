@@ -120,13 +120,14 @@ function renderUI(config) {
         adminContainer.innerHTML = config.admin_html;
         
         document.getElementById("add-leadership-btn").onclick = () => callAction("add_leadership_position", "new-leadership-pos");
+        document.getElementById("add-faction-btn").onclick = () => callAction("add_approved_faction", "new-faction-id");
+        document.getElementById("add-allowed-user-btn").onclick = () => callAction("add_allowed_user", "new-allowed-user-id");
         document.getElementById("settings-form").onsubmit = saveSettings;
         document.getElementById("test-ping-btn").onclick = () => callAction("test_ping");
         document.getElementById("run-check-btn").onclick = () => callAction("run_check");
 
         const posList = document.getElementById("leadership-positions-list");
         const defaultPositions = ["Leader", "Co-Leader", "Git Bucket Maintainer"];
-        
         let posHtml = defaultPositions.map(p => `<div class="list-row"><span>🛡️ <strong>${p}</strong></span></div>`).join("");
         
         if (config.leadership_positions.length > 0) {
@@ -138,6 +139,27 @@ function renderUI(config) {
             `).join("");
         }
         posList.innerHTML = posHtml;
+
+        const facList = document.getElementById("approved-factions-list");
+        facList.innerHTML = (config.approved_faction_ids || []).map(fid => {
+            const isCore = Number(fid) === 38097;
+            const removeBtn = isCore ? `<span class="subsection-note">Core Faction</span>` : `<button type="button" class="action-btn remove-btn" onclick="removeApprovedFaction('${fid}')">Remove</button>`;
+            return `
+                <div class="list-row">
+                    <span><strong>Faction ID:</strong> ${fid}</span>
+                    ${removeBtn}
+                </div>
+            `;
+        }).join("");
+
+        const allowedList = document.getElementById("allowed-users-list");
+        const allowedUsersArr = config.allowed_users || [];
+        allowedList.innerHTML = allowedUsersArr.length ? allowedUsersArr.map(u => `
+            <div class="list-row">
+                <span><strong>${u.name}</strong> [${u.user_id}]</span>
+                <button type="button" class="action-btn remove-btn" onclick="removeAllowedUser('${u.user_id}')">Remove</button>
+            </div>
+        `).join("") : `<div class="empty-notice">No whitelisted individual users.</div>`;
 
         document.getElementById("cooldown-minutes").value = config.cooldown_minutes;
         document.getElementById("ping-toggle").checked = (config.ping_type === "role");
@@ -229,6 +251,44 @@ async function removeLeadershipPosition(positionName) {
         if (!response.ok) throw new Error(res.error);
 
         showBanner("Leadership position removed.", false);
+        loadDashboard(apiKey);
+    } catch (err) {
+        showBanner(err.message, true);
+    }
+}
+
+async function removeApprovedFaction(factionId) {
+    clearBanner();
+    const apiKey = getCookie("bully_key");
+    try {
+        const response = await fetch(`${WORKER_URL}/api/action`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json", "x-api-key": apiKey },
+            body: JSON.stringify({ action: "remove_approved_faction", value: factionId })
+        });
+        const res = await response.json();
+        if (!response.ok) throw new Error(res.error);
+
+        showBanner("Approved faction removed.", false);
+        loadDashboard(apiKey);
+    } catch (err) {
+        showBanner(err.message, true);
+    }
+}
+
+async function removeAllowedUser(userId) {
+    clearBanner();
+    const apiKey = getCookie("bully_key");
+    try {
+        const response = await fetch(`${WORKER_URL}/api/action`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json", "x-api-key": apiKey },
+            body: JSON.stringify({ action: "remove_allowed_user", value: userId })
+        });
+        const res = await response.json();
+        if (!response.ok) throw new Error(res.error);
+
+        showBanner("Whitelisted user removed.", false);
         loadDashboard(apiKey);
     } catch (err) {
         showBanner(err.message, true);
