@@ -141,12 +141,12 @@ function renderUI(config) {
         posList.innerHTML = posHtml;
 
         const facList = document.getElementById("approved-factions-list");
-        facList.innerHTML = (config.approved_faction_ids || []).map(fid => {
-            const isCore = Number(fid) === 38097;
-            const removeBtn = isCore ? `<span class="subsection-note">Core Faction</span>` : `<button type="button" class="action-btn remove-btn" onclick="removeApprovedFaction('${fid}')">Remove</button>`;
+        facList.innerHTML = (config.approved_faction_ids || []).map(f => {
+            const isCore = Number(f.faction_id) === 38097;
+            const removeBtn = isCore ? `<span class="subsection-note">Core Faction</span>` : `<button type="button" class="action-btn remove-btn" onclick="removeApprovedFaction('${f.faction_id}')">Remove</button>`;
             return `
                 <div class="list-row">
-                    <span><strong>Faction ID:</strong> ${fid}</span>
+                    <span><strong>${f.name}</strong> [${f.faction_id}]</span>
                     ${removeBtn}
                 </div>
             `;
