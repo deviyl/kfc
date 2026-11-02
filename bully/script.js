@@ -98,7 +98,7 @@ function renderUI(config) {
     usersList.innerHTML = config.monitored_users.length ? "" : `<div class="empty-notice">No users being monitored yet.</div>`;
     config.monitored_users.forEach(u => {
         const reasonDisplay = u.reason ? ` <span class="subsection-note">(${u.reason})</span>` : "";
-        const ffDisplay = u.ff_scout ? ` <span class="ff-scout-badge">FFScout: ${u.ff_scout}</span>` : "";
+        const ffDisplay = u.ff_scout ? `<span class="ff-scout-text">FFScout: ${u.ff_scout}</span>` : "";
         const addedByText = u.added_by_name ? `<span class="added-by-text">Added by: ${u.added_by_name}</span>` : "";
         const canRemove = config.is_leadership || u.added_by_id === config.current_user_id;
         
@@ -107,7 +107,10 @@ function renderUI(config) {
         const item = document.createElement("div");
         item.className = "list-row";
         item.innerHTML = `
-            <span>🎯 <strong>${u.name}</strong> [${u.user_id}]${ffDisplay}${reasonDisplay}</span>
+            <div class="list-row-left">
+                <span>🎯 <strong>${u.name}</strong> [${u.user_id}]${reasonDisplay}</span>
+                ${ffDisplay}
+            </div>
             <div class="list-row-right">
                 ${removeButtonHtml}
                 ${addedByText}
