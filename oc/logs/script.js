@@ -52,7 +52,7 @@ function renderUserTables(data, container) {
     table.innerHTML = `
       <thead>
         <tr>
-          <th>Timestamp (UTC)</th>
+          <th>Timestamp</th>
           <th>Crime ID</th>
           <th>Crime Name</th>
           <th>Alert</th>
@@ -67,7 +67,7 @@ function renderUserTables(data, container) {
     entries.forEach((entry) => {
       const row = document.createElement("tr");
 
-      const formattedTime = formatTimestampUTC(entry.timestamp);
+      const formattedTime = formatTimestampTCT(entry.timestamp);
       const detailsHtml = formatDetails(entry.details);
 
       row.innerHTML = `
@@ -87,7 +87,7 @@ function renderUserTables(data, container) {
   });
 }
 
-function formatTimestampUTC(timestamp) {
+function formatTimestampTCT(timestamp) {
   if (!timestamp) return "N/A";
   
   const ms = timestamp < 1e11 ? timestamp * 1000 : timestamp;
@@ -102,7 +102,7 @@ function formatTimestampUTC(timestamp) {
   const mm = String(date.getUTCMinutes()).padStart(2, "0");
   const ss = String(date.getUTCSeconds()).padStart(2, "0");
 
-  return `${YYYY}-${MM}-${DD} ${hh}:${mm}:${ss} UTC`;
+  return `${YYYY}-${MM}-${DD} ${hh}:${mm}:${ss} TCT`;
 }
 
 function formatDetails(details) {
