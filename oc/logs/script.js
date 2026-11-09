@@ -1,5 +1,8 @@
+let globalLogData = null;
+
 document.addEventListener("DOMContentLoaded", () => {
   fetchLogData();
+  setupSearch();
 });
 
 async function fetchLogData() {
@@ -12,10 +15,10 @@ async function fetchLogData() {
       throw new Error(`Failed to load log.json: HTTP ${response.status}`);
     }
 
-    const logData = await response.json();
+    globalLogData = await response.json();
     statusEl.style.display = "none";
 
-    renderUserTables(logData, containerEl);
+    renderUserTables(globalLogData, containerEl, "");
   } catch (error) {
     console.error(error);
     statusEl.textContent = "Error loading log data.";
@@ -23,15 +26,34 @@ async function fetchLogData() {
   }
 }
 
-function renderUserTables(data, container) {
+function setupSearch() {
+  const searchInput = document.getElementById("search-input");
+  searchInput.addEventListener("input", (e) => {
+    if (!globalLogData) return;
+    const query = e.target.value.toLowerCase().trim();
+    const containerEl = document.getElementById("tables-container");
+    renderUserTables(globalLogData, containerEl, query);
+  });
+}
+
+function renderUserTables(data, container, filterQuery) {
+  container.innerHTML = "";
   const userIds = Object.keys(data);
 
-  if (userIds.length === 0) {
-    container.innerHTML = "<p class='hint'>No log entries found.</p>";
+  const filteredUserIds = userIds.filter((userId) => {
+    const userObj = data[userId];
+    const username = (userObj.name || "").toLowerCase();
+    const idStr = userId.toLowerCase();
+    if (!filterQuery) return true;
+    return username.includes(filterQuery) || idStr.includes(filterQuery);
+  });
+
+  if (filteredUserIds.length === 0) {
+    container.innerHTML = "<p class='hint'>No matching users found.</p>";
     return;
   }
 
-  userIds.forEach((userId) => {
+  filteredUserIds.forEach((userId) => {
     const userObj = data[userId];
     const username = userObj.name || "Unknown";
     const entries = userObj.entries || [];
