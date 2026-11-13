@@ -130,7 +130,7 @@
             "canUseBoosterItem": 1,
             "canUseDrugItem": 1,
             "canUseEnergyRefill": 1,
-            "canUseNerveRefill": 0,
+            "canUseNerveRefill": 1,
             "canLoanTemporaryItem": 1,
             "canLoanWeaponAndArmory": 1,
             "canRetrieveLoanedArmory": 1,
@@ -150,10 +150,10 @@
             "canManageOC2": 1,
             "canLoanUtilityItem": 1,
             "canUseConsumableItem": 1,
-            "canLoanMedicalItem": 0,
-            "canLoanConsumableItem": 0,
+            "canLoanMedicalItem": 1,
+            "canLoanConsumableItem": 1,
             "canLoanDragItem": 0,
-            "canLoanBoosterItem": 0
+            "canLoanBoosterItem": 1
         },
         "Gravy Train Manager": {
             "default": 0,
@@ -161,7 +161,7 @@
             "canUseBoosterItem": 1,
             "canUseDrugItem": 1,
             "canUseEnergyRefill": 1,
-            "canUseNerveRefill": 0,
+            "canUseNerveRefill": 1,
             "canLoanTemporaryItem": 1,
             "canLoanWeaponAndArmory": 1,
             "canRetrieveLoanedArmory": 1,
@@ -203,7 +203,7 @@
             "canManageForum": 1,
             "canManageApplications": 0,
             "canKickMembers": 0,
-            "canAdjustMemberBalance": 0,
+            "canAdjustMemberBalance": 1,
             "canManageWars": 0,
             "canManageUpgrades": 0,
             "canSendNewsletter": 1,
@@ -212,10 +212,10 @@
             "canManageOC2": 1,
             "canLoanUtilityItem": 1,
             "canUseConsumableItem": 1,
-            "canLoanMedicalItem": 0,
-            "canLoanConsumableItem": 0,
+            "canLoanMedicalItem": 1,
+            "canLoanConsumableItem": 1,
             "canLoanDragItem": 0,
-            "canLoanBoosterItem": 0
+            "canLoanBoosterItem": 1
         },
         "Git Bucket Maintainer": {
             "default": 0,
