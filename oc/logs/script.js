@@ -1,4 +1,6 @@
 let globalLogData = null;
+let alertTypes = new Set();
+let alertStates = {};
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchLogData();
@@ -18,7 +20,9 @@ async function fetchLogData() {
     globalLogData = await response.json();
     statusEl.style.display = "none";
 
-    renderUserTables(globalLogData, containerEl, "");
+    extractAlertTypes(globalLogData);
+    renderAlertFilters();
+    updateView();
   } catch (error) {
     console.error(error);
     statusEl.textContent = "Error loading log data.";
@@ -26,39 +30,89 @@ async function fetchLogData() {
   }
 }
 
+function extractAlertTypes(data) {
+  alertTypes.clear();
+  Object.values(data).forEach((userObj) => {
+    const entries = userObj.entries || [];
+    entries.forEach((entry) => {
+      if (entry.alert) {
+        alertTypes.add(entry.alert);
+      }
+    });
+  });
+
+  alertTypes.forEach((alertName) => {
+    const saved = localStorage.getItem(`alert_filter_${alertName}`);
+    alertStates[alertName] = saved !== null ? saved === "true" : true;
+  });
+}
+
+function renderAlertFilters() {
+  const filtersContainer = document.getElementById("alert-filters");
+  filtersContainer.innerHTML = "";
+
+  alertTypes.forEach((alertName) => {
+    const label = document.createElement("label");
+    label.className = "filter-chip";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = alertStates[alertName];
+    
+    checkbox.addEventListener("change", (e) => {
+      alertStates[alertName] = e.target.checked;
+      localStorage.setItem(`alert_filter_${alertName}`, e.target.checked);
+      updateView();
+    });
+
+    label.appendChild(checkbox);
+    label.append(` ${alertName}`);
+    filtersContainer.appendChild(label);
+  });
+}
+
 function setupSearch() {
   const searchInput = document.getElementById("search-input");
-  searchInput.addEventListener("input", (e) => {
-    if (!globalLogData) return;
-    const query = e.target.value.toLowerCase().trim();
-    const containerEl = document.getElementById("tables-container");
-    renderUserTables(globalLogData, containerEl, query);
+  searchInput.addEventListener("input", () => {
+    updateView();
   });
+}
+
+function updateView() {
+  if (!globalLogData) return;
+  const searchInput = document.getElementById("search-input");
+  const query = searchInput.value.toLowerCase().trim();
+  const containerEl = document.getElementById("tables-container");
+  renderUserTables(globalLogData, containerEl, query);
 }
 
 function renderUserTables(data, container, filterQuery) {
   container.innerHTML = "";
   const userIds = Object.keys(data);
 
-  const filteredUserIds = userIds.filter((userId) => {
-    const userObj = data[userId];
-    const username = (userObj.name || "").toLowerCase();
-    const idStr = userId.toLowerCase();
-    if (!filterQuery) return true;
-    return username.includes(filterQuery) || idStr.includes(filterQuery);
-  });
+  let renderedCount = 0;
 
-  if (filteredUserIds.length === 0) {
-    container.innerHTML = "<p class='hint'>No matching users found.</p>";
-    return;
-  }
-
-  filteredUserIds.forEach((userId) => {
+  userIds.forEach((userId) => {
     const userObj = data[userId];
     const username = userObj.name || "Unknown";
     const entries = userObj.entries || [];
 
-    entries.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+    const usernameLower = username.toLowerCase();
+    const idStr = userId.toLowerCase();
+    const matchesSearch = !filterQuery || usernameLower.includes(filterQuery) || idStr.includes(filterQuery);
+
+    if (!matchesSearch) return;
+
+    const filteredEntries = entries.filter((entry) => {
+      const alertName = entry.alert;
+      if (!alertName) return true;
+      return alertStates[alertName] !== false;
+    });
+
+    if (filteredEntries.length === 0) return;
+
+    renderedCount++;
+    filteredEntries.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
 
     const panel = document.createElement("section");
     panel.className = "user-panel";
@@ -86,7 +140,7 @@ function renderUserTables(data, container, filterQuery) {
 
     const tbody = table.querySelector("tbody");
 
-    entries.forEach((entry) => {
+    filteredEntries.forEach((entry) => {
       const row = document.createElement("tr");
 
       const formattedTime = formatTimestampTCT(entry.timestamp);
@@ -107,6 +161,10 @@ function renderUserTables(data, container, filterQuery) {
     panel.appendChild(tableWrapper);
     container.appendChild(panel);
   });
+
+  if (renderedCount === 0) {
+    container.innerHTML = "<p class='hint'>No matching entries found.</p>";
+  }
 }
 
 function formatTimestampTCT(timestamp) {
