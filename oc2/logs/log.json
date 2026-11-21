@@ -1,1 +1,500 @@
-{"3163147":{"name":"bitek","entries":[{"crimeId":2443580,"crimeName":"Guardian Ángels","alert":"Low Priority Crime","timestamp":1794434467,"details":{"difficulty":5}}]},"3163171":{"name":"Kaleciatko","entries":[{"crimeId":2433460,"crimeName":"Leave No Trace","alert":"Pass Rate Below Required Threshold","timestamp":1794344079,"details":{"role":"Imitator","passRate":70,"requiredRate":75,"roleWeight":36.85827347}}]},"3273752":{"name":"CeeWayy95","entries":[{"crimeId":2441814,"crimeName":"Gaslight the Way","alert":"Missing Required Item","timestamp":1794350418,"details":{"role":"Imitator #1","itemId":643,"itemName":"Construction Helmet"}},{"crimeId":2476759,"crimeName":"Smoke and Wing Mirrors","alert":"Missing Required Item","timestamp":1795003915,"details":{"role":"Imitator","itemId":1383,"itemName":"DSLR Camera"}}]},"3618740":{"name":"Jon_M","entries":[{"crimeId":2476759,"crimeName":"Smoke and Wing Mirrors","alert":"Missing Required Item","timestamp":1795003915,"details":{"role":"Car Thief","itemId":1380,"itemName":"RF Detector"}}]},"3774090":{"name":"Jereos","entries":[{"crimeId":2443580,"crimeName":"Guardian Ángels","alert":"Low Priority Crime","timestamp":1794434467,"details":{"difficulty":5}},{"crimeId":2457333,"crimeName":"Bidding War","alert":"Pass Rate Below Required Threshold","timestamp":1795003915,"details":{"role":"Robber #2","passRate":67,"requiredRate":70,"roleWeight":22.87302433}},{"crimeId":2491091,"crimeName":"Sneaky Git Grab","alert":"Missing Required Item","timestamp":1795057340,"details":{"role":"Hacker","itemId":71,"itemName":"Tunneling Virus"}}]},"3796175":{"name":"MULTIMAX","entries":[{"crimeId":2443580,"crimeName":"Guardian Ángels","alert":"Low Priority Crime","timestamp":1794434467,"details":{"difficulty":5}}]},"4006094":{"name":"MissYachty","entries":[{"crimeId":2423727,"crimeName":"No Reserve","alert":"Pass Rate Below Required Threshold","timestamp":1794344079,"details":{"role":"Engineer","passRate":69,"requiredRate":70,"roleWeight":31.12279075}}]},"4433306":{"name":"Pheeby","entries":[{"crimeId":2443579,"crimeName":"Thou Shalt Not Steal","alert":"Missing Required Item","timestamp":1794434467,"details":{"role":"Thief","itemId":1313,"itemName":"Cassock"}}]},"4487995":{"name":"badddie","entries":[{"crimeId":2441815,"crimeName":"Stage Fright","alert":"Pass Rate Below Required Threshold","timestamp":1794434467,"details":{"role":"Lookout","passRate":45,"requiredRate":65,"roleWeight":6.188888612}}]},"4541781":{"name":"FaeBreaker","entries":[{"crimeId":2441814,"crimeName":"Gaslight the Way","alert":"Pass Rate Below Required Threshold","timestamp":1794434467,"details":{"role":"Looter #1","passRate":50,"requiredRate":65,"roleWeight":9.394999578}}]},"4548706":{"name":"GoldenStroker","entries":[{"crimeId":2456314,"crimeName":"Disorderly Conduct","alert":"Missing Required Item","timestamp":1794506852,"details":{"role":"Looter","itemId":1353,"itemName":"Megaphone"}}]}}
+{
+  "2741991": {
+    "name": "MaxNoggins",
+    "entries": [
+      {
+        "crimeId": 2462137,
+        "crimeName": "Dish It Out",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Assassin",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3163147": {
+    "name": "bitek",
+    "entries": [
+      {
+        "crimeId": 2443580,
+        "crimeName": "Guardian Ángels",
+        "alert": "Low Priority Crime",
+        "timestamp": 1794434467,
+        "details": {
+          "difficulty": 5
+        }
+      }
+    ]
+  },
+  "3163171": {
+    "name": "Kaleciatko",
+    "entries": [
+      {
+        "crimeId": 2433460,
+        "crimeName": "Leave No Trace",
+        "alert": "Pass Rate Below Required Threshold",
+        "timestamp": 1794344079,
+        "details": {
+          "role": "Imitator",
+          "passRate": 70,
+          "requiredRate": 75,
+          "roleWeight": 36.85827347
+        }
+      }
+    ]
+  },
+  "3273752": {
+    "name": "CeeWayy95",
+    "entries": [
+      {
+        "crimeId": 2441814,
+        "crimeName": "Gaslight the Way",
+        "alert": "Missing Required Item",
+        "timestamp": 1794350418,
+        "details": {
+          "role": "Imitator #1",
+          "itemId": 643,
+          "itemName": "Construction Helmet"
+        }
+      },
+      {
+        "crimeId": 2476759,
+        "crimeName": "Smoke and Wing Mirrors",
+        "alert": "Missing Required Item",
+        "timestamp": 1795003915,
+        "details": {
+          "role": "Imitator",
+          "itemId": 1383,
+          "itemName": "DSLR Camera"
+        }
+      }
+    ]
+  },
+  "3317561": {
+    "name": "Johnson",
+    "entries": [
+      {
+        "crimeId": 2476760,
+        "crimeName": "Plucking the Lotus Petal",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Muscle",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3368234": {
+    "name": "Saysorry",
+    "entries": [
+      {
+        "crimeId": 2462141,
+        "crimeName": "Stage Fright",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Enforcer",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3562619": {
+    "name": "Postman_",
+    "entries": [
+      {
+        "crimeId": 2452783,
+        "crimeName": "Counter Offer",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Hacker",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3599627": {
+    "name": "CaptainRinny",
+    "entries": [
+      {
+        "crimeId": 2462137,
+        "crimeName": "Dish It Out",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Muscle",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3618740": {
+    "name": "Jon_M",
+    "entries": [
+      {
+        "crimeId": 2476759,
+        "crimeName": "Smoke and Wing Mirrors",
+        "alert": "Missing Required Item",
+        "timestamp": 1795003915,
+        "details": {
+          "role": "Car Thief",
+          "itemId": 1380,
+          "itemName": "RF Detector"
+        }
+      }
+    ]
+  },
+  "3774090": {
+    "name": "Jereos",
+    "entries": [
+      {
+        "crimeId": 2443580,
+        "crimeName": "Guardian Ángels",
+        "alert": "Low Priority Crime",
+        "timestamp": 1794434467,
+        "details": {
+          "difficulty": 5
+        }
+      },
+      {
+        "crimeId": 2457333,
+        "crimeName": "Bidding War",
+        "alert": "Pass Rate Below Required Threshold",
+        "timestamp": 1795003915,
+        "details": {
+          "role": "Robber #2",
+          "passRate": 67,
+          "requiredRate": 70,
+          "roleWeight": 22.87302433
+        }
+      },
+      {
+        "crimeId": 2491091,
+        "crimeName": "Sneaky Git Grab",
+        "alert": "Missing Required Item",
+        "timestamp": 1795057340,
+        "details": {
+          "role": "Hacker",
+          "itemId": 71,
+          "itemName": "Tunneling Virus"
+        }
+      }
+    ]
+  },
+  "3796175": {
+    "name": "MULTIMAX",
+    "entries": [
+      {
+        "crimeId": 2443580,
+        "crimeName": "Guardian Ángels",
+        "alert": "Low Priority Crime",
+        "timestamp": 1794434467,
+        "details": {
+          "difficulty": 5
+        }
+      },
+      {
+        "crimeId": 2452783,
+        "crimeName": "Counter Offer",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Picklock",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3811762": {
+    "name": "hoppopotamus",
+    "entries": [
+      {
+        "crimeId": 2476760,
+        "crimeName": "Plucking the Lotus Petal",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Robber #2",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3913421": {
+    "name": "Wolfylein",
+    "entries": [
+      {
+        "crimeId": 2462137,
+        "crimeName": "Dish It Out",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Saboteur #1",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "3993903": {
+    "name": "PeachesCat",
+    "entries": [
+      {
+        "crimeId": 2452783,
+        "crimeName": "Counter Offer",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Engineer",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4006094": {
+    "name": "MissYachty",
+    "entries": [
+      {
+        "crimeId": 2423727,
+        "crimeName": "No Reserve",
+        "alert": "Pass Rate Below Required Threshold",
+        "timestamp": 1794344079,
+        "details": {
+          "role": "Engineer",
+          "passRate": 69,
+          "requiredRate": 70,
+          "roleWeight": 31.12279075
+        }
+      },
+      {
+        "crimeId": 2476760,
+        "crimeName": "Plucking the Lotus Petal",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Hustler",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4191720": {
+    "name": "UhtredRagnar",
+    "entries": [
+      {
+        "crimeId": 2476760,
+        "crimeName": "Plucking the Lotus Petal",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Robber #1",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4196596": {
+    "name": "Ruckus_Maximus",
+    "entries": [
+      {
+        "crimeId": 2462141,
+        "crimeName": "Stage Fright",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Sniper",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4329981": {
+    "name": "Drbo",
+    "entries": [
+      {
+        "crimeId": 2462141,
+        "crimeName": "Stage Fright",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Muscle #2",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4420730": {
+    "name": "cottard",
+    "entries": [
+      {
+        "crimeId": 2452783,
+        "crimeName": "Counter Offer",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Looter",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4430753": {
+    "name": "Gridpurple",
+    "entries": [
+      {
+        "crimeId": 2462137,
+        "crimeName": "Dish It Out",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Saboteur #2",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4433306": {
+    "name": "Pheeby",
+    "entries": [
+      {
+        "crimeId": 2443579,
+        "crimeName": "Thou Shalt Not Steal",
+        "alert": "Missing Required Item",
+        "timestamp": 1794434467,
+        "details": {
+          "role": "Thief",
+          "itemId": 1313,
+          "itemName": "Cassock"
+        }
+      },
+      {
+        "crimeId": 2462141,
+        "crimeName": "Stage Fright",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Lookout",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4487995": {
+    "name": "badddie",
+    "entries": [
+      {
+        "crimeId": 2441815,
+        "crimeName": "Stage Fright",
+        "alert": "Pass Rate Below Required Threshold",
+        "timestamp": 1794434467,
+        "details": {
+          "role": "Lookout",
+          "passRate": 45,
+          "requiredRate": 65,
+          "roleWeight": 6.188888612
+        }
+      }
+    ]
+  },
+  "4530424": {
+    "name": "Nzo19",
+    "entries": [
+      {
+        "crimeId": 2476756,
+        "crimeName": "Best of the Lot",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Car Thief",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4541781": {
+    "name": "FaeBreaker",
+    "entries": [
+      {
+        "crimeId": 2441814,
+        "crimeName": "Gaslight the Way",
+        "alert": "Pass Rate Below Required Threshold",
+        "timestamp": 1794434467,
+        "details": {
+          "role": "Looter #1",
+          "passRate": 50,
+          "requiredRate": 65,
+          "roleWeight": 9.394999578
+        }
+      },
+      {
+        "crimeId": 2462141,
+        "crimeName": "Stage Fright",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Muscle #3",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4541785": {
+    "name": "goryl",
+    "entries": [
+      {
+        "crimeId": 2476756,
+        "crimeName": "Best of the Lot",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Picklock",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4546786": {
+    "name": "Wan-D-Heda",
+    "entries": [
+      {
+        "crimeId": 2476756,
+        "crimeName": "Best of the Lot",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Muscle",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  },
+  "4548706": {
+    "name": "GoldenStroker",
+    "entries": [
+      {
+        "crimeId": 2456314,
+        "crimeName": "Disorderly Conduct",
+        "alert": "Missing Required Item",
+        "timestamp": 1794506852,
+        "details": {
+          "role": "Looter",
+          "itemId": 1353,
+          "itemName": "Megaphone"
+        }
+      },
+      {
+        "crimeId": 2476756,
+        "crimeName": "Best of the Lot",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795299711,
+        "details": {
+          "role": "Imitator",
+          "memberStatus": "Hospital"
+        }
+      }
+    ]
+  }
+}
