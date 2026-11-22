@@ -489,6 +489,17 @@
           "role": "Saboteur #2",
           "memberStatus": "Hospital"
         }
+      },
+      {
+        "crimeId": 2476754,
+        "crimeName": "Thou Shalt Not Steal",
+        "alert": "Missing Required Item",
+        "timestamp": 1795348814,
+        "details": {
+          "role": "Thief",
+          "itemId": 1313,
+          "itemName": "Cassock"
+        }
       }
     ]
   },
