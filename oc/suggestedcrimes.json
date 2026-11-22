@@ -2,13 +2,13 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795384806,
+      "checkedAt": 1795388408,
       "suggestions": [
         {
           "crimeId": 2506454,
           "crimeName": "Market Forces",
           "difficulty": 3,
-          "filledCount": 2,
+          "filledCount": 3,
           "roles": [
             {
               "roleLabel": "Arsonist",
@@ -16,13 +16,6 @@
               "requiredRate": 65,
               "weight": 4.456390991,
               "margin": 7
-            },
-            {
-              "roleLabel": "Enforcer",
-              "passRate": 73,
-              "requiredRate": 70,
-              "weight": 29.4020952,
-              "margin": 3
             },
             {
               "roleLabel": "Negotiator",
@@ -133,24 +126,8 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795384806,
+      "checkedAt": 1795388408,
       "suggestions": [
-        {
-          "crimeId": 2491091,
-          "crimeName": "Sneaky Git Grab",
-          "difficulty": 6,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Imitator",
-              "passRate": 78,
-              "requiredRate": 65,
-              "weight": 17.539756110007634,
-              "margin": 13
-            }
-          ],
-          "topMargin": 13
-        },
         {
           "crimeId": 2506429,
           "crimeName": "Dish It Out",
@@ -226,26 +203,10 @@
           "topMargin": 14
         },
         {
-          "crimeId": 2506426,
-          "crimeName": "Snow Blind",
-          "difficulty": 4,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Imitator",
-              "passRate": 89,
-              "requiredRate": 75,
-              "weight": 34.56895649,
-              "margin": 14
-            }
-          ],
-          "topMargin": 14
-        },
-        {
           "crimeId": 2506454,
           "crimeName": "Market Forces",
           "difficulty": 3,
-          "filledCount": 2,
+          "filledCount": 3,
           "roles": [
             {
               "roleLabel": "Arsonist",
@@ -253,13 +214,6 @@
               "requiredRate": 65,
               "weight": 4.456390991,
               "margin": 24
-            },
-            {
-              "roleLabel": "Enforcer",
-              "passRate": 92,
-              "requiredRate": 70,
-              "weight": 29.4020952,
-              "margin": 22
             },
             {
               "roleLabel": "Negotiator",
@@ -370,24 +324,8 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795384806,
+      "checkedAt": 1795388408,
       "suggestions": [
-        {
-          "crimeId": 2491091,
-          "crimeName": "Sneaky Git Grab",
-          "difficulty": 6,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Imitator",
-              "passRate": 65,
-              "requiredRate": 65,
-              "weight": 17.539756110007634,
-              "margin": 0
-            }
-          ],
-          "topMargin": 0
-        },
         {
           "crimeId": 2506429,
           "crimeName": "Dish It Out",
@@ -449,26 +387,10 @@
           "topMargin": 3
         },
         {
-          "crimeId": 2506426,
-          "crimeName": "Snow Blind",
-          "difficulty": 4,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Imitator",
-              "passRate": 84,
-              "requiredRate": 75,
-              "weight": 34.56895649,
-              "margin": 9
-            }
-          ],
-          "topMargin": 9
-        },
-        {
           "crimeId": 2506454,
           "crimeName": "Market Forces",
           "difficulty": 3,
-          "filledCount": 2,
+          "filledCount": 3,
           "roles": [
             {
               "roleLabel": "Arsonist",
@@ -476,13 +398,6 @@
               "requiredRate": 65,
               "weight": 4.456390991,
               "margin": 22
-            },
-            {
-              "roleLabel": "Enforcer",
-              "passRate": 88,
-              "requiredRate": 70,
-              "weight": 29.4020952,
-              "margin": 18
             },
             {
               "roleLabel": "Negotiator",
@@ -593,13 +508,13 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795384806,
+      "checkedAt": 1795388408,
       "suggestions": [
         {
           "crimeId": 2506454,
           "crimeName": "Market Forces",
           "difficulty": 3,
-          "filledCount": 2,
+          "filledCount": 3,
           "roles": [
             {
               "roleLabel": "Arsonist",
@@ -607,13 +522,6 @@
               "requiredRate": 65,
               "weight": 4.456390991,
               "margin": 16
-            },
-            {
-              "roleLabel": "Enforcer",
-              "passRate": 82,
-              "requiredRate": 70,
-              "weight": 29.4020952,
-              "margin": 12
             },
             {
               "roleLabel": "Negotiator",
@@ -724,20 +632,20 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795384806,
+      "checkedAt": 1795388408,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795384806,
+      "checkedAt": 1795388408,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795384806,
+      "checkedAt": 1795388408,
       "suggestions": []
     }
   },
-  "generatedAt": 1795384807,
-  "generatedAtUTC": "Sun, 22 Nov 2026 22:00 TCT"
+  "generatedAt": 1795388411,
+  "generatedAtUTC": "Sun, 22 Nov 2026 23:00 TCT"
 }
