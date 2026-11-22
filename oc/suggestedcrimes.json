@@ -2,19 +2,138 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795345205,
-      "suggestions": []
+      "checkedAt": 1795348807,
+      "suggestions": [
+        {
+          "crimeId": 2506427,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 79,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 79,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 9
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 79,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 4
+            }
+          ],
+          "topMargin": 18
+        },
+        {
+          "crimeId": 2506428,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 75,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 10
+            },
+            {
+              "roleLabel": "Arsonist",
+              "passRate": 72,
+              "requiredRate": 65,
+              "weight": 4.456390991,
+              "margin": 7
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 75,
+              "requiredRate": 70,
+              "weight": 22.54604208,
+              "margin": 5
+            },
+            {
+              "roleLabel": "Enforcer",
+              "passRate": 73,
+              "requiredRate": 70,
+              "weight": 29.4020952,
+              "margin": 3
+            },
+            {
+              "roleLabel": "Negotiator",
+              "passRate": 70,
+              "requiredRate": 70,
+              "weight": 27.22899702,
+              "margin": 0
+            }
+          ],
+          "topMargin": 10
+        }
+      ]
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795345205,
+      "checkedAt": 1795348807,
       "suggestions": [
         {
           "crimeId": 2491091,
           "crimeName": "Sneaky Git Grab",
           "difficulty": 6,
-          "filledCount": 1,
+          "filledCount": 3,
           "roles": [
+            {
+              "roleLabel": "Imitator",
+              "passRate": 78,
+              "requiredRate": 65,
+              "weight": 17.539756110007634,
+              "margin": 13
+            }
+          ],
+          "topMargin": 13
+        },
+        {
+          "crimeId": 2506430,
+          "crimeName": "Sneaky Git Grab",
+          "difficulty": 6,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Hacker",
+              "passRate": 79,
+              "requiredRate": 65,
+              "weight": 14.481791981545502,
+              "margin": 14
+            },
             {
               "roleLabel": "Imitator",
               "passRate": 78,
@@ -37,42 +156,248 @@
               "margin": 2
             }
           ],
-          "topMargin": 13
+          "topMargin": 14
         },
         {
-          "crimeId": 2491093,
-          "crimeName": "Honey Trap",
-          "difficulty": 5,
-          "filledCount": 1,
+          "crimeId": 2506429,
+          "crimeName": "Dish It Out",
+          "difficulty": 6,
+          "filledCount": 0,
           "roles": [
             {
-              "roleLabel": "Enforcer",
-              "passRate": 85,
-              "requiredRate": 70,
-              "weight": 26.98428598,
-              "margin": 15
+              "roleLabel": "Saboteur #1",
+              "passRate": 79,
+              "requiredRate": 65,
+              "weight": 14.639223669899579,
+              "margin": 14
             },
             {
-              "roleLabel": "Muscle #1",
-              "passRate": 84,
+              "roleLabel": "Saboteur #2",
+              "passRate": 79,
+              "requiredRate": 65,
+              "weight": 8.911747057590532,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Engineer",
+              "passRate": 79,
+              "requiredRate": 65,
+              "weight": 13.867130747065687,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 80,
               "requiredRate": 70,
-              "weight": 30.86556191,
+              "weight": 25.243817634035594,
+              "margin": 10
+            },
+            {
+              "roleLabel": "Assassin",
+              "passRate": 81,
+              "requiredRate": 75,
+              "weight": 37.3380808914086,
+              "margin": 6
+            }
+          ],
+          "topMargin": 14
+        },
+        {
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Muscle #1",
+              "passRate": 88,
+              "requiredRate": 65,
+              "weight": 8.512932288,
+              "margin": 23
+            },
+            {
+              "roleLabel": "Muscle #2",
+              "passRate": 88,
+              "requiredRate": 65,
+              "weight": 8.512771845,
+              "margin": 23
+            },
+            {
+              "roleLabel": "Hustler",
+              "passRate": 89,
+              "requiredRate": 75,
+              "weight": 48.40533937,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Imitator",
+              "passRate": 89,
+              "requiredRate": 75,
+              "weight": 34.56895649,
               "margin": 14
             }
           ],
-          "topMargin": 15
+          "topMargin": 23
+        },
+        {
+          "crimeId": 2506427,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 93,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 23
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 93,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 18
+            }
+          ],
+          "topMargin": 28
+        },
+        {
+          "crimeId": 2506428,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 91,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 26
+            },
+            {
+              "roleLabel": "Arsonist",
+              "passRate": 89,
+              "requiredRate": 65,
+              "weight": 4.456390991,
+              "margin": 24
+            },
+            {
+              "roleLabel": "Enforcer",
+              "passRate": 92,
+              "requiredRate": 70,
+              "weight": 29.4020952,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Negotiator",
+              "passRate": 91,
+              "requiredRate": 70,
+              "weight": 27.22899702,
+              "margin": 21
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 91,
+              "requiredRate": 70,
+              "weight": 22.54604208,
+              "margin": 21
+            }
+          ],
+          "topMargin": 26
         }
       ]
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795345205,
+      "checkedAt": 1795348807,
       "suggestions": [
         {
           "crimeId": 2491091,
           "crimeName": "Sneaky Git Grab",
           "difficulty": 6,
-          "filledCount": 1,
+          "filledCount": 3,
+          "roles": [
+            {
+              "roleLabel": "Imitator",
+              "passRate": 65,
+              "requiredRate": 65,
+              "weight": 17.539756110007634,
+              "margin": 0
+            }
+          ],
+          "topMargin": 0
+        },
+        {
+          "crimeId": 2506429,
+          "crimeName": "Dish It Out",
+          "difficulty": 6,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Saboteur #1",
+              "passRate": 73,
+              "requiredRate": 65,
+              "weight": 14.639223669899579,
+              "margin": 8
+            },
+            {
+              "roleLabel": "Saboteur #2",
+              "passRate": 73,
+              "requiredRate": 65,
+              "weight": 8.911747057590532,
+              "margin": 8
+            },
+            {
+              "roleLabel": "Engineer",
+              "passRate": 73,
+              "requiredRate": 65,
+              "weight": 13.867130747065687,
+              "margin": 8
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 76,
+              "requiredRate": 70,
+              "weight": 25.243817634035594,
+              "margin": 6
+            }
+          ],
+          "topMargin": 8
+        },
+        {
+          "crimeId": 2506430,
+          "crimeName": "Sneaky Git Grab",
+          "difficulty": 6,
+          "filledCount": 0,
           "roles": [
             {
               "roleLabel": "Techie",
@@ -80,6 +405,13 @@
               "requiredRate": 65,
               "weight": 17.146517807199775,
               "margin": 3
+            },
+            {
+              "roleLabel": "Hacker",
+              "passRate": 66,
+              "requiredRate": 65,
+              "weight": 14.481791981545502,
+              "margin": 1
             },
             {
               "roleLabel": "Imitator",
@@ -92,51 +424,279 @@
           "topMargin": 3
         },
         {
-          "crimeId": 2491093,
-          "crimeName": "Honey Trap",
-          "difficulty": 5,
-          "filledCount": 1,
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
+          "filledCount": 0,
           "roles": [
             {
               "roleLabel": "Muscle #1",
-              "passRate": 81,
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 8.512932288,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Muscle #2",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 8.512771845,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Imitator",
+              "passRate": 84,
+              "requiredRate": 75,
+              "weight": 34.56895649,
+              "margin": 9
+            },
+            {
+              "roleLabel": "Hustler",
+              "passRate": 83,
+              "requiredRate": 75,
+              "weight": 48.40533937,
+              "margin": 8
+            }
+          ],
+          "topMargin": 22
+        },
+        {
+          "crimeId": 2506427,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 92,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 27
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 92,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 27
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 92,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 27
+            },
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 90,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 25
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 90,
               "requiredRate": 70,
-              "weight": 30.86556191,
-              "margin": 11
+              "weight": 27.46467248,
+              "margin": 20
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 90,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 15
+            }
+          ],
+          "topMargin": 27
+        },
+        {
+          "crimeId": 2506428,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 89,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 24
+            },
+            {
+              "roleLabel": "Arsonist",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 4.456390991,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 90,
+              "requiredRate": 70,
+              "weight": 22.54604208,
+              "margin": 20
             },
             {
               "roleLabel": "Enforcer",
-              "passRate": 76,
+              "passRate": 88,
               "requiredRate": 70,
-              "weight": 26.98428598,
-              "margin": 6
+              "weight": 29.4020952,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Negotiator",
+              "passRate": 86,
+              "requiredRate": 70,
+              "weight": 27.22899702,
+              "margin": 16
             }
           ],
-          "topMargin": 11
+          "topMargin": 24
         }
       ]
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795345205,
-      "suggestions": []
+      "checkedAt": 1795348807,
+      "suggestions": [
+        {
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Muscle #1",
+              "passRate": 75,
+              "requiredRate": 65,
+              "weight": 8.512932288,
+              "margin": 10
+            },
+            {
+              "roleLabel": "Muscle #2",
+              "passRate": 75,
+              "requiredRate": 65,
+              "weight": 8.512771845,
+              "margin": 10
+            }
+          ],
+          "topMargin": 10
+        },
+        {
+          "crimeId": 2506427,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 84,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 19
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 84,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 84,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 9
+            }
+          ],
+          "topMargin": 22
+        },
+        {
+          "crimeId": 2506428,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 84,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 19
+            },
+            {
+              "roleLabel": "Arsonist",
+              "passRate": 81,
+              "requiredRate": 65,
+              "weight": 4.456390991,
+              "margin": 16
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 84,
+              "requiredRate": 70,
+              "weight": 22.54604208,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Enforcer",
+              "passRate": 82,
+              "requiredRate": 70,
+              "weight": 29.4020952,
+              "margin": 12
+            },
+            {
+              "roleLabel": "Negotiator",
+              "passRate": 80,
+              "requiredRate": 70,
+              "weight": 27.22899702,
+              "margin": 10
+            }
+          ],
+          "topMargin": 19
+        }
+      ]
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795345205,
+      "checkedAt": 1795348807,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795345205,
+      "checkedAt": 1795348807,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795345205,
+      "checkedAt": 1795348807,
       "suggestions": []
     }
   },
-  "generatedAt": 1795345207,
-  "generatedAtUTC": "Sun, 22 Nov 2026 11:00 TCT"
+  "generatedAt": 1795348810,
+  "generatedAtUTC": "Sun, 22 Nov 2026 12:00 TCT"
 }
