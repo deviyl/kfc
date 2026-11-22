@@ -10,10 +10,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795353012,
-            "relative": "49 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
-            "description": "In hospital for 1 hrs 53 mins ",
+            "description": "In hospital for 53 mins ",
             "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
@@ -33,8 +33,8 @@
           "days_in_faction": 657,
           "last_action": {
             "status": "Online",
-            "timestamp": 1795355668,
-            "relative": "5 minutes ago"
+            "timestamp": 1795359418,
+            "relative": "3 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -56,23 +56,23 @@
           "level": 78,
           "days_in_faction": 1284,
           "last_action": {
-            "status": "Online",
-            "timestamp": 1795355988,
-            "relative": "0 minutes ago"
+            "status": "Offline",
+            "timestamp": 1795357494,
+            "relative": "35 minutes ago"
           },
           "status": {
-            "description": "Okay",
-            "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "description": "In hospital for 5 hrs 8 mins ",
+            "details": "Hospitalized by Roar",
+            "state": "Hospital",
+            "color": "red",
+            "until": 1795378113
           },
           "revive_setting": "No one",
           "position": "Gravy Train Manager",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
-          "has_early_discharge": false
+          "has_early_discharge": true
         },
         {
           "id": 3163147,
@@ -82,10 +82,10 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795341701,
-            "relative": "3 hours ago"
+            "relative": "4 hours ago"
           },
           "status": {
-            "description": "In hospital for 14 hrs 22 mins ",
+            "description": "In hospital for 13 hrs 22 mins ",
             "details": "Overdosed on Xanax",
             "state": "Hospital",
             "color": "red",
@@ -106,7 +106,7 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795353644,
-            "relative": "39 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Traveling from Switzerland to Torn",
@@ -131,10 +131,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795344325,
-            "relative": "3 hours ago"
+            "relative": "4 hours ago"
           },
           "status": {
-            "description": "In a Japanese hospital for 2 hrs 3 mins ",
+            "description": "In a Japanese hospital for 1 hrs 3 mins ",
             "details": "Hospitalized by Mack-Cruz",
             "state": "Hospital",
             "color": "red",
@@ -155,7 +155,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795352936,
-            "relative": "51 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "In Argentina",
@@ -179,14 +179,14 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795317073,
-            "relative": "10 hours ago"
+            "relative": "11 hours ago"
           },
           "status": {
-            "description": "In hospital for 24 mins ",
-            "details": "Hospitalized by mox",
+            "description": "In hospital for 4 hrs 51 mins ",
+            "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
-            "until": 1795357491
+            "until": 1795377096
           },
           "revive_setting": "No one",
           "position": "Front of House",
@@ -203,21 +203,21 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795354503,
-            "relative": "25 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
-            "description": "Okay",
-            "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "description": "In hospital for 2 hrs 13 mins ",
+            "details": "Hospitalized by oddy",
+            "state": "Hospital",
+            "color": "red",
+            "until": 1795367637
           },
           "revive_setting": "No one",
           "position": "Front of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
-          "has_early_discharge": false
+          "has_early_discharge": true
         },
         {
           "id": 3562619,
@@ -226,15 +226,16 @@
           "days_in_faction": 664,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795347235,
-            "relative": "2 hours ago"
+            "timestamp": 1795359047,
+            "relative": "9 minutes ago"
           },
           "status": {
-            "description": "In hospital for 2 hrs 27 mins ",
-            "details": "Got a nasty surprise in the post.",
-            "state": "Hospital",
-            "color": "red",
-            "until": 1795364875
+            "description": "Traveling from Torn to Switzerland",
+            "details": null,
+            "state": "Traveling",
+            "color": "blue",
+            "until": null,
+            "plane_image_type": "airliner"
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -249,16 +250,17 @@
           "level": 40,
           "days_in_faction": 124,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795355759,
-            "relative": "4 minutes ago"
+            "status": "Offline",
+            "timestamp": 1795358989,
+            "relative": "10 minutes ago"
           },
           "status": {
-            "description": "Okay",
+            "description": "Traveling from Mexico to Torn",
             "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "state": "Traveling",
+            "color": "blue",
+            "until": null,
+            "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -273,12 +275,12 @@
           "level": 79,
           "days_in_faction": 631,
           "last_action": {
-            "status": "Idle",
+            "status": "Online",
             "timestamp": 1795355534,
-            "relative": "7 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
-            "description": "In hospital for 16 hrs 22 mins ",
+            "description": "In hospital for 15 hrs 22 mins ",
             "details": "Crush injuries from a collapsed satellite dish",
             "state": "Hospital",
             "color": "red",
@@ -297,16 +299,16 @@
           "level": 32,
           "days_in_faction": 62,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795355576,
-            "relative": "7 minutes ago"
+            "status": "Online",
+            "timestamp": 1795359451,
+            "relative": "2 minutes ago"
           },
           "status": {
-            "description": "In hospital for 12 mins ",
-            "details": "Hospitalized by someone",
-            "state": "Hospital",
-            "color": "red",
-            "until": 1795356772
+            "description": "Okay",
+            "details": null,
+            "state": "Okay",
+            "color": "green",
+            "until": null
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -322,15 +324,15 @@
           "days_in_faction": 379,
           "last_action": {
             "status": "Idle",
-            "timestamp": 1795348864,
-            "relative": "1 hour ago"
+            "timestamp": 1795358643,
+            "relative": "16 minutes ago"
           },
           "status": {
-            "description": "Okay",
-            "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "description": "In hospital for 1 hrs 6 mins ",
+            "details": "Suffering from an acute hemolytic transfusion reaction",
+            "state": "Hospital",
+            "color": "red",
+            "until": 1795363566
           },
           "revive_setting": "No one",
           "position": "Git Bucket Maintainer",
@@ -346,16 +348,15 @@
           "days_in_faction": 486,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795355223,
-            "relative": "13 minutes ago"
+            "timestamp": 1795359245,
+            "relative": "5 minutes ago"
           },
           "status": {
-            "description": "Traveling from Japan to Torn",
+            "description": "In Mexico",
             "details": null,
-            "state": "Traveling",
+            "state": "Abroad",
             "color": "blue",
-            "until": null,
-            "plane_image_type": "light_aircraft"
+            "until": null
           },
           "revive_setting": "No one",
           "position": "Cook",
@@ -370,9 +371,9 @@
           "level": 67,
           "days_in_faction": 280,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795355777,
-            "relative": "3 minutes ago"
+            "status": "Online",
+            "timestamp": 1795359232,
+            "relative": "6 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -396,10 +397,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795346951,
-            "relative": "2 hours ago"
+            "relative": "3 hours ago"
           },
           "status": {
-            "description": "In hospital for 1 hrs 50 mins ",
+            "description": "In hospital for 50 mins ",
             "details": "Hospitalized by solyomkapitany",
             "state": "Hospital",
             "color": "red",
@@ -420,10 +421,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795347527,
-            "relative": "2 hours ago"
+            "relative": "3 hours ago"
           },
           "status": {
-            "description": "In a Swiss hospital for 1 hrs 2 mins ",
+            "description": "In a Swiss hospital for 2 mins ",
             "details": "Hospitalized by eeeere",
             "state": "Hospital",
             "color": "red",
@@ -443,11 +444,11 @@
           "days_in_faction": 375,
           "last_action": {
             "status": "Idle",
-            "timestamp": 1795355411,
-            "relative": "9 minutes ago"
+            "timestamp": 1795356772,
+            "relative": "47 minutes ago"
           },
           "status": {
-            "description": "Traveling from Torn to Hawaii",
+            "description": "Traveling from Hawaii to Torn",
             "details": null,
             "state": "Traveling",
             "color": "blue",
@@ -468,15 +469,15 @@
           "days_in_faction": 306,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795355776,
-            "relative": "3 minutes ago"
+            "timestamp": 1795359537,
+            "relative": "1 minute ago"
           },
           "status": {
-            "description": "In hospital for 25 mins ",
+            "description": "In hospital for 1 hrs 7 mins ",
             "details": "Severe emesis following Ipecac Syrup ingestion",
             "state": "Hospital",
             "color": "red",
-            "until": 1795357509
+            "until": 1795363626
           },
           "revive_setting": "No one",
           "position": "Cook",
@@ -492,23 +493,22 @@
           "days_in_faction": 243,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795353539,
-            "relative": "41 minutes ago"
+            "timestamp": 1795359413,
+            "relative": "3 minutes ago"
           },
           "status": {
-            "description": "Traveling from Switzerland to Torn",
-            "details": null,
-            "state": "Traveling",
-            "color": "blue",
-            "until": null,
-            "plane_image_type": "light_aircraft"
+            "description": "In hospital for 3 hrs 17 mins ",
+            "details": "Hospitalized by rupe13",
+            "state": "Hospital",
+            "color": "red",
+            "until": 1795371466
           },
           "revive_setting": "No one",
           "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
-          "has_early_discharge": false
+          "has_early_discharge": true
         },
         {
           "id": 4191720,
@@ -517,11 +517,11 @@
           "days_in_faction": 243,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795346642,
-            "relative": "2 hours ago"
+            "timestamp": 1795357478,
+            "relative": "35 minutes ago"
           },
           "status": {
-            "description": "In hospital for 2 hrs 23 mins ",
+            "description": "In hospital for 1 hrs 23 mins ",
             "details": "Hospitalized by Taznister",
             "state": "Hospital",
             "color": "red",
@@ -540,12 +540,12 @@
           "level": 48,
           "days_in_faction": 235,
           "last_action": {
-            "status": "Online",
-            "timestamp": 1795355956,
-            "relative": "0 minutes ago"
+            "status": "Offline",
+            "timestamp": 1795358734,
+            "relative": "14 minutes ago"
           },
           "status": {
-            "description": "Traveling from Torn to Switzerland",
+            "description": "Traveling from Switzerland to Torn",
             "details": null,
             "state": "Traveling",
             "color": "blue",
@@ -565,12 +565,12 @@
           "level": 31,
           "days_in_faction": 51,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795354006,
-            "relative": "33 minutes ago"
+            "status": "Idle",
+            "timestamp": 1795357989,
+            "relative": "26 minutes ago"
           },
           "status": {
-            "description": "In hospital for 1 hrs 38 mins ",
+            "description": "In hospital for 38 mins ",
             "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
@@ -590,11 +590,11 @@
           "days_in_faction": 34,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795355069,
-            "relative": "15 minutes ago"
+            "timestamp": 1795356966,
+            "relative": "43 minutes ago"
           },
           "status": {
-            "description": "Traveling from Hawaii to Torn",
+            "description": "Traveling from Torn to Argentina",
             "details": null,
             "state": "Traveling",
             "color": "blue",
@@ -614,16 +614,16 @@
           "level": 38,
           "days_in_faction": 104,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795355617,
-            "relative": "6 minutes ago"
+            "status": "Online",
+            "timestamp": 1795359587,
+            "relative": "0 minutes ago"
           },
           "status": {
-            "description": "In hospital for 17 mins ",
-            "details": "Lost to Cropus",
-            "state": "Hospital",
-            "color": "red",
-            "until": 1795357081
+            "description": "Okay",
+            "details": null,
+            "state": "Okay",
+            "color": "green",
+            "until": null
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -638,16 +638,16 @@
           "level": 31,
           "days_in_faction": 73,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795354474,
-            "relative": "25 minutes ago"
+            "status": "Online",
+            "timestamp": 1795359557,
+            "relative": "0 minutes ago"
           },
           "status": {
-            "description": "In hospital for 58 mins ",
-            "details": "Severe emesis following Ipecac Syrup ingestion",
-            "state": "Hospital",
-            "color": "red",
-            "until": 1795359540
+            "description": "Okay",
+            "details": null,
+            "state": "Okay",
+            "color": "green",
+            "until": null
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -663,11 +663,11 @@
           "days_in_faction": 19,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795315289,
-            "relative": "11 hours ago"
+            "timestamp": 1795356436,
+            "relative": "52 minutes ago"
           },
           "status": {
-            "description": "In hospital for 2 hrs 5 mins ",
+            "description": "In hospital for 1 hrs 5 mins ",
             "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
@@ -688,7 +688,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795351151,
-            "relative": "1 hour ago"
+            "relative": "2 hours ago"
           },
           "status": {
             "description": "Traveling from Torn to Japan",
@@ -712,15 +712,15 @@
           "days_in_faction": 13,
           "last_action": {
             "status": "Idle",
-            "timestamp": 1795354600,
-            "relative": "23 minutes ago"
+            "timestamp": 1795358949,
+            "relative": "10 minutes ago"
           },
           "status": {
-            "description": "In hospital for 49 mins ",
-            "details": "Severe emesis following Ipecac Syrup ingestion",
-            "state": "Hospital",
-            "color": "red",
-            "until": 1795358948
+            "description": "Okay",
+            "details": null,
+            "state": "Okay",
+            "color": "green",
+            "until": null
           },
           "revive_setting": "No one",
           "position": "Front of House",
@@ -737,10 +737,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795352626,
-            "relative": "56 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
-            "description": "In hospital for 2 hrs 17 mins ",
+            "description": "In hospital for 1 hrs 17 mins ",
             "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
@@ -759,23 +759,23 @@
           "level": 18,
           "days_in_faction": 51,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795351762,
-            "relative": "1 hour ago"
+            "status": "Offline",
+            "timestamp": 1795356575,
+            "relative": "50 minutes ago"
           },
           "status": {
-            "description": "Okay",
-            "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "description": "In hospital for 2 hrs 47 mins ",
+            "details": "Hospitalized by someone",
+            "state": "Hospital",
+            "color": "red",
+            "until": 1795369675
           },
           "revive_setting": "No one",
           "position": "Front of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": false,
-          "has_early_discharge": false
+          "has_early_discharge": true
         },
         {
           "id": 4541785,
@@ -785,10 +785,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795333776,
-            "relative": "6 hours ago"
+            "relative": "7 hours ago"
           },
           "status": {
-            "description": "In hospital for 2 hrs 32 mins ",
+            "description": "In hospital for 1 hrs 32 mins ",
             "details": "Hospitalized by BlueArchive",
             "state": "Hospital",
             "color": "red",
@@ -809,10 +809,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795348786,
-            "relative": "2 hours ago"
+            "relative": "3 hours ago"
           },
           "status": {
-            "description": "In hospital for 1 hrs 58 mins ",
+            "description": "In hospital for 58 mins ",
             "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
@@ -833,7 +833,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795341873,
-            "relative": "3 hours ago"
+            "relative": "4 hours ago"
           },
           "status": {
             "description": "In UAE",
@@ -860,7 +860,7 @@
             "relative": "1 day ago"
           },
           "status": {
-            "description": "In hospital for 1 hrs 53 mins ",
+            "description": "In hospital for 53 mins ",
             "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
@@ -880,22 +880,22 @@
           "days_in_faction": 42,
           "last_action": {
             "status": "Online",
-            "timestamp": 1795355940,
-            "relative": "1 minute ago"
+            "timestamp": 1795359601,
+            "relative": "0 minutes ago"
           },
           "status": {
-            "description": "In hospital for 22 mins ",
-            "details": "Mugged by someone",
+            "description": "In hospital for 57 mins ",
+            "details": "Severe emesis following Ipecac Syrup ingestion",
             "state": "Hospital",
             "color": "red",
-            "until": 1795357367
+            "until": 1795363024
           },
           "revive_setting": "No one",
           "position": "Front of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
-          "has_early_discharge": true
+          "has_early_discharge": false
         },
         {
           "id": 4564957,
@@ -905,10 +905,10 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795329368,
-            "relative": "7 hours ago"
+            "relative": "8 hours ago"
           },
           "status": {
-            "description": "In hospital for 2 hrs 26 mins ",
+            "description": "In hospital for 1 hrs 26 mins ",
             "details": "Hospitalized by someone",
             "state": "Hospital",
             "color": "red",
@@ -1141,7 +1141,7 @@
                 "outcome": null,
                 "id": 4196596,
                 "joined_at": 1795348872,
-                "progress": 8.25,
+                "progress": 12.42,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 52
@@ -1384,7 +1384,7 @@
                 "outcome": null,
                 "id": 4430753,
                 "joined_at": 1795349040,
-                "progress": 8.06,
+                "progress": 12.23,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 54
@@ -1613,7 +1613,7 @@
                 "outcome": null,
                 "id": 2741991,
                 "joined_at": 1795348430,
-                "progress": 8.77,
+                "progress": 12.93,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 91
@@ -1737,7 +1737,7 @@
                 "outcome": null,
                 "id": 2939779,
                 "joined_at": 1795348198,
-                "progress": 9.03,
+                "progress": 13.2,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 83
@@ -1975,7 +1975,7 @@
                 "outcome": null,
                 "id": 4539663,
                 "joined_at": 1795339055,
-                "progress": 19.62,
+                "progress": 23.78,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 66
@@ -14264,6 +14264,6 @@
       }
     }
   },
-  "savedAt": 1795356009,
-  "savedAtUTC": "Sun, 22 Nov 2026 14:00 TCT"
+  "savedAt": 1795359603,
+  "savedAtUTC": "Sun, 22 Nov 2026 15:00 TCT"
 }
