@@ -2,24 +2,8 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795392006,
+      "checkedAt": 1795395606,
       "suggestions": [
-        {
-          "crimeId": 2506454,
-          "crimeName": "Market Forces",
-          "difficulty": 3,
-          "filledCount": 4,
-          "roles": [
-            {
-              "roleLabel": "Negotiator",
-              "passRate": 71,
-              "requiredRate": 70,
-              "weight": 27.22899702,
-              "margin": 1
-            }
-          ],
-          "topMargin": 1
-        },
         {
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
@@ -119,7 +103,7 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795392006,
+      "checkedAt": 1795395606,
       "suggestions": [
         {
           "crimeId": 2506429,
@@ -210,22 +194,6 @@
             }
           ],
           "topMargin": 14
-        },
-        {
-          "crimeId": 2506454,
-          "crimeName": "Market Forces",
-          "difficulty": 3,
-          "filledCount": 4,
-          "roles": [
-            {
-              "roleLabel": "Negotiator",
-              "passRate": 91,
-              "requiredRate": 70,
-              "weight": 27.22899702,
-              "margin": 21
-            }
-          ],
-          "topMargin": 21
         },
         {
           "crimeId": 2506427,
@@ -326,7 +294,7 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795392006,
+      "checkedAt": 1795395606,
       "suggestions": [
         {
           "crimeId": 2506429,
@@ -403,22 +371,6 @@
             }
           ],
           "topMargin": 8
-        },
-        {
-          "crimeId": 2506454,
-          "crimeName": "Market Forces",
-          "difficulty": 3,
-          "filledCount": 4,
-          "roles": [
-            {
-              "roleLabel": "Negotiator",
-              "passRate": 86,
-              "requiredRate": 70,
-              "weight": 27.22899702,
-              "margin": 16
-            }
-          ],
-          "topMargin": 16
         },
         {
           "crimeId": 2506427,
@@ -519,24 +471,8 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795392006,
+      "checkedAt": 1795395606,
       "suggestions": [
-        {
-          "crimeId": 2506454,
-          "crimeName": "Market Forces",
-          "difficulty": 3,
-          "filledCount": 4,
-          "roles": [
-            {
-              "roleLabel": "Negotiator",
-              "passRate": 80,
-              "requiredRate": 70,
-              "weight": 27.22899702,
-              "margin": 10
-            }
-          ],
-          "topMargin": 10
-        },
         {
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
@@ -634,12 +570,22 @@
         }
       ]
     },
+    "4539663": {
+      "name": "lilypadprincess",
+      "checkedAt": 1795395606,
+      "suggestions": []
+    },
+    "4541781": {
+      "name": "FaeBreaker",
+      "checkedAt": 1795395606,
+      "suggestions": []
+    },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795392006,
+      "checkedAt": 1795395606,
       "suggestions": []
     }
   },
-  "generatedAt": 1795392027,
-  "generatedAtUTC": "Mon, 23 Nov 2026 00:00 TCT"
+  "generatedAt": 1795395607,
+  "generatedAtUTC": "Mon, 23 Nov 2026 01:00 TCT"
 }
