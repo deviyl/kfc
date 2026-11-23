@@ -115,6 +115,18 @@
           "role": "Muscle",
           "memberStatus": "Hospital"
         }
+      },
+      {
+        "crimeId": 2506426,
+        "crimeName": "Snow Blind",
+        "alert": "Pass Rate Below Required Threshold",
+        "timestamp": 1795402817,
+        "details": {
+          "role": "Hustler",
+          "passRate": 71,
+          "requiredRate": 75,
+          "roleWeight": 48.40533937
+        }
       }
     ]
   },
