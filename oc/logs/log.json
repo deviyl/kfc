@@ -412,6 +412,18 @@
           "role": "Hustler",
           "memberStatus": "Hospital"
         }
+      },
+      {
+        "crimeId": 2506429,
+        "crimeName": "Dish It Out",
+        "alert": "Pass Rate Below Required Threshold",
+        "timestamp": 1795431612,
+        "details": {
+          "role": "Saboteur #1",
+          "passRate": 63,
+          "requiredRate": 65,
+          "roleWeight": 14.639223669899579
+        }
       }
     ]
   },
