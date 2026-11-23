@@ -2,21 +2,14 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795388408,
+      "checkedAt": 1795392006,
       "suggestions": [
         {
           "crimeId": 2506454,
           "crimeName": "Market Forces",
           "difficulty": 3,
-          "filledCount": 3,
+          "filledCount": 4,
           "roles": [
-            {
-              "roleLabel": "Arsonist",
-              "passRate": 72,
-              "requiredRate": 65,
-              "weight": 4.456390991,
-              "margin": 7
-            },
             {
               "roleLabel": "Negotiator",
               "passRate": 71,
@@ -25,7 +18,7 @@
               "margin": 1
             }
           ],
-          "topMargin": 7
+          "topMargin": 1
         },
         {
           "crimeId": 2506427,
@@ -126,7 +119,7 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795388408,
+      "checkedAt": 1795392006,
       "suggestions": [
         {
           "crimeId": 2506429,
@@ -203,18 +196,27 @@
           "topMargin": 14
         },
         {
-          "crimeId": 2506454,
-          "crimeName": "Market Forces",
-          "difficulty": 3,
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
           "filledCount": 3,
           "roles": [
             {
-              "roleLabel": "Arsonist",
+              "roleLabel": "Hustler",
               "passRate": 89,
-              "requiredRate": 65,
-              "weight": 4.456390991,
-              "margin": 24
-            },
+              "requiredRate": 75,
+              "weight": 48.40533937,
+              "margin": 14
+            }
+          ],
+          "topMargin": 14
+        },
+        {
+          "crimeId": 2506454,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 4,
+          "roles": [
             {
               "roleLabel": "Negotiator",
               "passRate": 91,
@@ -223,7 +225,7 @@
               "margin": 21
             }
           ],
-          "topMargin": 24
+          "topMargin": 21
         },
         {
           "crimeId": 2506427,
@@ -324,7 +326,7 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795388408,
+      "checkedAt": 1795392006,
       "suggestions": [
         {
           "crimeId": 2506429,
@@ -387,18 +389,27 @@
           "topMargin": 3
         },
         {
-          "crimeId": 2506454,
-          "crimeName": "Market Forces",
-          "difficulty": 3,
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
           "filledCount": 3,
           "roles": [
             {
-              "roleLabel": "Arsonist",
-              "passRate": 87,
-              "requiredRate": 65,
-              "weight": 4.456390991,
-              "margin": 22
-            },
+              "roleLabel": "Hustler",
+              "passRate": 83,
+              "requiredRate": 75,
+              "weight": 48.40533937,
+              "margin": 8
+            }
+          ],
+          "topMargin": 8
+        },
+        {
+          "crimeId": 2506454,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 4,
+          "roles": [
             {
               "roleLabel": "Negotiator",
               "passRate": 86,
@@ -407,7 +418,7 @@
               "margin": 16
             }
           ],
-          "topMargin": 22
+          "topMargin": 16
         },
         {
           "crimeId": 2506427,
@@ -508,21 +519,14 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795388408,
+      "checkedAt": 1795392006,
       "suggestions": [
         {
           "crimeId": 2506454,
           "crimeName": "Market Forces",
           "difficulty": 3,
-          "filledCount": 3,
+          "filledCount": 4,
           "roles": [
-            {
-              "roleLabel": "Arsonist",
-              "passRate": 81,
-              "requiredRate": 65,
-              "weight": 4.456390991,
-              "margin": 16
-            },
             {
               "roleLabel": "Negotiator",
               "passRate": 80,
@@ -531,7 +535,7 @@
               "margin": 10
             }
           ],
-          "topMargin": 16
+          "topMargin": 10
         },
         {
           "crimeId": 2506427,
@@ -630,22 +634,12 @@
         }
       ]
     },
-    "4539663": {
-      "name": "lilypadprincess",
-      "checkedAt": 1795388408,
-      "suggestions": []
-    },
-    "4541781": {
-      "name": "FaeBreaker",
-      "checkedAt": 1795388408,
-      "suggestions": []
-    },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795388408,
+      "checkedAt": 1795392006,
       "suggestions": []
     }
   },
-  "generatedAt": 1795388411,
-  "generatedAtUTC": "Sun, 22 Nov 2026 23:00 TCT"
+  "generatedAt": 1795392027,
+  "generatedAtUTC": "Mon, 23 Nov 2026 00:00 TCT"
 }
