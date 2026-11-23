@@ -2,7 +2,7 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795428003,
+      "checkedAt": 1795431606,
       "suggestions": [
         {
           "crimeId": 2506428,
@@ -31,7 +31,7 @@
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Looter #1",
@@ -75,37 +75,23 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795428003,
+      "checkedAt": 1795431606,
       "suggestions": [
         {
           "crimeId": 2506429,
           "crimeName": "Dish It Out",
           "difficulty": 6,
-          "filledCount": 2,
+          "filledCount": 4,
           "roles": [
-            {
-              "roleLabel": "Saboteur #1",
-              "passRate": 79,
-              "requiredRate": 65,
-              "weight": 14.639223669899579,
-              "margin": 14
-            },
             {
               "roleLabel": "Muscle",
               "passRate": 81,
               "requiredRate": 70,
               "weight": 25.243817634035594,
               "margin": 11
-            },
-            {
-              "roleLabel": "Assassin",
-              "passRate": 81,
-              "requiredRate": 75,
-              "weight": 37.3380808914086,
-              "margin": 6
             }
           ],
-          "topMargin": 14
+          "topMargin": 11
         },
         {
           "crimeId": 2506430,
@@ -171,7 +157,7 @@
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Imitator #1",
@@ -215,21 +201,14 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795428003,
+      "checkedAt": 1795431606,
       "suggestions": [
         {
           "crimeId": 2506429,
           "crimeName": "Dish It Out",
           "difficulty": 6,
-          "filledCount": 2,
+          "filledCount": 4,
           "roles": [
-            {
-              "roleLabel": "Saboteur #1",
-              "passRate": 73,
-              "requiredRate": 65,
-              "weight": 14.639223669899579,
-              "margin": 8
-            },
             {
               "roleLabel": "Muscle",
               "passRate": 76,
@@ -238,7 +217,7 @@
               "margin": 6
             }
           ],
-          "topMargin": 8
+          "topMargin": 6
         },
         {
           "crimeId": 2506430,
@@ -297,7 +276,7 @@
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Looter #1",
@@ -341,7 +320,7 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795428003,
+      "checkedAt": 1795431606,
       "suggestions": [
         {
           "crimeId": 2506428,
@@ -370,7 +349,7 @@
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Looter #1",
@@ -414,20 +393,20 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795428003,
+      "checkedAt": 1795431606,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795428003,
+      "checkedAt": 1795431606,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795428003,
+      "checkedAt": 1795431606,
       "suggestions": []
     }
   },
-  "generatedAt": 1795428004,
-  "generatedAtUTC": "Mon, 23 Nov 2026 10:00 TCT"
+  "generatedAt": 1795431608,
+  "generatedAtUTC": "Mon, 23 Nov 2026 11:00 TCT"
 }
