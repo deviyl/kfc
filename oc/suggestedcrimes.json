@@ -1,8 +1,58 @@
 {
   "users": {
+    "3618740": {
+      "name": "Jon_M",
+      "checkedAt": 1795482004,
+      "suggestions": [
+        {
+          "crimeId": 2506427,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 1,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 80,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 15
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 80,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 10
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 80,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 5
+            }
+          ],
+          "topMargin": 18
+        }
+      ]
+    },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795478409,
+      "checkedAt": 1795482004,
       "suggestions": [
         {
           "crimeId": 2506430,
@@ -89,7 +139,7 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795478409,
+      "checkedAt": 1795482004,
       "suggestions": [
         {
           "crimeId": 2506430,
@@ -167,12 +217,72 @@
         }
       ]
     },
+    "4196596": {
+      "name": "DaRuckus",
+      "checkedAt": 1795482004,
+      "suggestions": [
+        {
+          "crimeId": 2506427,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 1,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 88,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 23
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 88,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 23
+            },
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 84,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 19
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 84,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 84,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 9
+            }
+          ],
+          "topMargin": 23
+        }
+      ]
+    },
+    "4539663": {
+      "name": "lilypadprincess",
+      "checkedAt": 1795482004,
+      "suggestions": []
+    },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795478409,
+      "checkedAt": 1795482004,
+      "suggestions": []
+    },
+    "4564957": {
+      "name": "Ki-Ou",
+      "checkedAt": 1795482004,
       "suggestions": []
     }
   },
-  "generatedAt": 1795478436,
-  "generatedAtUTC": "Tue, 24 Nov 2026 00:00 TCT"
+  "generatedAt": 1795482007,
+  "generatedAtUTC": "Tue, 24 Nov 2026 01:00 TCT"
 }
