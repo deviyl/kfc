@@ -1,4 +1,4 @@
-const WORKER_URL = "https://kfc.deviyl.workers.dev/admin/api";
+const WORKER_URL = "https://kfctools.deviyl.workers.dev/admin/api";
 const COOKIE_NAME = "adminPassword";
 
 function setCookie(name, value, days) {
