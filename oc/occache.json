@@ -8,9 +8,9 @@
           "level": 10,
           "days_in_faction": 8,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795511644,
-            "relative": "1 hour ago"
+            "status": "Online",
+            "timestamp": 1795521578,
+            "relative": "0 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -33,8 +33,8 @@
           "days_in_faction": 659,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795517385,
-            "relative": "10 minutes ago"
+            "timestamp": 1795521419,
+            "relative": "3 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -47,7 +47,7 @@
           "position": "Leader",
           "is_revivable": false,
           "is_on_wall": false,
-          "is_in_oc": true,
+          "is_in_oc": false,
           "has_early_discharge": false
         },
         {
@@ -57,8 +57,8 @@
           "days_in_faction": 1285,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795516829,
-            "relative": "19 minutes ago"
+            "timestamp": 1795521223,
+            "relative": "6 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -82,7 +82,7 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795506873,
-            "relative": "3 hours ago"
+            "relative": "4 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -106,7 +106,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795475038,
-            "relative": "11 hours ago"
+            "relative": "12 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -130,7 +130,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795505647,
-            "relative": "3 hours ago"
+            "relative": "4 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -143,7 +143,7 @@
           "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
-          "is_in_oc": true,
+          "is_in_oc": false,
           "has_early_discharge": false
         },
         {
@@ -153,15 +153,16 @@
           "days_in_faction": 93,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795517291,
-            "relative": "11 minutes ago"
+            "timestamp": 1795520638,
+            "relative": "16 minutes ago"
           },
           "status": {
-            "description": "In China",
+            "description": "Traveling from China to Torn",
             "details": null,
-            "state": "Abroad",
+            "state": "Traveling",
             "color": "blue",
-            "until": null
+            "until": null,
+            "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -200,9 +201,9 @@
           "level": 35,
           "days_in_faction": 35,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795506066,
-            "relative": "3 hours ago"
+            "status": "Online",
+            "timestamp": 1795521563,
+            "relative": "0 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -226,7 +227,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795515184,
-            "relative": "46 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -249,15 +250,16 @@
           "days_in_faction": 126,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795504067,
-            "relative": "3 hours ago"
+            "timestamp": 1795520504,
+            "relative": "18 minutes ago"
           },
           "status": {
-            "description": "In China",
+            "description": "Traveling from China to Torn",
             "details": null,
-            "state": "Abroad",
+            "state": "Traveling",
             "color": "blue",
-            "until": null
+            "until": null,
+            "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -272,9 +274,9 @@
           "level": 79,
           "days_in_faction": 633,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795516697,
-            "relative": "21 minutes ago"
+            "status": "Idle",
+            "timestamp": 1795521379,
+            "relative": "3 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -297,11 +299,11 @@
           "days_in_faction": 64,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795516505,
-            "relative": "24 minutes ago"
+            "timestamp": 1795520698,
+            "relative": "15 minutes ago"
           },
           "status": {
-            "description": "Traveling from Torn to Canada",
+            "description": "Traveling from Canada to Torn",
             "details": null,
             "state": "Traveling",
             "color": "blue",
@@ -323,7 +325,7 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795514126,
-            "relative": "1 hour ago"
+            "relative": "2 hours ago"
           },
           "status": {
             "description": "Traveling from Torn to Japan",
@@ -348,7 +350,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795490011,
-            "relative": "7 hours ago"
+            "relative": "8 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -372,7 +374,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795492364,
-            "relative": "7 hours ago"
+            "relative": "8 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -396,7 +398,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795508593,
-            "relative": "2 hours ago"
+            "relative": "3 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -419,8 +421,8 @@
           "days_in_faction": 92,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795491015,
-            "relative": "7 hours ago"
+            "timestamp": 1795520190,
+            "relative": "23 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -443,8 +445,8 @@
           "days_in_faction": 377,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795517924,
-            "relative": "1 minute ago"
+            "timestamp": 1795521088,
+            "relative": "8 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -467,8 +469,8 @@
           "days_in_faction": 307,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795517602,
-            "relative": "6 minutes ago"
+            "timestamp": 1795520803,
+            "relative": "13 minutes ago"
           },
           "status": {
             "description": "Traveling from Switzerland to Torn",
@@ -493,7 +495,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795496408,
-            "relative": "5 hours ago"
+            "relative": "6 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -517,7 +519,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795500924,
-            "relative": "4 hours ago"
+            "relative": "5 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -540,8 +542,8 @@
           "days_in_faction": 237,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795516653,
-            "relative": "22 minutes ago"
+            "timestamp": 1795518678,
+            "relative": "48 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -565,7 +567,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795481702,
-            "relative": "10 hours ago"
+            "relative": "11 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -588,8 +590,8 @@
           "days_in_faction": 36,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795517118,
-            "relative": "14 minutes ago"
+            "timestamp": 1795520650,
+            "relative": "15 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -612,8 +614,8 @@
           "days_in_faction": 106,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795515777,
-            "relative": "37 minutes ago"
+            "timestamp": 1795521406,
+            "relative": "3 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -636,8 +638,8 @@
           "days_in_faction": 75,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795517680,
-            "relative": "5 minutes ago"
+            "timestamp": 1795521490,
+            "relative": "1 minute ago"
           },
           "status": {
             "description": "Okay",
@@ -661,7 +663,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795497110,
-            "relative": "5 hours ago"
+            "relative": "6 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -684,8 +686,8 @@
           "days_in_faction": 53,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795491018,
-            "relative": "7 hours ago"
+            "timestamp": 1795518354,
+            "relative": "54 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -709,7 +711,7 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795492908,
-            "relative": "6 hours ago"
+            "relative": "7 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -733,7 +735,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795514444,
-            "relative": "59 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Traveling from Japan to Torn",
@@ -758,7 +760,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795482288,
-            "relative": "9 hours ago"
+            "relative": "10 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -782,7 +784,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795489623,
-            "relative": "7 hours ago"
+            "relative": "8 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -806,7 +808,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795495322,
-            "relative": "6 hours ago"
+            "relative": "7 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -828,17 +830,16 @@
           "level": 22,
           "days_in_faction": 52,
           "last_action": {
-            "status": "Idle",
+            "status": "Offline",
             "timestamp": 1795513279,
-            "relative": "1 hour ago"
+            "relative": "2 hours ago"
           },
           "status": {
-            "description": "Traveling from Torn to Argentina",
+            "description": "In Argentina",
             "details": null,
-            "state": "Traveling",
+            "state": "Abroad",
             "color": "blue",
-            "until": null,
-            "plane_image_type": "light_aircraft"
+            "until": null
           },
           "revive_setting": "No one",
           "position": "Front of House",
@@ -855,7 +856,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795516969,
-            "relative": "17 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Traveling from Torn to United Kingdom",
@@ -878,9 +879,9 @@
           "level": 24,
           "days_in_faction": 44,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795511943,
-            "relative": "1 hour ago"
+            "status": "Online",
+            "timestamp": 1795521600,
+            "relative": "0 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -904,15 +905,14 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795508871,
-            "relative": "2 hours ago"
+            "relative": "3 hours ago"
           },
           "status": {
-            "description": "Traveling from China to Torn",
+            "description": "Okay",
             "details": null,
-            "state": "Traveling",
-            "color": "blue",
-            "until": null,
-            "plane_image_type": "light_aircraft"
+            "state": "Okay",
+            "color": "green",
+            "until": null
           },
           "revive_setting": "No one",
           "position": "Front of House",
@@ -1021,7 +1021,7 @@
                 "outcome": null,
                 "id": 4433306,
                 "joined_at": 1795377699,
-                "progress": 66.13,
+                "progress": 70.3,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 76
@@ -1037,9 +1037,9 @@
           "difficulty": 6,
           "status": "Recruiting",
           "created_at": 1795348453,
-          "planning_at": null,
+          "planning_at": 1795521366,
           "executed_at": null,
-          "ready_at": null,
+          "ready_at": 1795607766,
           "expired_at": 1795953253,
           "slots": [
             {
@@ -1089,14 +1089,20 @@
               "item_requirement": {
                 "id": 579,
                 "is_reusable": true,
-                "is_available": false
+                "is_available": true
               },
-              "user": null,
-              "checkpoint_pass_rate": 0
+              "user": {
+                "outcome": null,
+                "id": 3599627,
+                "joined_at": 1795521366,
+                "progress": 0.27,
+                "item_outcome": null
+              },
+              "checkpoint_pass_rate": 80
             }
           ],
           "rewards": null,
-          "overallPassRate": null
+          "overallPassRate": 80
         },
         {
           "id": 2506429,
@@ -1210,7 +1216,7 @@
                 "outcome": null,
                 "id": 3796175,
                 "joined_at": 1795401859,
-                "progress": 95.75,
+                "progress": 99.92,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 70
@@ -1243,7 +1249,7 @@
                 "outcome": null,
                 "id": 3811762,
                 "joined_at": 1795422286,
-                "progress": 39.97,
+                "progress": 44.13,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 82
@@ -1503,7 +1509,7 @@
                 "outcome": null,
                 "id": 3368234,
                 "joined_at": 1795350263,
-                "progress": 95.56,
+                "progress": 99.73,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 69
@@ -1561,7 +1567,7 @@
                 "outcome": null,
                 "id": 3896093,
                 "joined_at": 1795448114,
-                "progress": 6.69,
+                "progress": 10.86,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 82
@@ -1645,7 +1651,7 @@
                 "outcome": null,
                 "id": 4547750,
                 "joined_at": 1795460121,
-                "progress": 66.99,
+                "progress": 71.16,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 62
@@ -1712,81 +1718,6 @@
           "overallPassRate": null
         },
         {
-          "id": 2491093,
-          "previous_crime_id": null,
-          "name": "Honey Trap",
-          "difficulty": 5,
-          "status": "Planning",
-          "created_at": 1795053457,
-          "planning_at": 1795130673,
-          "executed_at": null,
-          "ready_at": 1795521230,
-          "expired_at": 1795658257,
-          "slots": [
-            {
-              "position": "Enforcer",
-              "position_info": {
-                "id": "P1",
-                "label": "Enforcer",
-                "number": 1
-              },
-              "item_requirement": {
-                "id": 1080,
-                "is_reusable": true,
-                "is_available": true
-              },
-              "user": {
-                "outcome": null,
-                "id": 2741991,
-                "joined_at": 1795348430,
-                "progress": 100,
-                "item_outcome": null
-              },
-              "checkpoint_pass_rate": 91
-            },
-            {
-              "position": "Muscle",
-              "position_info": {
-                "id": "P2",
-                "label": "Muscle #1",
-                "number": 1
-              },
-              "item_requirement": null,
-              "user": {
-                "outcome": null,
-                "id": 3599627,
-                "joined_at": 1795348573,
-                "progress": 96.27,
-                "item_outcome": null
-              },
-              "checkpoint_pass_rate": 86
-            },
-            {
-              "position": "Muscle",
-              "position_info": {
-                "id": "P3",
-                "label": "Muscle #2",
-                "number": 2
-              },
-              "item_requirement": {
-                "id": 1080,
-                "is_reusable": true,
-                "is_available": true
-              },
-              "user": {
-                "outcome": null,
-                "id": 3251423,
-                "joined_at": 1795130673,
-                "progress": 100,
-                "item_outcome": null
-              },
-              "checkpoint_pass_rate": 83
-            }
-          ],
-          "rewards": null,
-          "overallPassRate": 86.1
-        },
-        {
           "id": 2491091,
           "previous_crime_id": null,
           "name": "Sneaky Git Grab",
@@ -1810,7 +1741,7 @@
                 "outcome": null,
                 "id": 3722358,
                 "joined_at": 1795385408,
-                "progress": 0,
+                "progress": 0.7,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 78
@@ -1827,7 +1758,7 @@
                 "outcome": null,
                 "id": 3913421,
                 "joined_at": 1795348231,
-                "progress": 96.53,
+                "progress": 100,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 72
@@ -1888,6 +1819,96 @@
     },
     "completedData": {
       "crimes": [
+        {
+          "id": 2491093,
+          "previous_crime_id": null,
+          "name": "Honey Trap",
+          "difficulty": 5,
+          "status": "Successful",
+          "created_at": 1795053457,
+          "planning_at": 1795130673,
+          "executed_at": 1795521248,
+          "ready_at": 1795521230,
+          "expired_at": 1795658257,
+          "slots": [
+            {
+              "position": "Enforcer",
+              "position_info": {
+                "id": "P1",
+                "label": "Enforcer",
+                "number": 1
+              },
+              "item_requirement": {
+                "id": 1080,
+                "is_reusable": true,
+                "is_available": true
+              },
+              "user": {
+                "outcome": "Successful",
+                "id": 2741991,
+                "joined_at": 1795348430,
+                "progress": 100,
+                "item_outcome": {
+                  "owned_by": "user",
+                  "item_id": 1080,
+                  "item_uid": 0,
+                  "outcome": "unused"
+                }
+              },
+              "checkpoint_pass_rate": 91
+            },
+            {
+              "position": "Muscle",
+              "position_info": {
+                "id": "P2",
+                "label": "Muscle #1",
+                "number": 1
+              },
+              "item_requirement": null,
+              "user": {
+                "outcome": "Successful",
+                "id": 3599627,
+                "joined_at": 1795348573,
+                "progress": 100,
+                "item_outcome": null
+              },
+              "checkpoint_pass_rate": 86
+            },
+            {
+              "position": "Muscle",
+              "position_info": {
+                "id": "P3",
+                "label": "Muscle #2",
+                "number": 2
+              },
+              "item_requirement": {
+                "id": 1080,
+                "is_reusable": true,
+                "is_available": true
+              },
+              "user": {
+                "outcome": "Successful",
+                "id": 3251423,
+                "joined_at": 1795130673,
+                "progress": 100,
+                "item_outcome": {
+                  "owned_by": "user",
+                  "item_id": 1080,
+                  "item_uid": 0,
+                  "outcome": "unused"
+                }
+              },
+              "checkpoint_pass_rate": 83
+            }
+          ],
+          "rewards": {
+            "money": 12957000,
+            "items": [],
+            "respect": 98,
+            "scope": 4,
+            "payout": null
+          }
+        },
         {
           "id": 2476757,
           "previous_crime_id": null,
@@ -13498,118 +13519,6 @@
               "paid_at": 1792117964
             }
           }
-        },
-        {
-          "id": 2306951,
-          "previous_crime_id": null,
-          "name": "Mob Mentality",
-          "difficulty": 1,
-          "status": "Successful",
-          "created_at": 1791706607,
-          "planning_at": 1791714319,
-          "executed_at": 1792059968,
-          "ready_at": 1792059919,
-          "expired_at": 1792311407,
-          "slots": [
-            {
-              "position": "Looter",
-              "position_info": {
-                "id": "P1",
-                "label": "Looter #1",
-                "number": 1
-              },
-              "item_requirement": {
-                "id": 568,
-                "is_reusable": true,
-                "is_available": true
-              },
-              "user": {
-                "outcome": "Successful",
-                "id": 4492133,
-                "joined_at": 1791714319,
-                "progress": 100,
-                "item_outcome": {
-                  "owned_by": "user",
-                  "item_id": 568,
-                  "item_uid": 0,
-                  "outcome": "unused"
-                }
-              },
-              "checkpoint_pass_rate": 80
-            },
-            {
-              "position": "Looter",
-              "position_info": {
-                "id": "P2",
-                "label": "Looter #2",
-                "number": 2
-              },
-              "item_requirement": null,
-              "user": {
-                "outcome": "Successful",
-                "id": 4541785,
-                "joined_at": 1791745170,
-                "progress": 100,
-                "item_outcome": null
-              },
-              "checkpoint_pass_rate": 75
-            },
-            {
-              "position": "Looter",
-              "position_info": {
-                "id": "P3",
-                "label": "Looter #3",
-                "number": 3
-              },
-              "item_requirement": {
-                "id": 568,
-                "is_reusable": true,
-                "is_available": true
-              },
-              "user": {
-                "outcome": "Successful",
-                "id": 4541781,
-                "joined_at": 1791762880,
-                "progress": 100,
-                "item_outcome": {
-                  "owned_by": "user",
-                  "item_id": 568,
-                  "item_uid": 0,
-                  "outcome": "unused"
-                }
-              },
-              "checkpoint_pass_rate": 66
-            },
-            {
-              "position": "Looter",
-              "position_info": {
-                "id": "P4",
-                "label": "Looter #4",
-                "number": 4
-              },
-              "item_requirement": null,
-              "user": {
-                "outcome": "Successful",
-                "id": 4541344,
-                "joined_at": 1791764828,
-                "progress": 100,
-                "item_outcome": null
-              },
-              "checkpoint_pass_rate": 73
-            }
-          ],
-          "rewards": {
-            "money": 724000,
-            "items": [],
-            "respect": 32,
-            "scope": 2,
-            "payout": {
-              "type": "balance",
-              "percentage": 80,
-              "paid_by": 3599627,
-              "paid_at": 1792065955
-            }
-          }
         }
       ],
       "_metadata": {
@@ -13842,6 +13751,6 @@
       }
     }
   },
-  "savedAt": 1795518010,
-  "savedAtUTC": "Tue, 24 Nov 2026 11:00 TCT"
+  "savedAt": 1795521603,
+  "savedAtUTC": "Tue, 24 Nov 2026 12:00 TCT"
 }
