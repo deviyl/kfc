@@ -751,6 +751,17 @@
           "role": "Imitator",
           "memberStatus": "Hospital"
         }
+      },
+      {
+        "crimeId": 2506424,
+        "crimeName": "Cash Me if You Can",
+        "alert": "Missing Required Item",
+        "timestamp": 1795561211,
+        "details": {
+          "role": "Thief #1",
+          "itemId": 1381,
+          "itemName": "ID Badge"
+        }
       }
     ]
   },
