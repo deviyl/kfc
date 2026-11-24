@@ -2,7 +2,7 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795528807,
+      "checkedAt": 1795532406,
       "suggestions": [
         {
           "crimeId": 2516476,
@@ -40,6 +40,22 @@
             }
           ],
           "topMargin": 5
+        },
+        {
+          "crimeId": 2506454,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 4,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 76,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 11
+            }
+          ],
+          "topMargin": 11
         },
         {
           "crimeId": 2506427,
@@ -89,7 +105,7 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795528807,
+      "checkedAt": 1795532406,
       "suggestions": [
         {
           "crimeId": 2506430,
@@ -147,6 +163,22 @@
               "requiredRate": 75,
               "weight": 50.831934101247086,
               "margin": 2
+            }
+          ],
+          "topMargin": 14
+        },
+        {
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
+          "filledCount": 3,
+          "roles": [
+            {
+              "roleLabel": "Hustler",
+              "passRate": 89,
+              "requiredRate": 75,
+              "weight": 48.40533937,
+              "margin": 14
             }
           ],
           "topMargin": 14
@@ -240,6 +272,22 @@
           "topMargin": 25
         },
         {
+          "crimeId": 2506454,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 4,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 91,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 26
+            }
+          ],
+          "topMargin": 26
+        },
+        {
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
@@ -287,7 +335,7 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795528807,
+      "checkedAt": 1795532406,
       "suggestions": [
         {
           "crimeId": 2506430,
@@ -341,6 +389,22 @@
             }
           ],
           "topMargin": 3
+        },
+        {
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
+          "filledCount": 3,
+          "roles": [
+            {
+              "roleLabel": "Hustler",
+              "passRate": 83,
+              "requiredRate": 75,
+              "weight": 48.40533937,
+              "margin": 8
+            }
+          ],
+          "topMargin": 8
         },
         {
           "crimeId": 2516476,
@@ -431,6 +495,22 @@
           "topMargin": 21
         },
         {
+          "crimeId": 2506454,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 4,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 89,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 24
+            }
+          ],
+          "topMargin": 24
+        },
+        {
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
@@ -478,7 +558,7 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795528807,
+      "checkedAt": 1795532406,
       "suggestions": [
         {
           "crimeId": 2516476,
@@ -569,6 +649,22 @@
           "topMargin": 12
         },
         {
+          "crimeId": 2506454,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 4,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 85,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 20
+            }
+          ],
+          "topMargin": 20
+        },
+        {
           "crimeId": 2506427,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
@@ -616,20 +712,20 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795528807,
+      "checkedAt": 1795532406,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795528807,
+      "checkedAt": 1795532406,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795528807,
+      "checkedAt": 1795532406,
       "suggestions": []
     }
   },
-  "generatedAt": 1795528808,
-  "generatedAtUTC": "Tue, 24 Nov 2026 14:00 TCT"
+  "generatedAt": 1795532408,
+  "generatedAtUTC": "Tue, 24 Nov 2026 15:00 TCT"
 }
