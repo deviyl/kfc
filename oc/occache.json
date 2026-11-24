@@ -9,8 +9,8 @@
           "days_in_faction": 8,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795521855,
-            "relative": "3 hours ago"
+            "timestamp": 1795536984,
+            "relative": "43 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -20,7 +20,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Front of House",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": false,
@@ -32,9 +32,9 @@
           "level": 100,
           "days_in_faction": 659,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795535372,
-            "relative": "10 minutes ago"
+            "status": "Online",
+            "timestamp": 1795539602,
+            "relative": "0 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -58,7 +58,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795532013,
-            "relative": "1 hour ago"
+            "relative": "2 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -68,7 +68,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Gravy Train Manager",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -82,7 +82,7 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795506873,
-            "relative": "8 hours ago"
+            "relative": "9 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -106,7 +106,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795475038,
-            "relative": "16 hours ago"
+            "relative": "17 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -130,7 +130,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795505647,
-            "relative": "8 hours ago"
+            "relative": "9 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -154,7 +154,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795524411,
-            "relative": "3 hours ago"
+            "relative": "4 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -171,38 +171,14 @@
           "has_early_discharge": false
         },
         {
-          "id": 3368234,
-          "name": "Saysorry",
-          "level": 35,
-          "days_in_faction": 35,
-          "last_action": {
-            "status": "Offline",
-            "timestamp": 1795529303,
-            "relative": "1 hour ago"
-          },
-          "status": {
-            "description": "Okay",
-            "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
-          },
-          "revive_setting": "No one",
-          "position": "Front of House",
-          "is_revivable": false,
-          "is_on_wall": false,
-          "is_in_oc": true,
-          "has_early_discharge": false
-        },
-        {
           "id": 3562619,
           "name": "Postman_",
           "level": 89,
           "days_in_faction": 666,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795526268,
-            "relative": "2 hours ago"
+            "timestamp": 1795536578,
+            "relative": "50 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -225,8 +201,8 @@
           "days_in_faction": 126,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795529085,
-            "relative": "1 hour ago"
+            "timestamp": 1795537227,
+            "relative": "39 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -250,7 +226,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795534644,
-            "relative": "22 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -270,11 +246,11 @@
           "id": 3618740,
           "name": "Jon_M",
           "level": 32,
-          "days_in_faction": 64,
+          "days_in_faction": 65,
           "last_action": {
             "status": "Offline",
             "timestamp": 1795534104,
-            "relative": "31 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -296,19 +272,19 @@
           "level": 25,
           "days_in_faction": 381,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795535736,
-            "relative": "4 minutes ago"
+            "status": "Online",
+            "timestamp": 1795539603,
+            "relative": "0 minutes ago"
           },
           "status": {
-            "description": "Okay",
-            "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "description": "In hospital for 1 hrs 2 mins ",
+            "details": "Suffering from an acute hemolytic transfusion reaction",
+            "state": "Hospital",
+            "color": "red",
+            "until": 1795543350
           },
           "revive_setting": "No one",
-          "position": "Git Bucket Maintainer",
+          "position": "Back of house with api",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -320,9 +296,9 @@
           "level": 75,
           "days_in_faction": 488,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795532264,
-            "relative": "1 hour ago"
+            "status": "Online",
+            "timestamp": 1795539517,
+            "relative": "1 minute ago"
           },
           "status": {
             "description": "Okay",
@@ -332,7 +308,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Cook",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -346,7 +322,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795535230,
-            "relative": "12 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -356,7 +332,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Cook",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -370,7 +346,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795508593,
-            "relative": "7 hours ago"
+            "relative": "8 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -394,7 +370,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795520190,
-            "relative": "4 hours ago"
+            "relative": "5 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -417,8 +393,8 @@
           "days_in_faction": 377,
           "last_action": {
             "status": "Idle",
-            "timestamp": 1795535788,
-            "relative": "3 minutes ago"
+            "timestamp": 1795539485,
+            "relative": "1 minute ago"
           },
           "status": {
             "description": "Okay",
@@ -428,7 +404,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Kernel Counter",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -440,9 +416,9 @@
           "level": 57,
           "days_in_faction": 308,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795534711,
-            "relative": "21 minutes ago"
+            "status": "Online",
+            "timestamp": 1795539587,
+            "relative": "0 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -452,7 +428,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Cook",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -465,8 +441,8 @@
           "days_in_faction": 245,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795535014,
-            "relative": "16 minutes ago"
+            "timestamp": 1795536912,
+            "relative": "44 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -489,11 +465,11 @@
           "days_in_faction": 245,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795535789,
-            "relative": "3 minutes ago"
+            "timestamp": 1795539436,
+            "relative": "2 minutes ago"
           },
           "status": {
-            "description": "Traveling from Torn to Japan",
+            "description": "Traveling from Japan to Torn",
             "details": null,
             "state": "Traveling",
             "color": "blue",
@@ -514,8 +490,8 @@
           "days_in_faction": 238,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795532847,
-            "relative": "52 minutes ago"
+            "timestamp": 1795537763,
+            "relative": "30 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -525,7 +501,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Head Cook",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -537,9 +513,9 @@
           "level": 37,
           "days_in_faction": 36,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795534459,
-            "relative": "25 minutes ago"
+            "status": "Idle",
+            "timestamp": 1795539429,
+            "relative": "2 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -562,15 +538,16 @@
           "days_in_faction": 106,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795535310,
-            "relative": "11 minutes ago"
+            "timestamp": 1795538243,
+            "relative": "22 minutes ago"
           },
           "status": {
-            "description": "Okay",
+            "description": "Traveling from Torn to Japan",
             "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "state": "Traveling",
+            "color": "blue",
+            "until": null,
+            "plane_image_type": "light_aircraft"
           },
           "revive_setting": "Everyone",
           "position": "Back of House",
@@ -586,8 +563,8 @@
           "days_in_faction": 75,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795535543,
-            "relative": "7 minutes ago"
+            "timestamp": 1795539512,
+            "relative": "1 minute ago"
           },
           "status": {
             "description": "Okay",
@@ -604,14 +581,14 @@
           "has_early_discharge": false
         },
         {
-          "id": 4487995,
-          "name": "badddie",
-          "level": 20,
-          "days_in_faction": 21,
+          "id": 4463936,
+          "name": "easybakered",
+          "level": 30,
+          "days_in_faction": 0,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795535917,
-            "relative": "1 minute ago"
+            "timestamp": 1795538515,
+            "relative": "18 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -621,7 +598,31 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Front of House",
+          "position": "Recruit",
+          "is_revivable": false,
+          "is_on_wall": false,
+          "is_in_oc": false,
+          "has_early_discharge": false
+        },
+        {
+          "id": 4487995,
+          "name": "badddie",
+          "level": 20,
+          "days_in_faction": 21,
+          "last_action": {
+            "status": "Online",
+            "timestamp": 1795539601,
+            "relative": "0 minutes ago"
+          },
+          "status": {
+            "description": "Okay",
+            "details": null,
+            "state": "Okay",
+            "color": "green",
+            "until": null
+          },
+          "revive_setting": "No one",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -634,8 +635,8 @@
           "days_in_faction": 53,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795518354,
-            "relative": "4 hours ago"
+            "timestamp": 1795536900,
+            "relative": "45 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -659,7 +660,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795531836,
-            "relative": "1 hour ago"
+            "relative": "2 hours ago"
           },
           "status": {
             "description": "Traveling from Torn to Japan",
@@ -670,7 +671,7 @@
             "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
-          "position": "Front of House",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
@@ -684,7 +685,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795534348,
-            "relative": "27 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -694,34 +695,10 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Front of House",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": true,
-          "has_early_discharge": false
-        },
-        {
-          "id": 4541785,
-          "name": "goryl",
-          "level": 20,
-          "days_in_faction": 53,
-          "last_action": {
-            "status": "Offline",
-            "timestamp": 1795489623,
-            "relative": "12 hours ago"
-          },
-          "status": {
-            "description": "Okay",
-            "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
-          },
-          "revive_setting": "No one",
-          "position": "Front of House",
-          "is_revivable": false,
-          "is_on_wall": false,
-          "is_in_oc": false,
           "has_early_discharge": false
         },
         {
@@ -732,14 +709,14 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795513279,
-            "relative": "6 hours ago"
+            "relative": "7 hours ago"
           },
           "status": {
-            "description": "In Argentina",
-            "details": null,
-            "state": "Abroad",
-            "color": "blue",
-            "until": null
+            "description": "In an Argentinian hospital for 26 mins ",
+            "details": "Mugged by Coriolanze",
+            "state": "Hospital",
+            "color": "red",
+            "until": 1795541185
           },
           "revive_setting": "No one",
           "position": "Front of House",
@@ -756,7 +733,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795535092,
-            "relative": "15 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -780,7 +757,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795535116,
-            "relative": "14 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -790,7 +767,7 @@
             "until": null
           },
           "revive_setting": "No one",
-          "position": "Front of House",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": false,
@@ -803,8 +780,8 @@
           "days_in_faction": 39,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795532725,
-            "relative": "54 minutes ago"
+            "timestamp": 1795537904,
+            "relative": "28 minutes ago"
           },
           "status": {
             "description": "Traveling from Torn to China",
@@ -815,7 +792,7 @@
             "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
-          "position": "Front of House",
+          "position": "Back of House",
           "is_revivable": false,
           "is_on_wall": false,
           "is_in_oc": false,
@@ -1067,7 +1044,7 @@
                 "outcome": null,
                 "id": 4420730,
                 "joined_at": 1795385269,
-                "progress": 83.22,
+                "progress": 87.39,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 72
@@ -1213,7 +1190,7 @@
                 "outcome": null,
                 "id": 3599627,
                 "joined_at": 1795521366,
-                "progress": 16.94,
+                "progress": 21.11,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 80
@@ -1250,7 +1227,7 @@
                 "outcome": null,
                 "id": 3562619,
                 "joined_at": 1795429896,
-                "progress": 16.59,
+                "progress": 20.75,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 81
@@ -1367,7 +1344,7 @@
                 "outcome": null,
                 "id": 3811762,
                 "joined_at": 1795422286,
-                "progress": 60.8,
+                "progress": 64.97,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 82
@@ -1557,7 +1534,7 @@
           "created_at": 1795348442,
           "planning_at": 1795349040,
           "executed_at": null,
-          "ready_at": 1795608240,
+          "ready_at": 1795521840,
           "expired_at": 1795953242,
           "slots": [
             {
@@ -1587,7 +1564,7 @@
                 "outcome": null,
                 "id": 3993903,
                 "joined_at": 1795391166,
-                "progress": 16.39,
+                "progress": 100,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 79
@@ -1617,18 +1594,12 @@
                 "number": 2
               },
               "item_requirement": null,
-              "user": {
-                "outcome": null,
-                "id": 3368234,
-                "joined_at": 1795350263,
-                "progress": 100,
-                "item_outcome": null
-              },
-              "checkpoint_pass_rate": 69
+              "user": null,
+              "checkpoint_pass_rate": 0
             }
           ],
           "rewards": null,
-          "overallPassRate": 73.2
+          "overallPassRate": 74.1
         },
         {
           "id": 2506425,
@@ -1679,7 +1650,7 @@
                 "outcome": null,
                 "id": 3896093,
                 "joined_at": 1795448114,
-                "progress": 27.52,
+                "progress": 31.69,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 82
@@ -1763,7 +1734,7 @@
                 "outcome": null,
                 "id": 4547750,
                 "joined_at": 1795460121,
-                "progress": 87.83,
+                "progress": 91.99,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 62
@@ -1853,7 +1824,7 @@
                 "outcome": null,
                 "id": 3722358,
                 "joined_at": 1795385408,
-                "progress": 17.37,
+                "progress": 21.53,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 78
@@ -13868,6 +13839,6 @@
       }
     }
   },
-  "savedAt": 1795536012,
-  "savedAtUTC": "Tue, 24 Nov 2026 16:00 TCT"
+  "savedAt": 1795539603,
+  "savedAtUTC": "Tue, 24 Nov 2026 17:00 TCT"
 }
