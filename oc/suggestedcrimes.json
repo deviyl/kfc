@@ -2,7 +2,7 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795536008,
+      "checkedAt": 1795539605,
       "suggestions": [
         {
           "crimeId": 2516476,
@@ -105,7 +105,7 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795536008,
+      "checkedAt": 1795539605,
       "suggestions": [
         {
           "crimeId": 2506430,
@@ -171,8 +171,15 @@
           "crimeId": 2506426,
           "crimeName": "Snow Blind",
           "difficulty": 4,
-          "filledCount": 3,
+          "filledCount": 2,
           "roles": [
+            {
+              "roleLabel": "Muscle #2",
+              "passRate": 88,
+              "requiredRate": 65,
+              "weight": 8.512771845,
+              "margin": 23
+            },
             {
               "roleLabel": "Hustler",
               "passRate": 89,
@@ -181,7 +188,7 @@
               "margin": 14
             }
           ],
-          "topMargin": 14
+          "topMargin": 23
         },
         {
           "crimeId": 2516476,
@@ -335,7 +342,7 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795536008,
+      "checkedAt": 1795539605,
       "suggestions": [
         {
           "crimeId": 2506430,
@@ -368,10 +375,10 @@
           "roles": [
             {
               "roleLabel": "Techie",
-              "passRate": 68,
+              "passRate": 69,
               "requiredRate": 65,
               "weight": 17.146517807199775,
-              "margin": 3
+              "margin": 4
             },
             {
               "roleLabel": "Hacker",
@@ -388,14 +395,21 @@
               "margin": 0
             }
           ],
-          "topMargin": 3
+          "topMargin": 4
         },
         {
           "crimeId": 2506426,
           "crimeName": "Snow Blind",
           "difficulty": 4,
-          "filledCount": 3,
+          "filledCount": 2,
           "roles": [
+            {
+              "roleLabel": "Muscle #2",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 8.512771845,
+              "margin": 22
+            },
             {
               "roleLabel": "Hustler",
               "passRate": 83,
@@ -404,7 +418,7 @@
               "margin": 8
             }
           ],
-          "topMargin": 8
+          "topMargin": 22
         },
         {
           "crimeId": 2516476,
@@ -558,8 +572,24 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795536008,
+      "checkedAt": 1795539605,
       "suggestions": [
+        {
+          "crimeId": 2506426,
+          "crimeName": "Snow Blind",
+          "difficulty": 4,
+          "filledCount": 2,
+          "roles": [
+            {
+              "roleLabel": "Muscle #2",
+              "passRate": 75,
+              "requiredRate": 65,
+              "weight": 8.512771845,
+              "margin": 10
+            }
+          ],
+          "topMargin": 10
+        },
         {
           "crimeId": 2516476,
           "crimeName": "Stage Fright",
@@ -712,20 +742,20 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795536008,
+      "checkedAt": 1795539605,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795536008,
+      "checkedAt": 1795539605,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795536008,
+      "checkedAt": 1795539605,
       "suggestions": []
     }
   },
-  "generatedAt": 1795536010,
-  "generatedAtUTC": "Tue, 24 Nov 2026 16:00 TCT"
+  "generatedAt": 1795539607,
+  "generatedAtUTC": "Tue, 24 Nov 2026 17:00 TCT"
 }
