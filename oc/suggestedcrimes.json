@@ -2,7 +2,7 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795518006,
+      "checkedAt": 1795521606,
       "suggestions": [
         {
           "crimeId": 2506427,
@@ -52,13 +52,13 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795518006,
+      "checkedAt": 1795521606,
       "suggestions": [
         {
           "crimeId": 2506430,
           "crimeName": "Sneaky Git Grab",
           "difficulty": 6,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Hacker",
@@ -72,13 +72,6 @@
               "passRate": 78,
               "requiredRate": 65,
               "weight": 17.539756110007634,
-              "margin": 13
-            },
-            {
-              "roleLabel": "Techie",
-              "passRate": 78,
-              "requiredRate": 65,
-              "weight": 17.146517807199775,
               "margin": 13
             },
             {
@@ -139,21 +132,14 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795518006,
+      "checkedAt": 1795521606,
       "suggestions": [
         {
           "crimeId": 2506430,
           "crimeName": "Sneaky Git Grab",
           "difficulty": 6,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
-            {
-              "roleLabel": "Techie",
-              "passRate": 68,
-              "requiredRate": 65,
-              "weight": 17.146517807199775,
-              "margin": 3
-            },
             {
               "roleLabel": "Hacker",
               "passRate": 67,
@@ -169,7 +155,7 @@
               "margin": 0
             }
           ],
-          "topMargin": 3
+          "topMargin": 2
         },
         {
           "crimeId": 2506427,
@@ -219,7 +205,7 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795518006,
+      "checkedAt": 1795521606,
       "suggestions": [
         {
           "crimeId": 2506427,
@@ -269,20 +255,20 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795518006,
+      "checkedAt": 1795521606,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795518006,
+      "checkedAt": 1795521606,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795518006,
+      "checkedAt": 1795521606,
       "suggestions": []
     }
   },
-  "generatedAt": 1795518008,
-  "generatedAtUTC": "Tue, 24 Nov 2026 11:00 TCT"
+  "generatedAt": 1795521607,
+  "generatedAtUTC": "Tue, 24 Nov 2026 12:00 TCT"
 }
