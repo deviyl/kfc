@@ -2,7 +2,7 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795611605,
+      "checkedAt": 1795615206,
       "suggestions": [
         {
           "crimeId": 2516476,
@@ -112,13 +112,13 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795611605,
+      "checkedAt": 1795615206,
       "suggestions": [
         {
           "crimeId": 2516479,
           "crimeName": "Sneaky Git Grab",
           "difficulty": 6,
-          "filledCount": 1,
+          "filledCount": 2,
           "roles": [
             {
               "roleLabel": "Hacker",
@@ -133,29 +133,6 @@
               "requiredRate": 65,
               "weight": 17.539756110007634,
               "margin": 13
-            },
-            {
-              "roleLabel": "Techie",
-              "passRate": 78,
-              "requiredRate": 65,
-              "weight": 17.146517807199775,
-              "margin": 13
-            }
-          ],
-          "topMargin": 14
-        },
-        {
-          "crimeId": 2506426,
-          "crimeName": "Snow Blind",
-          "difficulty": 4,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Hustler",
-              "passRate": 89,
-              "requiredRate": 75,
-              "weight": 48.40533937,
-              "margin": 14
             }
           ],
           "topMargin": 14
@@ -319,21 +296,14 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795611605,
+      "checkedAt": 1795615206,
       "suggestions": [
         {
           "crimeId": 2516479,
           "crimeName": "Sneaky Git Grab",
           "difficulty": 6,
-          "filledCount": 1,
+          "filledCount": 2,
           "roles": [
-            {
-              "roleLabel": "Techie",
-              "passRate": 69,
-              "requiredRate": 65,
-              "weight": 17.146517807199775,
-              "margin": 4
-            },
             {
               "roleLabel": "Hacker",
               "passRate": 67,
@@ -349,23 +319,7 @@
               "margin": 1
             }
           ],
-          "topMargin": 4
-        },
-        {
-          "crimeId": 2506426,
-          "crimeName": "Snow Blind",
-          "difficulty": 4,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Hustler",
-              "passRate": 83,
-              "requiredRate": 75,
-              "weight": 48.40533937,
-              "margin": 8
-            }
-          ],
-          "topMargin": 8
+          "topMargin": 2
         },
         {
           "crimeId": 2516476,
@@ -526,7 +480,7 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795611605,
+      "checkedAt": 1795615206,
       "suggestions": [
         {
           "crimeId": 2516476,
@@ -687,20 +641,20 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795611605,
+      "checkedAt": 1795615206,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795611605,
+      "checkedAt": 1795615206,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795611605,
+      "checkedAt": 1795615206,
       "suggestions": []
     }
   },
-  "generatedAt": 1795611608,
-  "generatedAtUTC": "Wed, 25 Nov 2026 13:00 TCT"
+  "generatedAt": 1795615207,
+  "generatedAtUTC": "Wed, 25 Nov 2026 14:00 TCT"
 }
