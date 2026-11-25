@@ -2,7 +2,7 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795604406,
+      "checkedAt": 1795608009,
       "suggestions": [
         {
           "crimeId": 2516476,
@@ -112,24 +112,8 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795604406,
+      "checkedAt": 1795608009,
       "suggestions": [
-        {
-          "crimeId": 2506430,
-          "crimeName": "Sneaky Git Grab",
-          "difficulty": 6,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Hacker",
-              "passRate": 79,
-              "requiredRate": 65,
-              "weight": 14.481791981545502,
-              "margin": 14
-            }
-          ],
-          "topMargin": 14
-        },
         {
           "crimeId": 2516479,
           "crimeName": "Sneaky Git Grab",
@@ -342,24 +326,8 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795604406,
+      "checkedAt": 1795608009,
       "suggestions": [
-        {
-          "crimeId": 2506430,
-          "crimeName": "Sneaky Git Grab",
-          "difficulty": 6,
-          "filledCount": 3,
-          "roles": [
-            {
-              "roleLabel": "Hacker",
-              "passRate": 67,
-              "requiredRate": 65,
-              "weight": 14.481791981545502,
-              "margin": 2
-            }
-          ],
-          "topMargin": 2
-        },
         {
           "crimeId": 2516479,
           "crimeName": "Sneaky Git Grab",
@@ -382,10 +350,10 @@
             },
             {
               "roleLabel": "Imitator",
-              "passRate": 65,
+              "passRate": 66,
               "requiredRate": 65,
               "weight": 17.539756110007634,
-              "margin": 0
+              "margin": 1
             }
           ],
           "topMargin": 4
@@ -565,7 +533,7 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795604406,
+      "checkedAt": 1795608009,
       "suggestions": [
         {
           "crimeId": 2516476,
@@ -726,20 +694,20 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795604406,
+      "checkedAt": 1795608009,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795604406,
+      "checkedAt": 1795608009,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795604406,
+      "checkedAt": 1795608009,
       "suggestions": []
     }
   },
-  "generatedAt": 1795604408,
-  "generatedAtUTC": "Wed, 25 Nov 2026 11:00 TCT"
+  "generatedAt": 1795608010,
+  "generatedAtUTC": "Wed, 25 Nov 2026 12:00 TCT"
 }
