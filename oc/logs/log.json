@@ -655,6 +655,16 @@
           "itemId": 1313,
           "itemName": "Cassock"
         }
+      },
+      {
+        "crimeId": 2506425,
+        "crimeName": "Thou Shalt Not Steal",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795687213,
+        "details": {
+          "role": "Pickpocket",
+          "memberStatus": "Traveling"
+        }
       }
     ]
   },
@@ -724,6 +734,16 @@
         "details": {
           "role": "Muscle",
           "memberStatus": "Hospital"
+        }
+      },
+      {
+        "crimeId": 2506425,
+        "crimeName": "Thou Shalt Not Steal",
+        "alert": "Completed and Waiting",
+        "timestamp": 1795687213,
+        "details": {
+          "role": "Picklock",
+          "memberStatus": "Traveling"
         }
       }
     ]
