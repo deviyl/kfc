@@ -10,7 +10,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795683544,
-            "relative": "9 hours ago"
+            "relative": "10 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -34,7 +34,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795708778,
-            "relative": "2 hours ago"
+            "relative": "3 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -58,7 +58,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795708273,
-            "relative": "2 hours ago"
+            "relative": "3 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -82,7 +82,7 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795679515,
-            "relative": "10 hours ago"
+            "relative": "11 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -106,7 +106,7 @@
           "last_action": {
             "status": "Idle",
             "timestamp": 1795710961,
-            "relative": "1 hour ago"
+            "relative": "2 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -130,7 +130,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795693267,
-            "relative": "6 hours ago"
+            "relative": "7 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -153,15 +153,16 @@
           "days_in_faction": 95,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795715006,
-            "relative": "16 minutes ago"
+            "timestamp": 1795719455,
+            "relative": "2 minutes ago"
           },
           "status": {
-            "description": "Okay",
+            "description": "Traveling from Torn to Hawaii",
             "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "state": "Traveling",
+            "color": "blue",
+            "until": null,
+            "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -176,9 +177,9 @@
           "level": 89,
           "days_in_faction": 668,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795715941,
-            "relative": "1 minute ago"
+            "status": "Offline",
+            "timestamp": 1795718530,
+            "relative": "17 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -198,11 +199,11 @@
           "id": 3582700,
           "name": "Mini_Max",
           "level": 40,
-          "days_in_faction": 128,
+          "days_in_faction": 129,
           "last_action": {
             "status": "Offline",
             "timestamp": 1795715268,
-            "relative": "12 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Traveling from Torn to China",
@@ -225,17 +226,16 @@
           "level": 79,
           "days_in_faction": 635,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795715641,
-            "relative": "6 minutes ago"
+            "status": "Online",
+            "timestamp": 1795719393,
+            "relative": "3 minutes ago"
           },
           "status": {
-            "description": "Traveling from Switzerland to Torn",
+            "description": "Okay",
             "details": null,
-            "state": "Traveling",
-            "color": "blue",
-            "until": null,
-            "plane_image_type": "light_aircraft"
+            "state": "Okay",
+            "color": "green",
+            "until": null
           },
           "revive_setting": "Everyone",
           "position": "Co-leader",
@@ -252,7 +252,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795713587,
-            "relative": "40 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -274,9 +274,9 @@
           "level": 25,
           "days_in_faction": 383,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795714578,
-            "relative": "23 minutes ago"
+            "status": "Online",
+            "timestamp": 1795719572,
+            "relative": "0 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -285,7 +285,7 @@
             "color": "green",
             "until": null
           },
-          "revive_setting": "No one",
+          "revive_setting": "Friends & faction",
           "position": "Back of house with api",
           "is_revivable": false,
           "is_on_wall": false,
@@ -298,9 +298,9 @@
           "level": 75,
           "days_in_faction": 490,
           "last_action": {
-            "status": "Idle",
-            "timestamp": 1795714997,
-            "relative": "16 minutes ago"
+            "status": "Offline",
+            "timestamp": 1795717614,
+            "relative": "33 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -323,8 +323,8 @@
           "days_in_faction": 284,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795711910,
-            "relative": "1 hour ago"
+            "timestamp": 1795718528,
+            "relative": "17 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -348,7 +348,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795669660,
-            "relative": "12 hours ago"
+            "relative": "13 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -370,9 +370,9 @@
           "level": 25,
           "days_in_faction": 95,
           "last_action": {
-            "status": "Online",
-            "timestamp": 1795715941,
-            "relative": "1 minute ago"
+            "status": "Offline",
+            "timestamp": 1795717658,
+            "relative": "32 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -394,9 +394,9 @@
           "level": 69,
           "days_in_faction": 379,
           "last_action": {
-            "status": "Offline",
-            "timestamp": 1795714815,
-            "relative": "19 minutes ago"
+            "status": "Idle",
+            "timestamp": 1795719331,
+            "relative": "4 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -420,7 +420,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795711842,
-            "relative": "1 hour ago"
+            "relative": "2 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -444,7 +444,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795682920,
-            "relative": "9 hours ago"
+            "relative": "10 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -468,7 +468,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795715723,
-            "relative": "4 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Traveling from South Africa to Torn",
@@ -492,8 +492,8 @@
           "days_in_faction": 240,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795713999,
-            "relative": "33 minutes ago"
+            "timestamp": 1795718404,
+            "relative": "20 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -517,7 +517,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795715328,
-            "relative": "11 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Traveling from Torn to Argentina",
@@ -541,8 +541,8 @@
           "days_in_faction": 108,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795713871,
-            "relative": "35 minutes ago"
+            "timestamp": 1795718090,
+            "relative": "25 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -565,8 +565,8 @@
           "days_in_faction": 77,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795715875,
-            "relative": "2 minutes ago"
+            "timestamp": 1795718059,
+            "relative": "25 minutes ago"
           },
           "status": {
             "description": "Traveling from Torn to Switzerland",
@@ -591,7 +591,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795705187,
-            "relative": "3 hours ago"
+            "relative": "4 hours ago"
           },
           "status": {
             "description": "Okay",
@@ -614,8 +614,8 @@
           "days_in_faction": 23,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795707638,
-            "relative": "2 hours ago"
+            "timestamp": 1795718845,
+            "relative": "12 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -639,7 +639,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795713066,
-            "relative": "48 minutes ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -662,15 +662,16 @@
           "days_in_faction": 47,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795715867,
-            "relative": "2 minutes ago"
+            "timestamp": 1795717818,
+            "relative": "29 minutes ago"
           },
           "status": {
-            "description": "In a Japanese hospital for 1 hrs 21 mins ",
-            "details": "Severe emesis following Ipecac Syrup ingestion",
-            "state": "Hospital",
-            "color": "red",
-            "until": 1795720895
+            "description": "Traveling from Japan to Torn",
+            "details": null,
+            "state": "Traveling",
+            "color": "blue",
+            "until": null,
+            "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
           "position": "Back of House",
@@ -687,7 +688,7 @@
           "last_action": {
             "status": "Offline",
             "timestamp": 1795715897,
-            "relative": "1 minute ago"
+            "relative": "1 hour ago"
           },
           "status": {
             "description": "Okay",
@@ -710,15 +711,16 @@
           "days_in_faction": 54,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795715345,
-            "relative": "10 minutes ago"
+            "timestamp": 1795719268,
+            "relative": "5 minutes ago"
           },
           "status": {
-            "description": "Okay",
+            "description": "Traveling from Torn to Switzerland",
             "details": null,
-            "state": "Okay",
-            "color": "green",
-            "until": null
+            "state": "Traveling",
+            "color": "blue",
+            "until": null,
+            "plane_image_type": "light_aircraft"
           },
           "revive_setting": "No one",
           "position": "Front of House",
@@ -734,8 +736,8 @@
           "days_in_faction": 54,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795707413,
-            "relative": "2 hours ago"
+            "timestamp": 1795717934,
+            "relative": "27 minutes ago"
           },
           "status": {
             "description": "Okay",
@@ -758,8 +760,8 @@
           "days_in_faction": 46,
           "last_action": {
             "status": "Online",
-            "timestamp": 1795715973,
-            "relative": "0 minutes ago"
+            "timestamp": 1795719514,
+            "relative": "1 minute ago"
           },
           "status": {
             "description": "Okay",
@@ -782,8 +784,8 @@
           "days_in_faction": 41,
           "last_action": {
             "status": "Offline",
-            "timestamp": 1795714276,
-            "relative": "28 minutes ago"
+            "timestamp": 1795717824,
+            "relative": "29 minutes ago"
           },
           "status": {
             "description": "Traveling from Torn to Japan",
@@ -875,7 +877,7 @@
                 "outcome": null,
                 "id": 3774090,
                 "joined_at": 1795611782,
-                "progress": 24.52,
+                "progress": 28.69,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 67
@@ -1075,7 +1077,7 @@
                 "outcome": null,
                 "id": 4191720,
                 "joined_at": 1795393549,
-                "progress": 91.56,
+                "progress": 95.73,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 81
@@ -1163,7 +1165,7 @@
                 "outcome": null,
                 "id": 3251423,
                 "joined_at": 1795545609,
-                "progress": 25.27,
+                "progress": 29.44,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 76
@@ -1280,7 +1282,7 @@
                 "outcome": null,
                 "id": 3163171,
                 "joined_at": 1795474973,
-                "progress": 24.92,
+                "progress": 29.09,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 75
@@ -1448,7 +1450,7 @@
                 "outcome": null,
                 "id": 3273752,
                 "joined_at": 1795445340,
-                "progress": 69.13,
+                "progress": 73.3,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 73
@@ -1575,7 +1577,7 @@
                 "outcome": null,
                 "id": 3722358,
                 "joined_at": 1795614168,
-                "progress": 80.27,
+                "progress": 84.44,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 89
@@ -1768,7 +1770,7 @@
                 "outcome": null,
                 "id": 4539663,
                 "joined_at": 1795706382,
-                "progress": 11.14,
+                "progress": 15.31,
                 "item_outcome": null
               },
               "checkpoint_pass_rate": 70
@@ -13737,6 +13739,6 @@
       }
     }
   },
-  "savedAt": 1795716009,
-  "savedAtUTC": "Thu, 26 Nov 2026 18:00 TCT"
+  "savedAt": 1795719606,
+  "savedAtUTC": "Thu, 26 Nov 2026 19:00 TCT"
 }
