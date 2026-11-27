@@ -2,13 +2,13 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795734005,
+      "checkedAt": 1795737609,
       "suggestions": [
         {
           "crimeId": 2516476,
           "crimeName": "Stage Fright",
           "difficulty": 4,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Lookout",
@@ -16,13 +16,6 @@
               "requiredRate": 65,
               "weight": 6.188888612,
               "margin": 5
-            },
-            {
-              "roleLabel": "Muscle #2",
-              "passRate": 69,
-              "requiredRate": 65,
-              "weight": 2.659259022,
-              "margin": 4
             },
             {
               "roleLabel": "Muscle #3",
@@ -96,7 +89,7 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795734005,
+      "checkedAt": 1795737609,
       "suggestions": [
         {
           "crimeId": 2516479,
@@ -118,7 +111,7 @@
           "crimeId": 2516476,
           "crimeName": "Stage Fright",
           "difficulty": 4,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Enforcer",
@@ -126,13 +119,6 @@
               "requiredRate": 65,
               "weight": 15.67090339,
               "margin": 26
-            },
-            {
-              "roleLabel": "Muscle #2",
-              "passRate": 90,
-              "requiredRate": 65,
-              "weight": 2.659259022,
-              "margin": 25
             },
             {
               "roleLabel": "Muscle #3",
@@ -257,7 +243,7 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795734005,
+      "checkedAt": 1795737609,
       "suggestions": [
         {
           "crimeId": 2516479,
@@ -279,15 +265,8 @@
           "crimeId": 2516476,
           "crimeName": "Stage Fright",
           "difficulty": 4,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
-            {
-              "roleLabel": "Muscle #2",
-              "passRate": 89,
-              "requiredRate": 65,
-              "weight": 2.659259022,
-              "margin": 24
-            },
             {
               "roleLabel": "Muscle #3",
               "passRate": 89,
@@ -418,13 +397,13 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795734005,
+      "checkedAt": 1795737609,
       "suggestions": [
         {
           "crimeId": 2516476,
           "crimeName": "Stage Fright",
           "difficulty": 4,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Lookout",
@@ -432,13 +411,6 @@
               "requiredRate": 65,
               "weight": 6.188888612,
               "margin": 18
-            },
-            {
-              "roleLabel": "Muscle #2",
-              "passRate": 82,
-              "requiredRate": 65,
-              "weight": 2.659259022,
-              "margin": 17
             },
             {
               "roleLabel": "Muscle #3",
@@ -563,20 +535,15 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795734005,
+      "checkedAt": 1795737609,
       "suggestions": []
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795734005,
-      "suggestions": []
-    },
-    "4564957": {
-      "name": "Ki-Ou",
-      "checkedAt": 1795734005,
+      "checkedAt": 1795737609,
       "suggestions": []
     }
   },
-  "generatedAt": 1795734006,
-  "generatedAtUTC": "Thu, 26 Nov 2026 23:00 TCT"
+  "generatedAt": 1795737632,
+  "generatedAtUTC": "Fri, 27 Nov 2026 00:00 TCT"
 }
