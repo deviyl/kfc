@@ -2,13 +2,13 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795883644,
+      "checkedAt": 1795885206,
       "suggestions": [
         {
           "crimeId": 2534980,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Looter #1",
@@ -22,13 +22,6 @@
               "passRate": 83,
               "requiredRate": 65,
               "weight": -0.0003562738035,
-              "margin": 18
-            },
-            {
-              "roleLabel": "Looter #3",
-              "passRate": 83,
-              "requiredRate": 65,
-              "weight": 12.42374256,
               "margin": 18
             },
             {
@@ -103,7 +96,7 @@
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795881605,
+      "checkedAt": 1795885206,
       "suggestions": [
         {
           "crimeId": 2534982,
@@ -206,7 +199,7 @@
           "crimeId": 2534980,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Imitator #1",
@@ -227,13 +220,6 @@
               "passRate": 93,
               "requiredRate": 65,
               "weight": -0.0003562738035,
-              "margin": 28
-            },
-            {
-              "roleLabel": "Looter #3",
-              "passRate": 93,
-              "requiredRate": 65,
-              "weight": 12.42374256,
               "margin": 28
             },
             {
@@ -301,7 +287,7 @@
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795881605,
+      "checkedAt": 1795885206,
       "suggestions": [
         {
           "crimeId": 2534982,
@@ -404,7 +390,7 @@
           "crimeId": 2534980,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Looter #1",
@@ -418,13 +404,6 @@
               "passRate": 92,
               "requiredRate": 65,
               "weight": -0.0003562738035,
-              "margin": 27
-            },
-            {
-              "roleLabel": "Looter #3",
-              "passRate": 92,
-              "requiredRate": 65,
-              "weight": 12.42374256,
               "margin": 27
             },
             {
@@ -499,7 +478,7 @@
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795881605,
+      "checkedAt": 1795885206,
       "suggestions": [
         {
           "crimeId": 2468761,
@@ -639,13 +618,13 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795881605,
+      "checkedAt": 1795885206,
       "suggestions": [
         {
           "crimeId": 2534980,
           "crimeName": "Gaslight the Way",
           "difficulty": 3,
-          "filledCount": 0,
+          "filledCount": 1,
           "roles": [
             {
               "roleLabel": "Looter #1",
@@ -660,13 +639,6 @@
               "requiredRate": 65,
               "weight": -0.0003562738035,
               "margin": 0
-            },
-            {
-              "roleLabel": "Looter #3",
-              "passRate": 65,
-              "requiredRate": 65,
-              "weight": 12.42374256,
-              "margin": 0
             }
           ],
           "topMargin": 0
@@ -675,15 +647,15 @@
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795881605,
+      "checkedAt": 1795885206,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795881605,
+      "checkedAt": 1795885206,
       "suggestions": []
     }
   },
-  "generatedAt": 1795883647,
-  "generatedAtUTC": "Sat, 28 Nov 2026 16:34 TCT"
+  "generatedAt": 1795885208,
+  "generatedAtUTC": "Sat, 28 Nov 2026 17:00 TCT"
 }
