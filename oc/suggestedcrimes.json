@@ -2,13 +2,169 @@
   "users": {
     "3618740": {
       "name": "Jon_M",
-      "checkedAt": 1795867205,
-      "suggestions": []
+      "checkedAt": 1795870805,
+      "suggestions": [
+        {
+          "crimeId": 2534980,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 83,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 80,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 15
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 80,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 10
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 80,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 5
+            }
+          ],
+          "topMargin": 18
+        },
+        {
+          "crimeId": 2534981,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 77,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 12
+            },
+            {
+              "roleLabel": "Arsonist",
+              "passRate": 73,
+              "requiredRate": 65,
+              "weight": 4.456390991,
+              "margin": 8
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 76,
+              "requiredRate": 70,
+              "weight": 22.54604208,
+              "margin": 6
+            },
+            {
+              "roleLabel": "Enforcer",
+              "passRate": 74,
+              "requiredRate": 70,
+              "weight": 29.4020952,
+              "margin": 4
+            },
+            {
+              "roleLabel": "Negotiator",
+              "passRate": 72,
+              "requiredRate": 70,
+              "weight": 27.22899702,
+              "margin": 2
+            }
+          ],
+          "topMargin": 12
+        }
+      ]
     },
     "3722358": {
       "name": "Deviyl",
-      "checkedAt": 1795867205,
+      "checkedAt": 1795870805,
       "suggestions": [
+        {
+          "crimeId": 2534982,
+          "crimeName": "Counter Offer",
+          "difficulty": 5,
+          "filledCount": 2,
+          "roles": [
+            {
+              "roleLabel": "Hacker",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 12.1275068,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Looter",
+              "passRate": 86,
+              "requiredRate": 65,
+              "weight": 6.998750427,
+              "margin": 21
+            },
+            {
+              "roleLabel": "Robber",
+              "passRate": 87,
+              "requiredRate": 75,
+              "weight": 35.94505104,
+              "margin": 12
+            }
+          ],
+          "topMargin": 22
+        },
+        {
+          "crimeId": 2534983,
+          "crimeName": "No Reserve",
+          "difficulty": 5,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Engineer",
+              "passRate": 84,
+              "requiredRate": 70,
+              "weight": 31.12279075,
+              "margin": 14
+            },
+            {
+              "roleLabel": "Car Thief",
+              "passRate": 82,
+              "requiredRate": 70,
+              "weight": 30.50667524,
+              "margin": 12
+            },
+            {
+              "roleLabel": "Techie",
+              "passRate": 85,
+              "requiredRate": 75,
+              "weight": 38.37053402,
+              "margin": 10
+            }
+          ],
+          "topMargin": 14
+        },
         {
           "crimeId": 2516477,
           "crimeName": "Plucking the Lotus Petal",
@@ -45,13 +201,168 @@
             }
           ],
           "topMargin": 25
+        },
+        {
+          "crimeId": 2534980,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 93,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 28
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 93,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 23
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 93,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 18
+            }
+          ],
+          "topMargin": 28
+        },
+        {
+          "crimeId": 2534981,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 91,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 26
+            },
+            {
+              "roleLabel": "Arsonist",
+              "passRate": 89,
+              "requiredRate": 65,
+              "weight": 4.456390991,
+              "margin": 24
+            },
+            {
+              "roleLabel": "Enforcer",
+              "passRate": 92,
+              "requiredRate": 70,
+              "weight": 29.4020952,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Negotiator",
+              "passRate": 91,
+              "requiredRate": 70,
+              "weight": 27.22899702,
+              "margin": 21
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 91,
+              "requiredRate": 70,
+              "weight": 22.54604208,
+              "margin": 21
+            }
+          ],
+          "topMargin": 26
         }
       ]
     },
     "3913421": {
       "name": "Wolfylein",
-      "checkedAt": 1795867205,
+      "checkedAt": 1795870805,
       "suggestions": [
+        {
+          "crimeId": 2534982,
+          "crimeName": "Counter Offer",
+          "difficulty": 5,
+          "filledCount": 2,
+          "roles": [
+            {
+              "roleLabel": "Looter",
+              "passRate": 85,
+              "requiredRate": 65,
+              "weight": 6.998750427,
+              "margin": 20
+            },
+            {
+              "roleLabel": "Hacker",
+              "passRate": 82,
+              "requiredRate": 65,
+              "weight": 12.1275068,
+              "margin": 17
+            },
+            {
+              "roleLabel": "Robber",
+              "passRate": 82,
+              "requiredRate": 75,
+              "weight": 35.94505104,
+              "margin": 7
+            }
+          ],
+          "topMargin": 20
+        },
+        {
+          "crimeId": 2534983,
+          "crimeName": "No Reserve",
+          "difficulty": 5,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Engineer",
+              "passRate": 80,
+              "requiredRate": 70,
+              "weight": 31.12279075,
+              "margin": 10
+            },
+            {
+              "roleLabel": "Car Thief",
+              "passRate": 75,
+              "requiredRate": 70,
+              "weight": 30.50667524,
+              "margin": 5
+            },
+            {
+              "roleLabel": "Techie",
+              "passRate": 80,
+              "requiredRate": 75,
+              "weight": 38.37053402,
+              "margin": 5
+            }
+          ],
+          "topMargin": 10
+        },
         {
           "crimeId": 2516477,
           "crimeName": "Plucking the Lotus Petal",
@@ -88,12 +399,107 @@
             }
           ],
           "topMargin": 21
+        },
+        {
+          "crimeId": 2534980,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 92,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 27
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 92,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 27
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 92,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 27
+            },
+            {
+              "roleLabel": "Imitator #1",
+              "passRate": 90,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 25
+            },
+            {
+              "roleLabel": "Imitator #2",
+              "passRate": 90,
+              "requiredRate": 70,
+              "weight": 27.46467248,
+              "margin": 20
+            },
+            {
+              "roleLabel": "Imitator #3",
+              "passRate": 90,
+              "requiredRate": 75,
+              "weight": 41.32194207,
+              "margin": 15
+            }
+          ],
+          "topMargin": 27
+        },
+        {
+          "crimeId": 2534981,
+          "crimeName": "Market Forces",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Lookout",
+              "passRate": 89,
+              "requiredRate": 65,
+              "weight": 16.36647471,
+              "margin": 24
+            },
+            {
+              "roleLabel": "Arsonist",
+              "passRate": 87,
+              "requiredRate": 65,
+              "weight": 4.456390991,
+              "margin": 22
+            },
+            {
+              "roleLabel": "Muscle",
+              "passRate": 91,
+              "requiredRate": 70,
+              "weight": 22.54604208,
+              "margin": 21
+            },
+            {
+              "roleLabel": "Enforcer",
+              "passRate": 88,
+              "requiredRate": 70,
+              "weight": 29.4020952,
+              "margin": 18
+            },
+            {
+              "roleLabel": "Negotiator",
+              "passRate": 87,
+              "requiredRate": 70,
+              "weight": 27.22899702,
+              "margin": 17
+            }
+          ],
+          "topMargin": 24
         }
       ]
     },
     "4196596": {
       "name": "DaRuckus",
-      "checkedAt": 1795867205,
+      "checkedAt": 1795870805,
       "suggestions": [
         {
           "crimeId": 2468761,
@@ -233,20 +639,51 @@
     },
     "4539663": {
       "name": "lilypadprincess",
-      "checkedAt": 1795867205,
-      "suggestions": []
+      "checkedAt": 1795870805,
+      "suggestions": [
+        {
+          "crimeId": 2534980,
+          "crimeName": "Gaslight the Way",
+          "difficulty": 3,
+          "filledCount": 0,
+          "roles": [
+            {
+              "roleLabel": "Looter #1",
+              "passRate": 65,
+              "requiredRate": 65,
+              "weight": 9.394999578,
+              "margin": 0
+            },
+            {
+              "roleLabel": "Looter #2",
+              "passRate": 65,
+              "requiredRate": 65,
+              "weight": -0.0003562738035,
+              "margin": 0
+            },
+            {
+              "roleLabel": "Looter #3",
+              "passRate": 65,
+              "requiredRate": 65,
+              "weight": 12.42374256,
+              "margin": 0
+            }
+          ],
+          "topMargin": 0
+        }
+      ]
     },
     "4541781": {
       "name": "FaeBreaker",
-      "checkedAt": 1795867205,
+      "checkedAt": 1795870805,
       "suggestions": []
     },
     "4564957": {
       "name": "Ki-Ou",
-      "checkedAt": 1795867205,
+      "checkedAt": 1795870805,
       "suggestions": []
     }
   },
-  "generatedAt": 1795867207,
-  "generatedAtUTC": "Sat, 28 Nov 2026 12:00 TCT"
+  "generatedAt": 1795870806,
+  "generatedAtUTC": "Sat, 28 Nov 2026 13:00 TCT"
 }
